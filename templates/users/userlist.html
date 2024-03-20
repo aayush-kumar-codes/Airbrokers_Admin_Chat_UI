@@ -1,0 +1,496 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+{% block head_title%}
+        <title>List</title>
+{% endblock %}
+{% block extra_css %}
+        <!-- DataTables -->
+        <link href="{% static 'libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css' %}" rel="stylesheet" type="text/css" />
+
+        <!-- Responsive datatable examples -->
+        <link href="{% static 'libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+{% block content %}
+            <div class="main-content">  
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                                    <h4 class="mb-sm-0 font-size-18">User List</h4>
+                                    <div style="z-index: 11">
+                                        <div id="borderedToast2" class="toast overflow-hidden mt-3" role="alert" aria-live="assertive"
+                                            aria-atomic="true" data-bs-autohide="false">
+                                            <div class="align-items-center text-white border-0" id="toast-type">
+                                                <div class="d-flex">
+                                                    <div class="toast-body">
+                                                        
+                                                    </div>
+                                                    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" onclick="refreshPage()" aria-label="Close"></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Users</a></li>
+                                            <li class="breadcrumb-item active">User List</li>
+                                        </ol>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end page title -->
+
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <h5 class="card-title">Users <span class="text-muted fw-normal ms-2">({{ users|length }})</span></h5>
+                                </div>
+                            </div>
+                            
+
+                            <div class="col-md-6">
+                                <div class="d-flex flex-wrap align-items-center justify-content-end gap-2 mb-3">
+                                    <div>
+                                        <a href="#" class="btn btn-primary waves-effect waves-light" data-bs-toggle="modal" data-bs-target="#addUserModal"><i class="bx bx-plus me-1"></i> Add User</a>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- end row -->
+
+                        <!-- Add User modal -->
+                        <div class="modal fade" id="addUserModal" tabindex="-1" role="dialog" aria-labelledby="addUserModalTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="addUserModalTitle">Add User</h5>
+                                        <button type="button" class="btn-close" onclick="hideError()" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form id="addUserForm">
+                                            {% csrf_token %} 
+                                            <div class="modal-body">
+                                                <div class="mb-3">
+                                                    <label for="uuidInput" class="form-label">UUID<span style="color: red;">*</span></label>
+                                                    <input type="text" class="form-control" id="uuidInput" name="uuid" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="emailInput" class="form-label">Email<span style="color: red;">*</span></label>
+                                                    <input type="email" class="form-control" id="emailInput" name="email" autocomplete="email" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="passwordInput" class="form-label">Password<span style="color: red;">*</span></label>
+                                                    <input type="password" class="form-control" id="passwordInput" autocomplete="current-password" name="password" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="firstNameInput" class="form-label">First Name</label>
+                                                    <input type="text" class="form-control" id="firstNameInput" name="first_name" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="lastNameInput" class="form-label">Last Name</label>
+                                                    <input type="text" class="form-control" id="lastNameInput" name="last_name">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="phoneInput" class="form-label">Phone</label>
+                                                    <input type="text" class="form-control" id="phoneInput" name="phone">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="facebookInput" class="form-label">Facebook</label>
+                                                    <input type="text" class="form-control" id="facebookInput" name="facebook">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="gmailInput" class="form-label">Gmail</label>
+                                                    <input type="email" class="form-control" id="gmailInput" name="gmail">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="linkedinInput" class="form-label">LinkedIn</label>
+                                                    <input type="text" class="form-control" id="linkedinInput" name="linkedin">
+                                                </div>
+                                                <!-- Add other fields as needed -->
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <div id="errorContainer" style="color: red;"></div>
+                                        <button type="button" class="btn btn-light" onclick="hideError()" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" id="addButton" class="btn btn-primary">Add</button>
+                                    </div>
+                                </div><!-- /.modal-content -->
+                            </div><!-- /.modal-dialog -->
+                        </div><!-- /.modal -->
+                       
+
+                        <div class="table-responsive mb-4">
+                            <table class="table align-middle datatable dt-responsive table-check nowrap" style="border-collapse: collapse; border-spacing: 0 8px; width: 100%;">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">First Name</th>
+                                    <th scope="col">Last Name</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Phone</th>
+                                    <th scope="col">Facebook</th>
+                                    <th scope="col">Gmail</th>
+                                    <th scope="col">Linkedin</th>
+                                    <th style="width: 80px; min-width: 80px;">Action</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                 {% for user in users %}
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center me-3">
+                                                {% if user.profile_pic %}
+                                                    <div class="flex-shrink-0 me-2 align-self-center">
+                                                        <img src="http://155.138.160.153:5099/{{ user.profile_pic }}" class="avatar-sm rounded-circle" alt="">
+                                                    </div>
+                                                {% else %}
+                                                    <div class="avatar-sm align-self-center me-2">
+                                                        <span class="avatar-title rounded-circle bg-primary-subtle text-primary">
+                                                            {{ user.email.0 }}
+                                                        </span> 
+                                                    </div>
+                                                {% endif %}
+                                                <div class="align-self-center">
+                                                    <a href="javascript: void(0);" class="text-body">{{ user.first_name }}</a>
+                                                </div>
+                                            </div>
+                                            
+                                        </td>
+                                        <td>{{ user.last_name }}</td>
+                                        <td>{{ user.email }}</td>
+                                        <td>{{ user.phone }}</td>
+                                        <td>{{ user.facebook }}</td>
+                                        <td>{{ user.gmail }}</td>
+                                        <td>{{ user.linkedin }}</td>
+                                        <td>
+                                            <div>
+                                                <!-- Edit Icon -->
+                                                <a id="editButton-{{ user.email }}" class="btn btn-link font-size-4 shadow-none py-0 text-muted edit-button" data-bs-toggle="modal" data-bs-target="#updateUserModal" href="#" data-email="{{ user.email }}">
+                                                    <i class="fas fa-pencil-alt"></i>
+                                                </a>
+                                                
+                                                <!-- Delete Icon -->
+                                                <a class="btn btn-link font-size-20 shadow-none py-0 text-muted delete-button" data-bs-toggle="modal" data-bs-target="#deleteUserModal" href="#" data-email="{{ user.email }}">
+                                                    <i class="bx bx-trash" style="color: red;" data-feather="trash2"></i>
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                 {% endfor %}
+                                </tbody>
+                            </table>
+                            <!-- end table -->
+
+                            <!-- Delete User -->
+                            <div class="modal fade" id="deleteUserModal" tabindex="-1" role="dialog" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Delete User</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p><strong>Do you want to delete the User?</strong></p>
+                                        </div>
+                                        <form id="deleteUserForm">
+                                            {% csrf_token %} 
+                                            <div class="mb-3">
+                                                <input hidden type="text" id="delete-user" name="delete-user" autocomplete="username" />
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                                                <button type="button" class="btn btn-danger" id="deleteUserBtn">Yes</button>
+                                            </div>
+                                        </form>
+                                    </div><!-- /.modal-content -->
+                                </div><!-- /.modal-dialog -->
+                            </div><!-- /.modal -->
+
+                            <!-- Update User modal -->
+                            <div class="modal fade" id="updateUserModal" tabindex="-1" role="dialog" aria-labelledby="updateUserModalTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="updateUserModalTitle">Update User</h5>
+                                            <button type="button" class="btn-close" onclick="hideError()" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form id="updateUserForm">
+                                                {% csrf_token %} 
+                                                <div class="modal-body">
+                                                    <div class="mb-3">
+                                                        <label for="profilePic" class="form-label">Profile picture</label>
+                                                        <input type="file" class="form-control" id="profileInput" name="profile_pic">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <input hidden type="text" id="username" name="username" autocomplete="username" />
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="passwordInput" class="form-label">Password</label>
+                                                        <input type="password" class="form-control" autocomplete="current-password" name="uppassword">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="firstNameInput" class="form-label">First Name</label>
+                                                        <input type="text" class="form-control" name="upfirst_name">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="lastNameInput" class="form-label">Last Name</label>
+                                                        <input type="text" class="form-control"  name="uplast_name">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="phoneInput" class="form-label">Phone</label>
+                                                        <input type="text" class="form-control"  name="upphone">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="facebookInput" class="form-label">Facebook</label>
+                                                        <input type="text" class="form-control"  name="upfacebook">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="gmailInput" class="form-label">Gmail</label>
+                                                        <input type="email" class="form-control"  name="upgmail">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="linkedinInput" class="form-label">LinkedIn</label>
+                                                        <input type="text" class="form-control"  name="uplinkedin">
+                                                    </div>
+                                                    <!-- Add other fields as needed -->
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div id="errorContainer" style="color: red;"></div>
+                                            <button type="button" class="btn btn-light" onclick="hideError()" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" id="saveButton" class="btn btn-primary">Save</button>
+                                        </div>
+                                    </div><!-- /.modal-content -->
+                                </div><!-- /.modal-dialog -->
+                            </div><!-- /.modal -->
+                       
+                        </div>
+                        <!-- end table responsive -->
+                        
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+{% endblock %}
+
+
+{% block extra_js %}
+ <script>
+
+        function hideError(){
+            var addUserForm = document.getElementById('addUserForm');
+            var errorContainer = document.getElementById('errorContainer');
+            errorContainer.innerText = '';
+            addUserForm.reset();
+        }
+
+        function refreshPage(){
+            location.reload();
+        }
+       
+        document.addEventListener('DOMContentLoaded', function() {
+            const editButtons = document.querySelectorAll('.edit-button');
+            editButtons.forEach(function(button) {
+                button.addEventListener('click', function(event) {
+                    const email = event.currentTarget.dataset.email;
+                    document.getElementById('username').value = email;
+                });
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const editButtons = document.querySelectorAll('.delete-button');
+            editButtons.forEach(function(button) {
+                button.addEventListener('click', function(event) {
+                    const email = event.currentTarget.dataset.email;
+                    document.getElementById('delete-user').value = email;
+                });
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            var deleteButton = document.querySelector('#deleteUserBtn');
+            var deleteUserForm = document.getElementById('deleteUserForm');
+            var successToast = document.getElementById('borderedToast2');
+            var csrfToken = deleteUserForm.querySelector('input[name="csrfmiddlewaretoken"]').value;
+        
+            deleteButton.addEventListener('click', function(event) {
+                event.preventDefault();
+            
+                // Collect form data
+                var formData = new FormData(deleteUserForm);
+                var email = formData.get('delete-user');
+                var dataToSend = {
+                    email: email
+                };
+                
+                // Make the API call
+                fetch("{% url 'delete_user' %}", { 
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRFToken': csrfToken
+                    },
+                    body: JSON.stringify(dataToSend) 
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.success){
+                        var toastDiv = document.getElementById('toast-type');
+                        toastDiv.classList.add('bg-success');
+                        document.querySelector('.toast-body').innerText="User deleted successfully!"
+                    }else{
+                        var toastDiv = document.getElementById('toast-type');
+                        toastDiv.classList.add('bg-danger');
+                        document.querySelector('.toast-body').innerText=data.error;  
+                    }
+                    $('#deleteUserModal').modal('hide');
+                    var toast = new bootstrap.Toast(successToast);
+                    toast.show();
+                })
+                .catch(error => {
+                    console.error('There was a problem with the fetch operation:', error);
+                });
+                
+                
+                
+                
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            var saveButton = document.querySelector('#saveButton');
+            var saveUserForm = document.getElementById('updateUserForm');
+            var successToast = document.getElementById('borderedToast2');
+        
+            saveButton.addEventListener('click', function(event) {
+                event.preventDefault();
+            
+                // Collect form data
+                var formData = new FormData(saveUserForm);
+                
+                // Make the API call
+                fetch("{% url 'update_user' %}", { 
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.success){
+                        var toastDiv = document.getElementById('toast-type');
+                        toastDiv.classList.add('bg-success');
+                        document.querySelector('.toast-body').innerText="User updated successfully!"
+                    }else{
+                        var toastDiv = document.getElementById('toast-type');
+                        toastDiv.classList.add('bg-danger');
+                        document.querySelector('.toast-body').innerText=data.error;  
+                    }
+                    $('#updateUserModal').modal('hide');
+                    var toast = new bootstrap.Toast(successToast);
+                    toast.show();
+                })
+                .catch(error => {
+                    console.error('There was a problem with the fetch operation:', error);
+                });
+                
+                
+                
+                
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            var addButton = document.querySelector('#addButton');
+            var addUserForm = document.getElementById('addUserForm');
+            var successToast = document.getElementById('borderedToast2');
+        
+            addButton.addEventListener('click', function(event) {
+                event.preventDefault();
+            
+                // Collect form data
+                var formData = new FormData(addUserForm);
+                var uuid = formData.get('uuid');
+                var email = formData.get('email');
+                var password = formData.get('password');
+                var errorContainer = document.getElementById('errorContainer');
+                var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                // Check if any of the fields are empty
+                if (!uuid || !email || !password) {
+                    errorContainer.innerText = 'Please fill in all required fields.';
+                    return;
+                }else if (!emailRegex.test(email)) {
+                    errorContainer.innerText = 'Please enter a valid email address.';
+                    return;
+                }else{
+                    errorContainer.innerText = '';
+
+                    // Make the API call
+                    fetch("{% url 'add_user' %}", { 
+                        method: 'POST',
+                        body: formData
+                    })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        if (data.success){
+                            var toastDiv = document.getElementById('toast-type');
+                            toastDiv.classList.add('bg-success');
+                            document.querySelector('.toast-body').innerText="User added successfully!"
+
+                        }else{
+                            var toastDiv = document.getElementById('toast-type');
+                            toastDiv.classList.add('bg-danger');
+                            document.querySelector('.toast-body').innerText=data.error;  
+                        }
+                        $('#addUserModal').modal('hide');
+                        var toast = new bootstrap.Toast(successToast);
+                        toast.show();
+                    })
+                    .catch(error => {
+                        console.error('There was a problem with the fetch operation:', error);
+                    });
+                }
+                
+                
+                
+            });
+        });
+    </script>
+
+    <!-- Required datatable js -->
+    <script src="{% static 'libs/datatables.net/js/jquery.dataTables.min.js' %}"></script>
+    <script src="{% static 'libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js' %}"></script>
+    
+    <!-- Responsive examples -->
+    <script src="{% static 'libs/datatables.net-responsive/js/dataTables.responsive.min.js' %}"></script>
+    <script src="{% static 'libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js' %}"></script>
+    <!-- init js -->
+    <script src="{% static 'js/pages/datatable-pages.init.js' %}"></script>
+{% endblock %}

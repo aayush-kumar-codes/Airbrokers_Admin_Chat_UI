@@ -1,0 +1,86 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+{% block head_title%}
+        <title>Templates</title>
+{% endblock %}
+{% block extra_css %}
+        <!-- DataTables -->
+        <link href="{% static 'libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css' %}" rel="stylesheet" type="text/css" />
+
+        <!-- Responsive datatable examples -->
+        <link href="{% static 'libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+{% block content %}
+            <div class="main-content">  
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                                    <h4 class="mb-sm-0 font-size-18">Templates</h4>
+                                    
+
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item active">Templates</li>
+                                        </ol>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end page title -->
+
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <h5 class="card-title">Available Templates</span></h5>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!-- end row -->
+
+
+                        <div class="table-responsive mb-4">
+                            <table class="table align-middle datatable dt-responsive table-check nowrap" style="border-collapse: collapse; border-spacing: 0 8px; width: 100%;">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Filename</th>
+                                    <th scope="col">Url</th>
+                                    <th scope="col">Added_at</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                    {% for template in templates %}
+                                    <tr>
+                                        <td>{{ template.name }}</td>
+                                        <td><a href='http://155.138.160.153:5099/{{ template.url }}' target="_blank">view</a></td>
+                                        <td>{{ template.added_at }}</td>  
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                            <!-- end table -->
+                        </div>
+                        <!-- end table responsive -->
+                        
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+{% endblock %}
+
+
+{% block extra_js %}
+    <!-- Required datatable js -->
+    <script src="{% static 'libs/datatables.net/js/jquery.dataTables.min.js' %}"></script>
+    <script src="{% static 'libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js' %}"></script>
+    
+    <!-- Responsive examples -->
+    <script src="{% static 'libs/datatables.net-responsive/js/dataTables.responsive.min.js' %}"></script>
+    <script src="{% static 'libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js' %}"></script>
+    <!-- init js -->
+    <script src="{% static 'js/pages/datatable-pages.init.js' %}"></script>
+{% endblock %}
