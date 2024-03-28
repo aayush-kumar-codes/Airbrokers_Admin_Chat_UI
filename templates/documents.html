@@ -1,7 +1,7 @@
 {% extends 'partials/base.html' %}
 {% load static %}
 {% block head_title%}
-        <title>Templates</title>
+        <title>Documents</title>
 {% endblock %}
 {% block extra_css %}
         <!-- DataTables -->
@@ -19,12 +19,26 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                    <h4 class="mb-sm-0 font-size-18">Templates</h4>
-                                    
+                                    <h4 class="mb-sm-0 font-size-18">Documents</h4>
+
+                                    <div style="z-index: 11">
+                                        <div id="borderedToast2" class="toast overflow-hidden mt-3" role="alert" aria-live="assertive"
+                                            aria-atomic="true" data-bs-autohide="false">
+                                            <div class="align-items-center text-white border-0" id="toast-type">
+                                                <div class="d-flex">
+                                                    <div class="toast-body">
+                                                        
+                                                    </div>
+                                                    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" onclick="refreshPage()" aria-label="Close"></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
                                     <div class="page-title-right">
                                         <ol class="breadcrumb m-0">
-                                            <li class="breadcrumb-item active">Templates</li>
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Apps</a></li>
+                                            <li class="breadcrumb-item active">Documents</li>
                                         </ol>
                                     </div>
 
@@ -36,7 +50,7 @@
                         <div class="row align-items-center">
                             <div class="col-md-6">
                                 <div class="mb-3">
-                                    <h5 class="card-title">Available Templates</span></h5>
+                                    <h5 class="card-title">Available Documents</span></h5>
                                 </div>
                             </div>
                             
@@ -49,21 +63,69 @@
                                 <thead>
                                   <tr>
                                     <th scope="col">Filename</th>
+                                    <th scope="col">Description</th>
                                     <th scope="col">Url</th>
+                                    <th scope="col">Preview_image</th>
                                     <th scope="col">Added_at</th>
+                                    <th style="width: 80px; min-width: 80px;">Action</th>
                                   </tr>
                                 </thead>
                                 <tbody>
                                     {% for template in templates %}
                                     <tr>
                                         <td>{{ template.name }}</td>
-                                        <td><a href='http://155.138.160.153:5099/{{ template.url }}' target="_blank">view</a></td>
+                                        <td>{{ template.description }}</td>
+                                        <td><a href='http://155.138.160.153:5099{{ template.url }}' target="_blank">view</a></td>
+                                        <td><a href='http://155.138.160.153:5099{{ template.preview_image }}' target="_blank">preview</a></td>
                                         <td>{{ template.added_at }}</td>  
+                                         <td>
+                                            <div>
+                                                <!-- Edit Icon -->
+                                                <a id="editButton-{{ template.name }}" class="btn btn-link font-size-4 shadow-none py-0 text-muted edit-button" data-bs-toggle="modal" data-bs-target="#updateDocumentModal" href="#" data-name="{{ template.name }}">
+                                                    <i class="fas fa-pencil-alt"></i>
+                                                </a>
+                                            </div>
+                                        </td>
                                     </tr>
                                     {% endfor %}
                                 </tbody>
                             </table>
                             <!-- end table -->
+                             <!-- Update User modal -->
+                            <div class="modal fade" id="updateDocumentModal" tabindex="-1" role="dialog" aria-labelledby="updateDocumentModalTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="updateDocumentModalTitle">Update Document</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form id="updateDocumentForm">
+                                                {% csrf_token %} 
+                                                <div class="modal-body">
+                                                    <div class="mb-3">
+                                                        <input hidden type="text" id="docname" name="docname"/>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="descriptionInput" class="form-label">Description</label>
+                                                        <textarea class="form-control" name="description" rows="3"></textarea>
+                                                    </div>
+
+                                                    <div class="mb-3">
+                                                        <label for="renameInput" class="form-label">Rename</label>
+                                                        <input type="text" class="form-control" name="rename">
+                                                    </div>
+
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" id="saveButton" class="btn btn-primary">Save</button>
+                                        </div>
+                                    </div><!-- /.modal-content -->
+                                </div><!-- /.modal-dialog -->
+                            </div><!-- /.modal -->
                         </div>
                         <!-- end table responsive -->
                         
@@ -83,4 +145,68 @@
     <script src="{% static 'libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js' %}"></script>
     <!-- init js -->
     <script src="{% static 'js/pages/datatable-pages.init.js' %}"></script>
+    <script>
+        function refreshPage(){
+            location.reload();
+        }
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const editButtons = document.querySelectorAll('.edit-button');
+            editButtons.forEach(function(button) {
+                button.addEventListener('click', function(event) {
+                    const name = event.currentTarget.dataset.name;
+                    document.getElementById('docname').value = name;
+                });
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            var saveButton = document.querySelector('#saveButton');
+            var saveUserForm = document.getElementById('updateDocumentForm');
+            var successToast = document.getElementById('borderedToast2');
+        
+            saveButton.addEventListener('click', function(event) {
+                event.preventDefault();
+            
+                // Collect form data
+                var formData = new FormData(saveUserForm);
+                
+                // Make the API call
+                fetch("{% url 'update_document' %}", { 
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.success){
+                        var toastDiv = document.getElementById('toast-type');
+                        toastDiv.classList.add('bg-success');
+                        document.querySelector('.toast-body').innerText="Document updated successfully!"
+                    }else{
+                        var toastDiv = document.getElementById('toast-type');
+                        toastDiv.classList.add('bg-danger');
+                        document.querySelector('.toast-body').innerText=data.error;  
+                    }
+                    $('#updateDocumentModal').modal('hide');
+                    var toast = new bootstrap.Toast(successToast);
+                    toast.show();
+                })
+                .catch(error => {
+                    console.error('There was a problem with the fetch operation:', error);
+                });
+                
+                
+                
+                
+            });
+        });
+
+
+    </script>
 {% endblock %}

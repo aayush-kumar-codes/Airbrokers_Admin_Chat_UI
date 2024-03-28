@@ -23,6 +23,8 @@ from . import views
 urlpatterns = [
     path('', views.DashboardView.as_view(), name='dashboard'),
     path('users/', include('users.urls')),
-    path('templates/', views.AllDocumentsView.as_view(), name='templates'),
+    #path('templates/', views.DocumentsView.as_view(), name='templates'),
+    path('documents/', views.AllDocumentsView.as_view(), name='documents'),
+    path('update-document/', views.UpdateDocumentView.as_view(), name='update_document'),
     path('chats/', include('chat.urls'))
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
