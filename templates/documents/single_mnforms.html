@@ -1,7 +1,7 @@
 {% extends 'partials/base.html' %}
 {% load static %}
 {% block head_title%}
-        <title>Documents</title>
+        <title>MN_Forms_File</title>
 {% endblock %}
 {% block extra_css %}
         <!-- DataTables -->
@@ -19,7 +19,6 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                    <h4 class="mb-sm-0 font-size-18">Documents</h4>
 
                                     <div style="z-index: 11">
                                         <div id="borderedToast2" class="toast overflow-hidden mt-3" role="alert" aria-live="assertive"
@@ -35,13 +34,6 @@
                                         </div>
                                     </div>
 
-                                    <div class="page-title-right">
-                                        <ol class="breadcrumb m-0">
-                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Apps</a></li>
-                                            <li class="breadcrumb-item active">Documents</li>
-                                        </ol>
-                                    </div>
-
                                 </div>
                             </div>
                         </div>
@@ -50,7 +42,7 @@
                         <div class="row align-items-center">
                             <div class="col-md-6">
                                 <div class="mb-3">
-                                    <h5 class="card-title">Available Documents</span></h5>
+                                    <h5 class="card-title" id="file-name">{{ file.name }}</span></h5>
                                 </div>
                             </div>
                             
@@ -62,7 +54,6 @@
                             <table class="table align-middle datatable dt-responsive table-check nowrap" style="border-collapse: collapse; border-spacing: 0 8px; width: 100%;">
                                 <thead>
                                   <tr>
-                                    <th scope="col">Filename</th>
                                     <th scope="col">Description</th>
                                     <th scope="col">Url</th>
                                     <th scope="col">Preview_image</th>
@@ -71,27 +62,25 @@
                                   </tr>
                                 </thead>
                                 <tbody>
-                                    {% for template in templates %}
                                     <tr>
-                                        <td>{{ template.name }}</td>
-                                        <td>{{ template.description }}</td>
-                                        <td><a href='http://155.138.160.153:5099{{ template.url }}' target="_blank">view</a></td>
-                                        <td><a href='http://155.138.160.153:5099{{ template.preview_image }}' target="_blank">preview</a></td>
-                                        <td>{{ template.added_at }}</td>  
+                                        <td>{{ file.description }}</td>
+                                        <td><a href='http://155.138.160.153:5099{{ file.url }}' target="_blank">view</a></td>
+                                        <td><a href='http://155.138.160.153:5099{{ file.preview_image }}' target="_blank">preview</a></td>
+                                        <td>{{ file.added_at }}</td>  
                                          <td>
                                             <div>
                                                 <!-- Edit Icon -->
-                                                <a id="editButton-{{ template.name }}" class="btn btn-link font-size-4 shadow-none py-0 text-muted edit-button" data-bs-toggle="modal" data-bs-target="#updateDocumentModal" href="#" data-name="{{ template.name }}">
+                                                <a id="editButton-{{ file.type }}" class="btn btn-link font-size-4 shadow-none py-0 text-muted edit-button" data-bs-toggle="modal" data-bs-target="#updateDocumentModal" href="#" data-name="{{ file.type }}">
                                                     <i class="fas fa-pencil-alt"></i>
                                                 </a>
                                             </div>
                                         </td>
                                     </tr>
-                                    {% endfor %}
                                 </tbody>
                             </table>
                             <!-- end table -->
-                             <!-- Update User modal -->
+
+                             <!-- Update Document modal -->
                             <div class="modal fade" id="updateDocumentModal" tabindex="-1" role="dialog" aria-labelledby="updateDocumentModalTitle" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-scrollable">
                                     <div class="modal-content">
@@ -104,6 +93,7 @@
                                                 {% csrf_token %} 
                                                 <div class="modal-body">
                                                     <div class="mb-3">
+                                                        <input hidden type="text" id="doctype" name="doctype"/>
                                                         <input hidden type="text" id="docname" name="docname"/>
                                                     </div>
                                                     <div class="mb-3">
@@ -151,13 +141,14 @@
         }
         
         document.addEventListener('DOMContentLoaded', function() {
-            const editButtons = document.querySelectorAll('.edit-button');
-            editButtons.forEach(function(button) {
-                button.addEventListener('click', function(event) {
+            const editButton = document.querySelector('.edit-button');
+            if (editButton) {
+                editButton.addEventListener('click', function(event) {
                     const name = event.currentTarget.dataset.name;
-                    document.getElementById('docname').value = name;
+                    document.getElementById('doctype').value = name;
+                    document.getElementById('docname').value = document.getElementById("file-name").innerText;
                 });
-            });
+            }
         });
 
         document.addEventListener('DOMContentLoaded', function() {
@@ -185,6 +176,14 @@
                 })
                 .then(data => {
                     if (data.success){
+                        if(data.rename){
+                            var currentUrl = window.location.href;
+                            var partToReplace = document.getElementById("file-name").innerText;
+                            var newValue = data.rename + '.pdf';
+                            var newUrl = currentUrl.replace(partToReplace, newValue);
+                            console.log(newUrl, "aaaabbba");
+                            window.history.replaceState({}, '', newUrl);
+                        }
                         var toastDiv = document.getElementById('toast-type');
                         toastDiv.classList.add('bg-success');
                         document.querySelector('.toast-body').innerText="Document updated successfully!"
@@ -200,13 +199,9 @@
                 .catch(error => {
                     console.error('There was a problem with the fetch operation:', error);
                 });
-                
-                
-                
-                
+                 
             });
         });
-
 
     </script>
 {% endblock %}

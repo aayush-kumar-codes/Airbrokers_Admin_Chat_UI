@@ -47,11 +47,24 @@
                                             <span data-key="t-chat">Chat</span>
                                         </a>
                                     </li>
+                                </ul>
+                            </li>
+                             <li>
+                                <a href="javascript: void(0);" class="has-arrow">
+                                    <i data-feather="file-text"></i>
+                                    <span data-key="t-pages">Documents</span>
+                                </a>
+                                <ul class="sub-menu" aria-expanded="false">
                                     <li>
-                                        <a href="{% url 'documents' %}">
+                                        <a href="javascript: void(0);" class="has-arrow">
                                             <i data-feather="file-text"></i>
-                                            <span data-key="t-pages">Documents</span>
+                                            <span data-key="t-contacts">templates</span>
                                         </a>
+                                        <ul class="sub-menu" aria-expanded="false">
+                                            <li><a href="{% url 'flforms' %}"> <i data-feather="folder"></i> <span data-key="t-user-list">FL Forms</span></a></li>
+                                            <li><a href="{% url 'mnforms' %}"> <i data-feather="folder"></i> <span data-key="t-user-list">MN Forms</span></a></li>
+                                            <li><a href="#"> <i data-feather="folder"></i> <span data-key="t-user-list">User Docs</span></a></li>  
+                                        </ul>   
                                     </li>
                                 </ul>
                             </li>

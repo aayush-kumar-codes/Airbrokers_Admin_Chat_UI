@@ -1,0 +1,83 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+{% block head_title%}
+        <title>MN_Forms</title>
+{% endblock %}
+{% block extra_css %}
+        <!-- DataTables -->
+        <link href="{% static 'libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css' %}" rel="stylesheet" type="text/css" />
+
+        <!-- Responsive datatable examples -->
+        <link href="{% static 'libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+{% block content %}
+            <div class="main-content">  
+                <div class="page-content">
+                    <div class="container-fluid">   
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Available Folders</h4>
+                            </div><!-- end card header -->
+                            
+                            <div class="card-body">
+                                
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-pills nav-justified mb-5" role="tablist">
+                                {% for folder, files in folders_and_files.items %}
+                                    <li class="nav-item waves-effect waves-light">
+                                        <a class="btn btn-outline-primary" data-bs-toggle="tab" href="#{{ folder }}" role="tab">
+                                            <span class="d-block d-sm-none"><i class="folder"></i></span>
+                                            <span class="d-none d-sm-block">{{ folder }}</span> 
+                                        </a>
+                                    </li>
+                                {% endfor %}
+                                </ul>
+
+                                
+                                <!-- Tab panes -->
+                                <div class="tab-content p-3 text-muted">
+                                 {% for folder, files in folders_and_files.items %}
+                                    <div class="tab-pane" id="{{ folder }}" role="tabpanel">
+                                        <div class="table-responsive mb-4">
+                                            <table class="table align-middle datatable dt-responsive table-check nowrap" style="border-collapse: collapse; border-spacing: 0 8px; width: 100%;">
+                                                <thead>
+                                                  <tr>
+                                                    <th scope="col">Filename</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                                                    {% for file in files %}
+                                                    {% if file.lower|slice:"-4:" == ".pdf" %}
+                                                    <tr>
+                                                        <td><a href="{% url 'single_mnforms' filename=file folder=folder %}">{{ file }}</a></td>
+                                                    </tr>
+                                                    {% endif %}
+                                                    {% endfor %}
+                                                </tbody>
+                                            </table>
+                                            <!-- end table -->
+                                        </div>
+                                    </div>
+                                 {% endfor %}   
+                                </div>
+                                
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+            </div>    
+{% endblock %}
+
+
+{% block extra_js %}
+    <!-- Required datatable js -->
+    <script src="{% static 'libs/datatables.net/js/jquery.dataTables.min.js' %}"></script>
+    <script src="{% static 'libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js' %}"></script>
+    
+    <!-- Responsive examples -->
+    <script src="{% static 'libs/datatables.net-responsive/js/dataTables.responsive.min.js' %}"></script>
+    <script src="{% static 'libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js' %}"></script>
+    <!-- init js -->
+    <script src="{% static 'js/pages/datatable-pages.init.js' %}"></script>
+{% endblock %}

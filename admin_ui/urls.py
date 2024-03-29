@@ -23,7 +23,10 @@ from . import views
 urlpatterns = [
     path('', views.DashboardView.as_view(), name='dashboard'),
     path('users/', include('users.urls')),
-    #path('templates/', views.DocumentsView.as_view(), name='templates'),
+    path('fl-forms/', views.FlFormsView.as_view(), name='flforms'),
+    path('fl-forms/<filename>/<folder>', views.SingleFlFormsView.as_view(), name='single_flforms'),
+    path('mn-forms/', views.MnFormsView.as_view(), name='mnforms'),
+    path('mn-forms/<filename>/<folder>', views.SingleMnFormsView.as_view(), name='single_mnforms'),
     path('documents/', views.AllDocumentsView.as_view(), name='documents'),
     path('update-document/', views.UpdateDocumentView.as_view(), name='update_document'),
     path('chats/', include('chat.urls'))

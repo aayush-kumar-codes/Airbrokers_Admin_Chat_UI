@@ -1,0 +1,206 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+{% block head_title%}
+        <title>FL_Forms_File</title>
+{% endblock %}
+{% block extra_css %}
+        <!-- DataTables -->
+        <link href="{% static 'libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css' %}" rel="stylesheet" type="text/css" />
+
+        <!-- Responsive datatable examples -->
+        <link href="{% static 'libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+{% block content %}
+            <div class="main-content">  
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+
+                                    <div style="z-index: 11">
+                                        <div id="borderedToast2" class="toast overflow-hidden mt-3" role="alert" aria-live="assertive"
+                                            aria-atomic="true" data-bs-autohide="false">
+                                            <div class="align-items-center text-white border-0" id="toast-type">
+                                                <div class="d-flex">
+                                                    <div class="toast-body">
+                                                        
+                                                    </div>
+                                                    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" onclick="refreshPage()" aria-label="Close"></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end page title -->
+
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <h5 class="card-title" id="file-name">{{ file.name }}</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end row -->
+
+
+                        <div class="table-responsive mb-4">
+                            <table class="table align-middle datatable dt-responsive table-check nowrap" style="border-collapse: collapse; border-spacing: 0 8px; width: 100%;">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Description</th>
+                                    <th scope="col">Url</th>
+                                    <th scope="col">Preview_image</th>
+                                    <th scope="col">Added_at</th>
+                                    <th style="width: 80px; min-width: 80px;">Action</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>{{ file.description }}</td>
+                                        <td><a href='http://155.138.160.153:5099{{ file.url }}' target="_blank">view</a></td>
+                                        <td><a href='http://155.138.160.153:5099{{ file.preview_image }}' target="_blank">preview</a></td>
+                                        <td>{{ file.added_at }}</td>  
+                                         <td>
+                                            <div>
+                                                <!-- Edit Icon -->
+                                                <a id="editButton-{{ file.type }}" class="btn btn-link font-size-4 shadow-none py-0 text-muted edit-button" data-bs-toggle="modal" data-bs-target="#updateDocumentModal" href="#" data-name="{{ file.type }}">
+                                                    <i class="fas fa-pencil-alt"></i>
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!-- end table -->
+
+                             <!-- Update Document modal -->
+                            <div class="modal fade" id="updateDocumentModal" tabindex="-1" role="dialog" aria-labelledby="updateDocumentModalTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="updateDocumentModalTitle">Update Document</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form id="updateDocumentForm">
+                                                {% csrf_token %} 
+                                                <div class="modal-body">
+                                                        <input hidden type="text" id="doctype" name="doctype"/>
+                                                        <input hidden type="text" id="docname" name="docname"/>
+                                                    <div class="mb-3">
+                                                        <label for="descriptionInput" class="form-label">Description</label>
+                                                        <textarea class="form-control" name="description" rows="3"></textarea>
+                                                    </div>
+
+                                                    <div class="mb-3">
+                                                        <label for="renameInput" class="form-label">Rename</label>
+                                                        <input type="text" class="form-control" name="rename">
+                                                    </div>
+
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" id="saveButton" class="btn btn-primary">Save</button>
+                                        </div>
+                                    </div><!-- /.modal-content -->
+                                </div><!-- /.modal-dialog -->
+                            </div><!-- /.modal -->
+                        </div>
+                        <!-- end table responsive -->
+                        
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+{% endblock %}
+
+
+{% block extra_js %}
+    <!-- Required datatable js -->
+    <script src="{% static 'libs/datatables.net/js/jquery.dataTables.min.js' %}"></script>
+    <script src="{% static 'libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js' %}"></script>
+    
+    <!-- Responsive examples -->
+    <script src="{% static 'libs/datatables.net-responsive/js/dataTables.responsive.min.js' %}"></script>
+    <script src="{% static 'libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js' %}"></script>
+    <!-- init js -->
+    <script src="{% static 'js/pages/datatable-pages.init.js' %}"></script>
+    <script>
+        function refreshPage(){
+            location.reload();
+        }
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const editButton = document.querySelector('.edit-button');
+            if (editButton) {
+                editButton.addEventListener('click', function(event) {
+                    const name = event.currentTarget.dataset.name;
+                    document.getElementById('doctype').value = name;
+                    document.getElementById('docname').value = document.getElementById("file-name").innerText;
+                });
+            }
+        });
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            var saveButton = document.querySelector('#saveButton');
+            var saveUserForm = document.getElementById('updateDocumentForm');
+            var successToast = document.getElementById('borderedToast2');
+        
+            saveButton.addEventListener('click', function(event) {
+                event.preventDefault();
+            
+                // Collect form data
+                var formData = new FormData(saveUserForm);
+                
+                // Make the API call
+                fetch("{% url 'update_document' %}", { 
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.success){
+                        if(data.rename){
+                            var currentUrl = window.location.href;
+                            var partToReplace = document.getElementById("file-name").innerText;
+                            var newValue = data.rename + '.pdf';
+                            var newUrl = currentUrl.replace(partToReplace, newValue);
+                            console.log(newUrl, "sdssdsds");
+                            window.history.replaceState({}, '', newUrl);
+                        }
+                        var toastDiv = document.getElementById('toast-type');
+                        toastDiv.classList.add('bg-success');
+                        document.querySelector('.toast-body').innerText="Document updated successfully!"
+                    }else{
+                        var toastDiv = document.getElementById('toast-type');
+                        toastDiv.classList.add('bg-danger');
+                        document.querySelector('.toast-body').innerText=data.error;  
+                    }
+                    $('#updateDocumentModal').modal('hide');
+                    var toast = new bootstrap.Toast(successToast);
+                    toast.show();
+                })
+                .catch(error => {
+                    console.error('There was a problem with the fetch operation:', error);
+                });
+                 
+            });
+        });
+
+
+    </script>
+{% endblock %}
