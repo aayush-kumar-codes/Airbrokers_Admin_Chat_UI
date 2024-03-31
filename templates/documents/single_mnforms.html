@@ -181,7 +181,6 @@
                             var partToReplace = document.getElementById("file-name").innerText;
                             var newValue = data.rename + '.pdf';
                             var newUrl = currentUrl.replace(partToReplace, newValue);
-                            console.log(newUrl, "aaaabbba");
                             window.history.replaceState({}, '', newUrl);
                         }
                         var toastDiv = document.getElementById('toast-type');

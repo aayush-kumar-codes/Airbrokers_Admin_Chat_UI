@@ -13,10 +13,27 @@
 {% block content %}
             <div class="main-content">  
                 <div class="page-content">
-                    <div class="container-fluid">   
+                    <div class="container-fluid">  
+                        <div style="z-index: 11">
+                            <div id="borderedToast" class="toast overflow-hidden mt-3" role="alert" aria-live="assertive"
+                                aria-atomic="true" data-bs-autohide="false">
+                                <div class="align-items-center text-white border-0" id="toast-type">
+                                    <div class="d-flex">
+                                        <div class="toast-body">
+                                        </div>
+                                        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" onclick="refreshPage()" aria-label="Close"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
                         <div class="card">
-                            <div class="card-header">
-                                <h4 class="card-title">Available Folders</h4>
+                            <div class="card-header d-flex justify-content-between align-items-center">
+                                <h4 class="card-title mb-0">Available Folders</h4>
+                                <div>
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#uploadModal">
+                                         <span data-feather="file-plus"></span> Upload Document
+                                    </button>
+                                </div>
                             </div><!-- end card header -->
                             
                             <div class="card-body">
@@ -25,7 +42,7 @@
                                 <ul class="nav nav-pills nav-justified mb-5" role="tablist">
                                 {% for folder, files in folders_and_files.items %}
                                     <li class="nav-item waves-effect waves-light">
-                                        <a class="btn btn-outline-primary" data-bs-toggle="tab" href="#{{ folder }}" role="tab">
+                                        <a class="btn btn-outline-primary folder-button" data-folder="{{ folder }}" data-bs-toggle="tab" href="#{{ folder }}" role="tab">
                                             <span class="d-block d-sm-none"><i class="folder"></i></span>
                                             <span class="d-none d-sm-block">{{ folder }}</span> 
                                         </a>
@@ -43,6 +60,7 @@
                                                 <thead>
                                                   <tr>
                                                     <th scope="col">Filename</th>
+                                                    <th style="width: 80px; min-width: 80px;">Action</th>
                                                   </tr>
                                                 </thead>
                                                 <tbody>
@@ -50,6 +68,14 @@
                                                     {% if file.lower|slice:"-4:" == ".pdf" %}
                                                     <tr>
                                                         <td><a href="{% url 'single_mnforms' filename=file folder=folder %}">{{ file }}</a></td>
+                                                        <td>
+                                                            <div>
+                                                                <!-- Move Icon -->
+                                                                <a id="moveButton-{{ file }}" class="btn btn-link font-size-4 shadow-none py-0 text-muted move-button" data-bs-toggle="modal" data-bs-target="#moveModal" href="#" data-name="{{ file }}">
+                                                                    <i class="fa-sharp fa-solid fa-file-import fa-lg"></i>
+                                                                </a>
+                                                            </div>
+                                                        </td>
                                                     </tr>
                                                     {% endif %}
                                                     {% endfor %}
@@ -66,6 +92,89 @@
                     </div> <!-- container-fluid -->
                 </div>
                 <!-- End Page-content -->
+
+                <!-- Move File Modal -->
+                <div class="modal fade" id="moveModal" tabindex="-1" aria-labelledby="moveModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="moveModalLabel">Move File</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- Form for uploading document -->
+                                <form id="moveFileForm">
+                                    {% csrf_token %}
+                                    <div class="mb-3">
+                                        <input hidden type="text" id="filename" name="filename">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input hidden type="text" class="form-control" id="source_folder" name="source_folder">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="dest_folder" class="form-label">Select folder to move<span style="color: red;">*</span></label>
+                                        <select class="form-select" id="dest_folder" name="dest_folder">
+                                            <option selected value="">Select Folder</option>
+                                            {% for folder, _ in folders_and_files.items %}
+                                                <option value="{{ folder }}">{{ folder }}</option>
+                                            {% endfor %}
+                                        </select>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                                <button type="button" id="moveButton" class="btn btn-primary">Move</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Upload File Modal -->
+                <div class="modal fade" id="uploadModal" tabindex="-1" aria-labelledby="uploadModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="uploadModalLabel">Upload Document</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- Form for uploading document -->
+                                <form id="uploadDocumentForm" enctype="multipart/form-data">
+                                    {% csrf_token %}
+                                    <div class="mb-3">
+                                        <label for="file" class="form-label">Choose File<span style="color: red;">*</span></label>
+                                        <input type="file" class="form-control" id="file" name="file" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="folder" class="form-label">Select Folder<span style="color: red;">*</span></label>
+                                        <select class="form-select" id="folder" name="folder">
+                                            <option selected value="">Select Folder</option>
+                                            {% for folder, _ in folders_and_files.items %}
+                                                <option value="{{ folder }}">{{ folder }}</option>
+                                            {% endfor %}
+                                        </select>
+                                    </div>
+                                    <div class="text-center">
+                                        <label class="form-label">OR</label>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="new_folder" class="form-label">Create New Folder</label>
+                                        <input type="text" class="form-control" id="new_folder" name="new_folder">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input hidden type="text" class="form-control" id="folder_type" value="MN_Forms"  name="folder_type">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                                <button type="button" id="uploadButton" class="btn btn-primary">Upload</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>    
 {% endblock %}
 
@@ -80,4 +189,114 @@
     <script src="{% static 'libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js' %}"></script>
     <!-- init js -->
     <script src="{% static 'js/pages/datatable-pages.init.js' %}"></script>
+    <script>
+        function refreshPage(){
+            location.reload();
+        }
+
+        document.querySelectorAll('.folder-button').forEach(button => {
+            button.addEventListener('click', function(event) {
+                event.preventDefault();
+                const folder = this.getAttribute('data-folder');
+                document.getElementById('source_folder').value = folder;
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const editButtons = document.querySelectorAll('.move-button');
+            editButtons.forEach(function(button) {
+                button.addEventListener('click', function(event) {
+                    const email = event.currentTarget.dataset.name;
+                    document.getElementById('filename').value = email;
+                });
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+        var moveButton = document.querySelector('#moveButton');
+        var moveFileForm = document.getElementById('moveFileForm');
+        var successToast = document.getElementById('borderedToast');
+    
+        moveButton.addEventListener('click', function(event) {
+            event.preventDefault();
+    
+            // Collect form data
+            var formData = new FormData(moveFileForm);
+    
+            // Make the API call
+            fetch("{% url 'move_mnforms' %}", {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.success) {
+                        var toastDiv = document.getElementById('toast-type');
+                        toastDiv.classList.add('bg-success');
+                        document.querySelector('.toast-body').innerText = "Document Moved successfully!"
+                    } else {
+                        var toastDiv = document.getElementById('toast-type');
+                        toastDiv.classList.add('bg-danger');
+                        document.querySelector('.toast-body').innerText = data.error;
+                    }
+                    $('#moveModal').modal('hide');
+                    var toast = new bootstrap.Toast(successToast);
+                    toast.show();
+                })
+                .catch(error => {
+                    console.error('There was a problem with the fetch operation:', error);
+                });
+    
+            });
+        });   
+
+        document.addEventListener('DOMContentLoaded', function() {
+        var uploadButton = document.querySelector('#uploadButton');
+        var uploadDocumentForm = document.getElementById('uploadDocumentForm');
+        var successToast = document.getElementById('borderedToast');
+    
+        uploadButton.addEventListener('click', function(event) {
+            event.preventDefault();
+    
+            // Collect form data
+            var formData = new FormData(uploadDocumentForm);
+            console.log("SDSDDSDSDSD")
+    
+            // Make the API call
+            fetch("{% url 'upload_document' %}", {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.success) {
+                        var toastDiv = document.getElementById('toast-type');
+                        toastDiv.classList.add('bg-success');
+                        document.querySelector('.toast-body').innerText = "Document uploaded successfully!"
+                    } else {
+                        var toastDiv = document.getElementById('toast-type');
+                        toastDiv.classList.add('bg-danger');
+                        document.querySelector('.toast-body').innerText = data.error;
+                    }
+                    $('#uploadModal').modal('hide');
+                    var toast = new bootstrap.Toast(successToast);
+                    toast.show();
+                })
+                .catch(error => {
+                    console.error('There was a problem with the fetch operation:', error);
+                });
+    
+        });
+    });   
+    </script> 
 {% endblock %}

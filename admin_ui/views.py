@@ -106,3 +106,98 @@ class SingleMnFormsView(View):
         else:
             print(response.text)
             return render(request, 'pages/500error.html')  
+
+
+class UploadDocumentView(View):
+    def post(self, request): 
+        api_url = 'http://155.138.160.153:5099/api/admin/document/upload'
+        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+
+        file = request.FILES.get('file')
+        folder = request.POST.get('folder')
+        new_folder = request.POST.get('new_folder')
+        folder_type = request.POST.get('folder_type')
+
+        if not file or not(folder or new_folder):
+            return JsonResponse({'error': "All fields are required!"})
+        
+        if folder and new_folder:
+            return JsonResponse({'error': "Please provide a single folder only!"})
+        
+        if file.content_type != 'application/pdf':
+            return JsonResponse({'error': "Only PDF files are allowed!"})
+        
+        files = {'file': file}
+        data = {'folder': folder, 'folder_type': folder_type}
+
+        if new_folder:
+            data['new_folder'] = new_folder
+
+        response = requests.post(api_url, headers=headers, data=data, files=files)
+
+        if response.status_code == 200:
+            message = response.json()
+            print(message)
+            return JsonResponse({'success': True})
+        else:
+            if response.status_code== 400:
+                return JsonResponse({'error': response.json().get('error')})
+            return JsonResponse({'error': "Something went wrong!"}) 
+
+
+class MoveFlFormsDocumentView(View):
+    def post(self, request): 
+        api_url = 'http://155.138.160.153:5099/api/admin/document/flforms/move'
+        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+
+        filename= request.POST.get('filename')
+        source_folder = request.POST.get('source_folder')
+        dest_folder = request.POST.get('dest_folder')
+
+        if not dest_folder or not filename:
+            return JsonResponse({'error': "All fields are required!"})
+
+        data = {
+            'filename': filename,
+            'source_folder': source_folder, 
+            'dest_folder': dest_folder
+        }
+
+        response = requests.post(api_url, headers=headers, json=data)
+
+        if response.status_code == 200:
+            message = response.json()
+            return JsonResponse({'success': True})
+        else:
+            if response.status_code== 404:
+                return JsonResponse({'error': response.json().get('error')})
+            return JsonResponse({'error': "Something went wrong!"}) 
+        
+
+class MoveMnFormsDocumentView(View):
+    def post(self, request): 
+        api_url = 'http://155.138.160.153:5099/api/admin/document/mnforms/move'
+        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+
+        filename= request.POST.get('filename')
+        source_folder = request.POST.get('source_folder')
+        dest_folder = request.POST.get('dest_folder')
+
+        if not dest_folder or not filename:
+            return JsonResponse({'error': "All fields are required!"})
+
+        data = {
+            'filename': filename,
+            'source_folder': source_folder, 
+            'dest_folder': dest_folder
+        }
+        print(data)
+        response = requests.post(api_url, headers=headers, json=data)
+
+        if response.status_code == 200:
+            message = response.json()
+            return JsonResponse({'success': True})
+        else:
+            if response.status_code== 404:
+                return JsonResponse({'error': response.json().get('error')})
+            return JsonResponse({'error': "Something went wrong!"}) 

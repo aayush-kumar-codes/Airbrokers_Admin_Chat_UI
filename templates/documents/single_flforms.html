@@ -66,7 +66,7 @@
                                         <td><a href='http://155.138.160.153:5099{{ file.url }}' target="_blank">view</a></td>
                                         <td><a href='http://155.138.160.153:5099{{ file.preview_image }}' target="_blank">preview</a></td>
                                         <td>{{ file.added_at }}</td>  
-                                         <td>
+                                        <td>
                                             <div>
                                                 <!-- Edit Icon -->
                                                 <a id="editButton-{{ file.type }}" class="btn btn-link font-size-4 shadow-none py-0 text-muted edit-button" data-bs-toggle="modal" data-bs-target="#updateDocumentModal" href="#" data-name="{{ file.type }}">
@@ -179,7 +179,6 @@
                             var partToReplace = document.getElementById("file-name").innerText;
                             var newValue = data.rename + '.pdf';
                             var newUrl = currentUrl.replace(partToReplace, newValue);
-                            console.log(newUrl, "sdssdsds");
                             window.history.replaceState({}, '', newUrl);
                         }
                         var toastDiv = document.getElementById('toast-type');
