@@ -57,7 +57,7 @@
                                     <th scope="col">Url</th>
                                     <th scope="col">Preview_image</th>
                                     <th scope="col">Added_at</th>
-                                    <th style="width: 80px; min-width: 80px;">Action</th>
+                                    <th scope="col">Updated_at</th>
                                   </tr>
                                 </thead>
                                 <tbody>
@@ -66,53 +66,11 @@
                                         <td><a href='http://155.138.160.153:5099{{ file.url }}' target="_blank">view</a></td>
                                         <td><a href='http://155.138.160.153:5099{{ file.preview_image }}' target="_blank">preview</a></td>
                                         <td>{{ file.added_at }}</td>  
-                                        <td>
-                                            <div>
-                                                <!-- Edit Icon -->
-                                                <a id="editButton-{{ file.type }}" class="btn btn-link font-size-4 shadow-none py-0 text-muted edit-button" data-bs-toggle="modal" data-bs-target="#updateDocumentModal" href="#" data-name="{{ file.type }}">
-                                                    <i class="fas fa-pencil-alt"></i>
-                                                </a>
-                                            </div>
-                                        </td>
+                                        <td>{{ file.updated_at }}</td>
                                     </tr>
                                 </tbody>
                             </table>
                             <!-- end table -->
-
-                             <!-- Update Document modal -->
-                            <div class="modal fade" id="updateDocumentModal" tabindex="-1" role="dialog" aria-labelledby="updateDocumentModalTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-scrollable">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="updateDocumentModalTitle">Update Document</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <form id="updateDocumentForm">
-                                                {% csrf_token %} 
-                                                <div class="modal-body">
-                                                        <input hidden type="text" id="doctype" name="doctype"/>
-                                                        <input hidden type="text" id="docname" name="docname"/>
-                                                    <div class="mb-3">
-                                                        <label for="descriptionInput" class="form-label">Description</label>
-                                                        <textarea class="form-control" name="description" rows="3"></textarea>
-                                                    </div>
-
-                                                    <div class="mb-3">
-                                                        <label for="renameInput" class="form-label">Rename</label>
-                                                        <input type="text" class="form-control" name="rename">
-                                                    </div>
-
-                                                </div>
-                                            </form>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
-                                            <button type="button" id="saveButton" class="btn btn-primary">Save</button>
-                                        </div>
-                                    </div><!-- /.modal-content -->
-                                </div><!-- /.modal-dialog -->
-                            </div><!-- /.modal -->
                         </div>
                         <!-- end table responsive -->
                         
@@ -136,70 +94,6 @@
         function refreshPage(){
             location.reload();
         }
-        
-        document.addEventListener('DOMContentLoaded', function() {
-            const editButton = document.querySelector('.edit-button');
-            if (editButton) {
-                editButton.addEventListener('click', function(event) {
-                    const name = event.currentTarget.dataset.name;
-                    document.getElementById('doctype').value = name;
-                    document.getElementById('docname').value = document.getElementById("file-name").innerText;
-                });
-            }
-        });
-
-
-        document.addEventListener('DOMContentLoaded', function() {
-            
-            var saveButton = document.querySelector('#saveButton');
-            var saveUserForm = document.getElementById('updateDocumentForm');
-            var successToast = document.getElementById('borderedToast2');
-        
-            saveButton.addEventListener('click', function(event) {
-                event.preventDefault();
-            
-                // Collect form data
-                var formData = new FormData(saveUserForm);
-                
-                // Make the API call
-                fetch("{% url 'update_document' %}", { 
-                    method: 'POST',
-                    body: formData
-                })
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok');
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    if (data.success){
-                        if(data.rename){
-                            var currentUrl = window.location.href;
-                            var partToReplace = document.getElementById("file-name").innerText;
-                            var newValue = data.rename + '.pdf';
-                            var newUrl = currentUrl.replace(partToReplace, newValue);
-                            window.history.replaceState({}, '', newUrl);
-                        }
-                        var toastDiv = document.getElementById('toast-type');
-                        toastDiv.classList.add('bg-success');
-                        document.querySelector('.toast-body').innerText="Document updated successfully!"
-                    }else{
-                        var toastDiv = document.getElementById('toast-type');
-                        toastDiv.classList.add('bg-danger');
-                        document.querySelector('.toast-body').innerText=data.error;  
-                    }
-                    $('#updateDocumentModal').modal('hide');
-                    var toast = new bootstrap.Toast(successToast);
-                    toast.show();
-                })
-                .catch(error => {
-                    console.error('There was a problem with the fetch operation:', error);
-                });
-                 
-            });
-        });
-
 
     </script>
 {% endblock %}

@@ -116,29 +116,42 @@ class MediaView(View):
     
 
 class DownloadedDocsView(View):
-    def get(self, request): 
+    def get(self, request, uuid): 
+        api_url = f'http://155.138.160.153:5099/api/admin/user/downloded-docs/{uuid}'
+        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+        response = requests.get(api_url, headers=headers)
+
+        if response.status_code == 200:
+            user = response.json()
+            return render(request, 'users/downloaded_docs.html', {'user': user})
+        else:
+            print(response.text)
+            return render(request, 'pages/500error.html') 
+    
+
+class UploadedDocsView(View):
+    def get(self, request, uuid):  
+        api_url = f'http://155.138.160.153:5099/api/admin/user/uploaded-docs/{uuid}'
+        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+        response = requests.get(api_url, headers=headers)
+
+        if response.status_code == 200:
+            user = response.json()
+            return render(request, 'users/uploaded_docs.html', {'user':user})
+        else:
+            print(response.text)
+            return render(request, 'pages/500error.html') 
+
+
+class DocsView(View):
+    def get(self, request):  
         api_url = 'http://155.138.160.153:5099/api/admin/users'
         headers = {'Authorization': f'Bearer {settings.API_KEY}'}
         response = requests.get(api_url, headers=headers)
         # Check if the request was successful
         if response.status_code == 200:
             users = response.json()
-            return render(request, 'users/downloaded_docs.html',{'users': users})
+            return render(request, 'users/user_docs.html',{'users': users})
         else:
             print(response.text)
             return render(request, 'pages/500error.html')
-    
-
-class UploadedDocsView(View):
-    def get(self, request):  
-        api_url = 'http://155.138.160.153:5099/api/admin/user/uploaded-docs'
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
-        response = requests.get(api_url, headers=headers)
-
-        if response.status_code == 200:
-            uploaded_docs = response.json()
-            return render(request, 'users/uploaded_docs.html', {'uploaded_docs':uploaded_docs})
-        else:
-            print(response.text)
-            return render(request, 'pages/500error.html') 
-

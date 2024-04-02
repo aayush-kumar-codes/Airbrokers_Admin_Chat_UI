@@ -35,8 +35,6 @@
                                         <ul class="sub-menu" aria-expanded="false">
                                             <li><a href="{% url 'list_user' %}" data-key="t-user-list">List</a></li>
                                             <li><a href="{% url 'user_media' %}" data-key="t-user-list">Media</a></li>
-                                            <li><a href="{% url 'downloaded_docs' %}" data-key="t-user-list">Downloaded Docs</a></li>
-                                            <li><a href="{% url 'uploaded_docs' %}" data-key="t-user-list">Uploaded Docs</a></li>
                                             
                                         </ul>   
                                     </li>
@@ -57,19 +55,21 @@
                                 <ul class="sub-menu" aria-expanded="false">
                                     <li>
                                         <a href="javascript: void(0);" class="has-arrow">
-                                            <i data-feather="file-text"></i>
                                             <span data-key="t-contacts">Templates</span>
                                         </a>
                                         <ul class="sub-menu" aria-expanded="false">
                                             <li><a href="{% url 'flforms' %}"> <i data-feather="folder"></i> <span data-key="t-user-list">FL Forms</span></a></li>
                                             <li><a href="{% url 'mnforms' %}"> <i data-feather="folder"></i> <span data-key="t-user-list">MN Forms</span></a></li>
-                                            <li><a href="#"> <i data-feather="folder"></i> <span data-key="t-user-list">User Docs</span></a></li>  
                                         </ul>   
                                     </li>
-                                </ul>
+                                    <li>
+                                        <a href="{% url 'user_docs' %}">
+                                            <span data-key="t-contacts">User Docs</span>
+                                        </a>   
+                                   </li>
+                                </ul> 
                             </li>
-                        </ul>    
-                            
+                        </ul> 
                     </div>
                     <!-- Sidebar -->
                 </div>

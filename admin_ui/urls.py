@@ -23,6 +23,7 @@ from . import views
 urlpatterns = [
     path('', views.DashboardView.as_view(), name='dashboard'),
     path('users/', include('users.urls')),
+    path('chats/', include('chat.urls')),
     path('fl-forms/', views.FlFormsView.as_view(), name='flforms'),
     path('fl-forms/<filename>/<folder>', views.SingleFlFormsView.as_view(), name='single_flforms'),
     path('mn-forms/', views.MnFormsView.as_view(), name='mnforms'),
@@ -32,5 +33,4 @@ urlpatterns = [
     path('upload-document/', views.UploadDocumentView.as_view(), name='upload_document'),
     path('flforms/move/', views.MoveFlFormsDocumentView.as_view(), name='move_flforms'),
     path('mnforms/move/', views.MoveMnFormsDocumentView.as_view(), name='move_mnforms'),
-    path('chats/', include('chat.urls'))
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

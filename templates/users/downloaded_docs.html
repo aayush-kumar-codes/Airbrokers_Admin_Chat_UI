@@ -19,15 +19,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                    <h4 class="mb-sm-0 font-size-18">Downloaded Documents</h4>
-                                    
-
-                                    <div class="page-title-right">
-                                        <ol class="breadcrumb m-0">
-                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Users</a></li>
-                                            <li class="breadcrumb-item active">Downloaded Docs</li>
-                                        </ol>
-                                    </div>
+                                    <h4 class="mb-sm-0 font-size-18">{{ user.email }}</h4>
 
                                 </div>
                             </div>
@@ -37,7 +29,7 @@
                         <div class="row align-items-center">
                             <div class="col-md-6">
                                 <div class="mb-3">
-                                    <h5 class="card-title">Users downloaded documents and status</span></h5>
+                                    <h5 class="card-title">Downloaded Documents</span></h5>
                                 </div>
                             </div>
                             
@@ -49,27 +41,20 @@
                             <table class="table align-middle datatable dt-responsive table-check nowrap" style="border-collapse: collapse; border-spacing: 0 8px; width: 100%;">
                                 <thead>
                                   <tr>
-                                    <th scope="col">Email</th>
-                                    <th colspan="2" scope="colgroup">Documents</th>
-                                  </tr>
-                                  <tr>
-                                    <th scope="col"></th>
+                                    <th scope="col">Filename</th>
                                     <th scope="col">Url</th>
                                     <th scope="col">Is Signed</th>
                                   </tr>
                                 </thead>
-                                <tbody>
-                                    {% for user in users %}
-                                        {% if user.documents %}
-                                            {% for doc in user.documents %}
-                                            <tr>
-                                                <td>{{ user.email }}</td>
-                                                <td><a href='http://155.138.160.153:5099/{{ doc.url }}' target="_blank">view</a></td>
-                                                <td>{{ doc.is_signed }}</td>
-                                            </tr>
-                                            {% endfor %}
-                                        {% endif %}
+                                <tbody> 
+                                    {% for doc in user.downloaded_documents %}
+                                    <tr>
+                                        <td>{{ doc.name }}</td>
+                                        <td><a href='http://155.138.160.153:5099/{{ doc.url }}' target="_blank">view</a></td>
+                                        <td>{{ doc.is_signed }}</td>
+                                    </tr>
                                     {% endfor %}
+                                    
                                 </tbody>
                             </table>
                             <!-- end table -->

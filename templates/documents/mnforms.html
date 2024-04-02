@@ -15,7 +15,7 @@
                 <div class="page-content">
                     <div class="container-fluid">  
                         <div style="z-index: 11">
-                            <div id="borderedToast" class="toast overflow-hidden mt-3" role="alert" aria-live="assertive"
+                            <div id="borderedToast2" class="toast overflow-hidden mt-3" role="alert" aria-live="assertive"
                                 aria-atomic="true" data-bs-autohide="false">
                                 <div class="align-items-center text-white border-0" id="toast-type">
                                     <div class="d-flex">
@@ -42,10 +42,12 @@
                                 <ul class="nav nav-pills nav-justified mb-5" role="tablist">
                                 {% for folder, files in folders_and_files.items %}
                                     <li class="nav-item waves-effect waves-light">
-                                        <a class="btn btn-outline-primary folder-button" data-folder="{{ folder }}" data-bs-toggle="tab" href="#{{ folder }}" role="tab">
-                                            <span class="d-block d-sm-none"><i class="folder"></i></span>
-                                            <span class="d-none d-sm-block">{{ folder }}</span> 
-                                        </a>
+                                        <div class="btn-group me-2 mb-2 mb-sm-0">
+                                            <a class="btn btn-outline-primary waves-light waves-effect" href="#{{ folder }}" data-folder="{{ folder }}" data-bs-toggle="tab" role="tab">
+                                                <i class="fa fa-folder"></i>
+                                                <span>{{ folder }}</span> 
+                                            </a>
+                                        </div>
                                     </li>
                                 {% endfor %}
                                 </ul>
@@ -69,11 +71,14 @@
                                                     <tr>
                                                         <td><a href="{% url 'single_mnforms' filename=file folder=folder %}">{{ file }}</a></td>
                                                         <td>
-                                                            <div>
-                                                                <!-- Move Icon -->
-                                                                <a id="moveButton-{{ file }}" class="btn btn-link font-size-4 shadow-none py-0 text-muted move-button" data-bs-toggle="modal" data-bs-target="#moveModal" href="#" data-name="{{ file }}">
-                                                                    <i class="fa-sharp fa-solid fa-file-import fa-lg"></i>
-                                                                </a>
+                                                            <div class="dropdown">
+                                                                <button class="btn btn-outline-primary font-size-16 shadow-primary py-0 text-muted dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                    <i class="bx bx-dots-horizontal-rounded"></i>
+                                                                </button>
+                                                                <ul class="dropdown-menu dropdownmenu-primary dropdown-menu-end">
+                                                                    <li><a class="dropdown-item edit-button" data-bs-toggle="modal" data-bs-target="#updateDocumentModal" href="#" data-name="{{ file }}">Update</a></li>
+                                                                    <li><a class="dropdown-item move-button" data-bs-toggle="modal" data-bs-target="#moveModal" href="#" data-name="{{ file }}">Move</a></li>
+                                                                </ul>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -93,16 +98,49 @@
                 </div>
                 <!-- End Page-content -->
 
+                <!-- Edit Document Modal -->
+                <div class="modal fade" id="updateDocumentModal" tabindex="-1" aria-labelledby="updateDocumentModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="updateDocumentModalLabel">Update Document</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form id="updateDocumentForm">
+                                    {% csrf_token %} 
+                                        <div class="mb-3">
+                                            <input hidden type="text" id="doctype" value="MN_Forms" name="doctype"/>
+                                            <input hidden type="text" id="docname" name="docname"/>
+                                        </div>    
+                                        <div class="mb-3">
+                                            <label for="descriptionInput" class="form-label">Description</label>
+                                            <textarea class="form-control" name="description" rows="3"></textarea>
+                                        </di
+                                        <div class="mb-3">
+                                            <label for="renameInput" class="form-label">Rename</label>
+                                            <input type="text" class="form-control" name="rename">
+                                        </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                                <button type="button" id="saveButton" class="btn btn-primary">Save</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
                 <!-- Move File Modal -->
                 <div class="modal fade" id="moveModal" tabindex="-1" aria-labelledby="moveModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="moveModalLabel">Move File</h5>
+                                <h5 class="modal-title" id="moveModalLabel">Move Document</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <!-- Form for uploading document -->
                                 <form id="moveFileForm">
                                     {% csrf_token %}
                                     <div class="mb-3">
@@ -203,11 +241,66 @@
         });
 
         document.addEventListener('DOMContentLoaded', function() {
+            const editButtons = document.querySelectorAll('.edit-button');
+            editButtons.forEach(function(button) {
+                button.addEventListener('click', function(event) {
+                    const docName = event.currentTarget.dataset.name;
+                    document.getElementById('docname').value = docName;
+                });
+            });
+        });
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            var saveButton = document.querySelector('#saveButton');
+            var saveUserForm = document.getElementById('updateDocumentForm');
+            var successToast = document.getElementById('borderedToast2');
+        
+            saveButton.addEventListener('click', function(event) {
+                event.preventDefault();
+            
+                // Collect form data
+                var formData = new FormData(saveUserForm);
+                
+                // Make the API call
+                fetch("{% url 'update_document' %}", { 
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.success){
+                        var toastDiv = document.getElementById('toast-type');
+                        toastDiv.classList.add('bg-success');
+                        document.querySelector('.toast-body').innerText="Document updated successfully!"
+                    }else{
+                        var toastDiv = document.getElementById('toast-type');
+                        toastDiv.classList.add('bg-danger');
+                        document.querySelector('.toast-body').innerText=data.error;  
+                    }
+                    $('#updateDocumentModal').modal('hide');
+                    var toast = new bootstrap.Toast(successToast);
+                    toast.show();
+                })
+                .catch(error => {
+                    console.error('There was a problem with the fetch operation:', error);
+                });
+                 
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
             const editButtons = document.querySelectorAll('.move-button');
             editButtons.forEach(function(button) {
                 button.addEventListener('click', function(event) {
-                    const email = event.currentTarget.dataset.name;
-                    document.getElementById('filename').value = email;
+                    const fileName = event.currentTarget.dataset.name;
+                    document.getElementById('filename').value = fileName;
                 });
             });
         });
@@ -215,7 +308,7 @@
         document.addEventListener('DOMContentLoaded', function() {
         var moveButton = document.querySelector('#moveButton');
         var moveFileForm = document.getElementById('moveFileForm');
-        var successToast = document.getElementById('borderedToast');
+        var successToast = document.getElementById('borderedToast2');
     
         moveButton.addEventListener('click', function(event) {
             event.preventDefault();
@@ -258,14 +351,13 @@
         document.addEventListener('DOMContentLoaded', function() {
         var uploadButton = document.querySelector('#uploadButton');
         var uploadDocumentForm = document.getElementById('uploadDocumentForm');
-        var successToast = document.getElementById('borderedToast');
+        var successToast = document.getElementById('borderedToast2');
     
         uploadButton.addEventListener('click', function(event) {
             event.preventDefault();
     
             // Collect form data
             var formData = new FormData(uploadDocumentForm);
-            console.log("SDSDDSDSDSD")
     
             // Make the API call
             fetch("{% url 'upload_document' %}", {

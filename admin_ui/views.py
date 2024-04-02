@@ -41,15 +41,11 @@ class UpdateDocumentView(View):
 
         if response.status_code == 200:
             message = response.json()
-            response = {'success':  True}
-            if data['rename']:
-                response['rename']=data['rename']
-            return JsonResponse(response)
+            return JsonResponse({'success':  True})
         else:
             if response.status_code== 400:
                 return JsonResponse({'error': response.json().get('error')})
             return JsonResponse({'error': "Something went wrong!"}) 
-            
 
 
 class FlFormsView(View):

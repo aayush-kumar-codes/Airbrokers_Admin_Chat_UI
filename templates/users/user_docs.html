@@ -1,0 +1,102 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+{% block head_title%}
+        <title>User Documents</title>
+{% endblock %}
+{% block extra_css %}
+        <!-- DataTables -->
+        <link href="{% static 'libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css' %}" rel="stylesheet" type="text/css" />
+
+        <!-- Responsive datatable examples -->
+        <link href="{% static 'libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css' %}" rel="stylesheet" type="text/css" />
+{% endblock %}
+{% block content %}
+            <div class="main-content">  
+                <div class="page-content">
+                    <div class="container-fluid">   
+                        <div style="z-index: 11">
+                            <div id="borderedToast2" class="toast overflow-hidden mt-3" role="alert" aria-live="assertive"
+                                aria-atomic="true" data-bs-autohide="false">
+                                <div class="align-items-center text-white border-0" id="toast-type">
+                                    <div class="d-flex">
+                                        <div class="toast-body">
+                                        </div>
+                                        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" onclick="refreshPage()" aria-label="Close"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header d-flex justify-content-between align-items-center">
+                                <h4 class="card-title mb-0">Available Users</h4>
+                            </div><!-- end card header -->
+                            
+                            <div class="card-body">
+                                
+                                
+                                <div class="table-responsive mb-4">
+                                    <table class="table align-middle datatable dt-responsive table-check nowrap" style="border-collapse: collapse; border-spacing: 0 8px; width: 100%;">
+                                        <thead>
+                                          <tr>
+                                            <th scope="col">Users</th>
+                                            <th scope="col">Documets</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for user in users %}
+                                            <tr>
+                                                <td><a href="#">{{ user.email }}</a></td>
+                                                <td>
+                                                    <ul class="nav nav-pills nav-justified" role="tablist">
+                                                        <li class="nav-item waves-effect waves-light">
+                                                            <a class="btn btn-outline-info waves-light waves-effect" href="{% url 'downloaded_docs' uuid=user.uuid %}" role="tab">
+                                                                <i class="fa fa-folder"></i>
+                                                                <span><i class="mdi mdi-download"></i></span>
+                                                                <span>Downloded Docs</span> 
+                                                            </a>
+                                                        </li>
+                                                        <li class="nav-item waves-effect waves-light">
+                                                            <a class="btn btn-outline-secondary waves-light waves-effect" href="{% url 'uploaded_docs' uuid=user.uuid %}" role="tab">
+                                                                <i class="fa fa-folder"></i>
+                                                                <span><i class="mdi mdi-upload"></i></span>
+                                                                <span>Uploded Docs</span> 
+                                                            </a>
+
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                                
+                                            </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                    <!-- end table -->
+                                </div>
+                                  
+                                
+                            </div><!-- end card-body -->
+                        </div><!-- end card -->
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+            </div>    
+{% endblock %}
+
+
+{% block extra_js %}
+    <!-- Required datatable js -->
+    <script src="{% static 'libs/datatables.net/js/jquery.dataTables.min.js' %}"></script>
+    <script src="{% static 'libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js' %}"></script>
+    
+    <!-- Responsive examples -->
+    <script src="{% static 'libs/datatables.net-responsive/js/dataTables.responsive.min.js' %}"></script>
+    <script src="{% static 'libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js' %}"></script>
+    <!-- init js -->
+    <script src="{% static 'js/pages/datatable-pages.init.js' %}"></script>
+    <script>
+        function refreshPage(){
+            location.reload();
+        }
+    </script> 
+
+{% endblock %}
