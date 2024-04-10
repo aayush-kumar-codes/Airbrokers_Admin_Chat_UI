@@ -11,7 +11,7 @@ from django.conf import settings
 
 class ListView(View):
     def get(self, request):  
-        api_url = 'http://155.138.160.153:5099/api/admin/users'
+        api_url = f'{settings.API_BASE_URL}/api/admin/users'
         headers = {'Authorization': f'Bearer {settings.API_KEY}'}
 
         response = requests.get(api_url, headers=headers)
@@ -19,7 +19,8 @@ class ListView(View):
         # Check if the request was successful
         if response.status_code == 200:
             users = response.json()
-            return render(request, 'users/userlist.html',{'users': users})
+            api_base_url = settings.API_BASE_URL
+            return render(request, 'users/userlist.html',{'users': users, 'BASE_URL': api_base_url})
         else:
             print(response.text)
             return render(request, 'pages/500error.html')
@@ -27,7 +28,7 @@ class ListView(View):
 
 class AddView(View):
     def post(self, request): 
-        api_url = 'http://155.138.160.153:5099/api/admin/user/register'
+        api_url = f'{settings.API_BASE_URL}/api/admin/user/register'
         data = {
             'uuid': request.POST.get('uuid', ''),
             'first_name': request.POST.get('first_name', ''),
@@ -53,7 +54,7 @@ class AddView(View):
 
 class UpdateView(View):
     def post(self, request): 
-        api_url = 'http://155.138.160.153:5099/api/admin/user/update'
+        api_url = f'{settings.API_BASE_URL}/api/admin/user/update'
 
         data = {
             'email': request.POST.get('username', ''),
@@ -77,7 +78,6 @@ class UpdateView(View):
 
         if response.status_code == 200:
             message = response.json()
-            print(message)
             return JsonResponse({'success': True})
         else:
             return JsonResponse({'error': "Something went wrong!"})
@@ -85,7 +85,7 @@ class UpdateView(View):
 
 class DeleteView(View):
     def post(self, request):
-        api_url = 'http://155.138.160.153:5099/api/admin/user/delete'
+        api_url = f'{settings.API_BASE_URL}/api/admin/user/delete'
 
         headers = {'Authorization': f'Bearer {settings.API_KEY}'}
 
@@ -103,13 +103,14 @@ class DeleteView(View):
 
 class MediaView(View):
     def get(self, request):  
-        api_url = 'http://155.138.160.153:5099/api/admin/user/media'
+        api_url = f'{settings.API_BASE_URL}/api/admin/user/media'
         headers = {'Authorization': f'Bearer {settings.API_KEY}'}
         response = requests.get(api_url, headers=headers)
 
         if response.status_code == 200:
             allmedia = response.json()
-            return render(request, 'users/media.html', {'allmedia':allmedia})
+            api_base_url = settings.API_BASE_URL
+            return render(request, 'users/media.html', {'allmedia':allmedia, 'BASE_URL': api_base_url})
         else:
             print(response.text)
             return render(request, 'pages/500error.html') 
@@ -117,13 +118,14 @@ class MediaView(View):
 
 class DownloadedDocsView(View):
     def get(self, request, uuid): 
-        api_url = f'http://155.138.160.153:5099/api/admin/user/downloded-docs/{uuid}'
+        api_url = f'{settings.API_BASE_URL}/api/admin/user/downloded-docs/{uuid}'
         headers = {'Authorization': f'Bearer {settings.API_KEY}'}
         response = requests.get(api_url, headers=headers)
 
         if response.status_code == 200:
             user = response.json()
-            return render(request, 'users/downloaded_docs.html', {'user': user})
+            api_base_url = settings.API_BASE_URL
+            return render(request, 'users/downloaded_docs.html', {'user': user, 'BASE_URL':api_base_url})
         else:
             print(response.text)
             return render(request, 'pages/500error.html') 
@@ -131,13 +133,14 @@ class DownloadedDocsView(View):
 
 class UploadedDocsView(View):
     def get(self, request, uuid):  
-        api_url = f'http://155.138.160.153:5099/api/admin/user/uploaded-docs/{uuid}'
+        api_url = f'{settings.API_BASE_URL}/api/admin/user/uploaded-docs/{uuid}'
         headers = {'Authorization': f'Bearer {settings.API_KEY}'}
         response = requests.get(api_url, headers=headers)
 
         if response.status_code == 200:
             user = response.json()
-            return render(request, 'users/uploaded_docs.html', {'user':user})
+            api_base_url = settings.API_BASE_URL
+            return render(request, 'users/uploaded_docs.html', {'user':user, 'BASE_URL': api_base_url})
         else:
             print(response.text)
             return render(request, 'pages/500error.html') 
@@ -145,7 +148,7 @@ class UploadedDocsView(View):
 
 class DocsView(View):
     def get(self, request):  
-        api_url = 'http://155.138.160.153:5099/api/admin/users'
+        api_url = f'{settings.API_BASE_URL}/api/admin/users'
         headers = {'Authorization': f'Bearer {settings.API_KEY}'}
         response = requests.get(api_url, headers=headers)
         # Check if the request was successful

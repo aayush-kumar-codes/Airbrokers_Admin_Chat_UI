@@ -6,9 +6,10 @@ from django.shortcuts import render
 from django.conf import settings
 from django.http import JsonResponse
 
+
 class ChatView(View):
     def get(self, request):  
-        api_url = 'http://155.138.160.153:5099/api/admin/user/chats'
+        api_url = f'{settings.API_BASE_URL}/api/admin/user/chats'
         headers = {'Authorization': f'Bearer {settings.API_KEY}'}
 
         response = requests.get(api_url, headers=headers)
@@ -16,7 +17,8 @@ class ChatView(View):
         # Check if the request was successful
         if response.status_code == 200:
             users = response.json()
-            return render(request, 'chat/chat.html',{'users': users})
+            mqtt_websocket_url = settings.MQTT_WEBSOCKET_URL
+            return render(request, 'chat/chat.html',{'users': users, 'MQTT_WEBSOCKET_URL':mqtt_websocket_url})
         else:
             print(response.text)
             return render(request, 'pages/500error.html')
@@ -24,7 +26,7 @@ class ChatView(View):
 
 class UpdateChatStatusView(View):
     def post(self, request):
-        api_url = 'http://155.138.160.153:5099/api/admin/user/chat-status'
+        api_url = f'{settings.API_BASE_URL}/api/admin/user/chat-status'
 
         headers = {'Authorization': f'Bearer {settings.API_KEY}'}
 
@@ -42,7 +44,7 @@ class UpdateChatStatusView(View):
 
 class AdminResponseView(View):
     def post(self, request):
-        api_url = 'http://155.138.160.153:5099/api/admin/response'
+        api_url = f'{settings.API_BASE_URL}/api/admin/response'
 
         headers = {'Authorization': f'Bearer {settings.API_KEY}'}
 
@@ -52,7 +54,6 @@ class AdminResponseView(View):
 
         if response.status_code == 200:
             message = response.json()
-            print(message)
             return JsonResponse({'success': True})
         else:
             print(response.text)

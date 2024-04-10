@@ -50,7 +50,7 @@
                                     {% for doc in user.downloaded_documents %}
                                     <tr>
                                         <td>{{ doc.name }}</td>
-                                        <td><a href='http://155.138.160.153:5099/{{ doc.url }}' target="_blank">view</a></td>
+                                        <td><a href='{{ BASE_URL }}{{ doc.url }}' target="_blank">view</a></td>
                                         <td>{{ doc.is_signed }}</td>
                                     </tr>
                                     {% endfor %}

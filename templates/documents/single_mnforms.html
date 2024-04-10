@@ -64,8 +64,8 @@
                                 <tbody>
                                     <tr>
                                         <td>{{ file.description }}</td>
-                                        <td><a href='http://155.138.160.153:5099{{ file.url }}' target="_blank">view</a></td>
-                                        <td><a href='http://155.138.160.153:5099{{ file.preview_image }}' target="_blank">preview</a></td>
+                                        <td><a href='{{ BASE_URL }}{{ file.url }}' target="_blank">view</a></td>
+                                        <td><a href='{{ BASE_URL }}{{ file.preview_image }}' target="_blank">preview</a></td>
                                         <td>{{ file.added_at }}</td>  
                                         <td>{{ file.updated_at }}</td>
                                     </tr>

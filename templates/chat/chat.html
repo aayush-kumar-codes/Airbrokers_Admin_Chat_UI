@@ -375,7 +375,9 @@
     }
 
     //MQTT Javascript Setup
-    var brokerUrl = "ws://155.138.160.153:8083/mqtt";
+
+    const mqttWebsocketUrl = '{{ MQTT_WEBSOCKET_URL }}'
+    var brokerUrl = mqttWebsocketUrl;
     var clientId = "test-client_" + Math.random().toString(16).substr(2, 8);
 
     // Create a client instance

@@ -8,13 +8,14 @@ from django.conf import settings
 
 class AllDocumentsView(View):
     def get(self, request):  
-        api_url = 'http://155.138.160.153:5099/api/admin/documents'
+        api_url = f'{settings.API_BASE_URL}/api/admin/documents'
         headers = {'Authorization': f'Bearer {settings.API_KEY}'}
         response = requests.get(api_url, headers=headers)
 
         if response.status_code == 200:
             documents = response.json()
-            return render(request, 'documents/documents.html', {'templates':documents})
+            api_base_url = settings.API_BASE_URL
+            return render(request, 'documents/documents.html', {'templates':documents, 'BASE_URL': api_base_url})
         else:
             print(response.text)
             return render(request, 'pages/500error.html')   
@@ -22,7 +23,7 @@ class AllDocumentsView(View):
 
 class UpdateDocumentView(View):
     def post(self, request): 
-        api_url = 'http://155.138.160.153:5099/api/admin/document/update'
+        api_url = f'{settings.API_BASE_URL}/api/admin/document/update'
 
         data = {
             'docname': request.POST.get('docname', ''),
@@ -45,7 +46,7 @@ class UpdateDocumentView(View):
 
 class FlFormsView(View):
     def get(self, request):
-        api_url = 'http://155.138.160.153:5099/api/admin/flforms'
+        api_url = f'{settings.API_BASE_URL}/api/admin/flforms'
         headers = {'Authorization': f'Bearer {settings.API_KEY}'}
         response = requests.get(api_url, headers=headers)
 
@@ -59,7 +60,7 @@ class FlFormsView(View):
 
 class MnFormsView(View):
     def get(self, request):
-        api_url = 'http://155.138.160.153:5099/api/admin/mnforms'
+        api_url = f'{settings.API_BASE_URL}/api/admin/mnforms'
         headers = {'Authorization': f'Bearer {settings.API_KEY}'}
         response = requests.get(api_url, headers=headers)
 
@@ -73,13 +74,14 @@ class MnFormsView(View):
 
 class SingleFlFormsView(View):
     def get(self, request, filename, folder):
-        api_url = f'http://155.138.160.153:5099/api/admin/flforms/{filename}/{folder}'
+        api_url = f'{settings.API_BASE_URL}/api/admin/flforms/{filename}/{folder}'
         headers = {'Authorization': f'Bearer {settings.API_KEY}'}
         response = requests.get(api_url, headers=headers)
 
         if response.status_code == 200:
             file = response.json()
-            return render(request, 'documents/single_flforms.html', {'file': file})
+            api_base_url = settings.API_BASE_URL
+            return render(request, 'documents/single_flforms.html', {'file': file, 'BASE_URL': api_base_url})
         else:
             print(response.text)
             return render(request, 'pages/500error.html')  
@@ -87,13 +89,14 @@ class SingleFlFormsView(View):
 
 class SingleMnFormsView(View):
     def get(self, request, filename, folder):
-        api_url = f'http://155.138.160.153:5099/api/admin/mnforms/{filename}/{folder}'
+        api_url = f'{settings.API_BASE_URL}/api/admin/mnforms/{filename}/{folder}'
         headers = {'Authorization': f'Bearer {settings.API_KEY}'}
         response = requests.get(api_url, headers=headers)
         
         if response.status_code == 200:
             file = response.json()
-            return render(request, 'documents/single_mnforms.html', {'file': file})
+            api_base_url = settings.API_BASE_URL
+            return render(request, 'documents/single_mnforms.html', {'file': file, 'BASE_URL': api_base_url})
         else:
             print(response.text)
             return render(request, 'pages/500error.html')  
@@ -101,7 +104,7 @@ class SingleMnFormsView(View):
 
 class UploadDocumentView(View):
     def post(self, request): 
-        api_url = 'http://155.138.160.153:5099/api/admin/document/upload'
+        api_url = f'{settings.API_BASE_URL}/api/admin/document/upload'
         headers = {'Authorization': f'Bearer {settings.API_KEY}'}
 
         file = request.FILES.get('file')
@@ -128,7 +131,6 @@ class UploadDocumentView(View):
 
         if response.status_code == 200:
             message = response.json()
-            print(message)
             return JsonResponse({'success': True})
         else:
             if response.status_code== 400:
@@ -138,7 +140,7 @@ class UploadDocumentView(View):
 
 class MoveFlFormsDocumentView(View):
     def post(self, request): 
-        api_url = 'http://155.138.160.153:5099/api/admin/document/flforms/move'
+        api_url = f'{settings.API_BASE_URL}/api/admin/document/flforms/move'
         headers = {'Authorization': f'Bearer {settings.API_KEY}'}
 
         filename= request.POST.get('filename')
@@ -167,7 +169,7 @@ class MoveFlFormsDocumentView(View):
 
 class MoveMnFormsDocumentView(View):
     def post(self, request): 
-        api_url = 'http://155.138.160.153:5099/api/admin/document/mnforms/move'
+        api_url = f'{settings.API_BASE_URL}/api/admin/document/mnforms/move'
         headers = {'Authorization': f'Bearer {settings.API_KEY}'}
 
         filename= request.POST.get('filename')

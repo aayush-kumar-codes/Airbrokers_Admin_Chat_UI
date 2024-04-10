@@ -64,7 +64,7 @@
                                             {% for user_media in media.user_media %}
                                             <tr>
                                                 <td>{{ media.email }}</td>
-                                                <td><a href='http://155.138.160.153:5099/{{ user_media.file }}' target="_blank">view</a></td>
+                                                <td><a href='{{ BASE_URL }}{{ user_media.file }}' target="_blank">view</a></td>
                                                 <td>{{ user_media.label }}</td>
                                             </tr>
                                             {% endfor %}

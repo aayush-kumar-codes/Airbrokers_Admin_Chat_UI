@@ -149,7 +149,7 @@
                                             <div class="d-flex align-items-center me-3">
                                                 {% if user.profile_pic %}
                                                     <div class="flex-shrink-0 me-2 align-self-center">
-                                                        <img src="http://155.138.160.153:5099/{{ user.profile_pic }}" class="avatar-sm rounded-circle" alt="">
+                                                        <img src="{{ BASE_URL }}{{ user.profile_pic }}" class="avatar-sm rounded-circle" alt="">
                                                     </div>
                                                 {% else %}
                                                     <div class="avatar-sm align-self-center me-2">

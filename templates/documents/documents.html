@@ -75,8 +75,8 @@
                                     <tr>
                                         <td>{{ template.name }}</td>
                                         <td>{{ template.description }}</td>
-                                        <td><a href='http://155.138.160.153:5099{{ template.url }}' target="_blank">view</a></td>
-                                        <td><a href='http://155.138.160.153:5099{{ template.preview_image }}' target="_blank">preview</a></td>
+                                        <td><a href='{{ BASE_URL }}{{ template.url }}' target="_blank">view</a></td>
+                                        <td><a href='{{ BASE_URL }}{{ template.preview_image }}' target="_blank">preview</a></td>
                                         <td>{{ template.added_at }}</td>  
                                          <td>
                                             <div>
