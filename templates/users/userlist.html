@@ -152,7 +152,7 @@
                                   </tr>
                                 </thead>
                                 <tbody>
-                                 {% for user in users %}
+                                {% for user in users %}
                                     <tr>
                                         <td>
                                             <div class="d-flex align-items-center me-3">
@@ -163,7 +163,7 @@
                                                 {% else %}
                                                     <div class="avatar-sm align-self-center me-2">
                                                         <span class="avatar-title rounded-circle bg-primary-subtle text-primary">
-                                                            {{ user.email.0 }}
+                                                            {{ user.email.0|capfirst }}
                                                         </span> 
                                                     </div>
                                                 {% endif %}

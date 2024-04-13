@@ -50,26 +50,19 @@
                                 <thead>
                                     <tr>
                                         <th scope="col">Email</th>
-                                        <th colspan="2" scope="colgroup">Media</th>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col"></th>
-                                        <th scope="col">File</th>
-                                        <th scope="col">Label</th>
+                                        <th scope="col">Users Media</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     {% for media in allmedia %}
-                                        {% if media.user_media %}
-                                            {% for user_media in media.user_media %}
-                                            {% if media.email %}
+                                        {% if media.email %}
                                             <tr>
                                                 <td>{{ media.email }}</td>
-                                                <td><a href='{{ BASE_URL }}{{ user_media.file }}' target="_blank">view</a></td>
-                                                <td>{{ user_media.label }}</td>
+                                                <td><a class="btn btn-outline-primary waves-light waves-effect" href="{% url 'user_media' uuid=media.user_id %}" role="tab">
+                                                    <i class="fa-solid fa-photo-film"></i>
+                                                    <span>Media</span> 
+                                                </a></td>
                                             </tr>
-                                            {% endif %}
-                                            {% endfor %}
                                         {% endif %}
 
                                     {% endfor %}

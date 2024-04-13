@@ -106,7 +106,7 @@ class DeleteView(View):
 
 
 class MediaView(View):
-    def get(self, request):  
+    def get(self, request, uuid=None):  
         api_url = f'{settings.API_BASE_URL}/api/admin/user/media'
         headers = {'Authorization': f'Bearer {settings.API_KEY}'}
         response = requests.get(api_url, headers=headers)
@@ -114,26 +114,14 @@ class MediaView(View):
         if response.status_code == 200:
             allmedia = response.json()
             api_base_url = settings.API_BASE_URL
-            return render(request, 'users/media.html', {'allmedia':allmedia, 'BASE_URL': api_base_url})
+            if not uuid:
+                return render(request, 'users/media.html', {'allmedia':allmedia, 'BASE_URL': api_base_url})
+            return render(request, 'users/user_media.html', {'allmedia':allmedia, 'BASE_URL': api_base_url, 'user_id':uuid})
         else:
             print(response.text)
             return render(request, 'pages/500error.html') 
         
 
-#class UserMediaView(View):
-#    def get(self, request, email):  
-        #api_url = f'{settings.API_BASE_URL}/api/admin/user/uploaded-docs/{uuid}'
-        #headers = {'Authorization': f'Bearer {settings.API_KEY}'}
-        #response = requests.get(api_url, headers=headers)
-
-        #if response.status_code == 200:
-        #    user = response.json()
-        #    api_base_url = settings.API_BASE_URL
-        # {'user':user, 'BASE_URL': api_base_url}
-#        return render(request, 'users/user_media.html')
-        #else:
-        #    print(response.text)
-        #    return render(request, 'pages/500error.html') 
     
 
 class DownloadedDocsView(View):

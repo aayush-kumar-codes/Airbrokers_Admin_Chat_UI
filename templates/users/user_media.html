@@ -1,12 +1,12 @@
 {% extends 'partials/base.html' %}
 {% load static %}
+{% load custom_tags %}
 {% block head_title%}
         <title>User Media</title>
 {% endblock %}
 {% block extra_css %}
         <!-- DataTables -->
         <link href="{% static 'libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css' %}" rel="stylesheet" type="text/css" />
-
         <!-- Responsive datatable examples -->
         <link href="{% static 'libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css' %}" rel="stylesheet" type="text/css" />
 {% endblock %}
@@ -14,12 +14,13 @@
             <div class="main-content">  
                 <div class="page-content">
                     <div class="container-fluid">
-
+                    {% for media in allmedia %}
+                     {% if media.user_id == user_id %}
                         <!-- start page title -->
                         <div class="row">
                             <div class="col-12">
                                 <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                    <h4 class="mb-sm-0 font-size-18">{{ user.email }}</h4>
+                                    <h4 class="mb-sm-0 font-size-18">{{ media.email }}</h4>
 
                                 </div>
                             </div>
@@ -29,7 +30,7 @@
                         <div class="row align-items-center">
                             <div class="col-md-6">
                                 <div class="mb-3">
-                                    <h5 class="card-title">User Media</span></h5>
+                                    <h5 class="card-title">User Document</span></h5>
                                 </div>
                             </div>
                             
@@ -43,15 +44,15 @@
                                   <tr>
                                     <th scope="col">Filename</th>
                                     <th scope="col">Url</th>
-                                    <th scope="col">Is Signed</th>
+                                    <th scope="col">Label</th>
                                   </tr>
                                 </thead>
                                 <tbody> 
-                                    {% for doc in user.downloaded_documents %}
+                                    {% for user_media in media.user_media %}
                                     <tr>
-                                        <td>{{ doc.name }}</td>
-                                        <td><a href='{{ BASE_URL }}{{ doc.url }}' target="_blank">view</a></td>
-                                        <td>{{ doc.is_signed }}</td>
+                                        <td>{{ user_media.file|get_filename }} </td>
+                                        <td><a href='{{ BASE_URL }}{{ user_media.file }}' target="_blank">view</a></td>
+                                        <td>{{ user_media.label }}</td>
                                     </tr>
                                     {% endfor %}
                                     
@@ -60,7 +61,8 @@
                             <!-- end table -->
                         </div>
                         <!-- end table responsive -->
-                        
+                    {% endif %}
+                    {% endfor %}    
                     </div> <!-- container-fluid -->
                 </div>
                 <!-- End Page-content -->
