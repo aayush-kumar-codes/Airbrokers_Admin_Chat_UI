@@ -18,7 +18,18 @@ class ChatView(View):
         if response.status_code == 200:
             users = response.json()
             mqtt_websocket_url = settings.MQTT_WEBSOCKET_URL
-            return render(request, 'chat/chat.html',{'users': users, 'MQTT_WEBSOCKET_URL':mqtt_websocket_url})
+            mqtt_username = settings.MQTT_BROKER_USERNAME
+            mqtt_passwd = settings.MQTT_BROKER_PASSWD
+            return render(
+                request, 
+                'chat/chat.html',
+                {
+                    'users': users, 
+                    'MQTT_WEBSOCKET_URL':mqtt_websocket_url,
+                    'MQTT_USERNAME': mqtt_username,
+                    'MQTT_PASSWD': mqtt_passwd
+                }
+            )
         else:
             print(response.text)
             return render(request, 'pages/500error.html')

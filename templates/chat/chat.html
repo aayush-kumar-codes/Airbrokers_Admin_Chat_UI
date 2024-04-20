@@ -81,12 +81,12 @@
                                                         <div class="avatar-sm align-self-center">
                                                             <span
                                                                 class="avatar-title rounded-circle bg-primary-subtle text-primary">
-                                                                {{ user.email.0 }}
+                                                                {{ user.email.0|capfirst }}
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="flex-grow-1 overflow-hidden">
-                                                        <h5 class="text-truncate font-size-13 mb-2">{{user.email}}
+                                                        <h5 class="text-truncate font-size-13 mb-2">{{user.email}}&nbsp;&nbsp;({{ user.role|capfirst }})
                                                         </h5>
                                                         {% if user.unseen_msg %}
                                                         <p class="text-truncate mb-0" id="latest-msg">{{ user.latest_chat.message }}</p>
@@ -122,14 +122,14 @@
                                             <div class="avatar-sm align-self-center">
                                                 <span
                                                     class="avatar-title rounded-circle bg-primary-subtle text-primary">
-                                                    {{ user.email.0 }}
+                                                    {{ user.email.0|capfirst }}
                                                 </span>
                                             </div>
 
                                         </div>
                                         <div class="flex-grow-1">
                                             <h5 class="font-size-14 mb-1 text-truncate"><a href="#"
-                                                    class="text-dark user-email">{{ user.email }}</a></h5>
+                                                    class="text-dark user-email">{{ user.email }}</a>&nbsp;&nbsp;({{ user.role|capfirst }})</h5>       
                                         </div>
                                     </div>
                                 </div>
@@ -147,7 +147,7 @@
                                             <div class="avatar-sm align-self-center">
                                                 <span
                                                     class="avatar-title rounded-circle bg-primary-subtle text-primary">
-                                                    {{ user.email.0 }}
+                                                    {{ user.email.0|capfirst }}
                                                 </span>
                                             </div>
 
@@ -308,7 +308,7 @@
        
         var payload = {
             user_id: userUuid,
-            session_id: userUuid,
+            message_id: userUuid,
             message: message.value,
             is_response: true,
             is_seen: false
@@ -380,6 +380,13 @@
     var brokerUrl = mqttWebsocketUrl;
     var clientId = "test-client_" + Math.random().toString(16).substr(2, 8);
 
+    const options = {
+        userName: '{{ MQTT_USERNAME }}',
+        password: '{{ MQTT_PASSWD }}', 
+        onSuccess: onConnect, 
+        onFailure: onFailure,
+    };
+
     // Create a client instance
     var client = new Paho.MQTT.Client(brokerUrl, clientId);
 
@@ -388,7 +395,7 @@
     client.onMessageArrived = onMessageArrived;
 
     // Connect the client
-    client.connect({ onSuccess: onConnect, useSSL: false });
+    client.connect(options);
 
 
     // Called when the client connects
@@ -405,6 +412,10 @@
         users.forEach(function (email) {
             client.subscribe("user_chat/" + email);
         });
+    }
+
+    function onFailure(error) {
+        console.error('Failed to connect to MQTT broker:', error.errorMessage);
     }
  
  

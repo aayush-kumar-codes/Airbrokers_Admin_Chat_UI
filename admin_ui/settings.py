@@ -18,6 +18,10 @@ load_dotenv()
 API_KEY = os.getenv('API_KEY')
 API_BASE_URL = os.getenv('API_BASE_URL')
 MQTT_WEBSOCKET_URL = os.getenv('MQTT_WEBSOCKET_URL')
+MQTT_BROKER_USERNAME = os.getenv('MQTT_BROKER_USERNAME')
+MQTT_BROKER_PASSWD = os.getenv('MQTT_BROKER_PASSWD')
+
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
