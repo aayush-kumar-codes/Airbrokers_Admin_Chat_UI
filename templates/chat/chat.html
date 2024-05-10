@@ -86,7 +86,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="flex-grow-1 overflow-hidden">
-                                                        <h5 class="text-truncate font-size-13 mb-2">{{user.email}}&nbsp;&nbsp;({{ user.role|capfirst }})
+                                                        <h5 class="text-truncate font-size-13 mb-2">{{user.email}}{% if user.role %}&nbsp;&nbsp;({{ user.role|capfirst}}){% endif %}
                                                         </h5>
                                                         {% if user.unseen_msg %}
                                                         <p class="text-truncate mb-0" id="latest-msg">{{ user.latest_chat.message }}</p>
@@ -129,7 +129,7 @@
                                         </div>
                                         <div class="flex-grow-1">
                                             <h5 class="font-size-14 mb-1 text-truncate"><a href="#"
-                                                    class="text-dark user-email">{{ user.email }}</a>&nbsp;&nbsp;({{ user.role|capfirst }})</h5>       
+                                                    class="text-dark user-email">{{ user.email }}</a>{% if user.role %}&nbsp;&nbsp;({{ user.role|capfirst }}){% endif %}</h5>       
                                         </div>
                                     </div>
                                 </div>

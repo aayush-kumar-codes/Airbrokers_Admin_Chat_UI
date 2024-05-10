@@ -36,7 +36,7 @@ SECRET_KEY = 'django-insecure-!xq73#w#@s(fc0%do&&9c5f1ny3@$r(o95#zt+14p^630@l3qu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['155.138.160.153','localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['192.168.12.121','localhost', '127.0.0.1']
 
 
 # Application definition
@@ -138,8 +138,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_URL = '/home/ubuntu/static/'
-STATIC_ROOT = "/home/ubuntu/static/"
+STATIC_URL = '/home/local/Airbrokers_Admin_Chat/staticfiles/'
+STATIC_ROOT = '/home/local/Airbrokers_Admin_Chat/staticfiles/'
+
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]

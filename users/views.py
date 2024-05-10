@@ -8,6 +8,32 @@ from django.shortcuts import render
 from django.conf import settings
 
 
+class LoginView(View):
+    def get(self, request):
+        return render(request, 'users/login.html')
+    
+    def post(self, request):
+        api_url = f'{settings.API_BASE_URL}/api/admin/user/login'
+        data = {
+            'email': request.POST.get('email', ''),
+            'password': request.POST.get('passwd', '')
+        }
+        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+
+        response = requests.post(api_url, headers=headers, json=data)
+
+        if response.status_code == 200:
+            message = response.json()
+            print(message)
+            return JsonResponse({'success': True})
+        else:
+            print(response.text)
+            return JsonResponse({'error': response.json().get('error')})
+
+
+class LogoutView(View):
+    def get(self, request):
+        return render(request, 'users/login.html')
 
 class ListView(View):
     def get(self, request):  
@@ -27,6 +53,9 @@ class ListView(View):
 
 
 class AddView(View):
+    def get(self, request):
+        return render(request, 'users/registration.html')
+    
     def post(self, request): 
         api_url = f'{settings.API_BASE_URL}/api/admin/user/register'
         data = {
@@ -42,8 +71,8 @@ class AddView(View):
             'role': request.POST.get('role', '')
         }
 
-        if not data['role']:
-            data['role'] = 'seller'
+        if data['role'] == 'None':
+            data['role'] = None
 
         headers = {'Authorization': f'Bearer {settings.API_KEY}'}
 
@@ -51,6 +80,7 @@ class AddView(View):
 
         if response.status_code == 200:
             message = response.json()
+            print("HELLO")
             return JsonResponse({'success': True})
         else:
             return JsonResponse({'error': response.json().get('error')})

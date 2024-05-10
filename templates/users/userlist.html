@@ -79,10 +79,6 @@
                                             {% csrf_token %} 
                                             <div class="modal-body">
                                                 <div class="mb-3">
-                                                    <label for="uuidInput" class="form-label">UUID<span style="color: red;">*</span></label>
-                                                    <input type="text" class="form-control" id="uuidInput" name="uuid" required>
-                                                </div>
-                                                <div class="mb-3">
                                                     <label for="emailInput" class="form-label">Email<span style="color: red;">*</span></label>
                                                     <input type="email" class="form-control" id="emailInput" name="email" autocomplete="email" required>
                                                 </div>
@@ -93,21 +89,20 @@
                                                 <div class="mb-3">
                                                     <label for="dest_folder" class="form-label">Role</label>
                                                     <select class="form-select" id="role" name="role">
-                                                        <option selected value="">Select</option>
-                                                        <option value="buyer">Buyer</option>
-                                                        <option value="seller">Seller</option>
+                                                        <option selected value="None">Select</option>
+                                                        <option value="realtor">Realtor</option>
                                                     </select>
                                                 </div>
                                                 <div class="mb-3">
-                                                    <label for="firstNameInput" class="form-label">First Name</label>
+                                                    <label for="firstNameInput" class="form-label">First Name<span style="color: red;">*</span></label>
                                                     <input type="text" class="form-control" id="firstNameInput" name="first_name" required>
                                                 </div>
                                                 <div class="mb-3">
-                                                    <label for="lastNameInput" class="form-label">Last Name</label>
+                                                    <label for="lastNameInput" class="form-label">Last Name<span style="color: red;">*</span></label>
                                                     <input type="text" class="form-control" id="lastNameInput" name="last_name">
                                                 </div>
                                                 <div class="mb-3">
-                                                    <label for="phoneInput" class="form-label">Phone</label>
+                                                    <label for="phoneInput" class="form-label">Phone<span style="color: red;">*</span></label>
                                                     <input type="text" class="form-control" id="phoneInput" name="phone">
                                                 </div>
                                                 <div class="mb-3">
@@ -440,14 +435,16 @@
             
                 // Collect form data
                 var formData = new FormData(addUserForm);
-                var uuid = formData.get('uuid');
                 var email = formData.get('email');
+                var firstName = formData.get('first_name');
+                var lastName = formData.get('last_name');
+                var phone = formData.get('phone');
                 var password = formData.get('password');
                 var errorContainer = document.getElementById('errorContainer');
                 var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
                 // Check if any of the fields are empty
-                if (!uuid || !email || !password) {
+                if (!email || !password || !firstName || !lastName || !phone) {
                     errorContainer.innerText = 'Please fill in all required fields.';
                     return;
                 }else if (!emailRegex.test(email)) {
