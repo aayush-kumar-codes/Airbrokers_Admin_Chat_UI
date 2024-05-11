@@ -31,7 +31,7 @@
                                             <div class="d-flex">
                                                 <div class="toast-body">
                                                 </div>
-                                                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" onclick="refreshPage()" aria-label="Close"></button>
+                                                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
                                             </div>
                                         </div>
                                     </div>
@@ -118,10 +118,6 @@
         <!-- password addon init -->
         <script src="{% static 'js/pages/pass-addon.init.js' %}"></script>
         <script>
-
-            function refreshPage(){
-                location.reload();
-            }
             
             function hideError(){
                 var errorContainer = document.getElementById('errorContainer');
@@ -159,7 +155,7 @@
                         errorContainer.innerText = '';
 
                         // Make the API call
-                        fetch("{% url 'add_user' %}", { 
+                        fetch("{% url 'register_user' %}", { 
                             method: 'POST',
                             body: formData
                         })
@@ -171,19 +167,14 @@
                         })
                         .then(data => {
                             if (data.success){
-                                console.log(data.success,"SDSDSDSDSDSDSDSD")
-                                var toastDiv = document.getElementById('toast-type');
-                                toastDiv.classList.add('bg-success');
-                                document.querySelector('.toast-body').innerText="User added successfully!"
-
+                                window.location.href = "{% url 'login_user' %}"
                             }else{
                                 var toastDiv = document.getElementById('toast-type');
                                 toastDiv.classList.add('bg-danger');
                                 document.querySelector('.toast-body').innerText=data.error;  
+                                var toast = new bootstrap.Toast(successToast);
+                                toast.show();
                             }
-                            $('#addUserModal').modal('hide');
-                            var toast = new bootstrap.Toast(successToast);
-                            toast.show();
                         })
                         .catch(error => {
                             console.error('There was a problem with the fetch operation:', error);

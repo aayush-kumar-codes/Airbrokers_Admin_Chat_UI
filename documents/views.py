@@ -4,12 +4,14 @@ from django.shortcuts import render
 from django.http import JsonResponse
 
 from django.conf import settings
+from admin_ui.views import LoginRequiredMixin
 
 
-class AllDocumentsView(View):
+class AllDocumentsView(LoginRequiredMixin, View):
     def get(self, request):  
         api_url = f'{settings.API_BASE_URL}/api/admin/documents'
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+        access_token = request.COOKIES.get('access_token')  
+        headers = {'Authorization': f'Bearer {access_token}'}
         response = requests.get(api_url, headers=headers)
 
         if response.status_code == 200:
@@ -21,9 +23,10 @@ class AllDocumentsView(View):
             return render(request, 'pages/500error.html')   
 
 
-class UpdateDocumentView(View):
+class UpdateDocumentView(LoginRequiredMixin, View):
     def post(self, request): 
         api_url = f'{settings.API_BASE_URL}/api/admin/document/update'
+        access_token = request.COOKIES.get('access_token')  
 
         data = {
             'docname': request.POST.get('docname', ''),
@@ -32,7 +35,7 @@ class UpdateDocumentView(View):
             'folder': request.POST.get('doctype', '')
         }
 
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+        headers = {'Authorization': f'Bearer {access_token}'}
         response = requests.put(api_url, headers=headers, json=data)
 
         if response.status_code == 200:
@@ -44,10 +47,11 @@ class UpdateDocumentView(View):
             return JsonResponse({'error': "Something went wrong!"}) 
 
 
-class FlFormsView(View):
+class FlFormsView(LoginRequiredMixin, View):
     def get(self, request):
         api_url = f'{settings.API_BASE_URL}/api/admin/flforms'
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+        access_token = request.COOKIES.get('access_token')  
+        headers = {'Authorization': f'Bearer {access_token}'}
         response = requests.get(api_url, headers=headers)
 
         if response.status_code == 200:
@@ -58,10 +62,11 @@ class FlFormsView(View):
             return render(request, 'pages/500error.html')   
 
 
-class MnFormsView(View):
+class MnFormsView(LoginRequiredMixin, View):
     def get(self, request):
         api_url = f'{settings.API_BASE_URL}/api/admin/mnforms'
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+        access_token = request.COOKIES.get('access_token')  
+        headers = {'Authorization': f'Bearer {access_token}'}
         response = requests.get(api_url, headers=headers)
 
         if response.status_code == 200:
@@ -72,10 +77,11 @@ class MnFormsView(View):
             return render(request, 'pages/500error.html')  
 
 
-class SingleFlFormsView(View):
+class SingleFlFormsView(LoginRequiredMixin, View):
     def get(self, request, filename, folder):
         api_url = f'{settings.API_BASE_URL}/api/admin/flforms/{filename}/{folder}'
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+        access_token = request.COOKIES.get('access_token')  
+        headers = {'Authorization': f'Bearer {access_token}'}
         response = requests.get(api_url, headers=headers)
 
         if response.status_code == 200:
@@ -87,10 +93,11 @@ class SingleFlFormsView(View):
             return render(request, 'pages/500error.html')  
 
 
-class SingleMnFormsView(View):
+class SingleMnFormsView(LoginRequiredMixin, View):
     def get(self, request, filename, folder):
         api_url = f'{settings.API_BASE_URL}/api/admin/mnforms/{filename}/{folder}'
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+        access_token = request.COOKIES.get('access_token')  
+        headers = {'Authorization': f'Bearer {access_token}'}
         response = requests.get(api_url, headers=headers)
         
         if response.status_code == 200:
@@ -102,10 +109,11 @@ class SingleMnFormsView(View):
             return render(request, 'pages/500error.html')  
 
 
-class UploadDocumentView(View):
+class UploadDocumentView(LoginRequiredMixin, View):
     def post(self, request): 
         api_url = f'{settings.API_BASE_URL}/api/admin/document/upload'
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+        access_token = request.COOKIES.get('access_token')  
+        headers = {'Authorization': f'Bearer {access_token}'}
 
         file = request.FILES.get('file')
         folder = request.POST.get('folder')
@@ -138,10 +146,11 @@ class UploadDocumentView(View):
             return JsonResponse({'error': "Something went wrong!"}) 
 
 
-class MoveFlFormsDocumentView(View):
+class MoveFlFormsDocumentView(LoginRequiredMixin, View):
     def post(self, request): 
         api_url = f'{settings.API_BASE_URL}/api/admin/document/flforms/move'
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+        access_token = request.COOKIES.get('access_token')  
+        headers = {'Authorization': f'Bearer {access_token}'}
 
         filename= request.POST.get('filename')
         source_folder = request.POST.get('source_folder')
@@ -167,10 +176,11 @@ class MoveFlFormsDocumentView(View):
             return JsonResponse({'error': "Something went wrong!"}) 
         
 
-class MoveMnFormsDocumentView(View):
+class MoveMnFormsDocumentView(LoginRequiredMixin, View):
     def post(self, request): 
         api_url = f'{settings.API_BASE_URL}/api/admin/document/mnforms/move'
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+        access_token = request.COOKIES.get('access_token')  
+        headers = {'Authorization': f'Bearer {access_token}'}
 
         filename= request.POST.get('filename')
         source_folder = request.POST.get('source_folder')

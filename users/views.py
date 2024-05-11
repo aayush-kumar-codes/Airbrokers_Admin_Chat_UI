@@ -3,9 +3,39 @@ import json
 from django.shortcuts import render
 from django.http import JsonResponse
 from django.views import View 
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.urls import reverse
 
 from django.conf import settings
+from admin_ui.views import LoginRequiredMixin
+
+
+class RegistrationView(View):
+    def get(self, request):
+        return render(request, 'users/registration.html')
+    
+    def post(self, request): 
+        api_url = f'{settings.API_BASE_URL}/api/admin/user/register'
+        data = {
+            'uuid': request.POST.get('uuid', ''),
+            'first_name': request.POST.get('first_name', ''),
+            'last_name': request.POST.get('last_name', ''),
+            'email': request.POST.get('email', ''),
+            'phone': request.POST.get('phone', ''),
+            'facebook': request.POST.get('facebook', ''),
+            'gmail': request.POST.get('gmail', ''),
+            'linkedin': request.POST.get('linkedin', ''),
+            'password': request.POST.get('password', ''),
+            'role': request.POST.get('role', 'superuser')
+        }
+
+        response = requests.post(api_url, json=data)
+
+        if response.status_code == 200:
+            message = response.json()
+            return JsonResponse({'success': True})
+        else:
+            return JsonResponse({'error': response.json().get('error')})
 
 
 class LoginView(View):
@@ -18,27 +48,40 @@ class LoginView(View):
             'email': request.POST.get('email', ''),
             'password': request.POST.get('passwd', '')
         }
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
 
-        response = requests.post(api_url, headers=headers, json=data)
+        response = requests.post(api_url, json=data)
 
         if response.status_code == 200:
             message = response.json()
-            print(message)
-            return JsonResponse({'success': True})
+            response = JsonResponse({'success': True})
+            response.set_cookie('access_token', message['access_token'])
+            return response
         else:
             print(response.text)
             return JsonResponse({'error': response.json().get('error')})
 
 
-class LogoutView(View):
+class LogoutView(LoginRequiredMixin, View):
     def get(self, request):
-        return render(request, 'users/login.html')
+        access_token = request.COOKIES.get('access_token')
+        if not access_token:
+            return redirect('login_user')
+        
+        api_url = f'{settings.API_BASE_URL}/api/user/logout'
+        headers = {'Authorization': f'Bearer {access_token}'}
+        response = requests.get(api_url, headers=headers)
+              
+        redirect_url = reverse('login_user')
+        response = redirect(redirect_url)
+        response.delete_cookie('access_token')
+        return response
 
-class ListView(View):
+
+class ListView(LoginRequiredMixin, View):
     def get(self, request):  
         api_url = f'{settings.API_BASE_URL}/api/admin/users'
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+        access_token = request.COOKIES.get('access_token')
+        headers = {'Authorization': f'Bearer {access_token}'}
 
         response = requests.get(api_url, headers=headers)
 
@@ -52,12 +95,11 @@ class ListView(View):
             return render(request, 'pages/500error.html')
 
 
-class AddView(View):
-    def get(self, request):
-        return render(request, 'users/registration.html')
-    
+class AddView(LoginRequiredMixin, View):
     def post(self, request): 
-        api_url = f'{settings.API_BASE_URL}/api/admin/user/register'
+        access_token = request.COOKIES.get('access_token')
+        headers = {'Authorization': f'Bearer {access_token}'}
+        api_url = f'{settings.API_BASE_URL}/api/admin/user/add'
         data = {
             'uuid': request.POST.get('uuid', ''),
             'first_name': request.POST.get('first_name', ''),
@@ -74,22 +116,20 @@ class AddView(View):
         if data['role'] == 'None':
             data['role'] = None
 
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
-
         response = requests.post(api_url, headers=headers, json=data)
 
         if response.status_code == 200:
             message = response.json()
-            print("HELLO")
             return JsonResponse({'success': True})
         else:
             return JsonResponse({'error': response.json().get('error')})
 
 
-class UpdateView(View):
+class UpdateView(LoginRequiredMixin, View):
     def post(self, request): 
+        access_token = request.COOKIES.get('access_token')
         api_url = f'{settings.API_BASE_URL}/api/admin/user/update'
-
+        
         data = {
             'email': request.POST.get('username', ''),
             'first_name': request.POST.get('upfirst_name', ''),
@@ -101,7 +141,7 @@ class UpdateView(View):
             'password': request.POST.get('uppassword', '')
         }
 
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+        headers = {'Authorization': f'Bearer {access_token}'}
 
         files = {}
         profile_pic = request.FILES.get('profile_pic')
@@ -117,11 +157,12 @@ class UpdateView(View):
             return JsonResponse({'error': "Something went wrong!"})
 
 
-class DeleteView(View):
+class DeleteView(LoginRequiredMixin, View):
     def post(self, request):
+        access_token = request.COOKIES.get('access_token')
         api_url = f'{settings.API_BASE_URL}/api/admin/user/delete'
 
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+        headers = {'Authorization': f'Bearer {access_token}'}
 
         data = json.loads(request.body)
         email = data.get('email')
@@ -135,10 +176,11 @@ class DeleteView(View):
             return JsonResponse({'error': "Something went wrong!"})
 
 
-class MediaView(View):
-    def get(self, request, uuid=None):  
+class MediaView(LoginRequiredMixin, View):
+    def get(self, request, uuid=None):
+        access_token = request.COOKIES.get('access_token')  
         api_url = f'{settings.API_BASE_URL}/api/admin/user/media'
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+        headers = {'Authorization': f'Bearer {access_token}'}
         response = requests.get(api_url, headers=headers)
 
         if response.status_code == 200:
@@ -150,14 +192,13 @@ class MediaView(View):
         else:
             print(response.text)
             return render(request, 'pages/500error.html') 
-        
-
     
 
-class DownloadedDocsView(View):
+class DownloadedDocsView(LoginRequiredMixin, View):
     def get(self, request, uuid): 
+        access_token = request.COOKIES.get('access_token')  
         api_url = f'{settings.API_BASE_URL}/api/admin/user/downloded-docs/{uuid}'
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+        headers = {'Authorization': f'Bearer {access_token}'}
         response = requests.get(api_url, headers=headers)
 
         if response.status_code == 200:
@@ -169,10 +210,11 @@ class DownloadedDocsView(View):
             return render(request, 'pages/500error.html') 
     
 
-class UploadedDocsView(View):
+class UploadedDocsView(LoginRequiredMixin, View):
     def get(self, request, uuid):  
         api_url = f'{settings.API_BASE_URL}/api/admin/user/uploaded-docs/{uuid}'
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+        access_token = request.COOKIES.get('access_token') 
+        headers = {'Authorization': f'Bearer {access_token}'}
         response = requests.get(api_url, headers=headers)
 
         if response.status_code == 200:
@@ -184,10 +226,11 @@ class UploadedDocsView(View):
             return render(request, 'pages/500error.html') 
 
 
-class DocsView(View):
+class DocsView(LoginRequiredMixin, View):
     def get(self, request):  
         api_url = f'{settings.API_BASE_URL}/api/admin/users'
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+        access_token = request.COOKIES.get('access_token') 
+        headers = {'Authorization': f'Bearer {access_token}'}
         response = requests.get(api_url, headers=headers)
         # Check if the request was successful
         if response.status_code == 200:
@@ -196,3 +239,21 @@ class DocsView(View):
         else:
             print(response.text)
             return render(request, 'pages/500error.html')
+
+
+class ActionLogsView(LoginRequiredMixin, View):
+    def get(self, request, uuid=None):
+        access_token = request.COOKIES.get('access_token')  
+        api_url = f'{settings.API_BASE_URL}/api/admin/user/actions'
+        headers = {'Authorization': f'Bearer {access_token}'}
+        response = requests.get(api_url, headers=headers)
+
+        if response.status_code == 200:
+            alllogs = response.json()
+            api_base_url = settings.API_BASE_URL
+            if not uuid:
+                return render(request, 'users/action_logs.html', {'alllogs':alllogs, 'BASE_URL': api_base_url})
+            return render(request, 'users/action_logs.html', {'alllogs':alllogs, 'BASE_URL': api_base_url, 'user_id':uuid})
+        else:
+            print(response.text)
+            return render(request, 'pages/500error.html') 

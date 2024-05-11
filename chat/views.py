@@ -6,11 +6,14 @@ from django.shortcuts import render
 from django.conf import settings
 from django.http import JsonResponse
 
+from admin_ui.views import LoginRequiredMixin
 
-class ChatView(View):
+
+class ChatView(LoginRequiredMixin, View):
     def get(self, request):  
         api_url = f'{settings.API_BASE_URL}/api/admin/user/chats'
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+        access_token = request.COOKIES.get('access_token') 
+        headers = {'Authorization': f'Bearer {access_token}'}
 
         response = requests.get(api_url, headers=headers)
 
@@ -35,11 +38,12 @@ class ChatView(View):
             return render(request, 'pages/500error.html')
         
 
-class UpdateChatStatusView(View):
+class UpdateChatStatusView(LoginRequiredMixin, View):
     def post(self, request):
         api_url = f'{settings.API_BASE_URL}/api/admin/user/chat-status'
+        access_token = request.COOKIES.get('access_token')  
 
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+        headers = {'Authorization': f'Bearer {access_token}'}
 
         data = json.loads(request.body)
         email = data.get('email')
@@ -53,11 +57,12 @@ class UpdateChatStatusView(View):
             return JsonResponse({'error': "Something went wrong!"})
 
 
-class AdminResponseView(View):
+class AdminResponseView(LoginRequiredMixin, View):
     def post(self, request):
         api_url = f'{settings.API_BASE_URL}/api/admin/response'
+        access_token = request.COOKIES.get('access_token')  
 
-        headers = {'Authorization': f'Bearer {settings.API_KEY}'}
+        headers = {'Authorization': f'Bearer {access_token}'}
 
         data = json.loads(request.body)
 
