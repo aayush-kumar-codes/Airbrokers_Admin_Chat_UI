@@ -1,12 +1,12 @@
 {% extends 'partials/base.html' %}
 {% load static %}
+{% load custom_tags %}
 {% block head_title%}
-        <title>Actions</title>
+        <title>User Actions</title>
 {% endblock %}
 {% block extra_css %}
         <!-- DataTables -->
         <link href="{% static 'libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css' %}" rel="stylesheet" type="text/css" />
-
         <!-- Responsive datatable examples -->
         <link href="{% static 'libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css' %}" rel="stylesheet" type="text/css" />
 {% endblock %}
@@ -14,19 +14,13 @@
             <div class="main-content">  
                 <div class="page-content">
                     <div class="container-fluid">
-
+                    {% for log in alllogs %}
+                     {% if log.user_id == user_id %}
                         <!-- start page title -->
                         <div class="row">
                             <div class="col-12">
                                 <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                    <h4 class="mb-sm-0 font-size-18">Action-Logs</h4>
-                                    
-
-                                    <div class="page-title-right">
-                                        <ol class="breadcrumb m-0">
-                                            <li class="breadcrumb-item active">Action-Logs</li>
-                                        </ol>
-                                    </div>
+                                    <h4 class="mb-sm-0 font-size-18">{{ log.email }}</h4>
 
                                 </div>
                             </div>
@@ -36,7 +30,7 @@
                         <div class="row align-items-center">
                             <div class="col-md-6">
                                 <div class="mb-3">
-                                    <h5 class="card-title">Users Actions</span></h5>
+                                    <h5 class="card-title">User Actions</span></h5>
                                 </div>
                             </div>
                             
@@ -47,32 +41,28 @@
                         <div class="table-responsive mb-4">
                             <table class="table align-middle datatable dt-responsive table-check nowrap" style="border-collapse: collapse; border-spacing: 0 8px; width: 100%;">
                                 <thead>
-                                    <tr>
-                                        <th scope="col">Email</th>
-                                        <th scope="col">Role</th>
-                                        <th scope="col">Actions</th>
-                                    </tr>
+                                  <tr>
+                                    <th scope="col">Action</th>
+                                    <th scope="col">payload</th>
+                                    <th scope="col">Time</th>
+                                  </tr>
                                 </thead>
-                                <tbody>
-                                    {% for log in alllogs %}
-                                        {% if log.email %}
-                                            <tr>
-                                                <td>{{ log.email }}</td>
-                                                 <td>{{ log.role }}</td>
-                                                <td><a class="btn btn-outline-primary waves-light waves-effect" href="{% url 'user_actions' uuid=log.user_id %}" role="tab">
-                                                    <i class="fa-solid fa-photo-film"></i>
-                                                    <span>Audit-Logs</span> 
-                                                </a></td>
-                                            </tr>
-                                        {% endif %}
-
+                                <tbody> 
+                                    {% for user_log in log.logs %}
+                                    <tr>
+                                        <td>{{ user_log.action }} </td>
+                                        <td>{{ user_log.payload }} </td>
+                                        <td>{{ user_log.timestamp }}</td>
+                                    </tr>
                                     {% endfor %}
+                                    
                                 </tbody>
                             </table>
                             <!-- end table -->
                         </div>
                         <!-- end table responsive -->
-                        
+                    {% endif %}
+                    {% endfor %}    
                     </div> <!-- container-fluid -->
                 </div>
                 <!-- End Page-content -->
@@ -80,7 +70,6 @@
 
 
 {% block extra_js %}
-
     <!-- Required datatable js -->
     <script src="{% static 'libs/datatables.net/js/jquery.dataTables.min.js' %}"></script>
     <script src="{% static 'libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js' %}"></script>

@@ -253,7 +253,7 @@ class ActionLogsView(LoginRequiredMixin, View):
             api_base_url = settings.API_BASE_URL
             if not uuid:
                 return render(request, 'users/action_logs.html', {'alllogs':alllogs, 'BASE_URL': api_base_url})
-            return render(request, 'users/action_logs.html', {'alllogs':alllogs, 'BASE_URL': api_base_url, 'user_id':uuid})
+            return render(request, 'users/actions.html', {'alllogs':alllogs, 'BASE_URL': api_base_url, 'user_id':uuid})
         else:
             print(response.text)
             return render(request, 'pages/500error.html') 
