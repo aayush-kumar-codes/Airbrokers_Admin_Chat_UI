@@ -1,5 +1,6 @@
 {% extends 'partials/base.html' %}
 {% load static %}
+{% load custom_tags %}
 {% block head_title%}
         <title>chat</title>
 {% endblock %}
@@ -71,6 +72,7 @@
                                         <h5 class="font-size-14 mb-3">Users</h5>
                                     </div>
                                   {% for user in users %}
+                                  {% if user.role != 'superuser' %}
                                     <ul class="list-unstyled chat-list">
                                         
                                         <li class="unread">
@@ -81,12 +83,12 @@
                                                         <div class="avatar-sm align-self-center">
                                                             <span
                                                                 class="avatar-title rounded-circle bg-primary-subtle text-primary">
-                                                                {{ user.email.0|capfirst }}
+                                                                {{ user.first_name.0|capfirst }}
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="flex-grow-1 overflow-hidden">
-                                                        <h5 class="text-truncate font-size-13 mb-2">{{user.email}}{% if user.role %}&nbsp;&nbsp;({{ user.role|capfirst}}){% endif %}
+                                                        <h5 class="text-truncate font-size-13 mb-2">{{user.first_name}}&nbsp;{{user.last_name}}{% if user.role %}&nbsp;&nbsp;({{ user.role|capfirst}}){% endif %}
                                                         </h5>
                                                         {% if user.unseen_msg %}
                                                         <p class="text-truncate mb-0" id="latest-msg">{{ user.latest_chat.message }}</p>
@@ -101,6 +103,7 @@
                                         </li>
                                         
                                     </ul>
+                                 {% endif %}
                                  {% endfor %}
                                  </div>
                                     
@@ -122,13 +125,14 @@
                                             <div class="avatar-sm align-self-center">
                                                 <span
                                                     class="avatar-title rounded-circle bg-primary-subtle text-primary">
-                                                    {{ user.email.0|capfirst }}
+                                                    {{ user.first_name.0|capfirst }}
                                                 </span>
                                             </div>
 
                                         </div>
                                         <div class="flex-grow-1">
-                                            <h5 class="font-size-14 mb-1 text-truncate"><a href="#"
+                                            <h5 class="font-size-14 mb-1 text-truncate">{{ user.first_name }}&nbsp;{{ user.last_name }}</h5>
+                                            <h5 class="font-size-12 mb-1 text-truncate"><a
                                                     class="text-dark user-email">{{ user.email }}</a>{% if user.role %}&nbsp;&nbsp;({{ user.role|capfirst }}){% endif %}</h5>       
                                         </div>
                                     </div>
@@ -147,7 +151,7 @@
                                             <div class="avatar-sm align-self-center">
                                                 <span
                                                     class="avatar-title rounded-circle bg-primary-subtle text-primary">
-                                                    {{ user.email.0|capfirst }}
+                                                    {{ user.first_name.0|capfirst }}
                                                 </span>
                                             </div>
 
@@ -155,7 +159,18 @@
                                                 <div class="ctext-wrap">
                                                     <div class="ctext-wrap-content">
                                                         <h5 class="conversation-name"><span class="time">{{chat.timestamp}}</span></h5>
-                                                        <p class="mb-0">{{ chat.message }}</p>
+                                                        {% if chat.message %}
+                                                            <p class="mb-0">{{ chat.message }}</p>
+                                                        {% endif %}
+                                                        {% if chat.media %}
+                                                            {% if chat.media|endswith:'.jpg' or chat.media|endswith:'.jpeg' or chat.media|endswith:'.png' %}
+                                                                <!-- Display image -->
+                                                                <a class="text-white" href="{{ API_URL }}{{ chat.media }}" target="_blank" download><i class="fa-regular fa-image fa-lg"></i> {{chat.media|get_filename}}</a>
+                                                            {% else %}
+                                                                <!-- Display document with download link -->
+                                                                <a class="text-white" href="{{ API_URL }}{{ chat.media }}" target="_blank" download><i class="fa-solid fa-file-lines fa-lg"></i> {{chat.media|get_filename}}</a>
+                                                            {% endif %}
+                                                        {% endif %}    
                                                     </div>
                                                 </div>
                                             </div>
@@ -174,7 +189,20 @@
                                                 <div class="ctext-wrap">
                                                     <div class="ctext-wrap-content">
                                                         <h5 class="conversation-name"><span class="time">{{chat.timestamp}}</span></h5>
-                                                        <p class="mb-0">{{ chat.message }}</p>
+                                                        {% if chat.message %}
+                                                            <p class="mb-0">{{ chat.message }}</p>
+                                                        {% endif %}
+                                                        {% if chat.media %}
+                                                            {% if chat.media|endswith:'.jpg' or chat.media|endswith:'.jpeg' or chat.media|endswith:'.png' %}
+                                                                <!-- Display image -->
+                                                                <a href="{{ API_URL }}{{ chat.media }}" target="_blank" download><i class="fa-regular fa-image fa-lg"></i> {{chat.media|get_filename}}</a>
+                                                            {% else %}
+                                                                <!-- Display document with download link -->
+                                                                <div>
+                                                                    <a href="{{ API_URL }}{{ chat.media }}" target="_blank" download><i class="fa-solid fa-file-lines fa-lg"></i> {{chat.media|get_filename}}</a>
+                                                                </div>
+                                                            {% endif %}
+                                                        {% endif %}    
                                                     </div>
                                                 </div>
                                             </div>
@@ -196,11 +224,19 @@
                         </div>
                         
                         <div class="p-3 border-top">
-                            <div class="row">
+                            <div class="row align-items-center">
                                 <div class="col">
-                                    <div class="position-relative">
-                                        <input id="adminMessage-{{ user.uuid }}" type="text" class="form-control border bg-light-subtle"
-                                            placeholder="Enter Message...">
+                                    <div class="w-100 d-flex align-items-center">
+                                        <div class="w-100 position-relative">
+                                            <input id="adminMessage-{{ user.uuid }}" type="text" class="form-control border bg-light-subtle"
+                                                placeholder="Enter Message...">
+                                        </div>
+                                        <div>
+                                            <label for="files" class="btn btn-link text-decoration-none font-size-20 btn-lg waves-effect">
+                                            <i class="fa-solid fa-file  fa-2x"></i>
+                                            <input id="files" type="file" name="fileInput" style="display: none;">
+                                            </label>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-auto">
@@ -296,23 +332,27 @@
         });
     }
 
+
     function saveResponse(userEmail, userUuid) {
         var message = document.getElementById('adminMessage'+'-'+ userUuid);
-        var currentTime = new Date().toLocaleTimeString();
-
-        if(!message.value){
-            alert("message or is missing!");
+        var fileInput = document.getElementById('files');
+        if (!message.value && !fileInput.value){
             return;
         }
-        
-       
-        var payload = {
-            user_id: userUuid,
-            message_id: userUuid,
-            message: message.value,
-            is_response: true,
-            is_seen: false
-        };
+        var currentTime = new Date().toLocaleTimeString();   
+        var formData = new FormData();
+        formData.append('user_id', userUuid);
+        formData.append('is_response', true);
+        formData.append('is_seen', false);
+
+        if(message.value){
+            formData.append('message', message.value);
+        }
+
+        if (fileInput.files.length > 0) {
+            // Append the file data
+            formData.append('media_file', document.getElementById('files').files[0]);  
+        }
 
         var listItem = document.createElement('li');
         listItem.classList.add('right');
@@ -326,6 +366,7 @@
                                 <div class="ctext-wrap-content">
                                     <div class="conversation-name"><span class="time" id="admin-resp-time-${userUuid}"></span></div>
                                     <p class="mb-0" id="admin-response-${userUuid}"></p>
+                                    <p class="mb-0" id="admin-response-file-${userUuid}"></p>
                                 </div>
                             </div>
                         </div>
@@ -342,25 +383,32 @@
         // Set the content for admin response and admin response time
         var adminResponseElement = listItem.querySelector(`#admin-response-${userUuid}`);
         var adminRespTimeElement = listItem.querySelector(`#admin-resp-time-${userUuid}`);
-        adminResponseElement.textContent = message.value;
+        var adminFileElement = listItem.querySelector(`#admin-response-file-${userUuid}`);
+        
+        if (message.value){
+          adminResponseElement.textContent = message.value;
+        }
+        if(fileInput.files[0]){
+            adminFileElement.textContent=fileInput.files[0].name
+        }
         adminRespTimeElement.textContent = currentTime;
-        console.log(adminResponseElement.textContent)
         //Append the new list item to the ul element
         var ulElement = document.getElementById('chat-ul'+'-'+userUuid);
         ulElement.appendChild(listItem);
         scrollToLastMessage(userEmail);
         message.value = '';
+        fileInput.value = '';
 
         var csrfToken = "{{ csrf_token }}";
         
         fetch("{% url 'send_response' %}", {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json',
                 'X-CSRFToken': csrfToken,
             },
-            body: JSON.stringify(payload)
+            body: formData
         })
+        
         .then(response => {
             if (response.ok) {
                 console.log('message sent successfully!');
@@ -429,9 +477,10 @@
     // Called when a message arrives
     function onMessageArrived(message) {
         var payload = JSON.parse(message.payloadString);
-        console.log("Message received: ", payload);
+        //console.log("Message received: ", payload.message_content);
 
-        if (!payload.is_response) {
+        if (!payload.message_content.is_response) {
+            console.log(payload.message_content)
             alert('New message received from the User!');
             location.reload();
         }

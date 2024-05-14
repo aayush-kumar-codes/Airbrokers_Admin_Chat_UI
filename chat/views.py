@@ -23,6 +23,7 @@ class ChatView(LoginRequiredMixin, View):
             mqtt_websocket_url = settings.MQTT_WEBSOCKET_URL
             mqtt_username = settings.MQTT_BROKER_USERNAME
             mqtt_passwd = settings.MQTT_BROKER_PASSWD
+            api_url = settings.API_BASE_URL
             return render(
                 request, 
                 'chat/chat.html',
@@ -30,7 +31,8 @@ class ChatView(LoginRequiredMixin, View):
                     'users': users, 
                     'MQTT_WEBSOCKET_URL':mqtt_websocket_url,
                     'MQTT_USERNAME': mqtt_username,
-                    'MQTT_PASSWD': mqtt_passwd
+                    'MQTT_PASSWD': mqtt_passwd,
+                    'API_URL': api_url
                 }
             )
         else:
@@ -64,9 +66,13 @@ class AdminResponseView(LoginRequiredMixin, View):
 
         headers = {'Authorization': f'Bearer {access_token}'}
 
-        data = json.loads(request.body)
-
-        response = requests.post(api_url, headers=headers, json=data)
+        data = request.POST
+        media_file = request.FILES.get('media_file')
+        files = {}
+        if media_file:
+            files = {'media_file': media_file}
+        
+        response = requests.post(api_url, headers=headers, data=data, files=files)
 
         if response.status_code == 200:
             message = response.json()

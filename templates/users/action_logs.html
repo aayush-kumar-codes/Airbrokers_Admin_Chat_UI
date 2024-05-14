@@ -50,7 +50,7 @@
                                     <tr>
                                         <th scope="col">Email</th>
                                         <th scope="col">Role</th>
-                                        <th scope="col">Actions</th>
+                                        <th scope="col">Action-logs</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -58,7 +58,7 @@
                                         {% if log.email %}
                                             <tr>
                                                 <td>{{ log.email }}</td>
-                                                 <td>{{ log.role }}</td>
+                                                 <td>{{ log.user_role }}</td>
                                                 <td><a class="btn btn-outline-primary waves-light waves-effect" href="{% url 'user_actions' uuid=log.user_id %}" role="tab">
                                                     <i class="fa-solid fa-photo-film"></i>
                                                     <span>Audit-Logs</span> 
