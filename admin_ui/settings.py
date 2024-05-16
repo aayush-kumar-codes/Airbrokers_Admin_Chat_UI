@@ -83,6 +83,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'admin_ui.context_processors.mqtt_connection_for_push_notification_context'
             ],
         },
     },

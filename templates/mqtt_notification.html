@@ -1,0 +1,95 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
+    
+    <script>
+        const mqttWebsocketUrl = '{{ MQTT_WEBSOCKET_URL }}';
+        var brokerUrl = mqttWebsocketUrl;
+        var clientId = "test-client_" + Math.random().toString(16).substr(2, 8);
+
+        // const options = {
+        //     userName: '{{ MQTT_USERNAME }}',
+        //     password: '{{ MQTT_PASSWD }}',
+        //     onSuccess: onConnect,
+        //     onFailure: onFailure,
+        // };
+
+        // Create a client instance
+        var client = new Paho.MQTT.Client(brokerUrl, clientId);
+
+        // Set callback handlers
+        client.onConnectionLost = onConnectionLost;
+        client.onMessageArrived = onMessageArrived;
+
+        // Connect the client
+        client.connect({
+            userName: '{{ MQTT_USERNAME }}',
+            password: '{{ MQTT_PASSWD }}',
+            onSuccess: onConnect,
+            onFailure: onFailure,
+        });
+
+        // Called when the client connects
+        function onConnect() {
+            console.log("Connected to MQTT broker");
+
+            var users = [
+                {% for user in users %}
+                    "{{ user.email }}",
+                {% endfor %}
+            ];
+
+            var properties = [
+                {% for property in properties %}
+                    "{{ property.property_id }}",
+                {% endfor %}
+            ];
+            
+
+            // Subscribe to topics for each user
+            users.forEach(function (email) {
+                client.subscribe("user_chat/" + email);
+                properties.forEach(function (property_id) {
+                    client.subscribe(`user_customer_service_property_chat/${email}/${property_id}`);
+                });
+            });
+        }
+
+        function onFailure(error) {
+            console.error('Failed to connect to MQTT broker:', error.errorMessage);
+        }
+
+        // Called when the client loses its connection
+        function onConnectionLost(responseObject) {
+            if (responseObject.errorCode !== 0) {
+                alert("Connection lost: " + responseObject.errorMessage);
+            }
+        }
+
+        // Called when a message arrives
+        function onMessageArrived(message) {
+            console.log(message);
+            
+            var payload = JSON.parse(message.payloadString);
+            console.log("Message received: ", payload.message_content);
+
+            if (!payload.message_content.is_response) {
+                showNotification("New message received from the User!", {
+                    body: "Click to view the message."
+                });
+                 
+                window.location.reload(true);
+            }
+            
+        }
+
+        function showNotification(title, options) {
+            if ("Notification" in window) {
+                Notification.requestPermission().then(function (permission) {
+                    if (permission === "granted") {
+                        new Notification(title, options);
+                    }
+                });
+            } else {
+                alert(title);
+            }
+        }
+    </script>

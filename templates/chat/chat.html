@@ -232,7 +232,7 @@
                                                 placeholder="Enter Message...">
                                         </div>
                                         <div>
-                                            <label for="files" class="btn btn-link text-decoration-none font-size-20 btn-lg waves-effect">
+                                            <label for="files" class="btn btn-link text-decoration-none font-size-20 btn-lg waves-effect mb-0">
                                             <i class="fa-solid fa-file  fa-2x"></i>
                                             <input id="files" type="file" name="fileInput" style="display: none;">
                                             </label>
@@ -413,7 +413,7 @@
             if (response.ok) {
                 console.log('message sent successfully!');
             } else {
-                console.error('Failed to update');
+                console.error('Failed to sent');
             }
         })
         .catch(error => {
@@ -422,70 +422,6 @@
 
     }
 
-    //MQTT Javascript Setup
-
-    const mqttWebsocketUrl = '{{ MQTT_WEBSOCKET_URL }}'
-    var brokerUrl = mqttWebsocketUrl;
-    var clientId = "test-client_" + Math.random().toString(16).substr(2, 8);
-
-    const options = {
-        userName: '{{ MQTT_USERNAME }}',
-        password: '{{ MQTT_PASSWD }}', 
-        onSuccess: onConnect, 
-        onFailure: onFailure,
-    };
-
-    // Create a client instance
-    var client = new Paho.MQTT.Client(brokerUrl, clientId);
-
-    // Set callback handlers
-    client.onConnectionLost = onConnectionLost;
-    client.onMessageArrived = onMessageArrived;
-
-    // Connect the client
-    client.connect(options);
-
-
-    // Called when the client connects
-    function onConnect() {
-        console.log("Connected to MQTT broker");
-
-        var users = [
-            {% for user in users %}
-                "{{ user.email }}",
-            {% endfor %}
-        ];
-
-        // Subscribe to topics for each user
-        users.forEach(function (email) {
-            client.subscribe("user_chat/" + email);
-        });
-    }
-
-    function onFailure(error) {
-        console.error('Failed to connect to MQTT broker:', error.errorMessage);
-    }
- 
- 
-    // Called when the client loses its connection
-    function onConnectionLost(responseObject) {
-        if (responseObject.errorCode !== 0) {
-            alert("Connection lost: " + responseObject.errorMessage);
-        }
-    }
- 
-    // Called when a message arrives
-    function onMessageArrived(message) {
-        var payload = JSON.parse(message.payloadString);
-        //console.log("Message received: ", payload.message_content);
-
-        if (!payload.message_content.is_response) {
-            console.log(payload.message_content)
-            alert('New message received from the User!');
-            location.reload();
-        }
- 
-    }
 
 </script>
 {% endblock extra_js %}

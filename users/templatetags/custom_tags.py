@@ -2,6 +2,7 @@
 
 from django import template
 import os
+import json
 
 register = template.Library()
 
@@ -15,3 +16,7 @@ def endswith(value, arg):
     Check if the value (URL) ends with the given extension (arg).
     """
     return value.endswith(arg)
+
+@register.filter
+def to_json(value):
+    return json.dumps(value)
