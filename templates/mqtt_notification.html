@@ -66,17 +66,74 @@
 
         // Called when a message arrives
         function onMessageArrived(message) {
-            console.log(message);
             
             var payload = JSON.parse(message.payloadString);
-            console.log("Message received: ", payload.message_content);
+            console.log("Message received: ", payload.message_content[0]);
+            
+            if (!payload.message_content[0].is_response) {
+                
+                if (payload.hasOwnProperty('key') && payload.key === 'user-customer_service-property-chat') {
+                    showChat(temp_user)
+                }   
+                else{
 
-            if (!payload.message_content.is_response) {
+                    var user_data = payload.message_content[0];
+                    var listContainer = document.getElementById(`chat-ul-${payload.user_id}`);
+                    var firstLetter = document.getElementById(`firstletter-${payload.user_id}`);
+                    var userEmail = document.getElementById(`user_email-${payload.user_id}`);
+                    const currentDate = new Date();
+                    const formattedDate = currentDate.toGMTString();
+                    var listItem = document.createElement('li');
+                    var innerHTML = `
+                        <div class="conversation-list">
+                            <div class="d-flex">
+                                <div class="avatar-sm align-self-center">
+                                    <span class="avatar-title rounded-circle bg-primary-subtle text-primary">
+                                        ${firstLetter.textContent}
+                                    </span>
+                                </div>
+                                <div class="flex-1">
+                                    <div class="ctext-wrap">
+                                        <div class="ctext-wrap-content">
+                                            <h5 class="conversation-name">
+                                                <span class="time">${formattedDate}</span>
+                                            </h5>
+                    `;
+                    
+                    if (user_data.message) {
+                        innerHTML += `<p class="mb-0">${user_data.message}</p>`;
+                    }
+                    if (user_data.media) {
+                        var parts = user_data.media.split("/");
+                        var filename = parts[parts.length - 1];
+                       
+                        if (user_data.media.endsWith('.jpg') || user_data.media.endsWith('.jpeg') || user_data.media.endsWith('.png')) {
+                            innerHTML += `<a class="text-white" href="{{ API_URL }}${user_data.media}" target="_blank" download><i class="fa-regular fa-image fa-lg"></i> ${filename}</a>`;
+                        } else {
+                            innerHTML += `<a class="text-white" href="{{ API_URL }}${user_data.media}" target="_blank" download><i class="fa-solid fa-file-lines fa-lg"></i> ${filename}</a>`;
+                        }
+                        
+                    }
+
+                    innerHTML += `
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>    
+                    `;
+                    
+                    listItem.innerHTML = innerHTML;
+                    listContainer.appendChild(listItem);
+                    scrollToLastMessage(userEmail.textContent);
+                    
+                } 
+
                 showNotification("New message received from the User!", {
                     body: "Click to view the message."
                 });
                  
-                window.location.reload(true);
+                //window.location.reload(true);
             }
             
         }
@@ -92,4 +149,5 @@
                 alert(title);
             }
         }
+    
     </script>

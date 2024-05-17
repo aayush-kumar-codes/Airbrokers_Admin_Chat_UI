@@ -133,7 +133,7 @@
                                         <div class="flex-grow-1">
                                             <h5 class="font-size-14 mb-1 text-truncate">{{ user.first_name }}&nbsp;{{ user.last_name }}</h5>
                                             <h5 class="font-size-12 mb-1 text-truncate"><a
-                                                    class="text-dark user-email">{{ user.email }}</a>{% if user.role %}&nbsp;&nbsp;({{ user.role|capfirst }}){% endif %}</h5>       
+                                                    id="user_email-{{ user.uuid }}" class="text-dark user-email">{{ user.email }}</a>{% if user.role %}&nbsp;&nbsp;({{ user.role|capfirst }}){% endif %}</h5>       
                                         </div>
                                     </div>
                                 </div>
@@ -149,7 +149,7 @@
                                     <div class="conversation-list">
                                         <div class="d-flex">
                                             <div class="avatar-sm align-self-center">
-                                                <span
+                                                <span id="firstletter-{{ user.uuid }}"
                                                     class="avatar-title rounded-circle bg-primary-subtle text-primary">
                                                     {{ user.first_name.0|capfirst }}
                                                 </span>
@@ -421,6 +421,13 @@
         });
 
     }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var firstUserElement = document.querySelector('.chat-list a');
+        if (firstUserElement) {
+            firstUserElement.click();
+        }
+    });
 
 
 </script>

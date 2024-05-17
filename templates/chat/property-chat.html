@@ -93,7 +93,7 @@
                                                         <h5 class="font-size-13 mb-2">{{ user.property_address }}</h5>
                                                         {% if user.unseen_message_count > 0 %}
                                                             <div class="unread-message">
-                                                                <div class="font-size-11" id="unread-message-number-{{ user.email }}"><span class="badge bg-danger rounded-pill">{{ user.unseen_message_count }}</span></div>
+                                                                <div class="font-size-11" id="unread-message-number-{{ user.user_id }}-{{ user.property_id }}"><span class="badge bg-danger rounded-pill">{{ user.unseen_message_count }}</span></div>
                                                             </div> 
                                                         {% endif %}
                                                         
@@ -145,6 +145,15 @@
                         </div>
                         
                         <div class="p-3 border-top">
+                            <div class="row">
+                                    <div class="col-4">
+                                        <p style="margin:2px" id="fileNameDisplay"></p>
+                                    </div>
+                                    <div class="col-8">
+                                        <button id="hiddenButton" style="display:none;padding:2px;margin:2px" onclick="clearFile()" class="btn btn-primary chat-send w-md waves-effect waves-light">x</button>
+                                    </div>
+                                    </div>
+                            </div>
                             <div class="row align-items-center">
                                 <div class="col">
                                     <div class="w-100 d-flex align-items-center">
@@ -155,13 +164,13 @@
                                         <div class="d-flex align-items-baseline">
                                             <label for="files" class="btn btn-link text-decoration-none font-size-20 btn-lg waves-effect mb-0">
                                             <i class="fa-solid fa-file  fa-2x"></i>
-                                            <input id="files" type="file" name="fileInput" style="display: none;">
+                                            <input id="files" type="file"  onchange="displayFileName()" name="fileInput" style="display: none;">
                                             </label>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-auto">
-                                    <button id="sendButton" type="submit"
+                                    <button type="submit" onclick="sendMessage()"
                                         class="btn btn-primary chat-send w-md waves-effect waves-light"><span
                                             class="d-none d-sm-inline-block me-2">Send</span> <i
                                             class="mdi mdi-send float-end"></i>
@@ -193,8 +202,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
 
 <script>
-    var data=null;
-    var message_content=null;
+    var userData=null;
+    var message_content=[];
+    var temp_user = null;
+
     function scrollToLastMessage(){
         var myElement = document.getElementById("chat-container");
         if (myElement) {
@@ -208,15 +219,15 @@
 
    
    function showChat(user) {
-        var userData = JSON.parse(user);
+        temp_user  = user
+        userData = JSON.parse(user);
         console.log("userData is", userData);
         document.getElementById('userInitials').innerHTML = userData.name.charAt(0).toUpperCase();
         document.getElementById('userFullName').innerHTML = userData.name;
         document.getElementById('userEmail').innerHTML = userData.email;
 
-        document.getElementById('unread-message-number-' + userData.email)?.classList.add('d-none');
+        document.getElementById(`unread-message-number-${userData.user_id}-${userData.property_id}`)?.classList.add('d-none');
         
-
         var api_url = `${userData.property_id}/${userData.user_id}`;
         fetch(api_url)
             .then(response => {
@@ -227,13 +238,13 @@
                 }
             })
             .then(data => {
-                var message_content = data.message_content;
+                message_content = data.message_content;
                 var listContainer = document.getElementById('chat-ul');
                 // Clear previous messages
                 listContainer.innerHTML = '';
-
                 // Check if message_content is available and not empty
                 if (Array.isArray(message_content) && message_content.length > 0) {
+                   
                     message_content.forEach(chat => {
                         var listItem = document.createElement('li');
                         listItem.classList.add(chat.is_response ? 'right' : 'left');
@@ -261,11 +272,21 @@
                         if (chat.media) {
                             var parts = chat.media.split("/");
                             var filename = parts[parts.length - 1];
-                            if (chat.media.endsWith('.jpg') || chat.media.endsWith('.jpeg') || chat.media.endsWith('.png')) {
-                                innerHTML += `<a href="{{ API_URL }}${chat.media}" target="_blank" download><i class="fa-regular fa-image fa-lg"></i> ${filename}</a>`;
-                            } else {
-                                innerHTML += `<a href="{{ API_URL }}${chat.media}" target="_blank" download><i class="fa-solid fa-file-lines fa-lg"></i> ${filename}</a>`;
+                            if (chat.is_response){
+                                if (chat.media.endsWith('.jpg') || chat.media.endsWith('.jpeg') || chat.media.endsWith('.png')) {
+                                    innerHTML += `<a href="{{ API_URL }}${chat.media}" target="_blank" download><i class="fa-regular fa-image fa-lg"></i> ${filename}</a>`;
+                                } else {
+                                    innerHTML += `<a href="{{ API_URL }}${chat.media}" target="_blank" download><i class="fa-solid fa-file-lines fa-lg"></i> ${filename}</a>`;
+                                }
                             }
+                            else{
+                                if (chat.media.endsWith('.jpg') || chat.media.endsWith('.jpeg') || chat.media.endsWith('.png')) {
+                                    innerHTML += `<a class="text-white" href="{{ API_URL }}${chat.media}" target="_blank" download><i class="fa-regular fa-image fa-lg"></i> ${filename}</a>`;
+                                } else {
+                                    innerHTML += `<a class="text-white" href="{{ API_URL }}${chat.media}" target="_blank" download><i class="fa-solid fa-file-lines fa-lg"></i> ${filename}</a>`;
+                                }
+                            }
+
                         }
                         innerHTML += `
                                             </div>
@@ -303,85 +324,157 @@
 
     }   
 
-    
-    document.addEventListener('DOMContentLoaded', function() {
-        var sendButton = document.getElementById('sendButton');
-    
-        sendButton.addEventListener('click', function(event) {
-            event.preventDefault();
-    
-            var messageInput = document.getElementById('adminMessage');
-            var fileInput = document.getElementById('files');
-            var formData = new FormData();
-    
-            // Check if both message and file are blank
-            if (messageInput.value.trim() === "" && fileInput.files.length === 0) {
-                return; // Exit the function early if both message and file are blank
-            }
-    
-            // Check if message is provided and append it to formData
-            if (messageInput.value.trim() !== "") {
-                formData.append('message', messageInput.value);
-            }
-    
-            // Check if file is provided and append it to formData
-            if (fileInput.files.length > 0) {
-                var file = fileInput.files[0];
-                formData.append('media_file', file);
-            }
-    
-            // Append other form data
-            formData.append('property_id', data.property_id);
-            formData.append('user_id', data.user_id);
-            formData.append('property_address', data.property_address);
-    
-            // Log form data for verification
-            formData.forEach((value, key) => {
-                console.log(key, value);
-            });
-    
-            var csrfToken = "{{ csrf_token }}";
-    
-            // Send form data
-            fetch("{% url 'send_response' %}", {
-                method: 'POST',
-                headers: {
-                    'X-CSRFToken': csrfToken,
-                },
-                body: formData 
-            })
-            .then(response => {
-                if (response.ok) {
-                    console.log('Message sent successfully!', response);
-                } else {
-                    console.error('Failed to send message');
-                }
-            })
-            .catch(error => {
-                console.error('Error:', error);
-            });
-    
-            // Reset input fields after sending message
-            messageInput.value = '';
-            fileInput.value = '';
-        });
-    });
-
-
-    function toggleSendButton() {
-        var messageValue = messageInput.value.trim();
-        var fileValue = fileInput.value.trim();
+    function displayFileName() {
+        const fileInput = document.getElementById('files');
+        const fileNameDisplay = document.getElementById('fileNameDisplay');
+        const hiddenElement = document.getElementById('hiddenButton');
+       
         
-        if (messageValue !== '' || fileValue !== '') {
-            sendButton.disabled = false;
+        // Check if a file is selected
+        if (fileInput.files.length > 0) {
+            fileNameDisplay.textContent = fileInput.files[0].name;
+            hiddenElement.style.display = 'block';
+            fileNameDisplay.style.display = 'block'
         } else {
-            sendButton.disabled = true;
+            fileNameDisplay.textContent = ''; // Clear the file name display
+            hiddenElement.style.display = 'none';
         }
     }
 
-    
+    function clearFile() {
+        const fileInput = document.getElementById('files');
+        const fileNameDisplay = document.getElementById('fileNameDisplay');
+        const hiddenElement = document.getElementById('hiddenButton');
+        
+        // Clear the file input
+        fileInput.value = '';
+        // Clear the file name display
+        fileNameDisplay.textContent = '';
+        hiddenElement.style.display = 'none';
+    }
 
-   
+    function sendMessage(){
+        var formData = new FormData();
+        var temp_message_content={};
+        const currentDate = new Date();
+        const formattedDate = currentDate.toGMTString();
+        temp_message_content['is_response'] = true;
+        temp_message_content['is_seen'] = true;
+        temp_message_content['timestamp'] = formattedDate;
+
+        var currentMessage = document.getElementById('adminMessage');
+        var currentFile = document.getElementById('files');
+
+        var listContainer = document.getElementById('chat-ul');
+
+        if (currentMessage.value){
+            temp_message_content['message']  = currentMessage.value;
+            formData.append('message', currentMessage.value);
+        }
+        
+
+        currentMessage.value='' // clear the text field
+
+        if (currentFile.files.length!=0) {
+
+            const fileLink = document.createElement('a');
+            const file = currentFile.files[0]
+
+            const fileNameDisplay = document.getElementById('fileNameDisplay');
+            const hiddenElement = document.getElementById('hiddenButton');
+
+            temp_message_content['media']  = file.name;
+            formData.append('media_file', file);
+            
+            fileNameDisplay.style.display = 'none'
+            hiddenElement.style.display = 'none'
+                        
+        }
+
+        currentFile.value=''    // clear the file field
+
+        if (!temp_message_content.hasOwnProperty('message') && ! temp_message_content.hasOwnProperty('media')){
+            return;
+        }
+
+        // Append other form data
+        formData.append('property_id', userData.property_id);
+        formData.append('user_id', userData.user_id);
+        formData.append('property_address', userData.property_address);
+
+        // Log form data for verification
+        formData.forEach((value, key) => {
+            console.log(key, value);
+        });
+      
+        var listItem = document.createElement('li');
+        listItem.classList.add('right');
+        var innerHTML = `
+            <div class="conversation-list">
+                <div class="d-flex">
+        `;
+        
+        innerHTML += `
+                    <div class="flex-1">
+                        <div class="ctext-wrap">
+                            <div class="ctext-wrap-content">
+                                <h5 class="conversation-name"><span class="time">${temp_message_content.timestamp}</span></h5>
+        `;
+
+        if (temp_message_content.message) {
+            innerHTML += `<p class="mb-0">${temp_message_content.message}</p>`;
+        }
+
+        if (temp_message_content.media) {
+            innerHTML += `<p class="mb-0">${temp_message_content.media}</p>`;
+        }
+
+        innerHTML += `
+            </div>
+            </div>
+            </div>
+            <div class="avatar-sm align-self-center">
+                <span class="avatar-title rounded-circle bg-primary-subtle text-primary">A</span>
+            </div>
+            </div>
+            </div>
+        `;
+        
+        listItem.innerHTML = innerHTML;
+        listContainer.appendChild(listItem);
+        scrollToLastMessage();
+        
+
+        var csrfToken = "{{ csrf_token }}";
+
+        // Send form data
+        fetch("{% url 'send_response' %}", {
+            method: 'POST',
+            headers: {
+                'X-CSRFToken': csrfToken,
+            },
+            body: formData 
+        })
+        .then(response => {
+            if (response.ok) {
+                console.log('Message sent successfully!');
+            } else {
+                console.error('Failed to send message');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var firstUserElement = document.querySelector('.chat-list a');
+        if (firstUserElement) {
+            firstUserElement.click();
+        }
+    });
+
+
 
 </script>
 {% endblock extra_js %}
