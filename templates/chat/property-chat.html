@@ -18,7 +18,7 @@
                 <div class="col-12">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between">
                         <h4 class="mb-sm-0 font-size-18">Property-Chat</h4>
-
+                        <div id="loader" class="spinner-border text-primary mx-auto" style="display: none;" role="status"></div>
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item active">Property-Chat</li>
@@ -75,7 +75,7 @@
                                     <ul class="list-unstyled chat-list">
                                         
                                         <li class="unread">
-                                            <a href="#" onclick="showChat('{{ user|to_json|escapejs }}')">
+                                            <a href="javascript: void(0);" onclick="showPropertyChat('{{ user|to_json|escapejs }}')">
                                                 <div class="d-flex align-items-start">
                                                     <div
                                                         class="flex-shrink-0 user-img online align-self-center me-3">
@@ -129,8 +129,8 @@
 
                                         </div>
                                         <div class="flex-grow-1">
-                                            <h5 class="font-size-14 mb-1 text-truncate" id="userFullName">hello</h5>
-                                            <h5 class="font-size-12 mb-1 text-truncate" id="userEmail">bolo</h5>       
+                                            <h5 class="font-size-14 mb-1 text-truncate" id="userFullName"></h5>
+                                            <h5 class="font-size-12 mb-1 text-truncate" id="userEmail"></h5>       
                                         </div>
                                     </div>
                                 </div>
@@ -140,7 +140,7 @@
                         
                         <div class="chat-conversation p-3" data-simplebar id="chat-container">
                             <ul id="chat-ul" class="list-unstyled mb-0">
-                               
+
                             </ul>
                         </div>
                         
@@ -206,7 +206,7 @@
     var message_content=[];
     var temp_user = null;
 
-    function scrollToLastMessage(){
+    function scrollToLastChat(){
         var myElement = document.getElementById("chat-container");
         if (myElement) {
             var simpleBarInstance = new SimpleBar(myElement);
@@ -218,22 +218,25 @@
     }
 
    
-   function showChat(user) {
+   function showPropertyChat(user) {
         temp_user  = user
         userData = JSON.parse(user);
         console.log("userData is", userData);
         document.getElementById('userInitials').innerHTML = userData.name.charAt(0).toUpperCase();
-        document.getElementById('userFullName').innerHTML = userData.name;
-        document.getElementById('userEmail').innerHTML = userData.email;
+        document.getElementById('userFullName').innerHTML = `${userData.name}&nbsp;-&nbsp;(${userData.email})`;
+        document.getElementById('userEmail').innerHTML = `${userData.property_address}&nbsp;-&nbsp;(${userData.property_id})`;
 
         document.getElementById(`unread-message-number-${userData.user_id}-${userData.property_id}`)?.classList.add('d-none');
+        //document.getElementById("loader").style.display = "block";
         
         var api_url = `${userData.property_id}/${userData.user_id}`;
         fetch(api_url)
             .then(response => {
                 if (response.ok) {
+                    document.getElementById("loader").style.display = "none";
                     return response.json();
                 } else {
+                    document.getElementById("loader").style.display = "none";
                     throw new Error('Failed to fetch data');
                 }
             })
@@ -316,9 +319,10 @@
                 }
 
                 document.getElementById('chatSection').classList.remove('d-none');
-                scrollToLastMessage();
+                scrollToLastChat();
             })
             .catch(error => {
+                document.getElementById("loader").style.display = "none";
                 console.error(error);
             });
 
@@ -442,7 +446,7 @@
         
         listItem.innerHTML = innerHTML;
         listContainer.appendChild(listItem);
-        scrollToLastMessage();
+        scrollToLastChat();
         
 
         var csrfToken = "{{ csrf_token }}";
