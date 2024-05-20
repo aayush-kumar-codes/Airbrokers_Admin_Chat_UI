@@ -2,7 +2,7 @@
 {% load static %}
 {% load custom_tags %}
 {% block head_title%}
-        <title>chat</title>
+        <title>Chat</title>
 {% endblock %}
 {% block content %}
 <!-- ============================================================== -->
@@ -18,7 +18,6 @@
                 <div class="col-12">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between">
                         <h4 class="mb-sm-0 font-size-18">Chat</h4>
-
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item"><a href="javascript: void(0);">Apps</a></li>
@@ -71,39 +70,39 @@
                                     <div class="px-3">
                                         <h5 class="font-size-14 mb-3">Users</h5>
                                     </div>
-                                  {% for user in users %}
-                                  {% if user.role != 'superuser' %}
+                                  {% for user in chat_users %}
+                                  
                                     <ul class="list-unstyled chat-list">
                                         
                                         <li class="unread">
-                                            <a href="#" onclick="showChat('{{ user.email }}')">
+                                            <a href="javascript: void(0);" onclick="showChat('{{ user|to_json|escapejs }}')">
                                                 <div class="d-flex align-items-start">
                                                     <div
                                                         class="flex-shrink-0 user-img online align-self-center me-3">
                                                         <div class="avatar-sm align-self-center">
                                                             <span
                                                                 class="avatar-title rounded-circle bg-primary-subtle text-primary">
-                                                                {{ user.first_name.0|capfirst }}
+                                                                {{ user.name.0|capfirst }}
                                                             </span>
                                                         </div>
                                                     </div>
                                                     <div class="flex-grow-1 overflow-hidden">
-                                                        <h5 class="text-truncate font-size-13 mb-2">{{user.first_name}}&nbsp;{{user.last_name}}{% if user.role %}&nbsp;&nbsp;({{ user.role|capfirst}}){% endif %}
-                                                        </h5>
-                                                        {% if user.unseen_msg %}
-                                                        <p class="text-truncate mb-0" id="latest-msg">{{ user.latest_chat.message }}</p>
-                                                        <p class="text-truncate mb-0" id="latest-time">{{ user.latest_chat.timestamp }}</p>
-                                                        <div class="unread-message">
-                                                            <div class="font-size-11" id="unread-message-number-{{ user.email }}"><span class="badge bg-danger rounded-pill">{{ user.unseen_msg.messages | length }}</span></div>
-                                                        </div>
+                                                        <p class="mb-2">{{user.name}}</p>
+                                                        
+                                                        <h5 class="font-size-13 mb-2"></h5>
+                                                        <h5 class="font-size-13 mb-2"></h5>
+                                                        {% if user.unseen_message_count > 0 %}
+                                                            <div class="unread-message">
+                                                                <div class="font-size-11" id="unread-message-number-{{ user.user_id }}"><span class="badge bg-danger rounded-pill">{{ user.unseen_message_count }}</span></div>
+                                                            </div> 
                                                         {% endif %}
+                                                        
                                                     </div>
                                                 </div>
                                             </a>
                                         </li>
                                         
                                     </ul>
-                                 {% endif %}
                                  {% endfor %}
                                  </div>
                                     
@@ -114,134 +113,68 @@
 
                 </div>
                 <!-- end chat-leftsidebar -->
-                {% for user in users %}
-                <div class="w-100 user-chat mt-4 mt-sm-0 ms-lg-1 d-none">
+                
+                <div id="chatSection" class="w-100 user-chat mt-4 mt-sm-0 ms-lg-1 d-none">
                     <div class="card">
                         <div class="p-3 px-lg-4 border-bottom shadow-lg">
                             <div class="row">
-                                <div class="col-xl-4 col-7">
+                                <div class="col-xl-4 col-7" style="width:80%">
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0 user-img online align-self-center me-3">
                                             <div class="avatar-sm align-self-center">
                                                 <span
-                                                    class="avatar-title rounded-circle bg-primary-subtle text-primary">
-                                                    {{ user.first_name.0|capfirst }}
+                                                    class="avatar-title rounded-circle bg-primary-subtle text-primary" id="userInitials">
                                                 </span>
                                             </div>
 
                                         </div>
                                         <div class="flex-grow-1">
-                                            <h5 class="font-size-14 mb-1 text-truncate">{{ user.first_name }}&nbsp;{{ user.last_name }}</h5>
-                                            <h5 class="font-size-12 mb-1 text-truncate"><a
-                                                    id="user_email-{{ user.uuid }}" class="text-dark user-email">{{ user.email }}</a>{% if user.role %}&nbsp;&nbsp;({{ user.role|capfirst }}){% endif %}</h5>       
+                                            <h5 class="font-size-14 mb-1" id="userFullName"></h5>
+                                            <h5 class="font-size-12 mb-1" id="userEmail"></h5>       
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        
-                        <div class="chat-conversation p-3" data-simplebar id="chat-container-{{ user.email }}">
-                            <ul class="list-unstyled mb-0" id="chat-ul-{{ user.uuid }}">
-                                {% for chat in user.chats.messages %}
-                                {% if not chat.is_response %}
-                                <li>
-                                    <div class="conversation-list">
-                                        <div class="d-flex">
-                                            <div class="avatar-sm align-self-center">
-                                                <span id="firstletter-{{ user.uuid }}"
-                                                    class="avatar-title rounded-circle bg-primary-subtle text-primary">
-                                                    {{ user.first_name.0|capfirst }}
-                                                </span>
-                                            </div>
+                        <div class="position-absolute h-100 start-50 top-50 z-3"> 
+                            <div id="loader" class="spinner-border text-warning " style="display: none;  border-width: 0.4em;" role="status"></div>
+                        </div>
 
-                                            <div class="flex-1">
-                                                <div class="ctext-wrap">
-                                                    <div class="ctext-wrap-content">
-                                                        <h5 class="conversation-name"><span class="time">{{chat.timestamp}}</span></h5>
-                                                        {% if chat.message %}
-                                                            <p class="mb-0">{{ chat.message }}</p>
-                                                        {% endif %}
-                                                        {% if chat.media %}
-                                                            {% if chat.media|endswith:'.jpg' or chat.media|endswith:'.jpeg' or chat.media|endswith:'.png' %}
-                                                                <!-- Display image -->
-                                                                <a class="text-white" href="{{ API_URL }}{{ chat.media }}" target="_blank" download><i class="fa-regular fa-image fa-lg"></i> {{chat.media|get_filename}}</a>
-                                                            {% else %}
-                                                                <!-- Display document with download link -->
-                                                                <a class="text-white" href="{{ API_URL }}{{ chat.media }}" target="_blank" download><i class="fa-solid fa-file-lines fa-lg"></i> {{chat.media|get_filename}}</a>
-                                                            {% endif %}
-                                                        {% endif %}    
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                </li>
-
-
-                                {% else %}
-                                <li class="right">
-                                    <div class="conversation-list">
-                                        <div class="d-flex">
-                                            <div class="flex-1">
-                                                <div class="ctext-wrap">
-                                                    <div class="ctext-wrap-content">
-                                                        <h5 class="conversation-name"><span class="time">{{chat.timestamp}}</span></h5>
-                                                        {% if chat.message %}
-                                                            <p class="mb-0">{{ chat.message }}</p>
-                                                        {% endif %}
-                                                        {% if chat.media %}
-                                                            {% if chat.media|endswith:'.jpg' or chat.media|endswith:'.jpeg' or chat.media|endswith:'.png' %}
-                                                                <!-- Display image -->
-                                                                <a href="{{ API_URL }}{{ chat.media }}" target="_blank" download><i class="fa-regular fa-image fa-lg"></i> {{chat.media|get_filename}}</a>
-                                                            {% else %}
-                                                                <!-- Display document with download link -->
-                                                                <div>
-                                                                    <a href="{{ API_URL }}{{ chat.media }}" target="_blank" download><i class="fa-solid fa-file-lines fa-lg"></i> {{chat.media|get_filename}}</a>
-                                                                </div>
-                                                            {% endif %}
-                                                        {% endif %}    
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="avatar-sm align-self-center">
-                                                <span
-                                                    class="avatar-title rounded-circle bg-primary-subtle text-primary">
-                                                    A
-                                                </span>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </li>
-                                {% endif %}
-                                {% endfor %}
+                        <div class="chat-conversation p-3" data-simplebar id="chat-container">
+                            <ul id="chat-ul" class="list-unstyled mb-0">
 
                             </ul>
                         </div>
                         
                         <div class="p-3 border-top">
+                            <div class="row">
+                                    <div class="col-4">
+                                        <p style="margin:2px" id="fileNameDisplay"></p>
+                                    </div>
+                                    <div class="col-8">
+                                        <button id="hiddenButton" style="display:none;padding:2px;margin:2px" onclick="clearFile()" class="btn btn-primary chat-send w-md waves-effect waves-light">x</button>
+                                    </div>
+                                    </div>
+                            </div>
                             <div class="row align-items-center">
                                 <div class="col">
                                     <div class="w-100 d-flex align-items-center">
                                         <div class="w-100 position-relative">
-                                            <input id="adminMessage-{{ user.uuid }}" type="text" class="form-control border bg-light-subtle"
+                                            <input id="adminMessage" type="text" class="form-control border bg-light-subtle"
                                                 placeholder="Enter Message...">
                                         </div>
-                                        <div>
+                                        <div class="d-flex align-items-baseline">
                                             <label for="files" class="btn btn-link text-decoration-none font-size-20 btn-lg waves-effect mb-0">
                                             <i class="fa-solid fa-file  fa-2x"></i>
-                                            <input id="files" type="file" name="fileInput" style="display: none;">
+                                            <input id="files" type="file"  onchange="displayFileName()" name="fileInput" style="display: none;">
                                             </label>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-auto">
-                                    <button type="submit"
-                                        class="btn btn-primary chat-send w-md waves-effect waves-light" onclick="saveResponse('{{ user.email }}','{{ user.uuid }}')"><span
+                                    <button type="submit" onclick="sendResponse()"
+                                        class="btn btn-primary chat-send w-md waves-effect waves-light"><span
                                             class="d-none d-sm-inline-block me-2">Send</span> <i
                                             class="mdi mdi-send float-end"></i>
                                     </button>
@@ -251,7 +184,6 @@
 
                     </div>
                 </div>
-                {% endfor %}
                 <!-- end user chat -->
             </div>
             <!-- End d-lg-flex  -->
@@ -273,9 +205,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
 
 <script>
+    var userData=null;
+    var message_content=[];
+    var chat_user = null;
 
-    function scrollToLastMessage(userEmail){
-        var myElement = document.getElementById("chat-container"+"-"+userEmail);
+    function scrollToLastMessage(){
+        var myElement = document.getElementById("chat-container");
         if (myElement) {
             var simpleBarInstance = new SimpleBar(myElement);
             var scrollElement = simpleBarInstance.getScrollElement();
@@ -284,142 +219,262 @@
             }
         }
     }
-    
 
-    function showChat(userEmail) {
-        $('.user-chat').addClass('d-none');
-        $('.user-chat').each(function () {
-            if ($(this).find('.user-email').text().trim() === userEmail) {
-                $(this).removeClass('d-none');
-                scrollToLastMessage(userEmail);
-                return false;
-            }
-        });
+   
+   function showChat(user, chatKey=null) {
+        chat_user  = user
+        userData = JSON.parse(user);
+        console.log("userData is", userData);
+        document.getElementById('userInitials').innerHTML = userData.name.charAt(0).toUpperCase();
+        document.getElementById('userFullName').innerHTML = userData.name;
+        document.getElementById('userEmail').innerHTML = userData.email;
 
-        var payload = {
-            email: userEmail,
-        };
+        document.getElementById(`unread-message-number-${userData.user_id}`)?.classList.add('d-none');
+        var listContainer = document.getElementById('chat-ul');
+                
+        if (!chatKey){
+            document.getElementById("loader").style.display = "block";
 
-        document.getElementById('unread-message-number-' + userEmail)?.classList.add('d-none');
-        var latestMsg = document.getElementById('latest-msg')
-        var latestTime = document.getElementById('latest-time')
-
-        if (latestMsg) {
-            latestMsg.innerHTML = '';
+            // Clear previous messages
+            listContainer.innerHTML = '';
         }
-        if (latestTime) {
-            latestTime.innerHTML = '';
-        }
-        var csrfToken = "{{ csrf_token }}";
+        
+        var api_url = `user-chat/${userData.user_id}`;
+        
+        fetch(api_url)
+            .then(response => {
+                if (response.ok) {
+                    document.getElementById("loader").style.display = "none";
+                    return response.json();
+                } else {
+                    document.getElementById("loader").style.display = "none";
+                    throw new Error('Failed to fetch data');
+                }
+            })
+            .then(data => {
+                message_content = data.message_content;
+                // Check if message_content is available and not empty
+                if (Array.isArray(message_content) && message_content.length > 0) {
+                   
+                    message_content.forEach(chat => {
+                        var listItem = document.createElement('li');
+                        listItem.classList.add(chat.is_response ? 'right' : 'left');
+                        var innerHTML = `
+                            <div class="conversation-list">
+                                <div class="d-flex">
+                        `;
+                        // If it's a left message, add avatar before message content
+                        if (!chat.is_response) {
+                            innerHTML += `
+                                <div class="avatar-sm align-self-center">
+                                    <span class="avatar-title rounded-circle bg-primary-subtle text-primary">${userData.name.charAt(0).toUpperCase()}</span>
+                                </div>
+                            `;
+                        }
+                        innerHTML += `
+                                    <div class="flex-1">
+                                        <div class="ctext-wrap">
+                                            <div class="ctext-wrap-content">
+                                                <h5 class="conversation-name"><span class="time">${chat.timestamp}</span></h5>
+                        `;
+                        if (chat.message) {
+                            innerHTML += `<p class="mb-0">${chat.message}</p>`;
+                        }
+                        if (chat.media) {
+                            var parts = chat.media.split("/");
+                            var filename = parts[parts.length - 1];
+                            if (chat.is_response){
+                                if (chat.media.endsWith('.jpg') || chat.media.endsWith('.jpeg') || chat.media.endsWith('.png')) {
+                                    innerHTML += `<a href="{{ API_URL }}${chat.media}" target="_blank" download><i class="fa-regular fa-image fa-lg"></i> ${filename}</a>`;
+                                } else {
+                                    innerHTML += `<a href="{{ API_URL }}${chat.media}" target="_blank" download><i class="fa-solid fa-file-lines fa-lg"></i> ${filename}</a>`;
+                                }
+                            }
+                            else{
+                                if (chat.media.endsWith('.jpg') || chat.media.endsWith('.jpeg') || chat.media.endsWith('.png')) {
+                                    innerHTML += `<a class="text-white" href="{{ API_URL }}${chat.media}" target="_blank" download><i class="fa-regular fa-image fa-lg"></i> ${filename}</a>`;
+                                } else {
+                                    innerHTML += `<a class="text-white" href="{{ API_URL }}${chat.media}" target="_blank" download><i class="fa-solid fa-file-lines fa-lg"></i> ${filename}</a>`;
+                                }
+                            }
 
-        fetch("{% url 'chat_status' %}", {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'X-CSRFToken': csrfToken,
-            },
-            body: JSON.stringify(payload)
-        })
-        .then(response => {
-            if (response.ok) {
-                console.log('message seen successfully!');
-            } else {
-                console.error('Failed to update');
-            }
-        })
-        .catch(error => {
-            console.error('Error:', error);
-        });
-    }
-
-
-    function saveResponse(userEmail, userUuid) {
-        var message = document.getElementById('adminMessage'+'-'+ userUuid);
-        var fileInput = document.getElementById('files');
-        if (!message.value && !fileInput.value){
-            return;
-        }
-        var currentTime = new Date().toLocaleTimeString();   
-        var formData = new FormData();
-        formData.append('user_id', userUuid);
-        formData.append('is_response', true);
-        formData.append('is_seen', false);
-
-        if(message.value){
-            formData.append('message', message.value);
-        }
-
-        if (fileInput.files.length > 0) {
-            // Append the file data
-            formData.append('media_file', document.getElementById('files').files[0]);  
-        }
-
-        var listItem = document.createElement('li');
-        listItem.classList.add('right');
-
-        // Create the content for the new list item
-        var content = `
-                <div class="conversation-list">
-                    <div class="d-flex">
-                        <div class="flex-1">
-                            <div class="ctext-wrap">
-                                <div class="ctext-wrap-content">
-                                    <div class="conversation-name"><span class="time" id="admin-resp-time-${userUuid}"></span></div>
-                                    <p class="mb-0" id="admin-response-${userUuid}"></p>
-                                    <p class="mb-0" id="admin-response-file-${userUuid}"></p>
+                        }
+                        innerHTML += `
+                                            </div>
+                                        </div>
+                                    </div>
+                        `;
+                        // If it's a right message, add avatar after message content
+                        if (chat.is_response) {
+                            innerHTML += `
+                                <div class="avatar-sm align-self-center">
+                                    <span class="avatar-title rounded-circle bg-primary-subtle text-primary">A</span>
+                                </div>
+                            `;
+                        }
+                        innerHTML += `
                                 </div>
                             </div>
-                        </div>
-                        <div class="avatar-sm align-self-center">
-                            <span class="avatar-title rounded-circle bg-primary-subtle text-primary">A</span>
-                        </div>
-                    </div>
-                </div>
-            `;
+                        `;
+                        listItem.innerHTML = innerHTML;
+                        listContainer.appendChild(listItem);
+                    });
+                } else {
+                    // If no messages available, display a message
+                    var listItem = document.createElement('li');
+                    listItem.textContent = "No messages available.";
+                    listContainer.appendChild(listItem);
+                }
 
+                document.getElementById('chatSection').classList.remove('d-none');
+                scrollToLastMessage();
+            })
+            .catch(error => {
+                document.getElementById("loader").style.display = "none";
+                console.error(error);
+            });
 
-        listItem.innerHTML = content;
+    }   
 
-        // Set the content for admin response and admin response time
-        var adminResponseElement = listItem.querySelector(`#admin-response-${userUuid}`);
-        var adminRespTimeElement = listItem.querySelector(`#admin-resp-time-${userUuid}`);
-        var adminFileElement = listItem.querySelector(`#admin-response-file-${userUuid}`);
+    function displayFileName() {
+        const fileInput = document.getElementById('files');
+        const fileNameDisplay = document.getElementById('fileNameDisplay');
+        const hiddenElement = document.getElementById('hiddenButton');
+       
         
-        if (message.value){
-          adminResponseElement.textContent = message.value;
+        // Check if a file is selected
+        if (fileInput.files.length > 0) {
+            fileNameDisplay.textContent = fileInput.files[0].name;
+            hiddenElement.style.display = 'block';
+            fileNameDisplay.style.display = 'block'
+        } else {
+            fileNameDisplay.textContent = ''; // Clear the file name display
+            hiddenElement.style.display = 'none';
         }
-        if(fileInput.files[0]){
-            adminFileElement.textContent=fileInput.files[0].name
-        }
-        adminRespTimeElement.textContent = currentTime;
-        //Append the new list item to the ul element
-        var ulElement = document.getElementById('chat-ul'+'-'+userUuid);
-        ulElement.appendChild(listItem);
-        scrollToLastMessage(userEmail);
-        message.value = '';
+    }
+
+    function clearFile() {
+        const fileInput = document.getElementById('files');
+        const fileNameDisplay = document.getElementById('fileNameDisplay');
+        const hiddenElement = document.getElementById('hiddenButton');
+        
+        // Clear the file input
         fileInput.value = '';
+        // Clear the file name display
+        fileNameDisplay.textContent = '';
+        hiddenElement.style.display = 'none';
+    }
+
+    function sendResponse(){
+        var formData = new FormData();
+        var temp_message_content={};
+        const currentDate = new Date();
+        const formattedDate = currentDate.toGMTString();
+        temp_message_content['is_response'] = true;
+        temp_message_content['is_seen'] = true;
+        temp_message_content['timestamp'] = formattedDate;
+
+        var currentMessage = document.getElementById('adminMessage');
+        var currentFile = document.getElementById('files');
+
+        var listContainer = document.getElementById('chat-ul');
+
+        if (currentMessage.value){
+            temp_message_content['message']  = currentMessage.value;
+            formData.append('message', currentMessage.value);
+        }
+        
+
+        currentMessage.value='' // clear the text field
+
+        if (currentFile.files.length!=0) {
+
+            const fileLink = document.createElement('a');
+            const file = currentFile.files[0]
+
+            const fileNameDisplay = document.getElementById('fileNameDisplay');
+            const hiddenElement = document.getElementById('hiddenButton');
+
+            temp_message_content['media']  = file.name;
+            formData.append('media_file', file);
+            
+            fileNameDisplay.style.display = 'none'
+            hiddenElement.style.display = 'none'
+                        
+        }
+
+        currentFile.value=''    // clear the file field
+
+        if (!temp_message_content.hasOwnProperty('message') && ! temp_message_content.hasOwnProperty('media')){
+            return;
+        }
+
+        // Append other form data
+        formData.append('user_id', userData.user_id);
+        
+        // Log form data for verification
+        formData.forEach((value, key) => {
+            console.log(key, value);
+        });
+      
+        var listItem = document.createElement('li');
+        listItem.classList.add('right');
+        var innerHTML = `
+            <div class="conversation-list">
+                <div class="d-flex">
+        `;
+        
+        innerHTML += `
+                    <div class="flex-1">
+                        <div class="ctext-wrap">
+                            <div class="ctext-wrap-content">
+                                <h5 class="conversation-name"><span class="time">${temp_message_content.timestamp}</span></h5>
+        `;
+
+        if (temp_message_content.message) {
+            innerHTML += `<p class="mb-0">${temp_message_content.message}</p>`;
+        }
+
+        if (temp_message_content.media) {
+            innerHTML += `<p class="mb-0">${temp_message_content.media}</p>`;
+        }
+
+        innerHTML += `
+            </div>
+            </div>
+            </div>
+            <div class="avatar-sm align-self-center">
+                <span class="avatar-title rounded-circle bg-primary-subtle text-primary">A</span>
+            </div>
+            </div>
+            </div>
+        `;
+        
+        listItem.innerHTML = innerHTML;
+        listContainer.appendChild(listItem);
+        scrollToLastMessage();
+        
 
         var csrfToken = "{{ csrf_token }}";
-        
+
+        // Send form data
         fetch("{% url 'send_response' %}", {
             method: 'POST',
             headers: {
                 'X-CSRFToken': csrfToken,
             },
-            body: formData
+            body: formData 
         })
-        
         .then(response => {
             if (response.ok) {
-                console.log('message sent successfully!');
+                console.log('Message sent successfully!');
             } else {
-                console.error('Failed to sent');
+                console.error('Failed to send message');
             }
         })
         .catch(error => {
             console.error('Error:', error);
         });
-
     }
 
     document.addEventListener('DOMContentLoaded', function() {
@@ -428,6 +483,7 @@
             firstUserElement.click();
         }
     });
+
 
 
 </script>

@@ -18,7 +18,6 @@
                 <div class="col-12">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between">
                         <h4 class="mb-sm-0 font-size-18">Property-Chat</h4>
-                        <div id="loader" class="spinner-border text-primary mx-auto" style="display: none;" role="status"></div>
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item active">Property-Chat</li>
@@ -70,7 +69,7 @@
                                     <div class="px-3">
                                         <h5 class="font-size-14 mb-3">Users</h5>
                                     </div>
-                                  {% for user in users %}
+                                  {% for user in property_users %}
                                   
                                     <ul class="list-unstyled chat-list">
                                         
@@ -117,8 +116,8 @@
                 <div id="chatSection" class="w-100 user-chat mt-4 mt-sm-0 ms-lg-1 d-none">
                     <div class="card">
                         <div class="p-3 px-lg-4 border-bottom shadow-lg">
-                            <div class="row">
-                                <div class="col-xl-4 col-7">
+                            <div class="row justify-content-between">
+                                <div class="col-xl-4 col-7" style="width:80%">
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0 user-img online align-self-center me-3">
                                             <div class="avatar-sm align-self-center">
@@ -128,16 +127,19 @@
                                             </div>
 
                                         </div>
-                                        <div class="flex-grow-1">
-                                            <h5 class="font-size-14 mb-1 text-truncate" id="userFullName"></h5>
-                                            <h5 class="font-size-12 mb-1 text-truncate" id="userEmail"></h5>       
+                                        <div class="flex-grow-1 w-100">
+                                            <h5 class="font-size-14 mb-1" id="userFullName"></h5>
+                                            <h5 class="font-size-12 mb-1" id="userEmail"></h5>       
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                         
+                        <div class="position-absolute h-100 start-50 top-50 z-3"> 
+                            <div id="loader" class="spinner-border text-warning " style="display: none;  border-width: 0.4em;" role="status"></div>
+                        </div>
+
                         <div class="chat-conversation p-3" data-simplebar id="chat-container">
                             <ul id="chat-ul" class="list-unstyled mb-0">
 
@@ -218,7 +220,7 @@
     }
 
    
-   function showPropertyChat(user) {
+   function showPropertyChat(user, chatKey=null) {
         temp_user  = user
         userData = JSON.parse(user);
         console.log("userData is", userData);
@@ -227,9 +229,16 @@
         document.getElementById('userEmail').innerHTML = `${userData.property_address}&nbsp;-&nbsp;(${userData.property_id})`;
 
         document.getElementById(`unread-message-number-${userData.user_id}-${userData.property_id}`)?.classList.add('d-none');
-        //document.getElementById("loader").style.display = "block";
+        var listContainer = document.getElementById('chat-ul');
+
+        if (!chatKey){
+            document.getElementById("loader").style.display = "block";
+            // Clear previous messages
+            listContainer.innerHTML = '';
+        }
         
         var api_url = `${userData.property_id}/${userData.user_id}`;
+        
         fetch(api_url)
             .then(response => {
                 if (response.ok) {
@@ -242,9 +251,7 @@
             })
             .then(data => {
                 message_content = data.message_content;
-                var listContainer = document.getElementById('chat-ul');
-                // Clear previous messages
-                listContainer.innerHTML = '';
+               
                 // Check if message_content is available and not empty
                 if (Array.isArray(message_content) && message_content.length > 0) {
                    
@@ -461,9 +468,9 @@
         })
         .then(response => {
             if (response.ok) {
-                console.log('Message sent successfully!');
+                console.log('Message sent successfully.');
             } else {
-                console.error('Failed to send message');
+                console.error('Failed to send message.');
             }
         })
         .catch(error => {

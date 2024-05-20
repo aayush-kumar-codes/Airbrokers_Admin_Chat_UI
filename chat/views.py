@@ -9,7 +9,7 @@ from django.http import JsonResponse
 from admin_ui.views import LoginRequiredMixin
 
 
-class ChatView(LoginRequiredMixin, View):
+class ChatUserListView(LoginRequiredMixin, View):
     def get(self, request):  
         api_url = f'{settings.API_BASE_URL}/api/admin/user/chats'
         access_token = request.COOKIES.get('access_token') 
@@ -20,19 +20,12 @@ class ChatView(LoginRequiredMixin, View):
         # Check if the request was successful
         if response.status_code == 200:
             users = response.json()
-            mqtt_websocket_url = settings.MQTT_WEBSOCKET_URL
-            mqtt_username = settings.MQTT_BROKER_USERNAME
-            mqtt_passwd = settings.MQTT_BROKER_PASSWD
-            api_url = settings.API_BASE_URL
+            print(users, "DFGHJ")
             return render(
                 request, 
                 'chat/chat.html',
                 {
-                    'users': users, 
-                    'MQTT_WEBSOCKET_URL':mqtt_websocket_url,
-                    'MQTT_USERNAME': mqtt_username,
-                    'MQTT_PASSWD': mqtt_passwd,
-                    'API_URL': api_url
+                    'chat_users': users
                 }
             )
         else:
@@ -40,23 +33,21 @@ class ChatView(LoginRequiredMixin, View):
             return render(request, 'pages/500error.html')
         
 
-class UpdateChatStatusView(LoginRequiredMixin, View):
-    def post(self, request):
-        api_url = f'{settings.API_BASE_URL}/api/admin/user/chat-status'
-        access_token = request.COOKIES.get('access_token')  
-
+class UserAllChatView(LoginRequiredMixin, View):
+    def get(self, request, user_id):
+        api_url = f'{settings.API_BASE_URL}/api/admin/response/{user_id}'
+        access_token = request.COOKIES.get('access_token') 
         headers = {'Authorization': f'Bearer {access_token}'}
 
-        data = json.loads(request.body)
-        email = data.get('email')
+        response = requests.get(api_url, headers=headers)
 
-        response = requests.post(api_url, headers=headers, json={'email':email})
-
+        # Check if the request was successful
         if response.status_code == 200:
-            message = response.json()
-            return JsonResponse({'success': True})
+            message_content = response.json()
+            return JsonResponse({'success': True, 'message_content': message_content})
         else:
-            return JsonResponse({'error': "Something went wrong!"})
+            print(response.text)
+            return render(request, 'pages/500error.html')
 
 
 class AdminResponseView(LoginRequiredMixin, View):
@@ -76,7 +67,6 @@ class AdminResponseView(LoginRequiredMixin, View):
         if media_file:
             files = {'media_file': media_file}
         
-        
         response = requests.post(api_url, headers=headers, data=data, files=files)
 
         if response.status_code == 200:
@@ -84,7 +74,7 @@ class AdminResponseView(LoginRequiredMixin, View):
             return JsonResponse({'success': True})
         else:
             print(response.text)
-            return JsonResponse({'error': "Something went wrong!"})
+            return JsonResponse({'error': "Something went wrong!"}), 400
 
 
 class PropertyUserAllChatView(LoginRequiredMixin, View):
@@ -109,26 +99,16 @@ class PropertyChatUsersListView(LoginRequiredMixin, View):
         api_url = f'{settings.API_BASE_URL}/api/admin/user/property/chat/list'
         access_token = request.COOKIES.get('access_token') 
         headers = {'Authorization': f'Bearer {access_token}'}
-
         response = requests.get(api_url, headers=headers)
 
         # Check if the request was successful
         if response.status_code == 200:
             users = response.json()
-            mqtt_websocket_url = settings.MQTT_WEBSOCKET_URL
-            mqtt_username = settings.MQTT_BROKER_USERNAME
-            mqtt_passwd = settings.MQTT_BROKER_PASSWD
-            api_url = settings.API_BASE_URL
-            
             return render(
                 request, 
                 'chat/property-chat.html',
                 {
-                    'users': users,
-                    'MQTT_WEBSOCKET_URL':mqtt_websocket_url,
-                    'MQTT_USERNAME': mqtt_username,
-                    'MQTT_PASSWD': mqtt_passwd,
-                    'API_URL': api_url
+                    'property_users': users
                 }
             )
         else:
