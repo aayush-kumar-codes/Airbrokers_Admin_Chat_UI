@@ -20,7 +20,6 @@ class ChatUserListView(LoginRequiredMixin, View):
         # Check if the request was successful
         if response.status_code == 200:
             users = response.json()
-            print(users, "DFGHJ")
             return render(
                 request, 
                 'chat/chat.html',

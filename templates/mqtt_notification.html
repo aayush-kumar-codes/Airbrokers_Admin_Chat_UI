@@ -72,10 +72,77 @@
             if (!payload.message_content[0].is_response) {
                 
                 if (payload.hasOwnProperty('key') && payload.key === 'user-customer_service-property-chat') {
-                    showPropertyChat(temp_user, "realtime-messgae");  
+                    try {
+                            // Parse the property users from the JSON embedded in the HTML
+                            var property_users = JSON.parse(document.getElementById('property-users').innerText);
+                            var parsed_property_user = JSON.parse(temp_user);
+
+                            // Check if property_users is an array and proceed with the logic
+                            if (Array.isArray(property_users)) {
+                                if (property_users.length === 0) {
+                                    window.location.reload();
+                                } else {
+                                    const userExists = property_users.some(user => user.user_id === payload.message_content[0].msg_id && user.property_id === payload.property_id);
+                                    if (!userExists) {
+                                        window.location.reload();
+                                    } else {
+                                        if (payload.message_content[0].msg_id != parsed_property_user.user_id || payload.property_id != parsed_property_user.property_id) {
+                                            var unreadMessageNumberDiv = document.getElementById(`unread-message-number-${payload.message_content[0].msg_id}-${payload.property_id}`)?.classList.remove('d-none');
+                                            var badgeSpan = unreadMessageNumberDiv.querySelector('span');
+                                            if (badgeSpan) {
+                                                badgeSpan.textContent = '1'; 
+                                            }
+                                        }
+                                        
+                                        if (payload.message_content[0].msg_id === parsed_property_user.user_id && payload.property_id === parsed_property_user.property_id) {
+                                            showPropertyChat(temp_user, "realtime-message");  
+                                        }
+                                    
+                                    }
+                                }
+                            } else {
+                                console.log("chat_users is not an array.");
+                            }
+                        } catch (e) {
+                            console.log("Error", e);
+                        }
                 }   
                 else{
-                    showChat(chat_user, "realtime-messgae");   
+                    try {
+                            // Parse the chat users from the JSON embedded in the HTML
+                            var chat_users = JSON.parse(document.getElementById('chat-users').innerText);
+                            var parsed_chat_user = JSON.parse(chat_user);
+
+                            // Check if chat_users is an array and proceed with the logic
+                            if (Array.isArray(chat_users)) {
+                                if (chat_users.length === 0) {
+                                    window.location.reload();
+                                } else {
+                                    const userExists = chat_users.some(user => user.user_id === payload.message_content[0].message_id);
+                                    if (!userExists) {
+                                        window.location.reload();
+                                    } else {
+                                        if (payload.message_content[0].message_id != parsed_chat_user.user_id) {
+                                            var unreadMessageNumberDiv = document.getElementById(`unread-message-number-${payload.message_content[0].message_id}`)?.classList.remove('d-none');
+                                            var badgeSpan = unreadMessageNumberDiv.querySelector('span');
+                                            if (badgeSpan) {
+                                                badgeSpan.textContent = '1'; 
+                                            }
+                                        }
+                                        
+                                        if (payload.message_content[0].message_id === parsed_chat_user.user_id) {
+                                            showChat(chat_user, 'realtime-message');
+                                        }
+                                    
+                                    }
+                                }
+                            } else {
+                                console.log("chat_users is not an array.");
+                            }
+                        } catch (e) {
+                            console.log("Error", e);
+                        }
+                      
                 } 
 
                 showNotification("New message received from the User!", {

@@ -41,7 +41,7 @@
                                     </span>
                                 </div>
                             </div>
-
+                            <div id="chat-users" class="d-none">{{ chat_users|to_json }}</div> 
                             <div class="flex-grow-1">
                                 <h5 class="font-size-16 mb-1"><a href="#" class="text-dark">Admin <i
                                             class="mdi mdi-circle text-success align-middle font-size-10 ms-1"></i></a>
@@ -154,25 +154,25 @@
                                     </div>
                                     <div class="col-8">
                                         <button id="hiddenButton" style="display:none;padding:2px;margin:2px" onclick="clearFile()" class="btn btn-primary chat-send w-md waves-effect waves-light">x</button>
-                                    </div>
-                                    </div>
+                                    </div>        
                             </div>
+                            
                             <div class="row align-items-center">
-                                <div class="col">
+                                <div class="col" style="padding-right:0px;">
                                     <div class="w-100 d-flex align-items-center">
                                         <div class="w-100 position-relative">
                                             <input id="adminMessage" type="text" class="form-control border bg-light-subtle"
                                                 placeholder="Enter Message...">
                                         </div>
                                         <div class="d-flex align-items-baseline">
-                                            <label for="files" class="btn btn-link text-decoration-none font-size-20 btn-lg waves-effect mb-0">
+                                            <label for="files" class="btn btn-link text-decoration-none font-size-20 btn-lg waves-effect mb-0" style="padding:6px;">
                                             <i class="fa-solid fa-file  fa-2x"></i>
                                             <input id="files" type="file"  onchange="displayFileName()" name="fileInput" style="display: none;">
                                             </label>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-auto">
+                                <div class="col-auto" style="padding-left:0px;">
                                     <button type="submit" onclick="sendResponse()"
                                         class="btn btn-primary chat-send w-md waves-effect waves-light"><span
                                             class="d-none d-sm-inline-block me-2">Send</span> <i
@@ -253,7 +253,10 @@
             })
             .then(data => {
                 message_content = data.message_content;
-                // Check if message_content is available and not empty
+                if(chatKey){
+                    message_content = [message_content[message_content.length - 1]];
+                }
+                //Check if message_content is available and not empty
                 if (Array.isArray(message_content) && message_content.length > 0) {
                    
                     message_content.forEach(chat => {
@@ -476,14 +479,6 @@
             console.error('Error:', error);
         });
     }
-
-    document.addEventListener('DOMContentLoaded', function() {
-        var firstUserElement = document.querySelector('.chat-list a');
-        if (firstUserElement) {
-            firstUserElement.click();
-        }
-    });
-
 
 
 </script>
