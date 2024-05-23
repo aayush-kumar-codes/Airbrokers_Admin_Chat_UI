@@ -11,7 +11,8 @@ class LoginRequiredMixin:
         if not access_token:
             return redirect('login_user')
         
-        api_url = f'{settings.API_BASE_URL}/api/admin/dashboard'
+        # Verify the token with a dedicated auth check endpoint, not logging related
+        api_url = f'{settings.API_BASE_URL}/api/admin/check-token'
         headers = {'Authorization': f'Bearer {access_token}'}
         response = requests.get(api_url, headers=headers)
         
@@ -21,7 +22,18 @@ class LoginRequiredMixin:
             return redirect('login_user')
 
 
-class DashboardView(LoginRequiredMixin, View):
-    def get(self, request):     
-        return render(request, 'dashboard.html')
+class DashboardView(View):
+    def get(self, request):
+        access_token = request.COOKIES.get('access_token')
+        api_url = f'{settings.API_BASE_URL}/api/admin/dashboard'
+        headers = {'Authorization': f'Bearer {access_token}'}
+        
+        # Making the request to the Flask API to log the user action
+        response = requests.get(api_url, headers=headers)
 
+        if response.status_code == 200 and 'message' in response.json():
+            # If the logging was successful, render the dashboard
+            return render(request, 'dashboard.html')
+        else:
+            # If logging failed, redirect to the login page
+            return redirect('login_user')

@@ -160,7 +160,11 @@
                         })
                         .then(response => {
                             if (!response.ok) {
-                                throw new Error('Network response was not ok');
+                                var toastDiv = document.getElementById('toast-type');
+                                toastDiv.classList.add('bg-danger');
+                                document.querySelector('.toast-body').innerText="Something went wrong"; 
+                                var toast = new bootstrap.Toast(successToast);
+                                toast.show(); 
                             }
                             return response.json();
                         })

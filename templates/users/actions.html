@@ -51,7 +51,7 @@
                                     {% for user_log in log.logs %}
                                     <tr>
                                         <td>{{ user_log.action }} </td>
-                                        <td>{{ user_log.payload }} </td>
+                                        <td><pre>{{ user_log.payload|pprint }}</pre></td>
                                         <td>{{ user_log.timestamp }}</td>
                                     </tr>
                                     {% endfor %}
