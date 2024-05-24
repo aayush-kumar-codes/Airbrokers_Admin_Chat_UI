@@ -1,4 +1,5 @@
 import requests
+import json
 from django.views import View 
 from django.shortcuts import render
 from django.http import JsonResponse
@@ -220,6 +221,40 @@ class SingleFormQuestionAddView(LoginRequiredMixin, View):
             "name": request.POST.get('name')
         }
         response = requests.post(api_url, headers=headers, json=data)
+        
+        if response.status_code == 200:
+            message = response.json()
+            return JsonResponse({'success': True})
+        else:
+            print(response.text)
+            return JsonResponse({'error': "Something went wrong!"}) 
+
+from django.http import JsonResponse, HttpResponseBadRequest
+
+class SingleFormQuestionEditView(LoginRequiredMixin, View):
+    def post(self, request):
+        data = request.POST
+        access_token = request.COOKIES.get('access_token') 
+        api_url = f'{settings.API_BASE_URL}/api/admin/forms/question/edit' 
+        headers = {'Authorization': f'Bearer {access_token}'}
+
+        response = requests.put(api_url, headers=headers, json=request.POST)
+        
+        if response.status_code == 200:
+            message = response.json()
+            return JsonResponse({'success': True})
+        else:
+            print(response.text)
+            return JsonResponse({'error': "Something went wrong!"}) 
+
+
+class SingleFormQuestionDeleteView(LoginRequiredMixin, View):
+    def post(self, request):
+        access_token = request.COOKIES.get('access_token') 
+        api_url = f'{settings.API_BASE_URL}/api/admin/forms/question/delete' 
+        headers = {'Authorization': f'Bearer {access_token}'}
+        print(request.POST)
+        response = requests.delete(api_url, headers=headers, json=request.POST)
         
         if response.status_code == 200:
             message = response.json()

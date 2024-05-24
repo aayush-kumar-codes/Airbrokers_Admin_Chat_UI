@@ -77,7 +77,7 @@
                                     <div class="modal-footer">
                                         <div id="errorContainer" style="color: red;"></div>
                                         <button type="button" class="btn btn-light" onclick="hideError()" data-bs-dismiss="modal">Close</button>
-                                        <button type="submit" onclick="submitForm()" class="btn btn-primary">Save</button>
+                                        <button type="submit" onclick="submitQuestionAddForm()" class="btn btn-primary">Save</button>
                                     </div>
                                 </div>
                             </div>
@@ -124,12 +124,69 @@
                                 <div class="w-100">
                                     <p style="margin:0">{{ question }}</p>
                                 </div>
-                                <div>
-                                    <button class="btn btn-danger">Delete</button>
+                                <div class="d-flex gap-2">
+                                    <button class="btn btn-info edit-question" data-bs-toggle="modal" data-bs-target="#editQuestionModal" data-question="{{ question }}">Edit</button>
+                                    <button class="btn btn-danger delete-question" data-bs-toggle="modal" data-bs-target="#deleteQuestionModal" data-question="{{ question }}">Delete</button>
                                 </div>
                             </div>
                         </div>
                         {% endfor %}
+
+                        <!-- Delete Question -->
+                        <div class="modal fade" id="deleteQuestionModal" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Delete Question</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p><strong>Do you want to delete the Question?</strong></p>
+                                    </div>
+                                    <form id="deleteQuestionForm">
+                                        {% csrf_token %} 
+                                        <div class="mb-3">
+                                            <input hidden type="text" id="delete-user" name="delete-user">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                                            <button type="button" class="btn btn-danger" onclick="submitQuestionDeleteForm()">Yes</button>
+                                        </div>
+                                    </form>
+                                </div><!-- /.modal-content -->
+                            </div><!-- /.modal-dialog -->
+                        </div><!-- /.modal -->
+
+                        <!-- Edit Question modal -->
+                        <div class="modal fade" id="editQuestionModal" tabindex="-1" role="dialog" aria-labelledby="editQuestionModal" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="editQuestionModalTitle">Edit question</h5>
+                                        <button type="button" class="btn-close" onclick="hideError()" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form id="editQuestionForm">
+                                            {% csrf_token %} 
+                                            <div class="modal-body">
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control" id="oldquestion" name="oldquestion" readonly>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control" id="editquestion" name="editquestion" placeholder="Enter your new Question..">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <div id="editErrorContainer" style="color: red;"></div>
+                                        <button type="button" class="btn btn-light" onclick="hideError()" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" onclick="submitQuestionEditForm()" class="btn btn-primary">Save</button>
+                                    </div>
+                                </div><!-- /.modal-content -->
+                            </div><!-- /.modal-dialog -->
+                        </div><!-- /.modal -->
+
                     </div> <!-- container-fluid -->
                 </div>
                 <!-- End Page-content -->
@@ -153,10 +210,43 @@
 
         function hideError(){
             var addQuestionForm = document.getElementById('addQuestionForm');
+            var editQuestionForm = document.getElementById('editQuestionForm');
             var errorContainer = document.getElementById('errorContainer');
-            errorContainer.innerText = '';
-            addQuestionForm.reset();
+            var editerrorContainer = document.getElementById('errorContainer');
+            if (errorContainer){
+                errorContainer.innerText = '';
+            }
+            if(editerrorContainer){
+                editerrorContainer.innerText = '';
+            }
+            if(addQuestionForm){
+                addQuestionForm.reset();
+            }
+            if(editQuestionForm){
+                editQuestionForm.reset();
+            }
         }
+        
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const editButtons = document.querySelectorAll('.edit-question');
+            editButtons.forEach(function(button) {
+                button.addEventListener('click', function(event) {
+                    const question = event.currentTarget.dataset.question;
+                    document.getElementById('oldquestion').value = question;
+                });
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const editButtons = document.querySelectorAll('.delete-question');
+            editButtons.forEach(function(button) {
+                button.addEventListener('click', function(event) {
+                    const question = event.currentTarget.dataset.question;
+                    document.getElementById('delete-user').value = question;
+                });
+            });
+        });
 
         function addInputField() {
             // Create a new div element for the input field
@@ -177,7 +267,7 @@
             document.getElementById('addQuestionForm').appendChild(newDiv);
         }
 
-        function submitForm() {
+        function submitQuestionAddForm() {
             const form = document.getElementById('addQuestionForm');
             var successToast = document.getElementById('borderedToast2');
             var errorContainer = document.getElementById('errorContainer');
@@ -218,6 +308,97 @@
                     document.querySelector('.toast-body').innerText=data.error;  
                 }
                 $('#QuestionModal').modal('hide');
+                var toast = new bootstrap.Toast(successToast);
+                toast.show();
+            })
+            .catch(error => {
+                console.error('There was a problem with the fetch operation:', error);
+            });
+        }
+
+        function submitQuestionEditForm() {
+            const form = document.getElementById('editQuestionForm');
+            var successToast = document.getElementById('borderedToast2');
+            var errorContainer = document.getElementById('editErrorContainer');
+
+            const formData = new FormData(form);
+
+            // Add additional key-value pairs to the FormData object
+            formData.append('name', '{{ file.name }}');
+            formData.append('type', '{{ file.type }}');
+            formData.append('folder', '{{ file.folder }}');
+            formData.append('url', '{{ file.url }}');
+
+            var question = formData.get('editquestion');
+            if (question === "") {
+                errorContainer.innerText = 'Question input is required!';
+                return;
+            }
+        
+            // Make the API call
+            fetch("{% url 'flforms_questions_edit' %}", { 
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.success){
+                    var toastDiv = document.getElementById('toast-type');
+                    toastDiv.classList.add('bg-success');
+                    document.querySelector('.toast-body').innerText="Question updated successfully!";
+                }else{
+                    var toastDiv = document.getElementById('toast-type');
+                    toastDiv.classList.add('bg-danger');
+                    document.querySelector('.toast-body').innerText=data.error;  
+                }
+                $('#editQuestionModal').modal('hide');
+                var toast = new bootstrap.Toast(successToast);
+                toast.show();
+            })
+            .catch(error => {
+                console.error('There was a problem with the fetch operation:', error);
+            });
+        }
+
+
+        function submitQuestionDeleteForm() {
+            const form = document.getElementById('deleteQuestionForm');
+            var successToast = document.getElementById('borderedToast2');
+            const formData = new FormData(form);
+
+            // Add additional key-value pairs to the FormData object
+            formData.append('name', '{{ file.name }}');
+            formData.append('type', '{{ file.type }}');
+            formData.append('folder', '{{ file.folder }}');
+            formData.append('url', '{{ file.url }}');
+        
+            // Make the API call
+            fetch("{% url 'flforms_questions_delete' %}", { 
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.success){
+                    var toastDiv = document.getElementById('toast-type');
+                    toastDiv.classList.add('bg-success');
+                    document.querySelector('.toast-body').innerText="Question deleted successfully!";
+                }else{
+                    var toastDiv = document.getElementById('toast-type');
+                    toastDiv.classList.add('bg-danger');
+                    document.querySelector('.toast-body').innerText=data.error;  
+                }
+                $('#deleteQuestionModal').modal('hide');
                 var toast = new bootstrap.Toast(successToast);
                 toast.show();
             })
