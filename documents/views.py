@@ -204,3 +204,26 @@ class MoveMnFormsDocumentView(LoginRequiredMixin, View):
                 return JsonResponse({'error': response.json().get('error')})
             print(response.text)
             return JsonResponse({'error': "Something went wrong!"}) 
+
+
+class SingleFormQuestionAddView(LoginRequiredMixin, View):
+    def post(self, request):
+        access_token = request.COOKIES.get('access_token') 
+        api_url = f'{settings.API_BASE_URL}/api/admin/forms/question' 
+        headers = {'Authorization': f'Bearer {access_token}'}
+
+        data  = {
+            "question" : request.POST.getlist('question'),
+            "type" : request.POST.get('type'),
+            "folder": request.POST.get('folder'),
+            "url" : request.POST.get('url'),
+            "name": request.POST.get('name')
+        }
+        response = requests.post(api_url, headers=headers, json=data)
+        
+        if response.status_code == 200:
+            message = response.json()
+            return JsonResponse({'success': True})
+        else:
+            print(response.text)
+            return JsonResponse({'error': "Something went wrong!"}) 

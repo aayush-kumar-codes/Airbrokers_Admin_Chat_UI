@@ -14,4 +14,5 @@ urlpatterns = [
     path('upload-document/', views.UploadDocumentView.as_view(), name='upload_document'),
     path('flforms/move/', views.MoveFlFormsDocumentView.as_view(), name='move_flforms'),
     path('mnforms/move/', views.MoveMnFormsDocumentView.as_view(), name='move_mnforms'),
+    path('flforms/questions/', views.SingleFormQuestionAddView.as_view(), name='flforms_questions'),
 ]

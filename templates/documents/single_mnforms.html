@@ -45,9 +45,45 @@
                                     <h5 class="card-title" id="file-name">{{ file.name }}</span></h5>
                                 </div>
                             </div>
+
+                            <div class="col-md-6">
+                                <div class="d-flex flex-wrap align-items-center justify-content-end gap-2 mb-3">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#QuestionModal">
+                                         <span data-feather="file-plus"></span> Add Questions
+                                    </button>
+                                </div>
+                            </div>
                             
                         </div>
                         <!-- end row -->
+
+                        <!-- Add Question Modal -->
+                        <div class="modal fade" id="QuestionModal" tabindex="-1" aria-labelledby="QuestionModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="QuestionModalLabel">Add Questions&nbsp;</h5>
+                                        <button class="btn btn-success btn-sm" type="button" onclick="addInputField()"><i class="fa-solid fa-plus"></i></button>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" onclick="hideError()" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- Form for adding Question -->
+                                        <form id="addQuestionForm">
+                                            {% csrf_token %}
+                                            <div class="mb-3">
+                                                <input type="text" class="form-control" name="question" placeholder="Enter your question here..">
+                                            </div>
+                                            
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <div id="errorContainer" style="color: red;"></div>
+                                        <button type="button" class="btn btn-light" onclick="hideError()" data-bs-dismiss="modal">Close</button>
+                                        <button type="submit" onclick="submitForm()" class="btn btn-primary">Save</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
 
                         <div class="table-responsive mb-4">
@@ -74,7 +110,29 @@
                             <!-- end table -->
                         </div>
                         <!-- end table responsive -->
-                        
+                        <div class="row align-items-center mt-2">
+                            <h5 class="card-title"><span>Questions</span></h5>
+                        </div>
+                        {% if not file.questions %}
+                            <div class="accordion mt-2" id="accordionExample">
+                                <div class="d-flex accordion-item align-items-center h-100" style="padding:10px">
+                                  <p style="margin:0">No Question Available.</p>
+                                </div> 
+                            </div>
+                        {% endif %}
+                        {% for question  in file.questions %}
+                            <div class="accordion mt-2" id="accordionExample">
+                                <div class="d-flex accordion-item align-items-center h-100 border border-secondary mt-2" style="padding:5px">
+                                    <div class="w-100">
+                                        <p style="margin:0">{{ question }}</p>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-danger">Delete</button>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                       
                     </div> <!-- container-fluid -->
                 </div>
                 <!-- End Page-content -->
@@ -95,6 +153,80 @@
         function refreshPage(){
             location.reload();
         }
-        
+
+        function hideError(){
+            var addQuestionForm = document.getElementById('addQuestionForm');
+            var errorContainer = document.getElementById('errorContainer');
+            errorContainer.innerText = '';
+            addQuestionForm.reset();
+        }
+
+        function addInputField() {
+            // Create a new div element for the input field
+            const newDiv = document.createElement('div');
+            newDiv.classList.add('mb-3');
+
+            // Create a new input element
+            const newInput = document.createElement('input');
+            newInput.type = 'text';
+            newInput.className = 'form-control';
+            newInput.name = 'question';
+            newInput.placeholder = 'Enter your question here..'
+
+            // Append the new input element to the new div
+            newDiv.appendChild(newInput);
+
+            // Append the new div to the form
+            document.getElementById('addQuestionForm').appendChild(newDiv);
+        }
+
+        function submitForm() {
+            const form = document.getElementById('addQuestionForm');
+            var successToast = document.getElementById('borderedToast2');
+            const formData = new FormData(form);
+
+            // Add additional key-value pairs to the FormData object
+            formData.append('name', '{{ file.name }}');
+            formData.append('type', '{{ file.type }}');
+            formData.append('folder', '{{ file.folder }}');
+            formData.append('url', '{{ file.url }}');
+
+            var question = formData.getAll('question');
+            const hasEmptyValue = question.some(value => value === "");
+            if (hasEmptyValue) {
+                errorContainer.innerText = 'Question input is required!';
+                return;
+            }
+
+
+            // Make the API call
+            fetch("{% url 'flforms_questions' %}", { 
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.success){
+                    var toastDiv = document.getElementById('toast-type');
+                    toastDiv.classList.add('bg-success');
+                    document.querySelector('.toast-body').innerText="Question added successfully!";
+                }else{
+                    var toastDiv = document.getElementById('toast-type');
+                    toastDiv.classList.add('bg-danger');
+                    document.querySelector('.toast-body').innerText=data.error;  
+                }
+                $('#QuestionModal').modal('hide');
+                var toast = new bootstrap.Toast(successToast);
+                toast.show();
+            })
+            .catch(error => {
+                console.error('There was a problem with the fetch operation:', error);
+            });
+        }
     </script>
 {% endblock %}

@@ -1,5 +1,5 @@
 from django.views import View 
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 import requests
 import json
 
@@ -14,6 +14,16 @@ def mqtt_connection_for_push_notification_context(request):
     access_token = request.COOKIES.get('access_token')
     headers = {'Authorization': f'Bearer {access_token}'}
     response = requests.get(api_url, headers=headers)
+
+    if response.status_code == 200 and 'error' in response.json():
+        return {
+            'properties': [],
+            'all_users': [],
+            'API_URL': '',
+            'MQTT_WEBSOCKET_URL':'',
+            'MQTT_USERNAME': '',
+            'MQTT_PASSWD': ''
+        }   
     # Check if the request was successful
     if response.status_code == 200:
         users = response.json().get('users')
