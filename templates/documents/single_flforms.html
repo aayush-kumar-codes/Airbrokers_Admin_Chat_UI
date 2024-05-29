@@ -9,6 +9,7 @@
 
         <!-- Responsive datatable examples -->
         <link href="{% static 'libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css' %}" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf_viewer.min.css">
 {% endblock %}
 {% block content %}
             <div class="main-content">  
@@ -57,7 +58,7 @@
 
                         <!-- Add Question Modal -->
                         <div class="modal fade" id="QuestionModal" tabindex="-1" aria-labelledby="QuestionModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
+                            <div class="modal-dialog modal-dialog-scrollable modal-xl">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h5 class="modal-title" id="QuestionModalLabel">Add Questions&nbsp;</h5>
@@ -69,9 +70,12 @@
                                         <form id="addQuestionForm">
                                             {% csrf_token %}
                                             <div class="mb-3">
+                                                <label for="current-page-input" class="form-label">PDF Page No.</label>
+                                                <input type="text" id="current-page-input" name="page-no" class="form-control" readonly>
+                                            </div>
+                                            <div class="mb-3">
                                                 <input type="text" class="form-control" name="question" placeholder="Enter your question here..">
                                             </div>
-                                            
                                         </form>
                                     </div>
                                     <div class="modal-footer">
@@ -108,33 +112,72 @@
                             <!-- end table -->
                         </div>
                         <!-- end table responsive -->
+
+                        <!--Questions-->
                         <div class="row align-items-center">
-                             <h5 class="card-title"><span>Questions</span></h5>
-                        </div>
-                        {% if not file.questions %}
+                            <h5 class="card-title"><span>Questions</span></h5>
+                       </div>
+                       {% if not file.questions %}
                             <div class="accordion mt-2" id="accordionExample">
                                 <div class="d-flex accordion-item align-items-center h-100" style="padding:10px">
-                                  <p style="margin:0">No Question Available.</p>
+                                    <p style="margin:0">No Question Available.</p>
                                 </div> 
                             </div>
                         {% endif %}
-                        {% for question  in file.questions %}
-                        <div class="accordion mt-2" id="accordionExample">
-                            <div class="d-flex accordion-item align-items-center h-100 border border-secondary mt-2" style="padding:5px">
-                                <div class="w-100">
-                                    <p style="margin:0">{{ question }}</p>
-                                </div>
-                                <div class="d-flex gap-2">
-                                    <button class="btn btn-info edit-question" data-bs-toggle="modal" data-bs-target="#editQuestionModal" data-question="{{ question }}">Edit</button>
-                                    <button class="btn btn-danger delete-question" data-bs-toggle="modal" data-bs-target="#deleteQuestionModal" data-question="{{ question }}">Delete</button>
-                                </div>
+                        <!-- Dropdown for Selecting a Question -->
+                        <div class="row align-items-center">
+                            <div class="col-md-12 mt-2">
+                                <select id="select-question" class="form-select">
+                                    <option value="" selected disabled>Select a question...</option>
+                                    {% for question in file.questions %}
+                                        <option value="{{ question.question_id }}" data-page="{{ question.page }}" data-start-x="{{ question.answer_location.start_x }}" data-end-x="{{ question.answer_location.end_x }}" data-start-y="{{ question.answer_location.start_y }}" data-end-y="{{ question.answer_location.end_y }}">{{ question.question }}</option>
+                                    {% endfor %}
+                                </select>
                             </div>
                         </div>
-                        {% endfor %}
+
+                        <!-- Buttons for Editing and Deleting Questions -->
+                        <div id="question-buttons" class="row mt-2">
+                            {% for question in file.questions %}
+                                <div class="col-md-12 question-buttons d-none" id="question-buttons-{{ question.question_id }}">
+                                    <button type="button" class="btn btn-info edit-question" data-bs-toggle="modal" data-bs-target="#editQuestionModal" data-question="{{ question.question_id }},{{ question.question }}">Edit</button>
+                                    <button class="btn btn-danger delete-question" data-bs-toggle="modal" data-bs-target="#deleteQuestionModal" data-question="{{ question.question_id }}">Delete</button>
+                                </div>
+                            {% endfor %}
+                        </div>
+
+                       <!-- end Questions -->
+
+                       <!-- Pdf File -->
+                        <div class="position-absolute h-100 start-50 top-50 z-3"> 
+                            <div id="loader" class="spinner-border text-warning " style="border-width: 0.4em;" role="status"></div>
+                        </div>
+                        <div class="row mt-5 mb-2" style="overflow:auto;">
+                            <div class="col-md-8">
+                                <canvas id="pdf-canvas" class="border border-secondary d-none"></canvas>
+                                <div id="pageNumber" class="d-flex justify-content-center mt-2 gap-3 d-none">
+                                    <a id="prev-page" class="btn btn-outline-primary"><i class="fa-solid fa-circle-left fa-lg"></i></a>
+                                    <span>Page: <span id="page-num"></span> / <span id="page-count"></span></span>
+                                    <a id="next-page" class="btn btn-outline-primary"><i class="fa-solid fa-circle-right fa-lg"></i></a>
+                                </div>
+                            </div>
+                            <!-- <div class="col-md-4">
+                                <div>
+                                    <label for="input-type">Input Type:</label>
+                                    <select id="input-type" class="form-control" disabled>
+                                        <option value="text">Text</option>
+                                        <option value="checkbox">Checkbox</option>
+                                    </select>
+                                </div>
+                                <div class="mt-3">
+                                    <button id="mark-place" class="btn btn-primary" disabled>Mark Place</button>
+                                </div>
+                            </div> -->
+                        </div>
 
                         <!-- Delete Question -->
                         <div class="modal fade" id="deleteQuestionModal" tabindex="-1" role="dialog" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-dialog modal-dialog-scrollable">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h5 class="modal-title">Delete Question</h5>
@@ -146,7 +189,7 @@
                                     <form id="deleteQuestionForm">
                                         {% csrf_token %} 
                                         <div class="mb-3">
-                                            <input hidden type="text" id="delete-user" name="delete-user">
+                                            <input hidden type="text" id="delete-question-id" name="delete_question_id">
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
@@ -159,7 +202,7 @@
 
                         <!-- Edit Question modal -->
                         <div class="modal fade" id="editQuestionModal" tabindex="-1" role="dialog" aria-labelledby="editQuestionModal" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-dialog modal-dialog-scrollable modal-xl">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h5 class="modal-title" id="editQuestionModalTitle">Edit question</h5>
@@ -170,6 +213,7 @@
                                             {% csrf_token %} 
                                             <div class="modal-body">
                                                 <div class="mb-3">
+                                                    <input hidden type="number" class="form-control" id="edit-question-id" name="edit_question_id" readonly>
                                                     <input type="text" class="form-control" id="oldquestion" name="oldquestion" readonly>
                                                 </div>
                                                 <div class="mb-3">
@@ -203,7 +247,232 @@
     <script src="{% static 'libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js' %}"></script>
     <!-- init js -->
     <script src="{% static 'js/pages/datatable-pages.init.js' %}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.min.js"></script>
     <script>
+        document.getElementById('select-question').addEventListener('change', function() {
+            const selectedQuestionId = this.value;
+            const allQuestionButtons = document.querySelectorAll('.question-buttons');
+            
+            // Hide all question buttons
+            allQuestionButtons.forEach(buttonsDiv => {
+                buttonsDiv.classList.add('d-none');
+            });
+            
+            // Show buttons for the selected question
+            const selectedQuestionButtonsDiv = document.getElementById('question-buttons-' + selectedQuestionId);
+            if (selectedQuestionButtonsDiv) {
+                selectedQuestionButtonsDiv.classList.remove('d-none');
+            }
+        });
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const url = '{{ BASE_URL }}{{ file.url }}';
+            
+            let pdfDoc = null,
+                pageNum = 1,
+                pageIsRendering = false,
+                pageNumIsPending = null,
+                scale = 1.5,
+                canvas = document.getElementById('pdf-canvas'),
+                ctx = canvas.getContext('2d'),
+                startX = 0,
+                startY = 0,
+                isMarking = false,
+                currentRect = null,
+                selectedQuestionId = null;
+        
+            const renderPage = num => {
+                pageIsRendering = true;
+        
+                pdfDoc.getPage(num).then(page => {
+                    const viewport = page.getViewport({ scale });
+                    canvas.height = viewport.height;
+                    canvas.width = viewport.width;
+        
+                    const renderCtx = {
+                        canvasContext: ctx,
+                        viewport
+                    };
+        
+                    page.render(renderCtx).promise.then(() => {
+                        pageIsRendering = false;
+        
+                        if (pageNumIsPending !== null) {
+                            renderPage(pageNumIsPending);
+                            pageNumIsPending = null;
+                        }
+                        canvas.classList.remove('d-none');
+                        document.getElementById('pageNumber').classList.remove('d-none');
+                        document.getElementById("loader").style.display = "none";
+                        
+                        // Draw the current rectangle if it exists
+                        if (currentRect) {
+                            ctx.fillStyle = 'yellow';
+                            ctx.fillRect(currentRect.startX, currentRect.startY, currentRect.endX - currentRect.startX, currentRect.endY - currentRect.startY);
+                        }
+                        
+        
+                        // Update the current page input box
+                        document.getElementById('current-page-input').value = num;
+                    });
+        
+                    document.getElementById('page-num').textContent = num;
+                });
+            };
+        
+            const queueRenderPage = num => {
+                if (pageIsRendering) {
+                    pageNumIsPending = num;
+                } else {
+                    renderPage(num);
+                }
+            };
+        
+            const showPrevPage = () => {
+                if (pageNum <= 1) {
+                    return;
+                }
+                pageNum--;
+                queueRenderPage(pageNum);
+            };
+        
+            const showNextPage = () => {
+                if (pageNum >= pdfDoc.numPages) {
+                    return;
+                }
+                pageNum++;
+                queueRenderPage(pageNum);
+            };
+        
+            pdfjsLib.getDocument(url).promise.then(pdfDoc_ => {
+                pdfDoc = pdfDoc_;
+                document.getElementById('page-count').textContent = pdfDoc.numPages;
+                renderPage(pageNum);
+            }).catch(err => {
+                console.error("Error loading PDF: ", err.message);
+            });
+        
+            document.getElementById('prev-page').addEventListener('click', showPrevPage);
+            document.getElementById('next-page').addEventListener('click', showNextPage);
+        
+            document.querySelectorAll('.question-item').forEach(item => {
+                item.addEventListener('click', function() {
+                    // Clear all previous selections
+                    document.querySelectorAll('.question-item').forEach(q => q.style.backgroundColor = '');
+                    document.querySelectorAll('.mark-answer-btn').forEach(btn => btn.classList.add('d-none'));
+                    selectedQuestionId = this.getAttribute('data-question-id');
+        
+                    // Highlight the selected question
+                    this.style.backgroundColor = 'lightblue';
+        
+                    // Retrieve answer location data
+                    const startX = parseFloat(this.getAttribute('data-start-x'));
+                    const endX = parseFloat(this.getAttribute('data-end-x'));
+                    const startY = parseFloat(this.getAttribute('data-start-y'));
+                    const endY = parseFloat(this.getAttribute('data-end-y'));
+                    const page = parseInt(this.getAttribute('data-page'))
+                    
+        
+                    // Display the saved rectangle if it exists
+                    if (!isNaN(startX) && !isNaN(endX) && !isNaN(startY) && !isNaN(endY)) {
+                        currentRect = { startX, startY, endX, endY };
+                        ctx.clearRect(0, 0, canvas.width, canvas.height);
+                        renderPage(page);
+                    } else {
+                        currentRect = null;
+                        ctx.clearRect(0, 0, canvas.width, canvas.height);
+                        renderPage(pageNum);
+                    }
+                });
+            });
+        
+            canvas.addEventListener('mousedown', function(event) {
+                if (!selectedQuestionId) return;
+                isMarking = true;
+                const rect = canvas.getBoundingClientRect();
+                startX = event.clientX - rect.left;
+                startY = event.clientY - rect.top;
+                currentRect = null; // Clear any existing rectangle
+            });
+        
+            canvas.addEventListener('mouseup', function(event) {
+                if (!isMarking) return;
+                isMarking = false;
+        
+                const rect = canvas.getBoundingClientRect();
+                const endX = event.clientX - rect.left;
+                let endY = event.clientY - rect.top;
+        
+                // Finalize the rectangle
+                endY = startY + 22;
+        
+                ctx.fillStyle = 'rgba(0, 255, 255, 0.5)';
+                ctx.fillRect(startX, startY, endX - startX, endY - startY);
+        
+                // Store the current rectangle data
+                currentRect = {
+                    startX,
+                    startY,
+                    endX,
+                    endY,
+                    page: pageNum,
+                };
+        
+                // Show the Mark Answer button for the selected question
+                document.querySelectorAll('.question-item').forEach(item => {
+                    if (item.getAttribute('data-question-id') === selectedQuestionId) {
+                        item.querySelector('.mark-answer-btn').classList.remove('d-none');
+                    }
+                });
+            });
+        
+            document.querySelectorAll('.mark-answer-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    if (!currentRect || !selectedQuestionId) return;
+        
+                    const markerData = {
+                        ...currentRect,
+                        edit_question_id: selectedQuestionId,
+                        name: '{{ file.name }}',
+                        type: '{{ file.type }}',
+                        folder: '{{ file.folder }}',
+                        url: '{{ file.url }}'
+                    };
+                    var successToast = document.getElementById('borderedToast2');
+        
+                    fetch("{% url 'forms_save_marker' %}", {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'X-CSRFToken': '{{ csrf_token }}'
+                        },
+                        body: JSON.stringify(markerData)
+                    }).then(response => {
+                        if (!response.ok) {
+                            var toastDiv = document.getElementById('toast-type');
+                            toastDiv.classList.add('bg-danger');
+                            document.querySelector('.toast-body').innerText="Something went wrong";  
+                        }
+                        return response.json();
+                    }).then(data => {
+                        var toastDiv = document.getElementById('toast-type');
+                        toastDiv.classList.add('bg-success');
+                        document.querySelector('.toast-body').innerText="Answer location marked successfully!";
+                    }).catch(error => {
+                        var toastDiv = document.getElementById('toast-type');
+                        toastDiv.classList.add('bg-danger');
+                        document.querySelector('.toast-body').innerText="Something went wrong";  
+                    });
+                    var toast = new bootstrap.Toast(successToast);
+                    toast.show();
+        
+                    // Reset the state
+                    currentRect = null;
+                    selectedQuestionId = null;
+                });
+            });
+        });
+        
         function refreshPage(){
             location.reload();
         }
@@ -220,7 +489,8 @@
                 editerrorContainer.innerText = '';
             }
             if(addQuestionForm){
-                addQuestionForm.reset();
+                const formFields = addQuestionForm.elements;
+                formFields[2].value = '';
             }
             if(editQuestionForm){
                 editQuestionForm.reset();
@@ -232,8 +502,10 @@
             const editButtons = document.querySelectorAll('.edit-question');
             editButtons.forEach(function(button) {
                 button.addEventListener('click', function(event) {
-                    const question = event.currentTarget.dataset.question;
-                    document.getElementById('oldquestion').value = question;
+                    var questionData = event.currentTarget.dataset.question;
+                    var questionParts = questionData.split(',');
+                    document.getElementById('edit-question-id').value = questionParts[0];
+                    document.getElementById('oldquestion').value = questionParts[1];
                 });
             });
         });
@@ -242,8 +514,8 @@
             const editButtons = document.querySelectorAll('.delete-question');
             editButtons.forEach(function(button) {
                 button.addEventListener('click', function(event) {
-                    const question = event.currentTarget.dataset.question;
-                    document.getElementById('delete-user').value = question;
+                    const question_id = event.currentTarget.dataset.question;
+                    document.getElementById('delete-question-id').value = question_id;
                 });
             });
         });
@@ -293,7 +565,9 @@
             })
             .then(response => {
                 if (!response.ok) {
-                    throw new Error('Network response was not ok');
+                    var toastDiv = document.getElementById('toast-type');
+                    toastDiv.classList.add('bg-danger');
+                    document.querySelector('.toast-body').innerText="Something went wrong"; 
                 }
                 return response.json();
             })

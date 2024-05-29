@@ -14,7 +14,9 @@ urlpatterns = [
     path('upload-document/', views.UploadDocumentView.as_view(), name='upload_document'),
     path('flforms/move/', views.MoveFlFormsDocumentView.as_view(), name='move_flforms'),
     path('mnforms/move/', views.MoveMnFormsDocumentView.as_view(), name='move_mnforms'),
-    path('flforms/questions/', views.SingleFormQuestionAddView.as_view(), name='flforms_questions'),
-    path('flforms/questions/edit', views.SingleFormQuestionEditView.as_view(), name='flforms_questions_edit'),
-    path('flforms/questions/delete', views.SingleFormQuestionDeleteView.as_view(), name='flforms_questions_delete'),
+    path('forms/questions/', views.SingleFormQuestionAddView.as_view(), name='flforms_questions'),
+    path('forms/questions/edit', views.SingleFormQuestionEditView.as_view(), name='flforms_questions_edit'),
+    path('forms/questions/delete', views.SingleFormQuestionDeleteView.as_view(), name='flforms_questions_delete'),
+    path('forms/save-marker', views.SingleFormAnswerMarkView.as_view(), name='forms_save_marker'),
+    
 ]

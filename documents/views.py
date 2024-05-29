@@ -215,35 +215,40 @@ class SingleFormQuestionAddView(LoginRequiredMixin, View):
 
         data  = {
             "question" : request.POST.getlist('question'),
+            "page" :  int(request.POST.get('page-no')),
             "type" : request.POST.get('type'),
             "folder": request.POST.get('folder'),
             "url" : request.POST.get('url'),
             "name": request.POST.get('name')
         }
+        
         response = requests.post(api_url, headers=headers, json=data)
         
         if response.status_code == 200:
             message = response.json()
             return JsonResponse({'success': True})
         else:
+            if response.status_code != 500:
+                return JsonResponse({'error': response.json().get('error')}) 
             print(response.text)
             return JsonResponse({'error': "Something went wrong!"}) 
 
-from django.http import JsonResponse, HttpResponseBadRequest
 
 class SingleFormQuestionEditView(LoginRequiredMixin, View):
     def post(self, request):
         data = request.POST
         access_token = request.COOKIES.get('access_token') 
-        api_url = f'{settings.API_BASE_URL}/api/admin/forms/question/edit' 
+        api_url = f'{settings.API_BASE_URL}/api/admin/forms/question' 
         headers = {'Authorization': f'Bearer {access_token}'}
-
-        response = requests.put(api_url, headers=headers, json=request.POST)
+        
+        response = requests.put(api_url, headers=headers, json=data)
         
         if response.status_code == 200:
             message = response.json()
             return JsonResponse({'success': True})
         else:
+            if response.status_code != 500:
+                return JsonResponse({'error': response.json().get('error')}) 
             print(response.text)
             return JsonResponse({'error': "Something went wrong!"}) 
 
@@ -251,14 +256,46 @@ class SingleFormQuestionEditView(LoginRequiredMixin, View):
 class SingleFormQuestionDeleteView(LoginRequiredMixin, View):
     def post(self, request):
         access_token = request.COOKIES.get('access_token') 
-        api_url = f'{settings.API_BASE_URL}/api/admin/forms/question/delete' 
+        api_url = f'{settings.API_BASE_URL}/api/admin/forms/question' 
         headers = {'Authorization': f'Bearer {access_token}'}
-        print(request.POST)
         response = requests.delete(api_url, headers=headers, json=request.POST)
         
         if response.status_code == 200:
             message = response.json()
             return JsonResponse({'success': True})
         else:
+            if response.status_code != 500:
+                return JsonResponse({'error': response.json().get('error')}) 
+            print(response.text)
+            return JsonResponse({'error': "Something went wrong!"}) 
+
+
+class SingleFormAnswerMarkView(LoginRequiredMixin, View):
+    def post(self, request):
+        access_token = request.COOKIES.get('access_token') 
+        api_url = f'{settings.API_BASE_URL}/api/admin/forms/question' 
+        headers = {'Authorization': f'Bearer {access_token}'}
+        data = json.loads(request.body)
+        payload = {
+            'name': data.get('name'), 
+            'type': data.get('type'), 
+            'folder': data.get('folder'), 
+            'url': data.get('url'),
+            'edit_question_id' : int(data.get('edit_question_id')),
+            'answer_location' : {
+                'start_x': float(data.get('startX')),
+                'start_y': float(data.get('startY')),
+                'end_x': float(data.get('endX')),
+                'end_y': float(data.get('endY')),
+            }
+        }
+        response = requests.put(api_url, headers=headers, json=payload)
+        
+        if response.status_code == 200:
+            message = response.json()
+            return JsonResponse({'success': True})
+        else:
+            if response.status_code != 500:
+                return JsonResponse({'error': response.json().get('error')}) 
             print(response.text)
             return JsonResponse({'error': "Something went wrong!"}) 

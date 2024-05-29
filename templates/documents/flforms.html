@@ -39,7 +39,7 @@
                             <div class="card-body">
                                 
                                 <!-- Nav tabs -->
-                                <ul class="nav nav-pills nav-justified mb-5" role="tablist">
+                                <ul class="d-flex gap-3 justify-content-around flex-wrap mb-5" role="tablist">
                                 {% for folder, files in folders_and_files.items %}
                                     <li class="nav-item waves-effect waves-light">
                                         <div class="btn-group me-2 mb-2 mb-sm-0">
@@ -117,7 +117,7 @@
                                         <div class="mb-3">
                                             <label for="descriptionInput" class="form-label">Description</label>
                                             <textarea class="form-control" name="description" rows="3"></textarea>
-                                        </di
+                                        </div>
                                         <div class="mb-3">
                                             <label for="renameInput" class="form-label">Rename</label>
                                             <input type="text" class="form-control" name="rename">
