@@ -282,6 +282,7 @@ class SingleFormAnswerMarkView(LoginRequiredMixin, View):
             'folder': data.get('folder'), 
             'url': data.get('url'),
             'edit_question_id' : int(data.get('edit_question_id')),
+            'page': data.get('page'),
             'answer_location' : {
                 'start_x': float(data.get('startX')),
                 'start_y': float(data.get('startY')),
