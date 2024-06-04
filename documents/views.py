@@ -215,11 +215,7 @@ class SingleFormQuestionAddView(LoginRequiredMixin, View):
 
         data  = {
             "question" : request.POST.getlist('question'),
-            "page" :  int(request.POST.get('page-no')),
-            "type" : request.POST.get('type'),
-            "folder": request.POST.get('folder'),
-            "url" : request.POST.get('url'),
-            "name": request.POST.get('name')
+            "document_id": request.POST.get('document_id')
         }
         
         response = requests.post(api_url, headers=headers, json=data)
@@ -276,21 +272,8 @@ class SingleFormAnswerMarkView(LoginRequiredMixin, View):
         api_url = f'{settings.API_BASE_URL}/api/admin/forms/question' 
         headers = {'Authorization': f'Bearer {access_token}'}
         data = json.loads(request.body)
-        payload = {
-            'name': data.get('name'), 
-            'type': data.get('type'), 
-            'folder': data.get('folder'), 
-            'url': data.get('url'),
-            'edit_question_id' : int(data.get('edit_question_id')),
-            'page': data.get('page'),
-            'answer_location' : {
-                'start_x': float(data.get('startX')),
-                'start_y': float(data.get('startY')),
-                'end_x': float(data.get('endX')),
-                'end_y': float(data.get('endY')),
-            }
-        }
-        response = requests.put(api_url, headers=headers, json=payload)
+
+        response = requests.put(api_url, headers=headers, json=data)
         
         if response.status_code == 200:
             message = response.json()
