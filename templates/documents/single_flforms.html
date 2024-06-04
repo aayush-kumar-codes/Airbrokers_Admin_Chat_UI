@@ -424,7 +424,10 @@
                 endY = event.clientY - rect.top;
 
                 // Finalize the rectangle
-                endY = startY + 22; 
+                if (selectedAnswerInputType == 'single-line') {
+                    endY = startY + 20; 
+                }
+                
                 ctx.fillStyle = 'rgba(0, 255, 255, 0.5)';
                      
                 ctx.fillRect(startX, startY, endX - startX, endY - startY);
