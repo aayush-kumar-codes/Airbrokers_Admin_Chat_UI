@@ -17,15 +17,6 @@
                 <div class="page-content">
                     <div class="container-fluid">
 
-                        <!-- start page title -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end page title -->
-
                         <div class="row align-items-center">
                             <div class="col-md-6">
                                 <div class="mb-3">
@@ -69,32 +60,6 @@
                             </div>
                         </div>
 
-
-                        <div class="table-responsive mb-4">
-                            <table class="table align-middle datatable dt-responsive table-check nowrap" style="border-collapse: collapse; border-spacing: 0 8px; width: 100%;">
-                                <thead>
-                                  <tr>
-                                    <th scope="col">Description</th>
-                                    <th scope="col">Url</th>
-                                    <th scope="col">Preview_image</th>
-                                    <th scope="col">Added_at</th>
-                                    <th scope="col">Updated_at</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>{{ file.description }}</td>
-                                        <td><a href='{{ BASE_URL }}{{ file.url }}' target="_blank">view</a></td>
-                                        <td><a href='{{ BASE_URL }}{{ file.preview_image }}' target="_blank">preview</a></td>
-                                        <td>{{ file.added_at }}</td>  
-                                        <td>{{ file.updated_at }}</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <!-- end table -->
-                        </div>
-                        <!-- end table responsive -->
-
                         <!--Questions-->
                         <div class="row align-items-center mb-3">
                             <h5 class="card-title"><span>Questions</span></h5>
@@ -137,33 +102,68 @@
                         <div class="position-absolute h-100 start-50 top-50 z-3"> 
                             <div id="loader" class="spinner-border text-warning " style="border-width: 0.4em;" role="status"></div>
                         </div>
-                       <div class="row mt-5 mb-2">
-                            <div class="col-md-4 mb-5 card" style="height:260px;">
-                                <div id="input-type-dropdown" class="mt-3 d-none">
-                                    <label for="answer-input-type" class="form-label">Answer Input Type:<span style="color: red;">*</span></label>
-                                    <select id="answer-input-type" class="form-select">
-                                        <option value="">Select</option>
-                                        <option value="single-line">Single Line</option>
-                                        <option value="multiline">Multiline</option>
-                                        <option value="single-checkbox">Checkbox (Single)</option>
-                                        <option value="multiple-checkbox">Checkbox (Multiple)</option>
-                                    </select>
-                                </div>
-                                <div id="checkbox-text" class="d-flex flex-column justify-content-center mt-3 d-none">
-                                    <div class="mb-2">
-                                        <label for="checkbox-value" class="form-label">Enter the value for marked checkbox:<span style="color: red;">*</span></label>
-                                    </div>
-                                    <div class="mb-2 d-flex gap-2">
-                                        <input type="text" id="checkbox-value" name="checkbox_value" class="form-control" placeholder="Enter the value here..">
-                                        <div>
-                                            <button id="checkbox-value-button" type="button" class="btn btn-primary">Save</button>
+                        <div class="row mt-5 mb-2">
+                            <div class="col-md-4 mb-5">
+                                <!-- First Card -->
+                                <div class="card mb-3 border border-secondary" style="height: 260px;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Answer Marking</h5>
+                                        <hr>
+                                        <div id="input-type-dropdown" class="mt-3 d-none">
+                                            <label for="answer-input-type" class="form-label">Answer Input Type:<span style="color: red;">*</span></label>
+                                            <select id="answer-input-type" class="form-select">
+                                                <option value="">Select</option>
+                                                <option value="single-line">Single Line</option>
+                                                <option value="multiline">Multiline</option>
+                                                <option value="single-checkbox">Checkbox (Single)</option>
+                                                <option value="multiple-checkbox">Checkbox (Multiple)</option>
+                                            </select>
+                                        </div>
+                                        <div id="checkbox-text" class="d-flex flex-column justify-content-center mt-3 d-none">
+                                            <div class="mb-2">
+                                                <label for="checkbox-value" class="form-label">Enter the value for marked checkbox:<span style="color: red;">*</span></label>
+                                            </div>
+                                            <div class="mb-2 d-flex gap-2">
+                                                <input type="text" id="checkbox-value" name="checkbox_value" class="form-control" placeholder="Enter the value here..">
+                                                <div>
+                                                    <button id="checkbox-value-button" type="button" class="btn btn-primary">Save</button>
+                                                </div>
+                                            </div>
+                                            <div id="CheckboxErrorContainer" style="color: red;"></div>
                                         </div>
                                     </div>
-                                    <div id="CheckboxErrorContainer" style="color: red;"></div> 
-                                </div>   
-                                                            
+                                </div>
+                                <!-- Second Card -->
+                                <div class="card border border-secondary" style="height: 400px;">
+                                    <!-- Add content for the second card here -->
+                                    <div class="card-body">
+                                        <h5 class="card-title">Document Details</h5>
+                                        <div class="mt-3">
+                                            <div class="mb-2">
+                                                <label for="doc-description" class="form-label">Description:</label>
+                                                <textarea id="doc-description" class="form-control" rows="3" readonly>{{ file.description }}</textarea>
+                                            </div>
+                                            <div class="mt-4 mb-2">
+                                                <label for="doc-url" class="form-label">Document:</label>
+                                                <a id="doc-url" href="{{ BASE_URL }}{{ file.url }}" target="_blank">Download</a>
+                                            </div>
+                                            <div class="mb-2">
+                                                <label for="preview-image" class="form-label">Preview Image:</label>
+                                                <a id="preview-image" href="{{ BASE_URL }}{{ file.preview_image }}" target="_blank">View</a>
+                                            </div>
+                                            <div class="mb-2">
+                                                <label for="added-at" class="form-label">Added At:</label>
+                                                <p id="added-at">{{ file.added_at }}</p>
+                                            </div>
+                                            <div class="mb-2">
+                                                <label for="updated-at" class="form-label">Updated At:</label>
+                                                <p id="updated-at">{{ file.updated_at }}</p>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-8"  style="overflow:auto;">
+                            <div class="col-md-8" style="overflow: auto;">
                                 <canvas id="pdf-canvas" class="border border-secondary d-none"></canvas>
                                 <div id="pageNumber" class="d-flex justify-content-center mt-2 gap-3 d-none">
                                     <a id="prev-page" class="btn btn-outline-primary"><i class="fa-solid fa-circle-left fa-lg"></i></a>
@@ -171,7 +171,8 @@
                                     <a id="next-page" class="btn btn-outline-primary"><i class="fa-solid fa-circle-right fa-lg"></i></a>
                                 </div>
                             </div>
-                        </div>      
+                        </div>
+                            
                         
                         <!-- Delete Question -->
                         <div class="modal fade" id="deleteQuestionModal" tabindex="-1" role="dialog" aria-hidden="true">
