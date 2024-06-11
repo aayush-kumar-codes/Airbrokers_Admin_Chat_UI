@@ -38,7 +38,7 @@
                     </div>
 
                     <div style="position: fixed; top:5%; left: 50%; transform: translate(-50%, -50%); z-index: 1050; max-width: 90vw; width: auto;">
-                        <div id="borderedToast2" class="toast overflow-hidden" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
+                        <div id="borderedToast2" class="toast overflow-hidden" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="true"  data-bs-delay="1500">
                             <div class="align-items-center text-white border-0" id="toast-type" style="background-color: #343a40;">
                                 <div class="d-flex">
                                     <div class="toast-body">
@@ -251,4 +251,15 @@
                     </div>
                 </div>
             </header>
+{% endblock  %}
+{% block extra_js %}
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const toastEl = document.getElementById('borderedToast2');
+        // Refresh the page when the toast is hidden
+        toastEl.addEventListener('hidden.bs.toast', () => {
+            location.reload();
+        });
+    });
+</script>
 {% endblock  %}
