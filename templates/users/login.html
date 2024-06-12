@@ -172,7 +172,6 @@
                             if (data.success){
                                 window.location.href = "{% url 'dashboard' %}"
                             }else{
-                                console.log(data.error)
                                 var toastDiv = document.getElementById('toast-type');
                                 toastDiv.classList.add('bg-danger');
                                 document.querySelector('.toast-body').innerText=data.error; 

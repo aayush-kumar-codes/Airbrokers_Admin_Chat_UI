@@ -572,7 +572,7 @@
                 }
            
             });
-            
+
             
             document.querySelectorAll('.mark-answer-btn').forEach(btn => {
                 btn.addEventListener('click', function() {
@@ -614,14 +614,17 @@
                         var toastDiv = document.getElementById('toast-type');
                         toastDiv.classList.add('bg-danger');
                         document.querySelector('.toast-body').innerText="Something went wrong";  
+                    }).finally(() => {
+                        // Show the toast after setting the text content
+                        var successToast = document.getElementById('borderedToast2');
+                        var toast = new bootstrap.Toast(successToast);
+                        toast.show();
+                    
+                        // Reset the state
+                        btn.classList.add('d-none');
+                        currentRect = [];
+                        selectedQuestionId = null;
                     });
-                    var toast = new bootstrap.Toast(successToast);
-                    toast.show();
-        
-                    //Reset the state
-                    btn.classList.add('d-none');
-                    currentRect = [];
-                    selectedQuestionId = null;
                 });
             });
         });
