@@ -39,7 +39,6 @@
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h5 class="modal-title" id="QuestionModalLabel">Add Questions&nbsp;</h5>
-                                        <button class="btn btn-success btn-sm" type="button" onclick="addInputField()"><i class="fa-solid fa-plus"></i></button>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" onclick="hideError()" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -47,7 +46,16 @@
                                         <form id="addQuestionForm">
                                             {% csrf_token %}
                                             <div class="mb-3">
-                                                <input type="text" class="form-control" name="question" placeholder="Enter your question here..">
+                                                <label for="question-text" class="form-label">Question:<span style="color: red;">*</span></label>
+                                                <input id="question-text"  type="text" class="form-control" name="question" placeholder="Enter your question here..">
+                                            </div>
+                                            <div class="mt-2 mb-3">
+                                                <label for="question-type" class="form-label">Type:<span style="color: red;">*</span></label>
+                                                <select id="question-type" class="form-select">
+                                                    <option value="">Select</option>
+                                                    <option value="required">Required</option>
+                                                    <option value="optional">Optional</option>
+                                                </select>
                                             </div>
                                         </form>
                                     </div>
@@ -72,6 +80,7 @@
                                     <tr>
                                         <th scope="col">Select</th>
                                         <th scope="col">Question</th>
+                                        <th scope="col">Type</th>
                                         <th scope="col">Actions</th>
                                     </tr>
                                 </thead>
@@ -85,9 +94,12 @@
                                             <p>{{ question.text }}</p>
                                         </td>
                                         <td>
+                                            <p>{{ question.type }}</p>
+                                        </td>
+                                        <td>
                                             <div class="d-flex gap-2">
                                                 <button id="mark-answer-button" class="btn btn-success mark-answer-btn d-none">Mark Answer</button>
-                                                <button type="button" class="btn btn-info edit-question" data-bs-toggle="modal" data-bs-target="#editQuestionModal" data-question="{{ question.question_id }},{{ question.text }}">Edit</button>
+                                                <button type="button" class="btn btn-info edit-question" data-bs-toggle="modal" data-bs-target="#editQuestionModal" data-question="{{ question.question_id }},{{ question.text }}, {{ question.type }}">Edit</button>
                                                 <button class="btn btn-danger delete-question" data-bs-toggle="modal" data-bs-target="#deleteQuestionModal" data-question="{{ question.question_id }}">Delete</button>
                                             </div>
                                         </td>
@@ -216,18 +228,18 @@
                                         <form id="editQuestionForm">
                                             {% csrf_token %} 
                                             <div class="modal-body">
-                                                <!-- <div class="mb-3">
-                                                    <label for="edit-page-input" class="form-label">PDF Page No.</label>
-                                                    <input type="text" id="edit-page-input" name="page" class="form-control" readonly>
-                                                </div> -->
                                                 <div class="mb-3">
-                                                    <label for="oldquestion" class="form-label">Question</label>
+                                                    <label for="editquestion" class="form-label">Question</label>
                                                     <input hidden type="text" class="form-control" id="edit-question-id" name="edit_question_id" readonly>
-                                                    <input type="text" class="form-control" id="oldquestion" name="oldquestion" readonly>
+                                                    <input type="text" class="form-control" id="editquestion" name="editquestion">
                                                 </div>
-                                                <div class="mb-3">
-                                                    <label for="editquestion" class="form-label">New Question<span style="color: red;">*</span></label>
-                                                    <input type="text" class="form-control" id="editquestion" name="editquestion" placeholder="Enter your new Question..">
+                                                <div class="mt-2 mb-3">
+                                                    <label for="edit-question-type" class="form-label">Type</label>
+                                                    <select id="edit-question-type" name="edit_question_type" class="form-select">
+                                                        <option value="">Select</option>
+                                                        <option value="required">Required</option>
+                                                        <option value="optional">Optional</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </form>
@@ -645,6 +657,7 @@
             }
             if(addQuestionForm){
                 const formFields = addQuestionForm.elements;
+                formFields[1].value = '';
                 formFields[2].value = '';
             }
             if(editQuestionForm){
@@ -660,8 +673,16 @@
                     var questionData = event.currentTarget.dataset.question;
                     var questionParts = questionData.split(',');
                     document.getElementById('edit-question-id').value = questionParts[0];
-                    document.getElementById('oldquestion').value = questionParts[1];
-                    //document.getElementById('edit-page-input').value = questionParts[2];
+                    document.getElementById('editquestion').value = questionParts[1];
+                    var editQuestionType = document.getElementById('edit-question-type')
+                    var options = editQuestionType.options;
+
+                    for (var i = 0; i < options.length; i++) {
+                        if (options[i].value.trim() == questionParts[2].trim()) {
+                            options[i].selected = true;
+                            break;
+                        }
+                    }
                 });
             });
         });
@@ -676,24 +697,6 @@
             });
         });
 
-        function addInputField() {
-            // Create a new div element for the input field
-            const newDiv = document.createElement('div');
-            newDiv.classList.add('mb-3');
-
-            // Create a new input element
-            const newInput = document.createElement('input');
-            newInput.type = 'text';
-            newInput.className = 'form-control';
-            newInput.name = 'question';
-            newInput.placeholder = 'Enter your question here..'
-
-            // Append the new input element to the new div
-            newDiv.appendChild(newInput);
-
-            // Append the new div to the form
-            document.getElementById('addQuestionForm').appendChild(newDiv);
-        }
 
         function submitQuestionAddForm() {
             const form = document.getElementById('addQuestionForm');
@@ -706,10 +709,13 @@
 
             var question = formData.getAll('question');
             const hasEmptyValue = question.some(value => value === "");
-            if (hasEmptyValue) {
-                errorContainer.innerText = 'Question input is required!';
+            var questionType = document.getElementById("question-type");
+           
+            if (hasEmptyValue || questionType.value==='') {
+                errorContainer.innerText = 'All fields are required!';
                 return;
             }
+            formData.append('question_type', questionType.value);
 
             // Make the API call
             fetch("{% url 'flforms_questions' %}", { 
@@ -752,12 +758,6 @@
 
             // Add additional key-value pairs to the FormData object
             formData.append('document_id', '{{ file.id }}');
-
-            var question = formData.get('editquestion');
-            if (question === "") {
-                errorContainer.innerText = 'Question input is required!';
-                return;
-            }
         
             // Make the API call
             fetch("{% url 'flforms_questions_edit' %}", { 

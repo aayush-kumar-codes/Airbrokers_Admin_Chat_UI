@@ -214,7 +214,8 @@ class SingleFormQuestionAddView(LoginRequiredMixin, View):
         headers = {'Authorization': f'Bearer {access_token}'}
 
         data  = {
-            "question" : request.POST.getlist('question'),
+            "question" : request.POST.get('question'),
+            "question_type": request.POST.get('question_type'),
             "document_id": request.POST.get('document_id')
         }
         
