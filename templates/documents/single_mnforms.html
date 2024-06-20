@@ -364,18 +364,20 @@
         
             const showPrevPage = () => {
                 if (pageNum <= 1) {
-                    return;
+                    pageNum = pdfDoc.numPages;
+                }else {
+                    pageNum--;
                 }
-                pageNum--;
                 queueRenderPage(pageNum);
                 document.getElementById('checkbox-text').classList.add('d-none');
             };
             
             const showNextPage = () => {
                 if (pageNum >= pdfDoc.numPages) {
-                    return;
+                    pageNum = 1;
+                } else {
+                    pageNum++;
                 }
-                pageNum++;
                 queueRenderPage(pageNum);
                 document.getElementById('checkbox-text').classList.add('d-none');
             };
