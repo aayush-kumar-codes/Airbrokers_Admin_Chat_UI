@@ -117,6 +117,16 @@
                             if (Array.isArray(chat_users)) {
                                 if (chat_users.length === 0) {
                                     window.location.reload();
+                                }else if(parsed_chat_user==null){
+                                    for(i=0; i<chat_users.length; i++){
+                                        if (payload.message_content[0].message_id == chat_users[i].user_id) {
+                                            var unreadMessageNumberDiv = document.getElementById(`unread-message-number-${payload.message_content[0].message_id}`);
+                                            var badgeSpan = unreadMessageNumberDiv.querySelector('span');
+                                            if (badgeSpan) {
+                                                badgeSpan.textContent = '1'; 
+                                            }
+                                        }
+                                    }   
                                 } else {
                                     const userExists = chat_users.some(user => user.user_id === payload.message_content[0].message_id);
                                     if (!userExists) {

@@ -216,6 +216,8 @@ class SingleFormQuestionAddView(LoginRequiredMixin, View):
         data  = {
             "question" : request.POST.get('question'),
             "question_type": request.POST.get('question_type'),
+            "description": request.POST.get('description'),
+            "link": request.POST.get('link'),
             "document_id": request.POST.get('document_id')
         }
         

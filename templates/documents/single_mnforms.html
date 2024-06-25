@@ -26,7 +26,7 @@
                             <div class="col-md-6">
                                 <div class="d-flex flex-wrap align-items-center justify-content-end gap-2 mb-3">
                                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#QuestionModal">
-                                         <span data-feather="file-plus"></span> Add Questions
+                                         <span data-feather="file-plus"></span> Add Question
                                     </button>
                                 </div>
                             </div>
@@ -38,7 +38,7 @@
                             <div class="modal-dialog modal-dialog-scrollable modal-xl">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="QuestionModalLabel">Add Questions&nbsp;</h5>
+                                        <h5 class="modal-title" id="QuestionModalLabel">Add Question&nbsp;</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" onclick="hideError()" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -56,6 +56,14 @@
                                                     <option value="required">Required</option>
                                                     <option value="optional">Optional</option>
                                                 </select>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="question-desc" class="form-label">Description:</label>
+                                                <input id="question-desc"  type="text" class="form-control" name="description" placeholder="Enter your description here..">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="question-link" class="form-label">Link:</label>
+                                                <input id="question-link"  type="text" class="form-control" name="link" placeholder="Enter your link here..">
                                             </div>
                                         </form>
                                     </div>
@@ -77,11 +85,13 @@
                             <!-- Selecting a Question -->
                             <table class="table align-middle datatable dt-responsive table-check nowrap" style="border-collapse: collapse; border-spacing: 0 8px; width: 100%;">
                                 <thead>
-                                    <tr>
+                                    <tr> 
                                         <th scope="col">Select</th>
+                                        <th scope="col">Action</th>
                                         <th scope="col">Question</th>
+                                        <th scope="col">Description</th>
+                                        <th scope="col">link</th>
                                         <th scope="col">Type</th>
-                                        <th scope="col">Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -91,17 +101,23 @@
                                             <input type="checkbox" class="form-check-input border border-secondary question-checkbox fs-5">
                                         </td>
                                         <td>
+                                            <div class="d-flex gap-2">
+                                                <button id="mark-answer-button" class="btn btn-success mark-answer-btn d-none">Mark Answer</button>
+                                                <button type="button" class="btn btn-outline-info edit-question" data-bs-toggle="modal" data-bs-target="#editQuestionModal" data-question="{{ question.question_id }},{{ question.text }}, {{ question.type }}, {{ question.description }}, {{ question.link }}"><i class="fas fa-pencil-alt"></i></button>
+                                                <button class="btn btn-outline-danger delete-question" data-bs-toggle="modal" data-bs-target="#deleteQuestionModal" data-question="{{ question.question_id }}"><i class="fa-solid fa-trash-can"></i></button>
+                                            </div>
+                                        </td>
+                                        <td>
                                             <p>{{ question.text }}</p>
                                         </td>
                                         <td>
-                                            <p>{{ question.type }}</p>
+                                            {% if question.description %}<p>{{ question.description }}</p>{% endif %}
                                         </td>
                                         <td>
-                                            <div class="d-flex gap-2">
-                                                <button id="mark-answer-button" class="btn btn-success mark-answer-btn d-none">Mark Answer</button>
-                                                <button type="button" class="btn btn-info edit-question" data-bs-toggle="modal" data-bs-target="#editQuestionModal" data-question="{{ question.question_id }},{{ question.text }}, {{ question.type }}">Edit</button>
-                                                <button class="btn btn-danger delete-question" data-bs-toggle="modal" data-bs-target="#deleteQuestionModal" data-question="{{ question.question_id }}">Delete</button>
-                                            </div>
+                                            {% if question.link %}<a href="{{ question.link }}" target="_blank">View</a>{% endif %}
+                                        </td>
+                                        <td>
+                                            <p>{{ question.type }}</p>
                                         </td>
                                     </tr>
                                     {% endfor %}
@@ -117,7 +133,7 @@
                         <div class="row mt-5 mb-2">
                             <div class="col-md-4 mb-5">
                                 <!-- First Card -->
-                                <div class="card mb-3 border border-secondary" style="height: 370px;">
+                                <div class="card mb-3 border border-secondary" style="height: 435px;">
                                     <div class="card-body">
                                         <h5 class="card-title">Answer Marking</h5>
                                         <hr>
@@ -129,6 +145,16 @@
                                                 <option value="multiline">Multiline</option>
                                                 <option value="single-checkbox">Single Checkbox</option>
                                                 <option value="multiple-checkbox">Multiple Checkbox</option>
+                                            </select>
+                                        </div>
+                                        <div id="output-type-dropdown" class="mt-3 d-none">
+                                            <label for="answer-output-type" class="form-label">Answer Data Type:<span style="color: red;">*</span></label>
+                                            <select id="answer-output-type" class="form-select">
+                                                <option value="">Select</option>
+                                                <option value="number">Number</option>
+                                                <option value="text">Text</option>
+                                                <option value="datetime">DateTime</option>
+                                                <option value="boolean">Boolean</option>
                                             </select>
                                         </div>
                                         <div id="checkbox-text" class="d-flex flex-column justify-content-center mt-4 d-none">
@@ -145,8 +171,9 @@
                                                     <button id="checkbox-value-button" type="button" class="btn btn-primary">Save</button>
                                                 </div>
                                             </div>
-                                            <div id="CheckboxErrorContainer" style="color: red;"></div>
+                                            <div id="CheckboxErrorContainer" style="background-color: red; color: white; display: inline-block;"></div>
                                         </div>
+                                        <div id="ansDatatypeErrorContainer" style="background-color: red; color: white; display: inline-block;"></div>
                                     </div>
                                 </div>
                                 <!-- Second Card -->
@@ -233,13 +260,21 @@
                                                     <input hidden type="text" class="form-control" id="edit-question-id" name="edit_question_id" readonly>
                                                     <input type="text" class="form-control" id="editquestion" name="editquestion">
                                                 </div>
-                                                <div class="mt-2 mb-3">
+                                                <div class="mb-3">
                                                     <label for="edit-question-type" class="form-label">Type</label>
                                                     <select id="edit-question-type" name="edit_question_type" class="form-select">
                                                         <option value="">Select</option>
                                                         <option value="required">Required</option>
                                                         <option value="optional">Optional</option>
                                                     </select>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="edit-description" class="form-label">Description</label>
+                                                    <input type="text" class="form-control" id="edit-description" name="edit_description">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="edit-link" class="form-label">Link</label>
+                                                    <input type="text" class="form-control" id="edit-link" name="edit_link">
                                                 </div>
                                             </div>
                                         </form>
@@ -308,6 +343,7 @@
                 currentRect = [],
                 selectedQuestionId = null;
                 answerInputType =  null;
+                answerOutputType = null;
         
             const renderPage = num => {
                 pageIsRendering = true;
@@ -409,6 +445,7 @@
                         this.checked = true;
                         currentRect = [];
                         document.getElementById('answer-input-type').disabled=true;
+                        document.getElementById('answer-output-type').disabled=true;
 
                         if (answerLocations.length != 0){
                             for (let i = 0; i < answerLocations.length; i++) {
@@ -427,6 +464,7 @@
                         }else{
                             ctx.clearRect(0, 0, canvas.width, canvas.height);
                             document.getElementById('answer-input-type').disabled=false;
+                            document.getElementById('answer-output-type').disabled=false;
                             renderPage(pageNum);
                         }
                         document.getElementById('answer-input-type').addEventListener('change', function() {
@@ -437,9 +475,13 @@
                             renderPage(pageNum);
                             questionItem.querySelector('.mark-answer-btn').classList.add('d-none');
                             document.getElementById('checkbox-text').classList.add('d-none');
+                            document.getElementById('ansDatatypeErrorContainer').innerText='';
                         });
- 
+                        document.getElementById('answer-output-type').addEventListener('change', function() {
+                            document.getElementById('ansDatatypeErrorContainer').innerText='';
+                        });
                         document.getElementById('input-type-dropdown').classList.remove('d-none');
+                        document.getElementById('output-type-dropdown').classList.remove('d-none');
                     } else {
                         currentRect = [];
                         selectedQuestionId = null;
@@ -448,7 +490,10 @@
                         renderPage(1); // Render the first page or any default page
                         questionItem.querySelector('.mark-answer-btn').classList.add('d-none');
                         document.getElementById('answer-input-type').value='';
+                        document.getElementById('answer-output-type').value='';
+                        document.getElementById('ansDatatypeErrorContainer').innerText='';
                         document.getElementById('input-type-dropdown').classList.add('d-none');
+                        document.getElementById('output-type-dropdown').classList.add('d-none');
                         document.getElementById('checkbox-text').classList.add('d-none');
                     }
                 });
@@ -591,7 +636,15 @@
             document.querySelectorAll('.mark-answer-btn').forEach(btn => {
                 btn.addEventListener('click', function() {
                     if (!currentRect || !selectedQuestionId) return;
-                    
+                    answerOutputType =  document.getElementById('answer-output-type').value;
+                    if(answerOutputType == ''){
+                        document.getElementById('ansDatatypeErrorContainer').innerText = "Data type is required for answer";
+                        return;
+                    }
+                
+                    currentRect.forEach(obj => {
+                        obj['answerOutputType'] = answerOutputType;
+                    });
                     const markerData = {
                         currentRect,
                         edit_question_id: selectedQuestionId,
@@ -658,9 +711,7 @@
                 editerrorContainer.innerText = '';
             }
             if(addQuestionForm){
-                const formFields = addQuestionForm.elements;
-                formFields[1].value = '';
-                formFields[2].value = '';
+                addQuestionForm.reset();
             }
             if(editQuestionForm){
                 editQuestionForm.reset();
@@ -685,6 +736,15 @@
                             break;
                         }
                     }
+                    
+                    if (questionParts[3].trim() === "None"){
+                        questionParts[3] = '';
+                    }
+                    if (questionParts[4].trim() === "None"){
+                        questionParts[4] = '';
+                    }
+                    document.getElementById('edit-description').value = questionParts[3];
+                    document.getElementById('edit-link').value = questionParts[4];
                 });
             });
         });
@@ -714,7 +774,7 @@
             var questionType = document.getElementById("question-type");
            
             if (hasEmptyValue || questionType.value==='') {
-                errorContainer.innerText = 'All fields are required!';
+                errorContainer.innerText = 'Please fill required field!';
                 return;
             }
             formData.append('question_type', questionType.value);
