@@ -228,7 +228,7 @@ class UploadedDocsView(LoginRequiredMixin, View):
 
 class DocsView(LoginRequiredMixin, View):
     def get(self, request):  
-        api_url = f'{settings.API_BASE_URL}/api/admin/users'
+        api_url = f'{settings.API_BASE_URL}/api/admin/users?docs=user-docs'
         access_token = request.COOKIES.get('access_token') 
         headers = {'Authorization': f'Bearer {access_token}'}
         response = requests.get(api_url, headers=headers)
