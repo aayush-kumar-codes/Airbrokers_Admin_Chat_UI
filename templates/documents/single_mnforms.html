@@ -70,7 +70,7 @@
                                     <div class="modal-footer">
                                         <div id="errorContainer" style="color: red;"></div>
                                         <button type="button" class="btn btn-light" onclick="hideError()" data-bs-dismiss="modal">Close</button>
-                                        <button type="submit" onclick="submitQuestionAddForm()" class="btn btn-primary">Save</button>
+                                        <button type="submit" onclick="submitQuestionAddForm()" id="question-add" class="btn btn-primary">Save</button>
                                     </div>
                                 </div>
                             </div>
@@ -145,6 +145,8 @@
                                                 <option value="multiline">Multiline</option>
                                                 <option value="single-checkbox">Single Checkbox</option>
                                                 <option value="multiple-checkbox">Multiple Checkbox</option>
+                                                <option value="multiple-checkbox-single-choice-answer">Multiple Checkbox(single-choice-answer)</option>
+                                                <option value="multiple-checkbox-multiple-choice-answer">Multiple Checkbox(multiple-choice-answer)</option>
                                             </select>
                                         </div>
                                         <div id="output-type-dropdown" class="mt-3 d-none">
@@ -236,7 +238,7 @@
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
-                                            <button type="button" class="btn btn-danger" onclick="submitQuestionDeleteForm()">Yes</button>
+                                            <button type="button" class="btn btn-danger" id="question-delete" onclick="submitQuestionDeleteForm()">Yes</button>
                                         </div>
                                     </form>
                                 </div><!-- /.modal-content -->
@@ -374,7 +376,7 @@
                             for (let i = 0; i < currentRect.length; i++) {
                                 if (currentRect[i].pageNum === pageNum){
                                     ctx.fillStyle = 'yellow';
-                                    if (currentRect[i].answerInputType == 'single-checkbox' || currentRect[i].answerInputType == 'multiple-checkbox'){
+                                    if (currentRect[i].answerInputType == 'single-checkbox' || currentRect[i].answerInputType == 'multiple-checkbox-single-choice-answer' || currentRect[i].answerInputType == 'multiple-checkbox-multiple-choice-answer'){
                                         ctx.fillRect(currentRect[i].startX * scale, currentRect[i].startY * scale, (currentRect[i].endX - currentRect[i].startX), (currentRect[i].endY - currentRect[i].startY));
                                     }
                                     else{
@@ -573,9 +575,9 @@
             });
             
             canvas.addEventListener("dblclick", function(event) {
-                if (!selectedQuestionId || (answerInputType != 'single-checkbox' && answerInputType != 'multiple-checkbox')) return;
-                if (!document.getElementById('checkbox-text').classList.contains('d-none') && answerInputType == 'multiple-checkbox') return;
-            
+                if (!selectedQuestionId || (answerInputType != 'single-checkbox' && answerInputType != 'multiple-checkbox-single-choice-answer' && answerInputType != 'multiple-checkbox-multiple-choice-answer')) return;
+                if (!document.getElementById('checkbox-text').classList.contains('d-none') && (answerInputType == 'multiple-checkbox-single-choice-answer' || answerInputType == 'multiple-checkbox-multiple-choice-answer')) return;
+
                 document.getElementById('CheckboxErrorContainer').innerText = '';
                 document.querySelectorAll('.mark-answer-btn').forEach(btn => btn.classList.add('d-none'));
 
@@ -591,7 +593,7 @@
             
                 var newRect = { startX, startY, endX, endY, pageNum, answerInputType};
             
-                if (answerInputType == 'multiple-checkbox') {
+                if (answerInputType == 'multiple-checkbox-single-choice-answer' || answerInputType == 'multiple-checkbox-multiple-choice-answer') {
                     document.getElementById('checkbox-text').classList.remove('d-none');
             
                     // Remove any previous event listener
@@ -809,6 +811,7 @@
             .catch(error => {
                 console.error('There was a problem with the fetch operation:', error);
             });
+            document.getElementById("question-add").disabled = true;
         }
 
         function submitQuestionEditForm() {
@@ -888,6 +891,7 @@
             .catch(error => {
                 console.error('There was a problem with the fetch operation:', error);
             });
+            document.getElementById('question-delete').disabled = true;
         }
 
     </script>
