@@ -1,0 +1,45 @@
+class Config:
+    DEFAULT_OUTPUT_FOLDER = 'output_images'
+
+    CHECKBOX_PARAMS = {
+        'MIN_AREA': 757,
+        'MAX_AREA': 2276,
+        'MIN_ASPECT_RATIO': 0.7111294007433661,
+        'MAX_ASPECT_RATIO': 1.116370565334775,
+        'MIN_SOLIDITY': 0.9317091763161064,
+        'MIN_DIMENSION': 10,
+        'DUPLICATE_THRESHOLD': 24,
+        'THRESHOLD_VALUE': 203,
+        'MIN_CONTOUR_POINTS': 6,
+        'MAX_CONTOUR_POINTS': 56,
+        'FILL_THRESHOLD': 23.651973313666453,
+        'NOISE_REMOVAL_KERNEL': (2, 2),
+        'MIN_PERIMETER': 100,
+        'MAX_PERIMETER': 200,
+        'CORNER_ANGLE_TOLERANCE': 18
+    }
+
+    LINE_PARAMS = {
+        'MIN_WIDTH': 80,
+        'MAX_WIDTH': 1450,
+        'MAX_HEIGHT': 3,
+        'EXTENDED_HEIGHT': 30,
+        'THRESHOLD_VALUE': 240,
+        'KERNEL_LENGTH': 40,
+        'MIN_LINE_THICKNESS': 1,
+        'MAX_LINE_THICKNESS': 10,
+        'MIN_SOLID_LENGTH_RATIO': 0.95,
+        'DASH_CHECK_WINDOW': 100,
+        'MAX_GAP_SIZE': 2,
+        'MIN_DENSITY': 0.8,
+        'UNDERLINE_MAX_DISTANCE': 20,
+        'TEXT_CHECK_HEIGHT': 20
+    }
+
+    PREPROCESSING_PARAMS = {
+        'GAUSSIAN_BLUR_KERNEL': (1, 1),
+        'GAUSSIAN_BLUR_SIGMA': 0,
+        'ADAPTIVE_BLOCK_SIZE': 51,
+        'ADAPTIVE_C': 2,
+        'MORPH_KERNEL_SIZE': (1, 1)
+    }
