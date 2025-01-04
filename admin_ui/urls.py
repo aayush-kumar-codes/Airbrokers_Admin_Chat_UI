@@ -25,4 +25,6 @@ urlpatterns = [
     path('users/', include('users.urls')),
     path('chats/', include('chat.urls')),
     path('documents/', include('documents.urls')),
-]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+    path('forms/', include('forms.urls')), 
+# ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
