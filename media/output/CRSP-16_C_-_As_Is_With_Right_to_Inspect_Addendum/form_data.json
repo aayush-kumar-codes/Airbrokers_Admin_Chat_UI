@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-24T16:51:43.801207",
+    "filename": "CRSP-16_C_-_As_Is_With_Right_to_Inspect_Addendum.pdf",
+    "document_title": "CRSP16.C.as is with right to inspect addendum.pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 11,
+    "fields_by_type": {
+      "text": 11
+    },
+    "fields_by_page": {
+      "1": 11
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "to Seller within",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 348.0,
+        "y0": 830.0,
+        "x1": 443.0,
+        "y1": 860.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "than $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 231.0,
+        "y0": 766.0,
+        "x1": 479.0,
+        "y1": 796.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "expense, by",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 327.0,
+        "y0": 639.0,
+        "x1": 638.0,
+        "y1": 669.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "( )( )-(",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 488.0,
+        "y0": 479.0,
+        "x1": 570.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "( )(",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 383.0,
+        "y0": 479.0,
+        "x1": 465.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "(",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 261.0,
+        "y0": 479.0,
+        "x1": 346.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 156.0,
+        "y0": 479.0,
+        "x1": 238.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 151.0,
+        "y0": 410.0,
+        "x1": 1601.0,
+        "y1": 440.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "concerning the Property described as",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 619.0,
+        "y0": 366.0,
+        "x1": 1601.0,
+        "y1": 396.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "and",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 205.0,
+        "y0": 321.0,
+        "x1": 1478.0,
+        "y1": 351.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "between",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 264.0,
+        "y0": 277.0,
+        "x1": 1481.0,
+        "y1": 307.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

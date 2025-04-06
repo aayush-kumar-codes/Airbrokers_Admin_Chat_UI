@@ -1,0 +1,629 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-27T12:01:25.765252",
+    "filename": "form-141-5_53Lis6o.pdf",
+    "document_title": "Mineral, Oil & Gas Right...re Statement rec425.pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 36,
+    "fields_by_type": {
+      "checkbox": 19,
+      "text": 17
+    },
+    "fields_by_page": {
+      "1": 36
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "1, The Residential Property Disclosure Act (G.S. 47E) (\u201cDisclosure Act\u201d) requires owners of certain residential real estate such as single-",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 268.56,
+        "y0": 85.32,
+        "x1": 273.24,
+        "y1": 91.8
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "1, The Residential Property Disclosure Act (G.S. 47E) (\u201cDisclosure Act\u201d) requires owners of certain residential real estate such as single-",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 155.88,
+        "y0": 85.32,
+        "x1": 160.56,
+        "y1": 91.8
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "a Mineral and Oil and Gas Rights Disclosure Statement (\u201cDisclosure Statement\u201d). This form is the only one approved for this purpose.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 112.32,
+        "y0": 107.28,
+        "x1": 117.72,
+        "y1": 113.75999999999999
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "Buyer Initials 1. Mineral rights were severed from the property by a previous owner.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 510.47999999999996,
+        "y0": 291.24,
+        "x1": 517.3199999999999,
+        "y1": 298.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "Buyer Initials 1. Mineral rights were severed from the property by a previous owner.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 458.28,
+        "y0": 291.24,
+        "x1": 465.47999999999996,
+        "y1": 298.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "Buyer Initials 1. Mineral rights were severed from the property by a previous owner.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 436.32,
+        "y0": 291.24,
+        "x1": 443.52,
+        "y1": 298.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_6": {
+      "question": "Buyer Initials 2. Seller has severed the mineral rights from the property.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 458.28,
+        "y0": 318.24,
+        "x1": 465.47999999999996,
+        "y1": 325.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_7": {
+      "question": "Buyer Initials 2. Seller has severed the mineral rights from the property.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 436.32,
+        "y0": 318.24,
+        "x1": 443.52,
+        "y1": 325.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_8": {
+      "question": "Buyer Tits stor of de to the Buyer ne om oe Property Priore",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 458.28,
+        "y0": 345.24,
+        "x1": 465.47999999999996,
+        "y1": 352.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_9": {
+      "question": "Buyer Tits stor of de to the Buyer ne om oe Property Priore",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 436.32,
+        "y0": 345.24,
+        "x1": 443.52,
+        "y1": 352.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_10": {
+      "question": "Buyer Initials 4. Oil and gas rights were severed from the property by a previous owner.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 510.47999999999996,
+        "y0": 380.88,
+        "x1": 517.3199999999999,
+        "y1": 387.71999999999997
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_11": {
+      "question": "Buyer Initials 4. Oil and gas rights were severed from the property by a previous owner.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 458.28,
+        "y0": 381.24,
+        "x1": 465.47999999999996,
+        "y1": 388.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_12": {
+      "question": "Buyer Initials 4. Oil and gas rights were severed from the property by a previous owner.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 436.32,
+        "y0": 381.24,
+        "x1": 443.52,
+        "y1": 388.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_13": {
+      "question": "Buyer Initials 5. Seller has severed the oil and gas rights from the property.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 458.28,
+        "y0": 408.24,
+        "x1": 465.47999999999996,
+        "y1": 415.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_14": {
+      "question": "Buyer Initials 5. Seller has severed the oil and gas rights from the property.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 436.32,
+        "y0": 408.24,
+        "x1": 443.52,
+        "y1": 415.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_15": {
+      "question": "6. Seller intends to sever the oil and gas rights from the property prior",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 458.28,
+        "y0": 435.24,
+        "x1": 465.47999999999996,
+        "y1": 442.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_16": {
+      "question": "6. Seller intends to sever the oil and gas rights from the property prior",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 436.32,
+        "y0": 435.24,
+        "x1": 443.52,
+        "y1": 442.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_17": {
+      "question": "If the owner does not give you a Mineral and Oil and Gas Rights Disclosure Statement by the time you make your offer to",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 248.04,
+        "y0": 488.88,
+        "x1": 253.44,
+        "y1": 495.71999999999997
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_18": {
+      "question": "Owner Signature: Date",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 37.8,
+        "y0": 663.12,
+        "x1": 43.92,
+        "y1": 670.3199999999999
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "Purchaser Signature: Date",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 435.59999999999997,
+        "y0": 735.48,
+        "x1": 479.52,
+        "y1": 746.28
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Purchaser Signature:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 123.11999999999999,
+        "y0": 735.48,
+        "x1": 409.68,
+        "y1": 746.28
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Purchaser Signature: Date",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 435.59999999999997,
+        "y0": 714.6,
+        "x1": 479.52,
+        "y1": 725.4
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "Purchaser Signature:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 123.11999999999999,
+        "y0": 714.6,
+        "x1": 409.68,
+        "y1": 725.4
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "Owner Signature: Date",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 429.84,
+        "y0": 660.6,
+        "x1": 479.52,
+        "y1": 671.4
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Owner Signature:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 111.6,
+        "y0": 660.6,
+        "x1": 403.91999999999996,
+        "y1": 671.4
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "Owner Signature: Date",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 429.84,
+        "y0": 639.72,
+        "x1": 479.52,
+        "y1": 650.52
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "Owner Signature:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 111.6,
+        "y0": 639.72,
+        "x1": 403.91999999999996,
+        "y1": 650.52
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "Owner's Name(s):",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 114.11999999999999,
+        "y0": 596.52,
+        "x1": 505.44,
+        "y1": 607.3199999999999
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "Property Address:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 114.11999999999999,
+        "y0": 575.28,
+        "x1": 505.44,
+        "y1": 586.0799999999999
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 55.8,
+        "y0": 455.4,
+        "x1": 557.64,
+        "y1": 466.2
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 60.12,
+        "y0": 426.96,
+        "x1": 109.8,
+        "y1": 437.76
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 60.12,
+        "y0": 399.96,
+        "x1": 109.8,
+        "y1": 410.76
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 60.12,
+        "y0": 372.59999999999997,
+        "x1": 109.8,
+        "y1": 383.4
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 60.12,
+        "y0": 336.59999999999997,
+        "x1": 109.8,
+        "y1": 347.4
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 60.12,
+        "y0": 309.96,
+        "x1": 109.8,
+        "y1": 320.76
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 60.12,
+        "y0": 282.59999999999997,
+        "x1": 109.8,
+        "y1": 293.4
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

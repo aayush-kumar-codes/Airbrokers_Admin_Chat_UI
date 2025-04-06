@@ -1,0 +1,526 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-27T12:27:51.307279",
+    "filename": "form-201-8_FLHmJSI.pdf",
+    "document_title": "",
+    "number_of_pages": 7,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 32,
+    "fields_by_type": {
+      "checkbox": 11,
+      "text": 21
+    },
+    "fields_by_page": {
+      "1": 10,
+      "2": 6,
+      "3": 3,
+      "4": 5,
+      "5": 5,
+      "6": 3
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "1. TYPE OF PROPERTY. Q Residential (improved and unimproved) UO Commercial (improved and unimproved)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 998.0,
+        "y0": 1188.0,
+        "x1": 1014.0,
+        "y1": 1204.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "1. TYPE OF PROPERTY. Q Residential (improved and unimproved) UO Commercial (improved and unimproved)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 479.0,
+        "y0": 1188.0,
+        "x1": 495.0,
+        "y1": 1204.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "Q Other",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 479.0,
+        "y0": 1220.0,
+        "x1": 495.0,
+        "y1": 1236.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "Q (For buyers who intend to purchase a single property): This Agreement shall terminate when Buyer acquires real property of the",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 134.0,
+        "y0": 1540.0,
+        "x1": 150.0,
+        "y1": 1556.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 129.0,
+        "y0": 1603.0,
+        "x1": 145.0,
+        "y1": 1619.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "Oshall O shall not be credited toward any compensation due Firm under this Agreement.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 275.0,
+        "y0": 1731.0,
+        "x1": 292.0,
+        "y1": 1747.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_6": {
+      "question": "Oshall O shall not be credited toward any compensation due Firm under this Agreement.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 192.0,
+        "y0": 1731.0,
+        "x1": 208.0,
+        "y1": 1747.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "REALTOR\u00ae Buyer initials Individual agent initials",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 914.0,
+        "y0": 2130.0,
+        "x1": 1013.0,
+        "y1": 2160.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "REALTOR\u00ae Buyer initials",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 539.0,
+        "y0": 2130.0,
+        "x1": 638.0,
+        "y1": 2160.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "REALTOR\u00ae Buyer initials",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 435.0,
+        "y0": 2130.0,
+        "x1": 534.0,
+        "y1": 2160.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "Buyer initials Individual agent initials",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 914.0,
+        "y0": 2095.0,
+        "x1": 1012.0,
+        "y1": 2125.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "Buyer initials",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 539.0,
+        "y0": 2095.0,
+        "x1": 638.0,
+        "y1": 2125.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Buyer initials",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 435.0,
+        "y0": 2095.0,
+        "x1": 534.0,
+        "y1": 2125.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 157.0,
+        "y0": 1340.0,
+        "x1": 1601.0,
+        "y1": 1370.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 157.0,
+        "y0": 1210.0,
+        "x1": 1601.0,
+        "y1": 1240.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 167.0,
+        "y0": 625.0,
+        "x1": 1601.0,
+        "y1": 655.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "Buyer initials Individual agent initials",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 914.0,
+        "y0": 2095.0,
+        "x1": 1013.0,
+        "y1": 2125.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "Buyer initials",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 539.0,
+        "y0": 2095.0,
+        "x1": 638.0,
+        "y1": 2125.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "Buyer initials",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 435.0,
+        "y0": 2095.0,
+        "x1": 534.0,
+        "y1": 2125.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_7": {
+      "question": "Q Buyer acknowledges receipt of a sample copy of an Offer to Purchase And Contract for review purposes.",
+      "type": "checkbox",
+      "page": 4,
+      "rect": {
+        "x0": 104.0,
+        "y0": 203.0,
+        "x1": 120.0,
+        "y1": 219.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_8": {
+      "question": "Q Buyer acknowledges receipt of a sample copy of a Professional Services Disclosure and Election form (form #760) for review",
+      "type": "checkbox",
+      "page": 4,
+      "rect": {
+        "x0": 104.0,
+        "y0": 235.0,
+        "x1": 120.0,
+        "y1": 251.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_12": {
+      "question": "Buyer initials Individual agent initials",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 914.0,
+        "y0": 2095.0,
+        "x1": 1012.0,
+        "y1": 2125.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "Buyer initials",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 539.0,
+        "y0": 2095.0,
+        "x1": 638.0,
+        "y1": 2125.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "Buyer initials",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 435.0,
+        "y0": 2095.0,
+        "x1": 534.0,
+        "y1": 2125.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_9": {
+      "question": "Buyer OQ DOES QO DOES NOT authorize the same individual agent to represent both the Buyer and the seller in a",
+      "type": "checkbox",
+      "page": 5,
+      "rect": {
+        "x0": 505.0,
+        "y0": 633.0,
+        "x1": 521.0,
+        "y1": 649.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_10": {
+      "question": "Buyer OQ DOES QO DOES NOT authorize the same individual agent to represent both the Buyer and the seller in a",
+      "type": "checkbox",
+      "page": 5,
+      "rect": {
+        "x0": 392.0,
+        "y0": 633.0,
+        "x1": 408.0,
+        "y1": 649.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_15": {
+      "question": "Buyer initials Individual agent initials",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 914.0,
+        "y0": 2095.0,
+        "x1": 1013.0,
+        "y1": 2125.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "Buyer initials",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 539.0,
+        "y0": 2095.0,
+        "x1": 638.0,
+        "y1": 2125.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "Buyer initials",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 435.0,
+        "y0": 2095.0,
+        "x1": 534.0,
+        "y1": 2125.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "Buyer initials Individual agent initials",
+      "type": "text",
+      "page": 6,
+      "rect": {
+        "x0": 914.0,
+        "y0": 2095.0,
+        "x1": 1013.0,
+        "y1": 2125.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "Buyer initials",
+      "type": "text",
+      "page": 6,
+      "rect": {
+        "x0": 539.0,
+        "y0": 2095.0,
+        "x1": 638.0,
+        "y1": 2125.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "Buyer initials",
+      "type": "text",
+      "page": 6,
+      "rect": {
+        "x0": 435.0,
+        "y0": 2095.0,
+        "x1": 534.0,
+        "y1": 2125.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

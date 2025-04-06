@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-21T18:17:14.628813",
+    "filename": "form-355-T-2_1.pdf",
+    "document_title": "REQUEST FOR COPY OF COMMITMENT LETTER",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 13,
+    "fields_by_type": {
+      "text": 13
+    },
+    "fields_by_page": {
+      "1": 13
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "Names",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 430.2,
+        "y0": 532.0799999999999,
+        "x1": 572.04,
+        "y1": 542.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Names",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 64.44,
+        "y0": 532.0799999999999,
+        "x1": 349.56,
+        "y1": 542.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "By: Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 381.24,
+        "y0": 509.4,
+        "x1": 574.1999999999999,
+        "y1": 520.1999999999999
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "By:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 54.36,
+        "y0": 509.4,
+        "x1": 339.47999999999996,
+        "y1": 520.1999999999999
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "Entity Seller:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 90.36,
+        "y0": 477.35999999999996,
+        "x1": 572.76,
+        "y1": 488.15999999999997
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 35.28,
+        "y0": 442.08,
+        "x1": 317.52,
+        "y1": 452.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 359.28,
+        "y0": 442.44,
+        "x1": 577.4399999999999,
+        "y1": 453.24
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 360.36,
+        "y0": 408.24,
+        "x1": 577.8,
+        "y1": 419.03999999999996
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 36.0,
+        "y0": 408.24,
+        "x1": 317.52,
+        "y1": 419.03999999999996
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "dishonored check or other funds:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 169.2,
+        "y0": 303.12,
+        "x1": 570.9599999999999,
+        "y1": 313.92
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "Property Address:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 107.28,
+        "y0": 129.24,
+        "x1": 524.16,
+        "y1": 140.04
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 61.199999999999996,
+        "y0": 106.2,
+        "x1": 534.6,
+        "y1": 117.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "Seller;",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 61.199999999999996,
+        "y0": 82.8,
+        "x1": 538.92,
+        "y1": 93.6
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

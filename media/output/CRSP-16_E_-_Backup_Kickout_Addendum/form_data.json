@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-22T07:20:38.600671",
+    "filename": "CRSP-16_E_-_Backup_Kickout_Addendum.pdf",
+    "document_title": "CRSP16.E.backup kickout addendum.pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 11,
+    "fields_by_type": {
+      "checkbox": 3,
+      "text": 8
+    },
+    "fields_by_page": {
+      "1": 11
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "7 1. O Back-up Contract: This back-up Contract is subject to the termination of a prior executed contract between",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 204.0,
+        "y0": 563.0,
+        "x1": 222.0,
+        "y1": 581.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "14* Buyer's deposit(s) will be refunded. OBuyer may cancel this back-up Contract by delivering written notice to",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 686.0,
+        "y0": 787.0,
+        "x1": 704.0,
+        "y1": 805.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "16\u00b0 2. O Kick-out Clause: Seller has the right to continue to show the Property and solicit and enter into bona fide",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 204.0,
+        "y0": 867.0,
+        "x1": 222.0,
+        "y1": 886.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "20 Buyer must make an additional deposit of $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 748.0,
+        "y0": 989.0,
+        "x1": 997.0,
+        "y1": 1019.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "9* Seller delivers written notice of the termination to Buyer before 5:00 p.m. on",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1227.0,
+        "y0": 621.0,
+        "x1": 1537.0,
+        "y1": 651.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "( d\u00a2 )-(",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 497.0,
+        "y0": 489.0,
+        "x1": 583.0,
+        "y1": 519.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "(",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 271.0,
+        "y0": 489.0,
+        "x1": 353.0,
+        "y1": 519.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "a",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 151.0,
+        "y0": 410.0,
+        "x1": 1601.0,
+        "y1": 440.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Fw concerning the Property described as",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 619.0,
+        "y0": 366.0,
+        "x1": 1601.0,
+        "y1": 396.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "Fw and",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 205.0,
+        "y0": 321.0,
+        "x1": 1478.0,
+        "y1": 351.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "N Fw between",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 264.0,
+        "y0": 277.0,
+        "x1": 1481.0,
+        "y1": 307.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

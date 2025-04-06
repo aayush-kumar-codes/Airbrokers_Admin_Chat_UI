@@ -1,0 +1,493 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-21T10:17:12.402801",
+    "filename": "Extension_Addendum_to_Contract_EA-4_Rev._03_2021_1_CxyoOYJ.pdf",
+    "document_title": "Extension Addendum to Contract (EA-4).pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 32,
+    "fields_by_type": {
+      "checkbox": 7,
+      "text": 25
+    },
+    "fields_by_page": {
+      "1": 32
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "LC Closing Date. Seller and Buyer agree to extend the Closing Date until",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 105.0,
+        "y0": 558.0,
+        "x1": 124.0,
+        "y1": 576.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "Financing Period. Seller and Buyer agree to extend the Commitment Period, Loan Approval Date, or Financing",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 104.0,
+        "y0": 623.0,
+        "x1": 122.0,
+        "y1": 641.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "O Inspection Period. Seller and Buyer agree to extend the Inspection Period for an additional days or until",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 105.0,
+        "y0": 719.0,
+        "x1": 122.0,
+        "y1": 737.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "Title Cure Period. Seller and Buyer agree to extend the Curative Period or Cure Period for an additional days",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 104.0,
+        "y0": 839.0,
+        "x1": 122.0,
+        "y1": 857.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "Short Sale Approval Deadline. Seller and Buyer agree to extend the Approval Deadline for an additional",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 104.0,
+        "y0": 935.0,
+        "x1": 122.0,
+        "y1": 953.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "Sale/Lease of Buyer\u2019s Property Deadline. Seller and Buyer agree to extend the Sale/Lease of Buyer\u2019s Property",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 104.0,
+        "y0": 1031.0,
+        "x1": 122.0,
+        "y1": 1049.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_6": {
+      "question": "Due Diligence Period. Seller and Buyer agree to extend the Due Diligence Period for an additional days or",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 104.0,
+        "y0": 1127.0,
+        "x1": 122.0,
+        "y1": 1145.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1413.0,
+        "y0": 1640.0,
+        "x1": 1572.0,
+        "y1": 1670.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 909.0,
+        "y0": 1640.0,
+        "x1": 1344.0,
+        "y1": 1670.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 675.0,
+        "y0": 1640.0,
+        "x1": 834.0,
+        "y1": 1670.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 100.0,
+        "y0": 1640.0,
+        "x1": 561.0,
+        "y1": 1670.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1413.0,
+        "y0": 1547.0,
+        "x1": 1572.0,
+        "y1": 1577.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 909.0,
+        "y0": 1547.0,
+        "x1": 1344.0,
+        "y1": 1577.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 675.0,
+        "y0": 1547.0,
+        "x1": 834.0,
+        "y1": 1577.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 100.0,
+        "y0": 1547.0,
+        "x1": 561.0,
+        "y1": 1577.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "until",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 158.0,
+        "y0": 1153.0,
+        "x1": 624.0,
+        "y1": 1183.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "Due Diligence Period. Seller and Buyer agree to extend the Due Diligence Period for an additional",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1371.0,
+        "y0": 1121.0,
+        "x1": 1465.0,
+        "y1": 1151.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "Deadline for an additional days or until",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 680.0,
+        "y0": 1057.0,
+        "x1": 1115.0,
+        "y1": 1087.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "Deadline for an additional",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 422.0,
+        "y0": 1057.0,
+        "x1": 517.0,
+        "y1": 1087.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "days or until",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 257.0,
+        "y0": 961.0,
+        "x1": 630.0,
+        "y1": 991.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "Short Sale Approval Deadline. Seller and Buyer agree to extend the Approval Deadline for an additional",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1448.0,
+        "y0": 929.0,
+        "x1": 1542.0,
+        "y1": 959.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "or until",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 191.0,
+        "y0": 865.0,
+        "x1": 625.0,
+        "y1": 895.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "Title Cure Period. Seller and Buyer agree to extend the Curative Period or Cure Period for an additional",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1434.0,
+        "y0": 833.0,
+        "x1": 1528.0,
+        "y1": 863.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 100.0,
+        "y0": 757.0,
+        "x1": 627.0,
+        "y1": 787.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "O Inspection Period. Seller and Buyer agree to extend the Inspection Period for an additional",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1281.0,
+        "y0": 713.0,
+        "x1": 1376.0,
+        "y1": 743.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "Period for an additional days or until",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 693.0,
+        "y0": 649.0,
+        "x1": 1251.0,
+        "y1": 679.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "Period for an additional",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 427.0,
+        "y0": 649.0,
+        "x1": 527.0,
+        "y1": 679.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "LC Closing Date. Seller and Buyer agree to extend the Closing Date until",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1009.0,
+        "y0": 552.0,
+        "x1": 1574.0,
+        "y1": 582.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "concerning the Property located at",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 542.0,
+        "y0": 427.0,
+        "x1": 1582.0,
+        "y1": 457.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "and.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 147.0,
+        "y0": 383.0,
+        "x1": 1456.0,
+        "y1": 413.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "between",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 206.0,
+        "y0": 338.0,
+        "x1": 1456.0,
+        "y1": 368.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_24": {
+      "question": "for Sale and Purchase, Vacant Land Contract, or Commercial Contract with the Effective Date of",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1315.0,
+        "y0": 294.0,
+        "x1": 1575.0,
+        "y1": 324.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

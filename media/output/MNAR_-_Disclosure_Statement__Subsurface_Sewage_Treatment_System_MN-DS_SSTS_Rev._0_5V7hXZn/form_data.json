@@ -1,0 +1,1016 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-12T20:53:57.500130",
+    "filename": "MNAR_-_Disclosure_Statement__Subsurface_Sewage_Treatment_System_MN-DS_SSTS_Rev._0_5V7hXZn.pdf",
+    "document_title": "Discl_SSTS21.pdf",
+    "number_of_pages": 3,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 64,
+    "fields_by_type": {
+      "checkbox": 22,
+      "text": 42
+    },
+    "fields_by_page": {
+      "1": 26,
+      "2": 33,
+      "3": 5
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "34. Septic Tank: with drain field with mound system seepage tank with open end",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1137.0,
+        "y0": 1591.0,
+        "x1": 1167.0,
+        "y1": 1621.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "34. Septic Tank: with drain field with mound system seepage tank with open end",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 915.0,
+        "y0": 1591.0,
+        "x1": 946.0,
+        "y1": 1621.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "34. Septic Tank: with drain field with mound system seepage tank with open end",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 618.0,
+        "y0": 1591.0,
+        "x1": 649.0,
+        "y1": 1621.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "34. Septic Tank: with drain field with mound system seepage tank with open end",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 383.0,
+        "y0": 1591.0,
+        "x1": 413.0,
+        "y1": 1621.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "34. Septic Tank: with drain field with mound system seepage tank with open end",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1591.0,
+        "x1": 207.0,
+        "y1": 1621.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "35. Is this system a straight-pipe system? Yes No Unknown",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1444.0,
+        "y0": 1635.0,
+        "x1": 1475.0,
+        "y1": 1666.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_6": {
+      "question": "35. Is this system a straight-pipe system? Yes No Unknown",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1276.0,
+        "y0": 1635.0,
+        "x1": 1307.0,
+        "y1": 1666.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_7": {
+      "question": "35. Is this system a straight-pipe system? Yes No Unknown",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1069.0,
+        "y0": 1635.0,
+        "x1": 1099.0,
+        "y1": 1666.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_8": {
+      "question": "36. Sealed System (holding tank)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1680.0,
+        "x1": 207.0,
+        "y1": 1710.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_9": {
+      "question": "37. Other (Describe.):",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1727.0,
+        "x1": 207.0,
+        "y1": 1757.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_10": {
+      "question": "38. Is the subsurface sewage treatment system(s) currently in use? Yes XT)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1526.0,
+        "y0": 1772.0,
+        "x1": 1556.0,
+        "y1": 1802.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_11": {
+      "question": "38. Is the subsurface sewage treatment system(s) currently in use? Yes XT)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1351.0,
+        "y0": 1772.0,
+        "x1": 1381.0,
+        "y1": 1802.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_12": {
+      "question": "40. located entirely within the Property boundary lines, including setback requirements? Yes No",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1526.0,
+        "y0": 1853.0,
+        "x1": 1556.0,
+        "y1": 1883.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_13": {
+      "question": "40. located entirely within the Property boundary lines, including setback requirements? Yes No",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1351.0,
+        "y0": 1853.0,
+        "x1": 1381.0,
+        "y1": 1883.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "44.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 2041.0,
+        "x1": 1600.0,
+        "y1": 2071.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "43. Comments:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 324.0,
+        "y0": 2002.0,
+        "x1": 1600.0,
+        "y1": 2032.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "42.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 226.0,
+        "y0": 1941.0,
+        "x1": 1600.0,
+        "y1": 1971.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "41. If \"No,\" please explain:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 509.0,
+        "y0": 1902.0,
+        "x1": 1600.0,
+        "y1": 1932.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "37. Other (Describe.):",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 437.0,
+        "y0": 1721.0,
+        "x1": 1601.0,
+        "y1": 1751.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "8.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 582.0,
+        "x1": 1443.0,
+        "y1": 612.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "7. State of Minnesota, Zip Code",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 556.0,
+        "y0": 532.0,
+        "x1": 785.0,
+        "y1": 562.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "6. City of County of",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1075.0,
+        "y0": 482.0,
+        "x1": 1565.0,
+        "y1": 512.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "6. City of",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 264.0,
+        "y0": 482.0,
+        "x1": 923.0,
+        "y1": 512.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "5. Property located at",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 421.0,
+        "y0": 432.0,
+        "x1": 1586.0,
+        "y1": 462.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "2. Page 1 of",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1078.0,
+        "y0": 315.0,
+        "x1": 1192.0,
+        "y1": 345.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "1. Date",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1051.0,
+        "y0": 265.0,
+        "x1": 1599.0,
+        "y1": 295.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_14": {
+      "question": "47. Is the subsurface sewage treatment system(s) a shared system? Yes No",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 1526.0,
+        "y0": 269.0,
+        "x1": 1557.0,
+        "y1": 299.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_15": {
+      "question": "47. Is the subsurface sewage treatment system(s) a shared system? Yes No",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 1351.0,
+        "y0": 269.0,
+        "x1": 1382.0,
+        "y1": 299.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_16": {
+      "question": "51. (2) Is there a maintenance agreement for the shared subsurface sewage treatment system? |__| Yes No",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 1526.0,
+        "y0": 430.0,
+        "x1": 1557.0,
+        "y1": 460.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_17": {
+      "question": "51. (2) Is there a maintenance agreement for the shared subsurface sewage treatment system? |__| Yes No",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 1373.0,
+        "y0": 430.0,
+        "x1": 1403.0,
+        "y1": 460.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_18": {
+      "question": "(If \u201cYes,\u201d see attached notice.) Yes No",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 1526.0,
+        "y0": 1833.0,
+        "x1": 1556.0,
+        "y1": 1864.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_19": {
+      "question": "(If \u201cYes,\u201d see attached notice.) Yes No",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 1351.0,
+        "y0": 1833.0,
+        "x1": 1381.0,
+        "y1": 1864.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_20": {
+      "question": "Are there any known defects in the subsurface sewage treatment system? Yes No",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 1526.0,
+        "y0": 1883.0,
+        "x1": 1556.0,
+        "y1": 1914.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_21": {
+      "question": "Are there any known defects in the subsurface sewage treatment system? Yes No",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 1351.0,
+        "y0": 1883.0,
+        "x1": 1381.0,
+        "y1": 1914.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_12": {
+      "question": "85.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 2027.0,
+        "x1": 1600.0,
+        "y1": 2057.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1977.0,
+        "x1": 1600.0,
+        "y1": 2007.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "If \u201cYes,\u201d please explain:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 469.0,
+        "y0": 1938.0,
+        "x1": 1600.0,
+        "y1": 1968.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "Distance between well and subsurface sewage treatment system?",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 992.0,
+        "y0": 1757.0,
+        "x1": 1600.0,
+        "y1": 1787.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "wash loads per week",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 445.0,
+        "y0": 1624.0,
+        "x1": 581.0,
+        "y1": 1654.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "showers/baths taken per week",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 564.0,
+        "y0": 1591.0,
+        "x1": 700.0,
+        "y1": 1621.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "people using the subsurface sewage treatment system",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 862.0,
+        "y0": 1557.0,
+        "x1": 1008.0,
+        "y1": 1587.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "72.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1457.0,
+        "x1": 1600.0,
+        "y1": 1487.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "71. Date work performed/by whom:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 568.0,
+        "y0": 1407.0,
+        "x1": 1600.0,
+        "y1": 1437.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "70.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1357.0,
+        "x1": 1601.0,
+        "y1": 1387.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "69.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1307.0,
+        "x1": 1601.0,
+        "y1": 1337.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "67. What is the drain field size?",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 523.0,
+        "y0": 1207.0,
+        "x1": 1601.0,
+        "y1": 1237.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_24": {
+      "question": "66. Where is the drain field located?",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 580.0,
+        "y0": 1157.0,
+        "x1": 1601.0,
+        "y1": 1187.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_25": {
+      "question": "65. How often is tank pumped?",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 520.0,
+        "y0": 1107.0,
+        "x1": 1601.0,
+        "y1": 1137.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_26": {
+      "question": "64. When was tank last pumped?",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 550.0,
+        "y0": 1057.0,
+        "x1": 1601.0,
+        "y1": 1087.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_27": {
+      "question": "63. What is tank size?",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 409.0,
+        "y0": 1007.0,
+        "x1": 1599.0,
+        "y1": 1037.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_28": {
+      "question": "62. Where is tank located?",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 468.0,
+        "y0": 957.0,
+        "x1": 1600.0,
+        "y1": 987.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_29": {
+      "question": "61. Installer Name/Phone",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 451.0,
+        "y0": 907.0,
+        "x1": 1598.0,
+        "y1": 937.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_30": {
+      "question": "60. When was the subsurface sewage treatment system installed?",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 950.0,
+        "y0": 857.0,
+        "x1": 1601.0,
+        "y1": 887.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_31": {
+      "question": "58.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 757.0,
+        "x1": 1601.0,
+        "y1": 787.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_32": {
+      "question": "57.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 707.0,
+        "x1": 1601.0,
+        "y1": 737.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_33": {
+      "question": "56. compliance status of the subsurface sewage treatment system.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 963.0,
+        "y0": 669.0,
+        "x1": 1601.0,
+        "y1": 699.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_34": {
+      "question": "52. If \"Yes,\" what is the annual maintenance fee? $",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 835.0,
+        "y0": 474.0,
+        "x1": 1601.0,
+        "y1": 504.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_35": {
+      "question": "50.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 276.0,
+        "y0": 380.0,
+        "x1": 663.0,
+        "y1": 410.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_36": {
+      "question": "46. Property located at",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 421.0,
+        "y0": 218.0,
+        "x1": 1590.0,
+        "y1": 248.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_37": {
+      "question": "105.",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 926.0,
+        "y0": 1075.0,
+        "x1": 1601.0,
+        "y1": 1105.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_38": {
+      "question": "105.",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 226.0,
+        "y0": 1075.0,
+        "x1": 826.0,
+        "y1": 1105.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_39": {
+      "question": "100.",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 926.0,
+        "y0": 768.0,
+        "x1": 1601.0,
+        "y1": 798.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_40": {
+      "question": "100.",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 226.0,
+        "y0": 768.0,
+        "x1": 826.0,
+        "y1": 798.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_41": {
+      "question": "87. Property located at",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 421.0,
+        "y0": 218.0,
+        "x1": 1590.0,
+        "y1": 248.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-11T20:47:50.925040",
+    "filename": "rrrrrr.pdf",
+    "document_title": "C:/Users/fedi/Downloads/UseofAttyinClosing1.pdf.sla",
+    "number_of_pages": 5,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 10,
+    "fields_by_type": {
+      "text": 10
+    },
+    "fields_by_page": {
+      "1": 7,
+      "4": 1,
+      "5": 2
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "Real Estate Firm:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 168.4460480216048,
+        "y0": 593.9153794398313,
+        "x1": 510.73705586037875,
+        "y1": 604.7138408841919
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Real Estate Agent:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 174.56481472324433,
+        "y0": 566.5592771141179,
+        "x1": 510.73705586037875,
+        "y1": 577.3577385584784
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Property Address:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 171.6853950989434,
+        "y0": 538.8432260735924,
+        "x1": 513.6164754846797,
+        "y1": 549.6416875179531
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 81.7035318395391,
+        "y0": 497.44912387021026,
+        "x1": 249.7896524081063,
+        "y1": 508.24758531457087
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 299.81956838033506,
+        "y0": 494.5695341517141,
+        "x1": 468.2656164019399,
+        "y1": 505.3679955960747
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 299.81956838033506,
+        "y0": 469.3731241148728,
+        "x1": 468.2656164019399,
+        "y1": 480.17158555923334
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 81.7035318395391,
+        "y0": 469.3731241148728,
+        "x1": 250.1495798611439,
+        "y1": 480.17158555923334
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 81.7035318395391,
+        "y0": 480.17158555923334,
+        "x1": 224.5947306954731,
+        "y1": 490.97004700359395
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 81.7035318395391,
+        "y0": 346.2706636491623,
+        "x1": 225.67451305458596,
+        "y1": 357.06912509352287
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 81.7035318395391,
+        "y0": 280.4000488385628,
+        "x1": 513.9764029377172,
+        "y1": 291.1985102829234
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

@@ -1,0 +1,1886 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-29T17:23:03.287628",
+    "filename": "form-12-T-9_9MqyoMK.pdf",
+    "document_title": "",
+    "number_of_pages": 13,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 107,
+    "fields_by_type": {
+      "checkbox": 65,
+      "text": 42
+    },
+    "fields_by_page": {
+      "1": 12,
+      "2": 18,
+      "3": 8,
+      "4": 4,
+      "5": 13,
+      "6": 13,
+      "7": 5,
+      "8": 5,
+      "9": 10,
+      "10": 2,
+      "11": 4,
+      "12": 9,
+      "13": 4
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "The Property Q will Q will not include a manufactured (mobile) home(s).",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 135.35999999999999,
+        "y0": 379.44,
+        "x1": 141.12,
+        "y1": 385.2
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "The Property Q will Q will not include a manufactured (mobile) home(s).",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 105.83999999999999,
+        "y0": 379.44,
+        "x1": 111.6,
+        "y1": 385.2
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "The Property Q will Q will not include an off-site and/or separate septic lot, boat slip, garage, parking space, or storage unit.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 135.35999999999999,
+        "y0": 390.59999999999997,
+        "x1": 141.12,
+        "y1": 396.36
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "The Property Q will Q will not include an off-site and/or separate septic lot, boat slip, garage, parking space, or storage unit.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 105.83999999999999,
+        "y0": 390.59999999999997,
+        "x1": 111.6,
+        "y1": 396.36
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 46.8,
+        "y0": 550.0799999999999,
+        "x1": 583.1999999999999,
+        "y1": 560.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 43.559999999999995,
+        "y0": 504.0,
+        "x1": 580.68,
+        "y1": 514.8
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 43.559999999999995,
+        "y0": 445.32,
+        "x1": 580.68,
+        "y1": 456.12
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "(b) \u201cBuyer\u201d:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 104.03999999999999,
+        "y0": 319.68,
+        "x1": 573.84,
+        "y1": 330.47999999999996
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "(a) \u201cSeller\u201d:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 101.88,
+        "y0": 296.64,
+        "x1": 571.68,
+        "y1": 307.44
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 35.64,
+        "y0": 204.84,
+        "x1": 578.52,
+        "y1": 215.64
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 35.64,
+        "y0": 150.12,
+        "x1": 578.52,
+        "y1": 160.92
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 35.64,
+        "y0": 40.68,
+        "x1": 575.64,
+        "y1": 51.48
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_4": {
+      "question": "Date by O cash QO personal check O official bank check O wire transfer",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 472.68,
+        "y0": 73.08,
+        "x1": 478.44,
+        "y1": 78.84
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "Date by O cash QO personal check O official bank check O wire transfer",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 379.44,
+        "y0": 73.08,
+        "x1": 385.2,
+        "y1": 78.84
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_6": {
+      "question": "Date by O cash QO personal check O official bank check O wire transfer",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 303.47999999999996,
+        "y0": 73.08,
+        "x1": 309.24,
+        "y1": 78.84
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_7": {
+      "question": "Date by O cash QO personal check O official bank check O wire transfer",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 269.28,
+        "y0": 73.08,
+        "x1": 275.03999999999996,
+        "y1": 78.84
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_8": {
+      "question": "O electronic transfer (specify payment service: )",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 235.44,
+        "y0": 84.6,
+        "x1": 241.2,
+        "y1": 90.36
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_9": {
+      "question": "Contract by Q cash O personal check UO official bank check O wire transfer O",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 568.8,
+        "y0": 119.16,
+        "x1": 574.56,
+        "y1": 124.92
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_10": {
+      "question": "Contract by Q cash O personal check UO official bank check O wire transfer O",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 501.12,
+        "y0": 119.16,
+        "x1": 506.88,
+        "y1": 124.92
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_11": {
+      "question": "Contract by Q cash O personal check UO official bank check O wire transfer O",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 403.56,
+        "y0": 119.16,
+        "x1": 409.32,
+        "y1": 124.92
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_12": {
+      "question": "Contract by Q cash O personal check UO official bank check O wire transfer O",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 323.64,
+        "y0": 119.16,
+        "x1": 329.4,
+        "y1": 124.92
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_13": {
+      "question": "Contract by Q cash O personal check UO official bank check O wire transfer O",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 286.56,
+        "y0": 119.16,
+        "x1": 292.32,
+        "y1": 124.92
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_14": {
+      "question": "TIME IS OF THE ESSENCE by O cash O official bank check O wire transfer a",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 568.4399999999999,
+        "y0": 165.23999999999998,
+        "x1": 574.1999999999999,
+        "y1": 171.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_15": {
+      "question": "TIME IS OF THE ESSENCE by O cash O official bank check O wire transfer a",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 500.4,
+        "y0": 165.23999999999998,
+        "x1": 506.15999999999997,
+        "y1": 171.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_16": {
+      "question": "TIME IS OF THE ESSENCE by O cash O official bank check O wire transfer a",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 408.59999999999997,
+        "y0": 165.23999999999998,
+        "x1": 414.71999999999997,
+        "y1": 171.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_17": {
+      "question": "TIME IS OF THE ESSENCE by O cash O official bank check O wire transfer a",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 376.56,
+        "y0": 165.23999999999998,
+        "x1": 382.32,
+        "y1": 171.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_8": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 36.36,
+        "y0": 517.68,
+        "x1": 584.64,
+        "y1": 528.48
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "(f) \u201cEscrow Agent\u201d (insert name):",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 191.51999999999998,
+        "y0": 483.47999999999996,
+        "x1": 571.68,
+        "y1": 494.28
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 49.68,
+        "y0": 401.76,
+        "x1": 581.04,
+        "y1": 412.56
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 49.68,
+        "y0": 356.03999999999996,
+        "x1": 581.04,
+        "y1": 366.84
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_18": {
+      "question": "",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 51.12,
+        "y0": 208.79999999999998,
+        "x1": 56.879999999999995,
+        "y1": 214.56
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_19": {
+      "question": "Q The period extending for (insert a number only; not \u201cN/A\u201d) days after the Effective Date and ending at 5:00",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 51.12,
+        "y0": 266.4,
+        "x1": 56.879999999999995,
+        "y1": 272.15999999999997
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_12": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 35.64,
+        "y0": 682.56,
+        "x1": 575.64,
+        "y1": 693.36
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 35.64,
+        "y0": 650.16,
+        "x1": 575.64,
+        "y1": 660.9599999999999
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 43.199999999999996,
+        "y0": 600.12,
+        "x1": 575.64,
+        "y1": 610.92
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 44.64,
+        "y0": 381.24,
+        "x1": 583.92,
+        "y1": 392.03999999999996
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 49.68,
+        "y0": 367.56,
+        "x1": 164.88,
+        "y1": 378.36
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "Q The period extending for (insert a number only; not \u201cN/A\u201d)",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 307.44,
+        "y0": 264.24,
+        "x1": 378.0,
+        "y1": 275.03999999999996
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 57.96,
+        "y0": 651.24,
+        "x1": 574.92,
+        "y1": 662.04
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 48.6,
+        "y0": 341.28,
+        "x1": 588.6,
+        "y1": 352.08
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 35.64,
+        "y0": 192.95999999999998,
+        "x1": 574.92,
+        "y1": 203.76
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 35.64,
+        "y0": 81.0,
+        "x1": 574.92,
+        "y1": 91.8
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_20": {
+      "question": "Q (Check if applicable) Cash. Buyer intends to pay cash in order to purchase the Property and does not intend to obtain a loan or",
+      "type": "checkbox",
+      "page": 5,
+      "rect": {
+        "x0": 60.12,
+        "y0": 369.71999999999997,
+        "x1": 65.88,
+        "y1": 375.47999999999996
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_21": {
+      "question": "funds from sources other than Buyer\u2019s own assets. Verification of cash available for Settlement Q is O is not attached.",
+      "type": "checkbox",
+      "page": 5,
+      "rect": {
+        "x0": 464.4,
+        "y0": 381.24,
+        "x1": 470.52,
+        "y1": 387.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_22": {
+      "question": "funds from sources other than Buyer\u2019s own assets. Verification of cash available for Settlement Q is O is not attached.",
+      "type": "checkbox",
+      "page": 5,
+      "rect": {
+        "x0": 443.88,
+        "y0": 381.24,
+        "x1": 450.0,
+        "y1": 387.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_23": {
+      "question": "Q (Check if applicable) Loan(s)/Other Funds: Buyer intends to obtain a loan(s) and/or other funds to purchase the Property from",
+      "type": "checkbox",
+      "page": 5,
+      "rect": {
+        "x0": 60.48,
+        "y0": 450.71999999999997,
+        "x1": 66.24,
+        "y1": 456.47999999999996
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_24": {
+      "question": "Q First Mortgage Loan:",
+      "type": "checkbox",
+      "page": 5,
+      "rect": {
+        "x0": 73.44,
+        "y0": 473.76,
+        "x1": 79.2,
+        "y1": 479.52
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_25": {
+      "question": "Buyer intends to obtain a first mortgage loan of the following type in order to purchase the Property: O Conventional Q USDA",
+      "type": "checkbox",
+      "page": 5,
+      "rect": {
+        "x0": 539.28,
+        "y0": 485.28,
+        "x1": 545.04,
+        "y1": 491.03999999999996
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_26": {
+      "question": "Buyer intends to obtain a first mortgage loan of the following type in order to purchase the Property: O Conventional Q USDA",
+      "type": "checkbox",
+      "page": 5,
+      "rect": {
+        "x0": 471.96,
+        "y0": 485.28,
+        "x1": 477.71999999999997,
+        "y1": 491.03999999999996
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_27": {
+      "question": "Q Other type:",
+      "type": "checkbox",
+      "page": 5,
+      "rect": {
+        "x0": 73.44,
+        "y0": 496.79999999999995,
+        "x1": 79.2,
+        "y1": 502.56
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_28": {
+      "question": "Q Second Mortgage Loan:",
+      "type": "checkbox",
+      "page": 5,
+      "rect": {
+        "x0": 73.44,
+        "y0": 531.36,
+        "x1": 79.2,
+        "y1": 537.12
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_29": {
+      "question": "Q Other funds:",
+      "type": "checkbox",
+      "page": 5,
+      "rect": {
+        "x0": 73.44,
+        "y0": 565.92,
+        "x1": 79.2,
+        "y1": 571.68
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_30": {
+      "question": "(b) Other Property: Buyer O DOES O DOES NOT have to sell or lease other real property in order to qualify for a new loan or to",
+      "type": "checkbox",
+      "page": 5,
+      "rect": {
+        "x0": 203.4,
+        "y0": 700.1999999999999,
+        "x1": 209.16,
+        "y1": 705.9599999999999
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_31": {
+      "question": "(b) Other Property: Buyer O DOES O DOES NOT have to sell or lease other real property in order to qualify for a new loan or to",
+      "type": "checkbox",
+      "page": 5,
+      "rect": {
+        "x0": 163.44,
+        "y0": 700.1999999999999,
+        "x1": 169.2,
+        "y1": 705.9599999999999
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_22": {
+      "question": "",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 44.28,
+        "y0": 685.4399999999999,
+        "x1": 587.16,
+        "y1": 696.24
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_32": {
+      "question": "Q (Check if applicable) Buyer's other property IS under contract as of the date of this offer, and a copy of the contract has either",
+      "type": "checkbox",
+      "page": 6,
+      "rect": {
+        "x0": 51.12,
+        "y0": 42.12,
+        "x1": 56.879999999999995,
+        "y1": 47.879999999999995
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_33": {
+      "question": "Q (Check if applicable) Buyer\u2019s other property IS NOT under contract as of the date of this offer. Buyer\u2019s property (check only",
+      "type": "checkbox",
+      "page": 6,
+      "rect": {
+        "x0": 51.12,
+        "y0": 111.24,
+        "x1": 56.879999999999995,
+        "y1": 117.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_34": {
+      "question": "O is listed with and actively marketed by a licensed real estate broker.",
+      "type": "checkbox",
+      "page": 6,
+      "rect": {
+        "x0": 73.44,
+        "y0": 134.28,
+        "x1": 79.2,
+        "y1": 140.04
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_35": {
+      "question": "Q will be listed with and actively marketed by a licensed real estate broker.",
+      "type": "checkbox",
+      "page": 6,
+      "rect": {
+        "x0": 73.44,
+        "y0": 145.79999999999998,
+        "x1": 79.2,
+        "y1": 151.56
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_36": {
+      "question": "Q Buyer is attempting to sell/lease the Buyer\u2019s Property without the assistance of a licensed real estate broker.",
+      "type": "checkbox",
+      "page": 6,
+      "rect": {
+        "x0": 73.44,
+        "y0": 157.32,
+        "x1": 79.2,
+        "y1": 163.07999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_37": {
+      "question": "Q Buyer has received a signed copy of the Vacant Land Disclosure Statement (Form 142) prior to making this offer.",
+      "type": "checkbox",
+      "page": 6,
+      "rect": {
+        "x0": 51.12,
+        "y0": 289.8,
+        "x1": 56.879999999999995,
+        "y1": 295.56
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_38": {
+      "question": "Q Buyer has NOT received a signed copy of the Vacant Land Disclosure Statement (Form 142) prior to making this offer and shall",
+      "type": "checkbox",
+      "page": 6,
+      "rect": {
+        "x0": 51.12,
+        "y0": 301.32,
+        "x1": 56.879999999999995,
+        "y1": 307.08
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_39": {
+      "question": "O has owned the Property for at least one year.",
+      "type": "checkbox",
+      "page": 6,
+      "rect": {
+        "x0": 64.44,
+        "y0": 611.64,
+        "x1": 70.2,
+        "y1": 617.4
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_40": {
+      "question": "O has owned the Property for less than one year.",
+      "type": "checkbox",
+      "page": 6,
+      "rect": {
+        "x0": 64.44,
+        "y0": 623.16,
+        "x1": 70.2,
+        "y1": 628.92
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_41": {
+      "question": "Q does not yet own the Property.",
+      "type": "checkbox",
+      "page": 6,
+      "rect": {
+        "x0": 64.44,
+        "y0": 634.68,
+        "x1": 70.2,
+        "y1": 640.4399999999999
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_42": {
+      "question": "(b) Owners\u2019 Association(s) and Dues: To best of Seller\u2019s knowledge, ownership of the Property 1 subjects ) does not subject",
+      "type": "checkbox",
+      "page": 6,
+      "rect": {
+        "x0": 499.68,
+        "y0": 657.72,
+        "x1": 505.44,
+        "y1": 663.48
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_43": {
+      "question": "(b) Owners\u2019 Association(s) and Dues: To best of Seller\u2019s knowledge, ownership of the Property 1 subjects ) does not subject",
+      "type": "checkbox",
+      "page": 6,
+      "rect": {
+        "x0": 452.15999999999997,
+        "y0": 657.72,
+        "x1": 457.91999999999996,
+        "y1": 663.48
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_23": {
+      "question": "",
+      "type": "text",
+      "page": 6,
+      "rect": {
+        "x0": 39.96,
+        "y0": 163.07999999999998,
+        "x1": 575.64,
+        "y1": 173.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_44": {
+      "question": "(c) Sewage System Permit: (O) Applicable O Not Applicable) Seller warrants that the sewage system described in the Improvement",
+      "type": "checkbox",
+      "page": 7,
+      "rect": {
+        "x0": 226.07999999999998,
+        "y0": 24.84,
+        "x1": 231.84,
+        "y1": 30.599999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_45": {
+      "question": "(c) Sewage System Permit: (O) Applicable O Not Applicable) Seller warrants that the sewage system described in the Improvement",
+      "type": "checkbox",
+      "page": 7,
+      "rect": {
+        "x0": 168.84,
+        "y0": 24.84,
+        "x1": 174.95999999999998,
+        "y1": 30.599999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_46": {
+      "question": "(d) Private Drinking Water Well Permit: (Q Applicable O Not Applicable) Seller warrants that a private drinking water well has",
+      "type": "checkbox",
+      "page": 7,
+      "rect": {
+        "x0": 286.92,
+        "y0": 70.92,
+        "x1": 292.68,
+        "y1": 76.67999999999999
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_47": {
+      "question": "(d) Private Drinking Water Well Permit: (Q Applicable O Not Applicable) Seller warrants that a private drinking water well has",
+      "type": "checkbox",
+      "page": 7,
+      "rect": {
+        "x0": 229.32,
+        "y0": 70.92,
+        "x1": 235.07999999999998,
+        "y1": 76.67999999999999
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_24": {
+      "question": "",
+      "type": "text",
+      "page": 7,
+      "rect": {
+        "x0": 43.199999999999996,
+        "y0": 455.76,
+        "x1": 575.64,
+        "y1": 466.56
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_25": {
+      "question": "(j) Agreement to Pay Buyer Expenses: Seller shall pay at Settlement $_",
+      "type": "text",
+      "page": 8,
+      "rect": {
+        "x0": 362.15999999999997,
+        "y0": 385.2,
+        "x1": 477.71999999999997,
+        "y1": 396.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_26": {
+      "question": "",
+      "type": "text",
+      "page": 8,
+      "rect": {
+        "x0": 48.6,
+        "y0": 196.56,
+        "x1": 582.48,
+        "y1": 207.35999999999999
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_27": {
+      "question": "",
+      "type": "text",
+      "page": 8,
+      "rect": {
+        "x0": 48.6,
+        "y0": 161.28,
+        "x1": 582.48,
+        "y1": 172.07999999999998
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_28": {
+      "question": "",
+      "type": "text",
+      "page": 8,
+      "rect": {
+        "x0": 49.68,
+        "y0": 137.16,
+        "x1": 585.0,
+        "y1": 147.96
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_29": {
+      "question": "",
+      "type": "text",
+      "page": 8,
+      "rect": {
+        "x0": 49.68,
+        "y0": 105.47999999999999,
+        "x1": 585.0,
+        "y1": 116.28
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_48": {
+      "question": "QO Additional Provisions Addendum (Form 2A 11-T) O Owners' Association Disclosure Addendum",
+      "type": "checkbox",
+      "page": 9,
+      "rect": {
+        "x0": 312.12,
+        "y0": 487.08,
+        "x1": 317.88,
+        "y1": 492.84
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_49": {
+      "question": "QO Additional Provisions Addendum (Form 2A 11-T) O Owners' Association Disclosure Addendum",
+      "type": "checkbox",
+      "page": 9,
+      "rect": {
+        "x0": 42.839999999999996,
+        "y0": 487.08,
+        "x1": 48.6,
+        "y1": 492.84
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_50": {
+      "question": "Q Additional Signatures Addendum (Form 3-T) (Form 2A 12-T)",
+      "type": "checkbox",
+      "page": 9,
+      "rect": {
+        "x0": 42.839999999999996,
+        "y0": 498.59999999999997,
+        "x1": 48.6,
+        "y1": 504.35999999999996
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_51": {
+      "question": "Q Back-Up Contract Addendum (Form 2A 1-T) Q Seller Financing Addendum (Form 2A5-T)",
+      "type": "checkbox",
+      "page": 9,
+      "rect": {
+        "x0": 312.12,
+        "y0": 510.12,
+        "x1": 317.88,
+        "y1": 515.88
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_52": {
+      "question": "Q Back-Up Contract Addendum (Form 2A 1-T) Q Seller Financing Addendum (Form 2A5-T)",
+      "type": "checkbox",
+      "page": 9,
+      "rect": {
+        "x0": 42.839999999999996,
+        "y0": 510.12,
+        "x1": 48.6,
+        "y1": 515.88
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_53": {
+      "question": "Q Loan Assumption Addendum (Form 2A 6-T) Q Short Sale Addendum (Form 2A 14-T)",
+      "type": "checkbox",
+      "page": 9,
+      "rect": {
+        "x0": 312.12,
+        "y0": 521.64,
+        "x1": 317.88,
+        "y1": 527.4
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_54": {
+      "question": "Q Loan Assumption Addendum (Form 2A 6-T) Q Short Sale Addendum (Form 2A 14-T)",
+      "type": "checkbox",
+      "page": 9,
+      "rect": {
+        "x0": 42.839999999999996,
+        "y0": 521.64,
+        "x1": 48.6,
+        "y1": 527.4
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_55": {
+      "question": "Q Identify other attorney or party drafted addenda:",
+      "type": "checkbox",
+      "page": 9,
+      "rect": {
+        "x0": 37.44,
+        "y0": 544.68,
+        "x1": 43.199999999999996,
+        "y1": 550.4399999999999
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_30": {
+      "question": "",
+      "type": "text",
+      "page": 9,
+      "rect": {
+        "x0": 35.64,
+        "y0": 596.88,
+        "x1": 574.92,
+        "y1": 607.68
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_31": {
+      "question": "",
+      "type": "text",
+      "page": 9,
+      "rect": {
+        "x0": 35.64,
+        "y0": 565.1999999999999,
+        "x1": 574.92,
+        "y1": 576.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_32": {
+      "question": "",
+      "type": "text",
+      "page": 10,
+      "rect": {
+        "x0": 35.64,
+        "y0": 693.36,
+        "x1": 577.8,
+        "y1": 704.16
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_33": {
+      "question": "",
+      "type": "text",
+      "page": 10,
+      "rect": {
+        "x0": 35.64,
+        "y0": 658.0799999999999,
+        "x1": 577.8,
+        "y1": 668.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_34": {
+      "question": "",
+      "type": "text",
+      "page": 11,
+      "rect": {
+        "x0": 35.64,
+        "y0": 653.04,
+        "x1": 575.64,
+        "y1": 663.84
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_35": {
+      "question": "",
+      "type": "text",
+      "page": 11,
+      "rect": {
+        "x0": 35.64,
+        "y0": 425.88,
+        "x1": 575.64,
+        "y1": 436.68
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_36": {
+      "question": "",
+      "type": "text",
+      "page": 11,
+      "rect": {
+        "x0": 324.36,
+        "y0": 241.2,
+        "x1": 574.56,
+        "y1": 252.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_37": {
+      "question": "",
+      "type": "text",
+      "page": 11,
+      "rect": {
+        "x0": 36.36,
+        "y0": 241.2,
+        "x1": 286.2,
+        "y1": 252.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_56": {
+      "question": "Acting as O Buyer\u2019s Agent O Seller\u2019s (sub)Agent 0 Dual Listing Firm Name,",
+      "type": "checkbox",
+      "page": 12,
+      "rect": {
+        "x0": 247.67999999999998,
+        "y0": 237.23999999999998,
+        "x1": 253.44,
+        "y1": 243.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_57": {
+      "question": "Acting as O Buyer\u2019s Agent O Seller\u2019s (sub)Agent 0 Dual Listing Firm Name,",
+      "type": "checkbox",
+      "page": 12,
+      "rect": {
+        "x0": 155.51999999999998,
+        "y0": 237.23999999999998,
+        "x1": 161.64,
+        "y1": 243.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_58": {
+      "question": "Acting as O Buyer\u2019s Agent O Seller\u2019s (sub)Agent 0 Dual Listing Firm Name,",
+      "type": "checkbox",
+      "page": 12,
+      "rect": {
+        "x0": 83.16,
+        "y0": 237.23999999999998,
+        "x1": 88.92,
+        "y1": 243.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_59": {
+      "question": "Agent Acting as Q Seller\u2019s Agent O Dual Agent",
+      "type": "checkbox",
+      "page": 12,
+      "rect": {
+        "x0": 424.8,
+        "y0": 248.76,
+        "x1": 430.56,
+        "y1": 254.51999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_60": {
+      "question": "Agent Acting as Q Seller\u2019s Agent O Dual Agent",
+      "type": "checkbox",
+      "page": 12,
+      "rect": {
+        "x0": 353.15999999999997,
+        "y0": 248.76,
+        "x1": 359.28,
+        "y1": 254.51999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_61": {
+      "question": "Q Acting as a Designated Dual Agent (check only if applicable) Q Acting as a Designated Dual Agent (check only if applicable)",
+      "type": "checkbox",
+      "page": 12,
+      "rect": {
+        "x0": 312.84,
+        "y0": 352.44,
+        "x1": 318.59999999999997,
+        "y1": 358.2
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_62": {
+      "question": "Q Acting as a Designated Dual Agent (check only if applicable) Q Acting as a Designated Dual Agent (check only if applicable)",
+      "type": "checkbox",
+      "page": 12,
+      "rect": {
+        "x0": 42.839999999999996,
+        "y0": 352.44,
+        "x1": 48.6,
+        "y1": 358.2
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_38": {
+      "question": "",
+      "type": "text",
+      "page": 12,
+      "rect": {
+        "x0": 29.52,
+        "y0": 68.39999999999999,
+        "x1": 583.1999999999999,
+        "y1": 79.2
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_39": {
+      "question": "",
+      "type": "text",
+      "page": 12,
+      "rect": {
+        "x0": 29.52,
+        "y0": 30.599999999999998,
+        "x1": 583.1999999999999,
+        "y1": 41.4
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_63": {
+      "question": "Time: OAM OPM By",
+      "type": "checkbox",
+      "page": 13,
+      "rect": {
+        "x0": 198.72,
+        "y0": 664.56,
+        "x1": 204.48,
+        "y1": 670.3199999999999
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_64": {
+      "question": "Time: OAM OPM By",
+      "type": "checkbox",
+      "page": 13,
+      "rect": {
+        "x0": 163.79999999999998,
+        "y0": 664.56,
+        "x1": 169.56,
+        "y1": 670.3199999999999
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_40": {
+      "question": "Property Address:",
+      "type": "text",
+      "page": 13,
+      "rect": {
+        "x0": 108.36,
+        "y0": 103.67999999999999,
+        "x1": 523.4399999999999,
+        "y1": 114.47999999999999
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_41": {
+      "question": "Seller:",
+      "type": "text",
+      "page": 13,
+      "rect": {
+        "x0": 62.28,
+        "y0": 45.72,
+        "x1": 532.0799999999999,
+        "y1": 56.519999999999996
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-23T18:53:55.384634",
+    "filename": "form-340-T-3_1.pdf",
+    "document_title": "",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 12,
+    "fields_by_type": {
+      "checkbox": 3,
+      "text": 9
+    },
+    "fields_by_page": {
+      "1": 12
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "Q Thank you for your offer to purchase the above property (the \u201cProperty\u2019\u201d). I/we cannot accept the offer as written and hereby reject",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 104.0,
+        "y0": 380.0,
+        "x1": 120.0,
+        "y1": 396.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "Q Thank you for your offer to purchase the above property (the \u201cProperty\u201d). Please be advised that I/we intend to consider all offers",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 104.0,
+        "y0": 983.0,
+        "x1": 120.0,
+        "y1": 999.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "Q Thank you for your offer to purchase the above property (the \u201cProperty\u201d). I/we cannot accept the offer as written and hereby reject",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 104.0,
+        "y0": 1239.0,
+        "x1": 120.0,
+        "y1": 1255.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "Name: Title:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1182.0,
+        "y0": 1833.0,
+        "x1": 1594.0,
+        "y1": 1863.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Name:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 179.0,
+        "y0": 1831.0,
+        "x1": 1123.0,
+        "y1": 1861.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "By: Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1471.0,
+        "y0": 1770.0,
+        "x1": 1594.0,
+        "y1": 1800.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "By: Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 968.0,
+        "y0": 1770.0,
+        "x1": 1408.0,
+        "y1": 1800.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "By:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 141.0,
+        "y0": 1770.0,
+        "x1": 901.0,
+        "y1": 1800.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Entity Seller:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 249.0,
+        "y0": 1672.0,
+        "x1": 1594.0,
+        "y1": 1702.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "on the Property received by (insert date and time)",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 660.0,
+        "y0": 1011.0,
+        "x1": 1375.0,
+        "y1": 1041.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "OFFER DATE:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 277.0,
+        "y0": 281.0,
+        "x1": 630.0,
+        "y1": 311.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "RE: OFFER TO PURCHASE",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 429.0,
+        "y0": 217.0,
+        "x1": 1608.0,
+        "y1": 247.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

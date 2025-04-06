@@ -1,0 +1,894 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-10T10:18:42.162811",
+    "filename": "Cooperative_Addendum_COOP-3_Rev._02_2024_JSfIVrC.pdf",
+    "document_title": "Cooperative Addendum",
+    "number_of_pages": 3,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 60,
+    "fields_by_type": {
+      "checkbox": 12,
+      "text": 48
+    },
+    "fields_by_page": {
+      "1": 16,
+      "2": 29,
+      "3": 15
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "B. Existing Mortgage: (check one) There is is not 0 a blanket mortgage or other financing arrangement on",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 857.0,
+        "y0": 786.0,
+        "x1": 874.0,
+        "y1": 804.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "B. Existing Mortgage: (check one) There is is not 0 a blanket mortgage or other financing arrangement on",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 737.0,
+        "y0": 786.0,
+        "x1": 755.0,
+        "y1": 804.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "C. Ground Lease: (check one) 0) The Property is wholly owned by the Association, there is no ground lease, and",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 558.0,
+        "y0": 1000.0,
+        "x1": 575.0,
+        "y1": 1018.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "no obligation to pay rent DO The Property is not wholly owned by the Association and is held in whole or in part under",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 463.0,
+        "y0": 1032.0,
+        "x1": 481.0,
+        "y1": 1050.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "a ground lease, the rights and interests acquired by Buyer is subject to the ground lease and (check one) 0) Buyer",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1454.0,
+        "y0": 1064.0,
+        "x1": 1471.0,
+        "y1": 1082.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "lease O Buyer has no obligation to pay rent, but has an obligation to pay a proportionate share of other expenses",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 240.0,
+        "y0": 1128.0,
+        "x1": 258.0,
+        "y1": 1146.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "46 Seller ) ) and Buyer )",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 653.0,
+        "y0": 1951.0,
+        "x1": 739.0,
+        "y1": 1981.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "46 Seller ) ) and Buyer",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 545.0,
+        "y0": 1951.0,
+        "x1": 633.0,
+        "y1": 1981.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "46 Seller )",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 327.0,
+        "y0": 1951.0,
+        "x1": 415.0,
+        "y1": 1981.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "46 Seller",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 232.0,
+        "y0": 1951.0,
+        "x1": 313.0,
+        "y1": 1981.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 185.0,
+        "y0": 843.0,
+        "x1": 526.0,
+        "y1": 873.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 161.0,
+        "y0": 693.0,
+        "x1": 656.0,
+        "y1": 723.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "purchase shall include a proprietary lease or other occupancy agreement relating to Apartment #",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1359.0,
+        "y0": 661.0,
+        "x1": 1530.0,
+        "y1": 691.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 161.0,
+        "y0": 389.0,
+        "x1": 1525.0,
+        "y1": 419.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "(\"Seller\") and",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 343.0,
+        "y0": 290.0,
+        "x1": 972.0,
+        "y1": 320.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "The clauses below will be incorporated into the Contract between",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 970.0,
+        "y0": 240.0,
+        "x1": 1449.0,
+        "y1": 270.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_6": {
+      "question": "80 and Buyer will pay all amounts due after Closing Date. If special assessments may be paid in installments 0",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 1540.0,
+        "y0": 1296.0,
+        "x1": 1557.0,
+        "y1": 1314.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_7": {
+      "question": "81 Buyer C Seller (if left blank, Buyer) shall pay installments due after Closing Date. If Seller is checked, Seller will",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 270.0,
+        "y0": 1328.0,
+        "x1": 288.0,
+        "y1": 1346.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_8": {
+      "question": "92 and that there C1 is 0 is not a recreation or land lease with the Property. If there is a recreation or land lease, the",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 424.0,
+        "y0": 1833.0,
+        "x1": 441.0,
+        "y1": 1851.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_9": {
+      "question": "92 and that there C1 is 0 is not a recreation or land lease with the Property. If there is a recreation or land lease, the",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 364.0,
+        "y0": 1833.0,
+        "x1": 381.0,
+        "y1": 1851.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_10": {
+      "question": "94 Seller ) ) and Buyer )",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 653.0,
+        "y0": 1923.0,
+        "x1": 739.0,
+        "y1": 1953.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "94 Seller ) ) and Buyer",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 545.0,
+        "y0": 1923.0,
+        "x1": 633.0,
+        "y1": 1953.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "94 Seller )",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 327.0,
+        "y0": 1923.0,
+        "x1": 415.0,
+        "y1": 1953.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "94 Seller",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 232.0,
+        "y0": 1923.0,
+        "x1": 313.0,
+        "y1": 1953.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "93 current payment is $",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 440.0,
+        "y0": 1858.0,
+        "x1": 719.0,
+        "y1": 1888.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "91 $ per to",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 890.0,
+        "y0": 1775.0,
+        "x1": 1524.0,
+        "y1": 1805.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "91 $ per",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 568.0,
+        "y0": 1775.0,
+        "x1": 846.0,
+        "y1": 1805.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "91 $",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 188.0,
+        "y0": 1775.0,
+        "x1": 513.0,
+        "y1": 1805.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "90 $ per to",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 885.0,
+        "y0": 1718.0,
+        "x1": 1534.0,
+        "y1": 1748.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "90 $ per",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 568.0,
+        "y0": 1718.0,
+        "x1": 846.0,
+        "y1": 1748.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "90 $",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 188.0,
+        "y0": 1718.0,
+        "x1": 513.0,
+        "y1": 1748.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "89 $ per to",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 890.0,
+        "y0": 1661.0,
+        "x1": 1524.0,
+        "y1": 1691.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "89 $ per",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 568.0,
+        "y0": 1661.0,
+        "x1": 846.0,
+        "y1": 1691.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "89 $",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 188.0,
+        "y0": 1661.0,
+        "x1": 513.0,
+        "y1": 1691.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_24": {
+      "question": "87",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 181.0,
+        "y0": 1563.0,
+        "x1": 1557.0,
+        "y1": 1593.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_25": {
+      "question": "86 common elements, if any, except as follows:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 732.0,
+        "y0": 1514.0,
+        "x1": 1551.0,
+        "y1": 1544.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_26": {
+      "question": "84",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 181.0,
+        "y0": 1433.0,
+        "x1": 1557.0,
+        "y1": 1463.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_27": {
+      "question": "75 ;boat slip(s) # ; and storage unit(s) #",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1058.0,
+        "y0": 1118.0,
+        "x1": 1305.0,
+        "y1": 1148.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_28": {
+      "question": "75 ;boat slip(s) #",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 556.0,
+        "y0": 1118.0,
+        "x1": 773.0,
+        "y1": 1148.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_29": {
+      "question": "75",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 181.0,
+        "y0": 1118.0,
+        "x1": 382.0,
+        "y1": 1148.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_30": {
+      "question": "64 approval within",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 380.0,
+        "y0": 734.0,
+        "x1": 488.0,
+        "y1": 764.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_31": {
+      "question": "61",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 181.0,
+        "y0": 627.0,
+        "x1": 444.0,
+        "y1": 657.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_32": {
+      "question": "59 ( ) \u00a2 ) Date received (",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 683.0,
+        "y0": 563.0,
+        "x1": 977.0,
+        "y1": 593.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_33": {
+      "question": "59 ( ) \u00a2",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 350.0,
+        "y0": 563.0,
+        "x1": 459.0,
+        "y1": 593.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_34": {
+      "question": "59 (",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 190.0,
+        "y0": 563.0,
+        "x1": 299.0,
+        "y1": 593.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_10": {
+      "question": "107 O) THE BUYER HEREBY ACKNOWLEDGES THAT BUYER HAS BEEN PROVIDED A CURRENT COPY OF",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 185.0,
+        "y0": 581.0,
+        "x1": 202.0,
+        "y1": 599.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_11": {
+      "question": "111 O THIS AGREEMENT IS VOIDABLE BY BUYER BY DELIVERING WRITTEN NOTICE OF THE BUYER\u2019S",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 185.0,
+        "y0": 725.0,
+        "x1": 202.0,
+        "y1": 743.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_35": {
+      "question": "137 Seller ) ) and Buyer )",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 653.0,
+        "y0": 1900.0,
+        "x1": 739.0,
+        "y1": 1930.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_36": {
+      "question": "137 Seller ) ) and Buyer",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 545.0,
+        "y0": 1900.0,
+        "x1": 633.0,
+        "y1": 1930.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_37": {
+      "question": "137 Seller )",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 327.0,
+        "y0": 1900.0,
+        "x1": 415.0,
+        "y1": 1930.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_38": {
+      "question": "137 Seller",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 232.0,
+        "y0": 1900.0,
+        "x1": 313.0,
+        "y1": 1930.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_39": {
+      "question": "135",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 1291.0,
+        "y0": 1656.0,
+        "x1": 1554.0,
+        "y1": 1686.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_40": {
+      "question": "135",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 891.0,
+        "y0": 1656.0,
+        "x1": 1262.0,
+        "y1": 1686.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_41": {
+      "question": "135",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 634.0,
+        "y0": 1656.0,
+        "x1": 866.0,
+        "y1": 1686.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_42": {
+      "question": "135",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 155.0,
+        "y0": 1656.0,
+        "x1": 603.0,
+        "y1": 1686.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_43": {
+      "question": "133",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 1291.0,
+        "y0": 1553.0,
+        "x1": 1554.0,
+        "y1": 1583.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_44": {
+      "question": "133",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 891.0,
+        "y0": 1553.0,
+        "x1": 1262.0,
+        "y1": 1583.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_45": {
+      "question": "133",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 634.0,
+        "y0": 1553.0,
+        "x1": 866.0,
+        "y1": 1583.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_46": {
+      "question": "133",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 155.0,
+        "y0": 1553.0,
+        "x1": 603.0,
+        "y1": 1583.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_47": {
+      "question": "101 common element is greater than $",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 610.0,
+        "y0": 332.0,
+        "x1": 873.0,
+        "y1": 362.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

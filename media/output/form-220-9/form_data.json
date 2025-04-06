@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-28T19:06:18.868373",
+    "filename": "form-220-9.pdf",
+    "document_title": "Cooperative Compensation Agreement",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 10,
+    "fields_by_type": {
+      "checkbox": 6,
+      "text": 4
+    },
+    "fields_by_page": {
+      "1": 10
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "1. FEE: (Check Only One) O Seller or O Listing Firm agrees to pay Selling Firm cooperative compensation as follows (the",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 635.0,
+        "y0": 297.0,
+        "x1": 651.0,
+        "y1": 313.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "1. FEE: (Check Only One) O Seller or O Listing Firm agrees to pay Selling Firm cooperative compensation as follows (the",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 495.0,
+        "y0": 297.0,
+        "x1": 511.0,
+        "y1": 313.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "\u201cFee\u201d), subject to the terms of this agreement: O % of the gross sales price; OA flatfeeof$ ; OF,",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1146.0,
+        "y0": 329.0,
+        "x1": 1162.0,
+        "y1": 345.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "\u201cFee\u201d), subject to the terms of this agreement: O % of the gross sales price; OA flatfeeof$ ; OF,",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 728.0,
+        "y0": 329.0,
+        "x1": 744.0,
+        "y1": 345.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "Q Other:",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 204.0,
+        "y0": 361.0,
+        "x1": 220.0,
+        "y1": 377.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "REALTOR\u00ae OPPORTUNITY",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 173.0,
+        "y0": 2091.0,
+        "x1": 187.0,
+        "y1": 2104.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "Q Other:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 311.0,
+        "y0": 354.0,
+        "x1": 1501.0,
+        "y1": 384.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "\u201cProperty\u201d:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 251.0,
+        "y0": 226.0,
+        "x1": 1601.0,
+        "y1": 256.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "\u201cBuyer\u201d:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 218.0,
+        "y0": 194.0,
+        "x1": 1601.0,
+        "y1": 224.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "\u201cSeller\u201d:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 213.0,
+        "y0": 162.0,
+        "x1": 1601.0,
+        "y1": 192.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

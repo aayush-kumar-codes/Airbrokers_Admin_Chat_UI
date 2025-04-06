@@ -1,0 +1,457 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-20T22:41:13.647747",
+    "filename": "output_DfCWwcA.pdf",
+    "document_title": "AGREEMENT TO AMEND CONTRACT",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 33,
+    "fields_by_type": {
+      "text": 33
+    },
+    "fields_by_page": {
+      "1": 17,
+      "2": 16
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "Buyer Initials: Seller Initials:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 336.24,
+        "y0": 765.3680702817328,
+        "x1": 370.8,
+        "y1": 772.5658891245077
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Buyer Initials: Seller Initials:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 298.8,
+        "y0": 765.3680702817328,
+        "x1": 333.36,
+        "y1": 772.5658891245077
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Buyer Initials:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 202.79999999999998,
+        "y0": 765.1281429869737,
+        "x1": 236.88,
+        "y1": 772.3259618297485
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "Buyer Initials:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 165.12,
+        "y0": 765.3680702817328,
+        "x1": 199.68,
+        "y1": 772.5658891245077
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 86.88,
+        "y0": 621.4116934262345,
+        "x1": 341.28,
+        "y1": 628.6095122690094
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 86.88,
+        "y0": 586.8621629809148,
+        "x1": 341.28,
+        "y1": 594.0599818236898
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "Earnest Money Deposit in the amount of $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 208.56,
+        "y0": 501.6879733414117,
+        "x1": 388.08,
+        "y1": 508.8857921841866
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "QO Escrow Agent. The Escrow A gent is hereby changed to:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 277.2,
+        "y0": 478.65495304453196,
+        "x1": 561.84,
+        "y1": 485.85277188730686
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 36.0,
+        "y0": 455.62193274765224,
+        "x1": 210.48,
+        "y1": 462.81975159042713
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "Q) Due Diligence Fee. The Due Diligence Fee paid to Seller is hereby changed from: $___",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 400.08,
+        "y0": 420.83247500757346,
+        "x1": 463.91999999999996,
+        "y1": 428.03029385034836
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "Q) Due Diligence Fee. The Due Diligence Fee paid to Seller is hereby changed from: $___ to: $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 487.91999999999996,
+        "y0": 421.0724023023326,
+        "x1": 572.4,
+        "y1": 428.27022114510754
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "Agent is hereby changed to extend through 5:00 p.m. on:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 266.4,
+        "y0": 400.43865495304453,
+        "x1": 405.84,
+        "y1": 407.6364737958194
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "to: $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 54.0,
+        "y0": 365.88912450772494,
+        "x1": 198.72,
+        "y1": 373.08694335049984
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "Q (Additional) Earnest Money. The A dditional) Earnest Money Deposit is hereby changed from: $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 445.91999999999996,
+        "y0": 354.6125416540442,
+        "x1": 575.52,
+        "y1": 361.81036049681916
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "QO) Purchase Price. The Purchase Price is hereby changed from: $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 298.56,
+        "y0": 333.73886700999697,
+        "x1": 427.91999999999996,
+        "y1": 340.93668585277186
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "O Additional Buyer. By signing this amendment, (insert name only)",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 316.56,
+        "y0": 253.36322326567705,
+        "x1": 565.92,
+        "y1": 260.561042108452
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "(form 12-T) (\u201cContract\u2019\u201d\u2019) regarding the purchase and sale of the following property (insert property address):",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 473.76,
+        "y0": 184.26416237503787,
+        "x1": 573.36,
+        "y1": 191.4619812178128
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "Date",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 57.599999999999994,
+        "y0": 450.5834595577098,
+        "x1": 291.84,
+        "y1": 457.78127840048467
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "Title:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 60.0,
+        "y0": 427.55043926083005,
+        "x1": 289.44,
+        "y1": 434.74825810360494
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "Name:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 67.44,
+        "y0": 404.75734625870945,
+        "x1": 291.84,
+        "y1": 411.9551651014844
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "By: By:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 353.52,
+        "y0": 381.2444713723114,
+        "x1": 572.4,
+        "y1": 388.4422902150863
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "By:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 52.559999999999995,
+        "y0": 381.7243259618297,
+        "x1": 292.08,
+        "y1": 388.92214480460467
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 336.71999999999997,
+        "y0": 346.45501363223264,
+        "x1": 570.72,
+        "y1": 353.6528324750076
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "Buyer: Date Seller:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 370.08,
+        "y0": 310.2259921235989,
+        "x1": 489.59999999999997,
+        "y1": 317.4238109663738
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_24": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 71.52,
+        "y0": 310.2259921235989,
+        "x1": 216.23999999999998,
+        "y1": 317.4238109663738
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_25": {
+      "question": "Buyer: Date Seller:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 370.8,
+        "y0": 283.83398970009085,
+        "x1": 490.32,
+        "y1": 291.0318085428658
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_26": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 71.52,
+        "y0": 283.83398970009085,
+        "x1": 216.23999999999998,
+        "y1": 291.0318085428658
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_27": {
+      "question": "QO) Buyer may obtain a one-year home warranty at a cost not to exceed $",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 336.47999999999996,
+        "y0": 190.0224174492578,
+        "x1": 395.76,
+        "y1": 197.22023629203272
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_28": {
+      "question": "changed from: $ to: $",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 538.56,
+        "y0": 120.9233565586186,
+        "x1": 557.76,
+        "y1": 128.12117540139351
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_29": {
+      "question": "changed from: $ to: $",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 513.84,
+        "y0": 120.9233565586186,
+        "x1": 533.04,
+        "y1": 128.12117540139351
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_30": {
+      "question": "changed from: $ to: $",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 418.56,
+        "y0": 120.9233565586186,
+        "x1": 437.76,
+        "y1": 128.12117540139351
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_31": {
+      "question": "changed from: $",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 103.44,
+        "y0": 121.16328385337776,
+        "x1": 313.2,
+        "y1": 128.36110269615267
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_32": {
+      "question": "Oi Settlement Date. The Settlement Dateishereby changed to;",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 295.44,
+        "y0": 52.06422296273856,
+        "x1": 540.0,
+        "y1": 59.262041805513476
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

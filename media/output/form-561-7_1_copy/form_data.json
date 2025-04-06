@@ -1,0 +1,378 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-21T15:36:22.328904",
+    "filename": "form-561-7_1_copy.pdf",
+    "document_title": "form-561-7 (1) copy",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 27,
+    "fields_by_type": {
+      "text": 27
+    },
+    "fields_by_page": {
+      "1": 27
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 161.0,
+        "y0": 1762.0,
+        "x1": 760.0,
+        "y1": 1792.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Title:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 161.0,
+        "y0": 1730.0,
+        "x1": 759.0,
+        "y1": 1760.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Name:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 174.0,
+        "y0": 1698.0,
+        "x1": 760.0,
+        "y1": 1728.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "By:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 140.0,
+        "y0": 1667.0,
+        "x1": 754.0,
+        "y1": 1697.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 97.0,
+        "y0": 1580.0,
+        "x1": 757.0,
+        "y1": 1610.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 930.0,
+        "y0": 1474.0,
+        "x1": 1530.0,
+        "y1": 1504.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 158.0,
+        "y0": 1443.0,
+        "x1": 760.0,
+        "y1": 1473.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "Individual license #:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1098.0,
+        "y0": 1412.0,
+        "x1": 1419.0,
+        "y1": 1442.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 97.0,
+        "y0": 1410.0,
+        "x1": 757.0,
+        "y1": 1440.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 160.0,
+        "y0": 1346.0,
+        "x1": 759.0,
+        "y1": 1376.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "Date: Name;",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 944.0,
+        "y0": 1346.0,
+        "x1": 1531.0,
+        "y1": 1376.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 99.0,
+        "y0": 1314.0,
+        "x1": 760.0,
+        "y1": 1344.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "By:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 911.0,
+        "y0": 1283.0,
+        "x1": 1525.0,
+        "y1": 1313.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "compensation described herein.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 870.0,
+        "y0": 1187.0,
+        "x1": 1531.0,
+        "y1": 1217.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "0 Other:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 237.0,
+        "y0": 1060.0,
+        "x1": 1601.0,
+        "y1": 1090.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "with an estimated value of $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 414.0,
+        "y0": 1028.0,
+        "x1": 750.0,
+        "y1": 1058.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "\u00a9 Non-monetary: (describe)",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 448.0,
+        "y0": 995.0,
+        "x1": 1602.0,
+        "y1": 1025.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "O Monetary: $ or,",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 608.0,
+        "y0": 962.0,
+        "x1": 726.0,
+        "y1": 992.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "O Monetary: $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 296.0,
+        "y0": 962.0,
+        "x1": 577.0,
+        "y1": 992.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "0 Other:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 237.0,
+        "y0": 837.0,
+        "x1": 1601.0,
+        "y1": 867.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "with an estimated value of $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 414.0,
+        "y0": 805.0,
+        "x1": 750.0,
+        "y1": 835.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "O Non-monetary: (describe)",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 447.0,
+        "y0": 773.0,
+        "x1": 1602.0,
+        "y1": 803.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "O Monetary: $ or",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 611.0,
+        "y0": 740.0,
+        "x1": 729.0,
+        "y1": 770.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "O Monetary: $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 296.0,
+        "y0": 740.0,
+        "x1": 577.0,
+        "y1": 770.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_24": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 99.0,
+        "y0": 582.0,
+        "x1": 1492.0,
+        "y1": 612.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_25": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 100.0,
+        "y0": 551.0,
+        "x1": 1477.0,
+        "y1": 581.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_26": {
+      "question": "Property Address:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 315.0,
+        "y0": 519.0,
+        "x1": 1456.0,
+        "y1": 549.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

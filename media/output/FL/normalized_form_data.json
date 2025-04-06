@@ -1,0 +1,275 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-15T11:14:16.384140",
+    "filename": "FL.pdf",
+    "document_title": "Buyers Disclosure Statement (BDS-2)_old.pdf",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 19,
+    "fields_by_type": {
+      "text": 19
+    },
+    "fields_by_page": {
+      "1": 8,
+      "2": 11
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 84.96,
+        "y0": 696.24,
+        "x1": 541.8,
+        "y1": 707.04
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 84.96,
+        "y0": 683.28,
+        "x1": 541.8,
+        "y1": 694.0799999999999
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 84.96,
+        "y0": 670.3199999999999,
+        "x1": 541.8,
+        "y1": 681.12
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "(d = Have you ever filed for bankruptcy? O YES O1NO If YES, when?",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 386.64,
+        "y0": 532.4399999999999,
+        "x1": 495.71999999999997,
+        "y1": 543.24
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "Loan Officer Telephone Number",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 414.35999999999996,
+        "y0": 432.71999999999997,
+        "x1": 498.59999999999997,
+        "y1": 443.52
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Loan Officer",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 142.2,
+        "y0": 432.71999999999997,
+        "x1": 326.52,
+        "y1": 443.52
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "what is the name of the firm?",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 216.35999999999999,
+        "y0": 419.4,
+        "x1": 545.4,
+        "y1": 430.2
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "BUYER(S) NAME(S):",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 156.23999999999998,
+        "y0": 93.96,
+        "x1": 552.96,
+        "y1": 104.75999999999999
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "SELLER Date",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 331.92,
+        "y0": 470.15999999999997,
+        "x1": 440.64,
+        "y1": 480.96
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "SELLER",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 94.67999999999999,
+        "y0": 470.15999999999997,
+        "x1": 308.15999999999997,
+        "y1": 480.96
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "SELLER Date",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 331.92,
+        "y0": 429.12,
+        "x1": 440.64,
+        "y1": 439.91999999999996
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "SELLER",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 94.67999999999999,
+        "y0": 429.12,
+        "x1": 308.15999999999997,
+        "y1": 439.91999999999996
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 56.519999999999996,
+        "y0": 285.47999999999996,
+        "x1": 551.88,
+        "y1": 296.28
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "BUYER Date",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 328.68,
+        "y0": 209.88,
+        "x1": 437.4,
+        "y1": 220.67999999999998
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "BUYER",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 91.08,
+        "y0": 209.88,
+        "x1": 304.56,
+        "y1": 220.67999999999998
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "BUYER Date",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 328.68,
+        "y0": 150.84,
+        "x1": 437.4,
+        "y1": 161.64
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "BUYER",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 91.08,
+        "y0": 150.84,
+        "x1": 304.56,
+        "y1": 161.64
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "understands and agrees that Buyer will notify.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 250.2,
+        "y0": 88.92,
+        "x1": 296.64,
+        "y1": 99.72
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "accurate and complete. Buyer hereby authorizes.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 266.03999999999996,
+        "y0": 63.36,
+        "x1": 422.64,
+        "y1": 74.16
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

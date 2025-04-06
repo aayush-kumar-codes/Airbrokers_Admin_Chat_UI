@@ -1,0 +1,314 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-21T16:28:12.445010",
+    "filename": "form-560-7_1.pdf",
+    "document_title": "",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 22,
+    "fields_by_type": {
+      "text": 22
+    },
+    "fields_by_page": {
+      "1": 9,
+      "2": 13
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "REALTOR \u2014 Buyer Initials Seller Initials",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 329.4,
+        "y0": 744.12,
+        "x1": 362.15999999999997,
+        "y1": 754.92
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "REALTOR \u2014 Buyer Initials Seller Initials",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 291.24,
+        "y0": 744.12,
+        "x1": 324.0,
+        "y1": 754.92
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "REALTOR \u2014 Buyer Initials",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 197.28,
+        "y0": 744.12,
+        "x1": 230.04,
+        "y1": 754.92
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "REALTOR \u2014 Buyer Initials",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 159.12,
+        "y0": 744.12,
+        "x1": 192.23999999999998,
+        "y1": 754.92
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "date is specified, this Agreement shall terminate without notice at 11:59 p.m. on that date which is",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 449.28,
+        "y0": 368.28,
+        "x1": 511.91999999999996,
+        "y1": 379.08
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Dated:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 77.03999999999999,
+        "y0": 289.44,
+        "x1": 231.12,
+        "y1": 300.24
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 47.16,
+        "y0": 267.48,
+        "x1": 412.56,
+        "y1": 278.28
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "By and between",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 115.19999999999999,
+        "y0": 244.44,
+        "x1": 488.15999999999997,
+        "y1": 255.23999999999998
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 49.32,
+        "y0": 209.16,
+        "x1": 491.76,
+        "y1": 219.95999999999998
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 73.44,
+        "y0": 451.08,
+        "x1": 300.24,
+        "y1": 461.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "Title:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 73.44,
+        "y0": 427.32,
+        "x1": 300.24,
+        "y1": 438.12
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "Name:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 78.11999999999999,
+        "y0": 405.35999999999996,
+        "x1": 300.24,
+        "y1": 416.15999999999997
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "By:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 63.0,
+        "y0": 381.24,
+        "x1": 300.59999999999997,
+        "y1": 392.03999999999996
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 363.24,
+        "y0": 347.4,
+        "x1": 555.48,
+        "y1": 358.2
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 49.32,
+        "y0": 347.4,
+        "x1": 298.8,
+        "y1": 358.2
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "Business Entity Individual license #,",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 418.32,
+        "y0": 326.15999999999997,
+        "x1": 510.84,
+        "y1": 336.96
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "Date: Name:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 366.12,
+        "y0": 303.12,
+        "x1": 554.04,
+        "y1": 313.92
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 71.28,
+        "y0": 303.12,
+        "x1": 301.68,
+        "y1": 313.92
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "By:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 354.24,
+        "y0": 280.44,
+        "x1": 553.3199999999999,
+        "y1": 291.24
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "Date",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 72.0,
+        "y0": 258.48,
+        "x1": 288.71999999999997,
+        "y1": 269.28
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 336.24,
+        "y0": 234.35999999999999,
+        "x1": 551.88,
+        "y1": 245.16
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 46.08,
+        "y0": 234.35999999999999,
+        "x1": 299.15999999999997,
+        "y1": 245.16
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

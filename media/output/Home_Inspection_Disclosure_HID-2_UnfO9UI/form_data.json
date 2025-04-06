@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-21T22:04:02.624568",
+    "filename": "Home_Inspection_Disclosure_HID-2_UnfO9UI.pdf",
+    "document_title": "Microsoft Word - HID-2.formatted.docx",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 8,
+    "fields_by_type": {
+      "checkbox": 2,
+      "text": 6
+    },
+    "fields_by_page": {
+      "1": 8
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "Buyer elects to perform any or all recommended Inspections.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 156.0,
+        "y0": 868.0,
+        "x1": 179.0,
+        "y1": 891.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "Buyer elects not to perform any recommended Inspections.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 156.0,
+        "y0": 932.0,
+        "x1": 179.0,
+        "y1": 955.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1301.0,
+        "y0": 1417.0,
+        "x1": 1601.0,
+        "y1": 1447.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 671.0,
+        "y0": 1417.0,
+        "x1": 1261.0,
+        "y1": 1447.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 197.0,
+        "y0": 1418.0,
+        "x1": 641.0,
+        "y1": 1448.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1301.0,
+        "y0": 1264.0,
+        "x1": 1601.0,
+        "y1": 1294.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 671.0,
+        "y0": 1264.0,
+        "x1": 1261.0,
+        "y1": 1294.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 197.0,
+        "y0": 1265.0,
+        "x1": 641.0,
+        "y1": 1295.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

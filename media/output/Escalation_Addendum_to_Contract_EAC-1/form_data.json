@@ -1,0 +1,364 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-22T00:15:03.349809",
+    "filename": "Escalation_Addendum_to_Contract_EAC-1.pdf",
+    "document_title": "Escalation Addendum to Contract (EAC-1).pdf",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 22,
+    "fields_by_type": {
+      "checkbox": 7,
+      "text": 15
+    },
+    "fields_by_page": {
+      "1": 14,
+      "2": 8
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "\u201cAS IS\u201d Residential Contract for Sale and Purchase (\u201cAS IS FR/BAR\u201d)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 204.0,
+        "y0": 600.0,
+        "x1": 222.0,
+        "y1": 618.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "Residential Contract for Sale and Purchase (\u201cFR/BAR\u2019\u201d)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 204.0,
+        "y0": 664.0,
+        "x1": 222.0,
+        "y1": 682.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "Contract for Residential Sale and Purchase (\u201cCRSP\u201d)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 204.0,
+        "y0": 728.0,
+        "x1": 222.0,
+        "y1": 746.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "Commercial Contract",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 204.0,
+        "y0": 792.0,
+        "x1": 222.0,
+        "y1": 810.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "Vacant Land Contract",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 204.0,
+        "y0": 856.0,
+        "x1": 222.0,
+        "y1": 874.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "(a) At Closing, Buyer shall pay cash to cover applicable Escalation Amount. Buyer's proof of funds is",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 204.0,
+        "y0": 1336.0,
+        "x1": 222.0,
+        "y1": 1354.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_6": {
+      "question": "(b) Buyer shall seek financing for applicable Escalation Amount. Buyer should verify the ability to",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 205.0,
+        "y0": 1433.0,
+        "x1": 222.0,
+        "y1": 1451.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "Amount, not to exceed Maximum Purchase Price) of $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 873.0,
+        "y0": 1714.0,
+        "x1": 1261.0,
+        "y1": 1744.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "the purchase price set forth in Competing Offer up to $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 870.0,
+        "y0": 1138.0,
+        "x1": 1134.0,
+        "y1": 1168.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Buyer agrees that Purchase Price shall be increased by $.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 907.0,
+        "y0": 1106.0,
+        "x1": 1124.0,
+        "y1": 1136.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "Buyer offered Seller $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 468.0,
+        "y0": 499.0,
+        "x1": 686.0,
+        "y1": 529.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 200.0,
+        "y0": 419.0,
+        "x1": 1345.0,
+        "y1": 449.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 200.0,
+        "y0": 371.0,
+        "x1": 1237.0,
+        "y1": 401.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 200.0,
+        "y0": 323.0,
+        "x1": 1329.0,
+        "y1": 353.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1099.0,
+        "y0": 1083.0,
+        "x1": 1487.0,
+        "y1": 1113.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 200.0,
+        "y0": 1083.0,
+        "x1": 942.0,
+        "y1": 1113.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1100.0,
+        "y0": 987.0,
+        "x1": 1487.0,
+        "y1": 1017.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 200.0,
+        "y0": 987.0,
+        "x1": 942.0,
+        "y1": 1017.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1100.0,
+        "y0": 891.0,
+        "x1": 1487.0,
+        "y1": 921.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 200.0,
+        "y0": 891.0,
+        "x1": 943.0,
+        "y1": 921.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1100.0,
+        "y0": 795.0,
+        "x1": 1487.0,
+        "y1": 825.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 200.0,
+        "y0": 795.0,
+        "x1": 943.0,
+        "y1": 825.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

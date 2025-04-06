@@ -1,0 +1,630 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-28T16:47:58.345954",
+    "filename": "form-730-7_1_jImLa8M.pdf",
+    "document_title": "",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 43,
+    "fields_by_type": {
+      "checkbox": 6,
+      "text": 37
+    },
+    "fields_by_page": {
+      "1": 31,
+      "2": 12
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "The Prospect O is OQ) is not aware of the Referral. (Note: The rules of the North Carolina Real Estate Commission require the",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 326.0,
+        "y0": 1039.0,
+        "x1": 343.0,
+        "y1": 1055.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "The Prospect O is OQ) is not aware of the Referral. (Note: The rules of the North Carolina Real Estate Commission require the",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 269.0,
+        "y0": 1039.0,
+        "x1": 286.0,
+        "y1": 1055.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "Q % of the monetary compensation (including but not limited to any commission, bonus or other consideration",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 117.0,
+        "y0": 1446.0,
+        "x1": 133.0,
+        "y1": 1462.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "Q % of the monetary compensation (including but not limited to any commission, bonus or other consideration",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 117.0,
+        "y0": 1618.0,
+        "x1": 133.0,
+        "y1": 1634.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "Q Other:",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 117.0,
+        "y0": 1779.0,
+        "x1": 133.0,
+        "y1": 1795.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "REALTOR\u00ae OPPORTUNITY",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 199.0,
+        "y0": 2069.0,
+        "x1": 213.0,
+        "y1": 2082.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 143.0,
+        "y0": 1850.0,
+        "x1": 1543.0,
+        "y1": 1880.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 143.0,
+        "y0": 1811.0,
+        "x1": 1562.0,
+        "y1": 1841.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Q Other:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 224.0,
+        "y0": 1775.0,
+        "x1": 1566.0,
+        "y1": 1805.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "Q",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 144.0,
+        "y0": 1614.0,
+        "x1": 358.0,
+        "y1": 1644.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "Q",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 143.0,
+        "y0": 1442.0,
+        "x1": 359.0,
+        "y1": 1472.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "INFORMATIONNOTES.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 441.0,
+        "y0": 1134.0,
+        "x1": 1559.0,
+        "y1": 1164.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "Phone: Fax:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 582.0,
+        "y0": 942.0,
+        "x1": 869.0,
+        "y1": 972.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "Phone: Fax: Email:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 954.0,
+        "y0": 939.0,
+        "x1": 1561.0,
+        "y1": 969.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 193.0,
+        "y0": 939.0,
+        "x1": 530.0,
+        "y1": 969.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "Name:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 191.0,
+        "y0": 845.0,
+        "x1": 1563.0,
+        "y1": 875.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 193.0,
+        "y0": 703.0,
+        "x1": 525.0,
+        "y1": 733.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "Phone: Fax: Email:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 957.0,
+        "y0": 700.0,
+        "x1": 1564.0,
+        "y1": 730.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "Phone: Fax:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 582.0,
+        "y0": 700.0,
+        "x1": 870.0,
+        "y1": 730.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "Firm",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 268.0,
+        "y0": 653.0,
+        "x1": 1563.0,
+        "y1": 683.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "Agent Name:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1204.0,
+        "y0": 606.0,
+        "x1": 1565.0,
+        "y1": 636.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "Firm Name:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1204.0,
+        "y0": 559.0,
+        "x1": 1563.0,
+        "y1": 589.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "Firm Name:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 252.0,
+        "y0": 559.0,
+        "x1": 1104.0,
+        "y1": 589.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 194.0,
+        "y0": 414.0,
+        "x1": 523.0,
+        "y1": 444.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "Phone: Fax: Email:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 957.0,
+        "y0": 414.0,
+        "x1": 1562.0,
+        "y1": 444.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "Phone: Fax:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 582.0,
+        "y0": 414.0,
+        "x1": 874.0,
+        "y1": 444.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "Firm Address:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 274.0,
+        "y0": 367.0,
+        "x1": 1563.0,
+        "y1": 397.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "Agent Name:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 266.0,
+        "y0": 317.0,
+        "x1": 1104.0,
+        "y1": 347.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "Agent Name: License#",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1207.0,
+        "y0": 317.0,
+        "x1": 1565.0,
+        "y1": 347.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "Firm Name:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 252.0,
+        "y0": 270.0,
+        "x1": 1106.0,
+        "y1": 300.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_24": {
+      "question": "Firm Name:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1204.0,
+        "y0": 270.0,
+        "x1": 1565.0,
+        "y1": 300.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_25": {
+      "question": "Date: Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 899.0,
+        "y0": 1064.0,
+        "x1": 1255.0,
+        "y1": 1094.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_26": {
+      "question": "Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 177.0,
+        "y0": 1064.0,
+        "x1": 535.0,
+        "y1": 1094.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_27": {
+      "question": "Title:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 185.0,
+        "y0": 1006.0,
+        "x1": 779.0,
+        "y1": 1036.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_28": {
+      "question": "Title: Title,",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 893.0,
+        "y0": 1000.0,
+        "x1": 1513.0,
+        "y1": 1030.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_29": {
+      "question": "Name: Name;",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 905.0,
+        "y0": 939.0,
+        "x1": 1517.0,
+        "y1": 969.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_30": {
+      "question": "Name:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 196.0,
+        "y0": 939.0,
+        "x1": 777.0,
+        "y1": 969.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_31": {
+      "question": "By: By:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 877.0,
+        "y0": 842.0,
+        "x1": 1518.0,
+        "y1": 872.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_32": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 832.0,
+        "y0": 750.0,
+        "x1": 1514.0,
+        "y1": 780.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_33": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 110.0,
+        "y0": 750.0,
+        "x1": 787.0,
+        "y1": 780.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_34": {
+      "question": "TIME OF PAYMENT: Any compensation owed hereunder shall be paid to Referring Firm within.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1227.0,
+        "y0": 303.0,
+        "x1": 1333.0,
+        "y1": 333.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_35": {
+      "question": "compensation is due and payable to Referring Firm within,",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 752.0,
+        "y0": 208.0,
+        "x1": 864.0,
+        "y1": 238.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_36": {
+      "question": "enters into a contract to buy or sell property on or before",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 841.0,
+        "y0": 175.0,
+        "x1": 1245.0,
+        "y1": 205.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-27T11:48:44.689777",
+    "filename": "Short_Sale_Addendum_to_Purchase_and_Sale_Contract_SSA-3_tCKKwC0.pdf",
+    "document_title": "",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 15,
+    "fields_by_type": {
+      "checkbox": 4,
+      "text": 11
+    },
+    "fields_by_page": {
+      "1": 15
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "Except for Approval Deadline, all time periods for inspections, contingencies, deposit(s) and other obligations under the",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 130.0,
+        "y0": 982.0,
+        "x1": 153.0,
+        "y1": 1005.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "All time periods under the Contract shall commence from the Effective Date under the Contract.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 130.0,
+        "y0": 1097.0,
+        "x1": 153.0,
+        "y1": 1120.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "6. Multiple Offers: (check one) [] During the term of this Contract, Seller may not accept any back-up offers or enter into any back-up",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 466.0,
+        "y0": 1528.0,
+        "x1": 488.0,
+        "y1": 1551.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "contracts unless otherwise instructed, directed or required by Lender. During the term of this Contract, Seller may accept a back-",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 914.0,
+        "y0": 1557.0,
+        "x1": 937.0,
+        "y1": 1580.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1352.0,
+        "y0": 1895.0,
+        "x1": 1520.0,
+        "y1": 1925.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 830.0,
+        "y0": 1895.0,
+        "x1": 1332.0,
+        "y1": 1925.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 594.0,
+        "y0": 1895.0,
+        "x1": 762.0,
+        "y1": 1925.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 100.0,
+        "y0": 1895.0,
+        "x1": 574.0,
+        "y1": 1925.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1352.0,
+        "y0": 1781.0,
+        "x1": 1520.0,
+        "y1": 1811.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 830.0,
+        "y0": 1781.0,
+        "x1": 1332.0,
+        "y1": 1811.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 594.0,
+        "y0": 1781.0,
+        "x1": 762.0,
+        "y1": 1811.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 100.0,
+        "y0": 1781.0,
+        "x1": 574.0,
+        "y1": 1811.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "terms within",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 274.0,
+        "y0": 660.0,
+        "x1": 386.0,
+        "y1": 690.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 100.0,
+        "y0": 343.0,
+        "x1": 1130.0,
+        "y1": 373.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 100.0,
+        "y0": 286.0,
+        "x1": 1408.0,
+        "y1": 316.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

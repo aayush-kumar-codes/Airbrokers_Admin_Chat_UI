@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-27T20:02:40.938945",
+    "filename": "form-720-7_1.pdf",
+    "document_title": "TERMINATION OF AGENCY AGREEMENT AND RELEASE",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 9,
+    "fields_by_type": {
+      "checkbox": 8,
+      "text": 1
+    },
+    "fields_by_page": {
+      "1": 9
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "O NCAR Form #101 (Exclusive Right to Sell Listing Agreement)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 46.44,
+        "y0": 139.68,
+        "x1": 52.199999999999996,
+        "y1": 145.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "O NCAR Form #103 (Exclusive Right to Sell Listing Agreement Vacant Lot/Land)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 46.44,
+        "y0": 151.2,
+        "x1": 52.199999999999996,
+        "y1": 156.96
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "O NCAR Form #201 (Exclusive Buyer Agency Agreement)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 46.44,
+        "y0": 162.72,
+        "x1": 52.199999999999996,
+        "y1": 168.48
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "O NCAR Form #203 (Non-Exclusive Buyer Agency Agreement)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 46.44,
+        "y0": 174.23999999999998,
+        "x1": 52.199999999999996,
+        "y1": 180.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "O NCAR Form #405 (Exclusive Right to A dvertise/Lease A greement)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 46.44,
+        "y0": 185.76,
+        "x1": 52.199999999999996,
+        "y1": 191.51999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "O NCAR Form #60 (Exclusive Tenant Representation A greement)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 46.44,
+        "y0": 197.28,
+        "x1": 52.199999999999996,
+        "y1": 203.04
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_6": {
+      "question": "O NCAR Form #601 (Exclusive Right to Sell Listing A greement-A uction Sales)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 46.44,
+        "y0": 208.79999999999998,
+        "x1": 52.199999999999996,
+        "y1": 214.56
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_7": {
+      "question": "REALTOR\u00ae SrrontoniY",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 70.92,
+        "y0": 741.24,
+        "x1": 75.96,
+        "y1": 746.64
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 45.36,
+        "y0": 534.96,
+        "x1": 562.3199999999999,
+        "y1": 545.76
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-21T18:17:14.628813",
+    "filename": "form-355-T-2_1.pdf",
+    "document_title": "REQUEST FOR COPY OF COMMITMENT LETTER",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 13,
+    "fields_by_type": {
+      "text": 13
+    },
+    "fields_by_page": {
+      "1": 13
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "Names",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1195.0,
+        "y0": 1478.0,
+        "x1": 1589.0,
+        "y1": 1508.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Names",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 179.0,
+        "y0": 1478.0,
+        "x1": 971.0,
+        "y1": 1508.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "By: Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1059.0,
+        "y0": 1415.0,
+        "x1": 1595.0,
+        "y1": 1445.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "By:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 151.0,
+        "y0": 1415.0,
+        "x1": 943.0,
+        "y1": 1445.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "Entity Seller:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 251.0,
+        "y0": 1326.0,
+        "x1": 1591.0,
+        "y1": 1356.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 98.0,
+        "y0": 1228.0,
+        "x1": 882.0,
+        "y1": 1258.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 998.0,
+        "y0": 1229.0,
+        "x1": 1604.0,
+        "y1": 1259.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1001.0,
+        "y0": 1134.0,
+        "x1": 1605.0,
+        "y1": 1164.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 100.0,
+        "y0": 1134.0,
+        "x1": 882.0,
+        "y1": 1164.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "dishonored check or other funds:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 470.0,
+        "y0": 842.0,
+        "x1": 1586.0,
+        "y1": 872.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "Property Address:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 298.0,
+        "y0": 359.0,
+        "x1": 1456.0,
+        "y1": 389.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 170.0,
+        "y0": 295.0,
+        "x1": 1485.0,
+        "y1": 325.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "Seller;",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 170.0,
+        "y0": 230.0,
+        "x1": 1497.0,
+        "y1": 260.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

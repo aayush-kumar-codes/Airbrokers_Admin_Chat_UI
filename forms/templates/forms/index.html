@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDF Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        background-color: #f8f9fa;
+      }
+      h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+      }
+      #uploadBtn {
+        font-size: 1.2rem;
+        padding: 10px 20px;
+      }
+      table {
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      thead {
+        background-color: #343a40;
+        color: #ffffff;
+      }
+      tbody tr:hover {
+        background-color: #f1f3f5;
+      }
+      #jsonEditor {
+        height: 300px;
+        width: 100%;
+        border: 1px solid #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center text-primary">PDF Dashboard</h1>
+      <div class="text-right mb-3">
+        <button id="uploadBtn" class="btn btn-success">Upload PDF</button>
+      </div>
+      <div class="table-responsive">
+        <table class="table table-hover table-bordered">
+          <thead>
+            <tr>
+              <th>Input PDF</th>
+              <th>Processed PDF</th>
+              <th>Form Data JSON</th>
+              <th>Normalized Data JSON</th>
+              <th>Uploaded At</th>
+            </tr>
+          </thead>
+          <tbody id="dataTable"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div
+      class="modal"
+      id="jsonModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="jsonModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="jsonModalLabel">Edit JSON Data</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="jsonEditor"></div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" id="submitChanges" class="btn btn-primary">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.14/ace.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.14/mode-json.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.14/theme-monokai.js"></script>
+    <script src="app.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const dataTable = document.getElementById("dataTable");
+        const jsonEditor = ace.edit("jsonEditor");
+        jsonEditor.setTheme("ace/theme/monokai");
+        jsonEditor.session.setMode("ace/mode/json");
+
+        // Fetch data from the API
+        const fetchPdfData = async () => {
+          try {
+            const response = await fetch(
+              "https://7266-24-152-187-2.ngrok-free.app/forms/api/get-all-pdfs/",
+              {
+                method: "GET",
+                headers: {
+                  Accept: "*/*",
+                  "Accept-Encoding": "gzip, deflate, br",
+                  Connection: "keep-alive",
+                  "User-Agent": "PostmanRuntime/7.43.0",
+                },
+              }
+            );
+            if (!response.ok) {
+              throw new Error("Failed to fetch PDF data");
+            }
+            const pdfData = await response.json();
+
+            // Populate the table with data from API
+            pdfData.forEach((item) => {
+              const row = document.createElement("tr");
+              row.innerHTML = `
+          <td><a href="${item.inputPdfUrl}" target="_blank">${
+                item.inputPdfName
+              }</a></td>
+          <td><a href="${item.processedPdfUrl}" target="_blank">${
+                item.processedPdfName
+              }</a></td>
+          <td><a href="#" class="json-link" data-json="${encodeURIComponent(
+            JSON.stringify(item.formDataJson)
+          )}">View JSON</a></td>
+          <td><a href="#" class="json-link" data-json="${encodeURIComponent(
+            JSON.stringify(item.normalizedDataJson)
+          )}">View JSON</a></td>
+          <td>${item.uploadedAt}</td>
+        `;
+              dataTable.appendChild(row);
+            });
+          } catch (error) {
+            console.error("Error fetching PDF data:", error);
+            alert("Failed to load data. Please try again later.");
+          }
+        };
+
+        fetchPdfData();
+
+        // Modal related code
+        const jsonModal = $("#jsonModal");
+        const submitChanges = $("#submitChanges");
+
+        // Show the modal with JSON data when a link is clicked
+        $(document).on("click", ".json-link", function () {
+          const jsonData = decodeURIComponent($(this).data("json"));
+          jsonEditor.setValue(jsonData, -1); // Load JSON into editor
+          jsonModal.modal("show");
+        });
+
+        // Handle the submit button click
+        submitChanges.on("click", function () {
+          const updatedData = jsonEditor.getValue();
+
+          // Validate JSON
+          try {
+            JSON.parse(updatedData);
+
+            // Make API call to save the updated JSON
+            $.ajax({
+              url: "/api/updateJson", // Your API endpoint for updating JSON
+              method: "POST",
+              contentType: "application/json",
+              data: JSON.stringify({ json: updatedData }),
+              success: function () {
+                alert("JSON data updated successfully");
+                jsonModal.modal("hide");
+              },
+              error: function () {
+                alert("Failed to update JSON data");
+              },
+            });
+          } catch (e) {
+            alert("Invalid JSON format. Please fix it and try again.");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

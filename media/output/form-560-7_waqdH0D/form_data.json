@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-25T19:25:11.323732",
+    "filename": "form-560-7_waqdH0D.pdf",
+    "document_title": "",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 6,
+    "fields_by_type": {
+      "checkbox": 6
+    },
+    "fields_by_page": {
+      "1": 6
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 218.0,
+        "y0": 100.0,
+        "x1": 252.0,
+        "y1": 141.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "oantnll",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 237.0,
+        "y0": 201.0,
+        "x1": 249.0,
+        "y1": 215.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "U1 Exclusively as the agent of the Seller/Landlord/B uyer/T enant",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 242.0,
+        "y0": 1281.0,
+        "x1": 256.0,
+        "y1": 1298.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "LAs agent for the other principal in any transaction, not as agent for the Seller/Landlord/Buyer/T enant",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 242.0,
+        "y0": 1345.0,
+        "x1": 256.0,
+        "y1": 1362.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "U1 Asa dual agent, acting as agent for both principals in any transaction, including the Seller/Landlord/Buyer/T enant",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 242.0,
+        "y0": 1409.0,
+        "x1": 256.0,
+        "y1": 1426.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 196.0,
+        "y0": 1987.0,
+        "x1": 226.0,
+        "y1": 2023.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    }
+  }
+}

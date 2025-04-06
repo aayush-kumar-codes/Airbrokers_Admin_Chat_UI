@@ -1,0 +1,250 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-22T10:48:54.199789",
+    "filename": "Coastal_Construction_Control_Line_Affidavit_CCCLA-2_Rev._02_2020.pdf",
+    "document_title": "Coastal Construction Control Line Affadavit",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 16,
+    "fields_by_type": {
+      "checkbox": 2,
+      "text": 14
+    },
+    "fields_by_page": {
+      "1": 16
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "The foregoing instrument was acknowledged before me by means of O physical presence or LO online notarization, this",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1249.0,
+        "y0": 1292.0,
+        "x1": 1266.0,
+        "y1": 1310.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "The foregoing instrument was acknowledged before me by means of O physical presence or LO online notarization, this",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 946.0,
+        "y0": 1292.0,
+        "x1": 964.0,
+        "y1": 1310.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "My commission expires:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1288.0,
+        "y0": 1574.0,
+        "x1": 1537.0,
+        "y1": 1604.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 983.0,
+        "y0": 1510.0,
+        "x1": 1542.0,
+        "y1": 1540.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "[Notary Seal]",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 983.0,
+        "y0": 1414.0,
+        "x1": 1541.0,
+        "y1": 1444.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 83.0,
+        "y0": 1350.0,
+        "x1": 997.0,
+        "y1": 1380.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "by",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 375.0,
+        "y0": 1318.0,
+        "x1": 871.0,
+        "y1": 1348.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 83.0,
+        "y0": 1318.0,
+        "x1": 332.0,
+        "y1": 1348.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "Print Name:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 255.0,
+        "y0": 1126.0,
+        "x1": 981.0,
+        "y1": 1156.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "Seller: Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1182.0,
+        "y0": 1062.0,
+        "x1": 1598.0,
+        "y1": 1092.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "Seller:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 180.0,
+        "y0": 1062.0,
+        "x1": 982.0,
+        "y1": 1092.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "Print Name:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 255.0,
+        "y0": 978.0,
+        "x1": 981.0,
+        "y1": 1008.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "Seller: Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1182.0,
+        "y0": 913.0,
+        "x1": 1598.0,
+        "y1": 943.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "Seller:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 180.0,
+        "y0": 913.0,
+        "x1": 982.0,
+        "y1": 943.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "1. | am the seller of the property described as:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 720.0,
+        "y0": 625.0,
+        "x1": 1601.0,
+        "y1": 655.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "County of",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 228.0,
+        "y0": 478.0,
+        "x1": 939.0,
+        "y1": 508.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

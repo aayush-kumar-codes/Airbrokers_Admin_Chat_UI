@@ -1,0 +1,263 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-12T15:28:11.818815",
+    "filename": "MNAR_-_Addendum_to_Purchase_Agreement__Sellers_Purchase_Lease_Contingency_MN_APA_SP_LC.pdf",
+    "document_title": "AddnPA_SellersContingency21.pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 17,
+    "fields_by_type": {
+      "checkbox": 2,
+      "text": 15
+    },
+    "fields_by_page": {
+      "1": 17
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "after the removal of this Contingency rather than on Final Acceptance Date of this Purchase Agreement; or",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 966.0,
+        "x1": 207.0,
+        "y1": 997.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "as currently specified in this Purchase Agreement.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1011.0,
+        "x1": 207.0,
+        "y1": 1041.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "27.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 926.0,
+        "y0": 1562.0,
+        "x1": 1601.0,
+        "y1": 1592.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "27.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1562.0,
+        "x1": 826.0,
+        "y1": 1592.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "26.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 926.0,
+        "y0": 1455.0,
+        "x1": 1601.0,
+        "y1": 1485.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "26.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1455.0,
+        "x1": 826.0,
+        "y1": 1485.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1372.0,
+        "x1": 1601.0,
+        "y1": 1402.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1322.0,
+        "x1": 1601.0,
+        "y1": 1352.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1272.0,
+        "x1": 1601.0,
+        "y1": 1302.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1222.0,
+        "x1": 1601.0,
+        "y1": 1252.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1172.0,
+        "x1": 1601.0,
+        "y1": 1202.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1122.0,
+        "x1": 1601.0,
+        "y1": 1152.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "OTHER:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 288.0,
+        "y0": 1083.0,
+        "x1": 1600.0,
+        "y1": 1113.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "or licensee representing or Assisting Buyer, of Seller\u2019s intent to cancel no later than",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1213.0,
+        "y0": 655.0,
+        "x1": 1378.0,
+        "y1": 685.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 184.0,
+        "y0": 472.0,
+        "x1": 1583.0,
+        "y1": 502.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "Addendum to Purchase Agreement between parties, dated",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 945.0,
+        "y0": 388.0,
+        "x1": 1601.0,
+        "y1": 418.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "1. Date",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1051.0,
+        "y0": 305.0,
+        "x1": 1601.0,
+        "y1": 335.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

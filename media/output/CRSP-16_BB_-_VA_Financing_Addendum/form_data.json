@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-24T16:47:20.255121",
+    "filename": "CRSP-16_BB_-_VA_Financing_Addendum.pdf",
+    "document_title": "CRSP16.BB.VA financing addendum.pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 10,
+    "fields_by_type": {
+      "text": 10
+    },
+    "fields_by_page": {
+      "1": 10
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "18\u00b0 Seller will make required repairs up to a maximum cost to Seller of $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1060.0,
+        "y0": 929.0,
+        "x1": 1308.0,
+        "y1": 959.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "15\u00b0 Seller will pay all required fees under the VA regulations up to $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 978.0,
+        "y0": 833.0,
+        "x1": 1226.0,
+        "y1": 863.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "( ) ( )- ( )",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 512.0,
+        "y0": 479.0,
+        "x1": 594.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "( ) ( )-",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 402.0,
+        "y0": 479.0,
+        "x1": 483.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "( )",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 267.0,
+        "y0": 479.0,
+        "x1": 352.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 156.0,
+        "y0": 479.0,
+        "x1": 238.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 151.0,
+        "y0": 410.0,
+        "x1": 1601.0,
+        "y1": 440.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "concerning the Property described as",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 619.0,
+        "y0": 366.0,
+        "x1": 1601.0,
+        "y1": 396.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "and",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 205.0,
+        "y0": 321.0,
+        "x1": 1478.0,
+        "y1": 351.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "between",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 264.0,
+        "y0": 277.0,
+        "x1": 1481.0,
+        "y1": 307.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

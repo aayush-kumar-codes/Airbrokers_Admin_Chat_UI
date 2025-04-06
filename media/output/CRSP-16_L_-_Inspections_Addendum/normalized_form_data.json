@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-22T00:32:30.162117",
+    "filename": "CRSP-16_L_-_Inspections_Addendum.pdf",
+    "document_title": "CRSP16.L.inspections addendum.pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 11,
+    "fields_by_type": {
+      "checkbox": 2,
+      "text": 9
+    },
+    "fields_by_page": {
+      "1": 11
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "1. OO Self-Inspection: Seller and Buyer agree that unlicensed persons, including the parties themselves, may",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 69.84,
+        "y0": 194.76,
+        "x1": 76.32,
+        "y1": 200.88
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "O Right to Cancel Based on Inspection Results: Within the Inspection Period provided in Paragraph 6 of this",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 69.84,
+        "y0": 258.12,
+        "x1": 76.32,
+        "y1": 264.59999999999997
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "results within",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 129.24,
+        "y0": 313.2,
+        "x1": 163.07999999999998,
+        "y1": 324.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 170.64,
+        "y0": 168.84,
+        "x1": 199.79999999999998,
+        "y1": 179.64
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 133.2,
+        "y0": 168.84,
+        "x1": 162.72,
+        "y1": 179.64
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 90.0,
+        "y0": 168.84,
+        "x1": 119.16,
+        "y1": 179.64
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 52.559999999999995,
+        "y0": 168.84,
+        "x1": 82.08,
+        "y1": 179.64
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 50.76,
+        "y0": 144.0,
+        "x1": 572.76,
+        "y1": 154.79999999999998
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "concerning the Property described as",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 219.23999999999998,
+        "y0": 128.16,
+        "x1": 572.76,
+        "y1": 138.96
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "and",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 70.2,
+        "y0": 111.96,
+        "x1": 528.48,
+        "y1": 122.75999999999999
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 50.76,
+        "y0": 96.11999999999999,
+        "x1": 529.56,
+        "y1": 106.92
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

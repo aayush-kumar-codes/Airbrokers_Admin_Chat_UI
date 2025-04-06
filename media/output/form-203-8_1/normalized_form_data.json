@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-24T17:10:00.248426",
+    "filename": "form-203-8_1.pdf",
+    "document_title": "Non-Exclusive Buyer Agency Agreement",
+    "number_of_pages": 5,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 52,
+    "fields_by_type": {
+      "checkbox": 8,
+      "text": 44
+    },
+    "fields_by_page": {
+      "1": 16,
+      "3": 3,
+      "5": 33
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "all that apply]: O locating suitable real estate UO showing the following specific property.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 232.92,
+        "y0": 241.92,
+        "x1": 238.67999999999998,
+        "y1": 247.67999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "all that apply]: O locating suitable real estate UO showing the following specific property.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 102.96,
+        "y0": 241.92,
+        "x1": 108.72,
+        "y1": 247.67999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "Q Buyer acknowledges receipt of a sample copy of an Offer to Purchase and Contract for review purposes.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 51.12,
+        "y0": 618.48,
+        "x1": 56.879999999999995,
+        "y1": 624.24
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "Q Buyer acknowledges receipt of a copy of the brochure Questions and Answers on: Home Inspections.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 51.12,
+        "y0": 630.0,
+        "x1": 56.879999999999995,
+        "y1": 635.76
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "Q Buyer acknowledges receipt of a sample copy of a Professional Services Disclosure and Election form (form #760) for review",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 51.12,
+        "y0": 641.52,
+        "x1": 56.879999999999995,
+        "y1": 647.28
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "REALTOR\u00ae OPPORTUNITY",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 62.28,
+        "y0": 756.72,
+        "x1": 66.96,
+        "y1": 761.76
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 35.28,
+        "y0": 361.08,
+        "x1": 280.08,
+        "y1": 371.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "seller/listing firmintheamountofo",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 175.32,
+        "y0": 350.28,
+        "x1": 420.47999999999996,
+        "y1": 361.08
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "shall expire at 11:59 p.m.,",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 145.07999999999998,
+        "y0": 292.32,
+        "x1": 385.91999999999996,
+        "y1": 303.12
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "2. DURATION OF AGENCY. Firm's authority as Buyer's non-exclusive agent shall begin",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 415.08,
+        "y0": 281.15999999999997,
+        "x1": 563.4,
+        "y1": 291.96
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 35.28,
+        "y0": 251.28,
+        "x1": 410.4,
+        "y1": 262.08
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "all that apply]: O locating suitable real estate UO showing the following specific",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 401.03999999999996,
+        "y0": 240.12,
+        "x1": 552.24,
+        "y1": 250.92
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "and,",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 50.4,
+        "y0": 79.56,
+        "x1": 535.68,
+        "y1": 90.36
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "between.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 454.68,
+        "y0": 68.03999999999999,
+        "x1": 484.91999999999996,
+        "y1": 78.84
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 68.03999999999999,
+        "y0": 68.39999999999999,
+        "x1": 441.35999999999996,
+        "y1": 79.2
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "This NON-EXCLUSIVE BUYER AGENCY AGREEMENT (\u201cAgreement\u201d) is entered into (Date)",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 438.12,
+        "y0": 56.16,
+        "x1": 576.0,
+        "y1": 66.96
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_6": {
+      "question": "Buyer OQ DOES QO DOES NOT authorize the same individual agent to represent both the Buyer and the seller in a",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 181.79999999999998,
+        "y0": 126.36,
+        "x1": 187.56,
+        "y1": 132.12
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_7": {
+      "question": "Buyer OQ DOES QO DOES NOT authorize the same individual agent to represent both the Buyer and the seller in a",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 141.12,
+        "y0": 126.36,
+        "x1": 146.88,
+        "y1": 132.12
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_10": {
+      "question": "receive for its services in representing Buyer and the seller shall be.",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 304.2,
+        "y0": 296.28,
+        "x1": 549.36,
+        "y1": 307.08
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "Agent Phone: Fax: Ema",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 364.32,
+        "y0": 566.28,
+        "x1": 494.64,
+        "y1": 577.0799999999999
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "Agent Phone: Fax:",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 225.35999999999999,
+        "y0": 566.28,
+        "x1": 325.8,
+        "y1": 577.0799999999999
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "Agent Phone:",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 92.16,
+        "y0": 566.28,
+        "x1": 200.16,
+        "y1": 577.0799999999999
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 462.24,
+        "y0": 526.3199999999999,
+        "x1": 553.3199999999999,
+        "y1": 537.12
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 303.12,
+        "y0": 526.3199999999999,
+        "x1": 430.56,
+        "y1": 537.12
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 37.08,
+        "y0": 526.3199999999999,
+        "x1": 247.67999999999998,
+        "y1": 537.12
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "Office Address;",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 101.16,
+        "y0": 500.4,
+        "x1": 311.4,
+        "y1": 511.2
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "Firm Firm Phone:",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 472.32,
+        "y0": 460.08,
+        "x1": 567.72,
+        "y1": 470.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "Firm",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 307.44,
+        "y0": 460.08,
+        "x1": 402.84,
+        "y1": 470.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "Firm",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 59.4,
+        "y0": 460.08,
+        "x1": 270.0,
+        "y1": 470.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "MailingAddress;",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 111.24,
+        "y0": 414.35999999999996,
+        "x1": 322.56,
+        "y1": 425.15999999999997
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "ContactInformation: =",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 410.03999999999996,
+        "y0": 380.15999999999997,
+        "x1": 509.76,
+        "y1": 390.96
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "ContactInformation: =",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 316.44,
+        "y0": 379.08,
+        "x1": 388.44,
+        "y1": 389.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_24": {
+      "question": "ContactInformation: =",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 222.12,
+        "y0": 379.08,
+        "x1": 296.28,
+        "y1": 389.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_25": {
+      "question": "ContactInformation:",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 131.4,
+        "y0": 379.08,
+        "x1": 198.72,
+        "y1": 389.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_26": {
+      "question": "Names",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 71.28,
+        "y0": 345.24,
+        "x1": 281.15999999999997,
+        "y1": 356.03999999999996
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_27": {
+      "question": "Bye",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 49.32,
+        "y0": 322.2,
+        "x1": 259.56,
+        "y1": 333.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_28": {
+      "question": "Bye Date",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 441.0,
+        "y0": 322.2,
+        "x1": 541.0799999999999,
+        "y1": 333.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_29": {
+      "question": "Entity Buyer",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 88.2,
+        "y0": 287.28,
+        "x1": 299.52,
+        "y1": 298.08
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_30": {
+      "question": "ContactInformation.",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 221.4,
+        "y0": 207.35999999999999,
+        "x1": 295.2,
+        "y1": 218.16
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_31": {
+      "question": "ContactInformation. ~o\u2014s\u2014s\u2014s\u2014sssee",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 406.08,
+        "y0": 207.35999999999999,
+        "x1": 506.52,
+        "y1": 218.16
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_32": {
+      "question": "ContactInformation.",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 314.28,
+        "y0": 206.28,
+        "x1": 388.08,
+        "y1": 217.07999999999998
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_33": {
+      "question": "ContactInformation.",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 132.12,
+        "y0": 206.28,
+        "x1": 207.35999999999999,
+        "y1": 217.07999999999998
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_34": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 71.28,
+        "y0": 173.16,
+        "x1": 277.2,
+        "y1": 183.95999999999998
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_35": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 289.44,
+        "y0": 172.07999999999998,
+        "x1": 483.84,
+        "y1": 182.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_36": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 491.03999999999996,
+        "y0": 172.44,
+        "x1": 572.04,
+        "y1": 183.23999999999998
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_37": {
+      "question": "Contact Information:",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 406.44,
+        "y0": 115.19999999999999,
+        "x1": 574.92,
+        "y1": 126.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_38": {
+      "question": "Contact Information:",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 317.15999999999997,
+        "y0": 115.19999999999999,
+        "x1": 386.64,
+        "y1": 126.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_39": {
+      "question": "Contact Information:",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 222.12,
+        "y0": 115.19999999999999,
+        "x1": 291.96,
+        "y1": 126.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_40": {
+      "question": "Contact Information:",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 131.4,
+        "y0": 115.19999999999999,
+        "x1": 198.35999999999999,
+        "y1": 126.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_41": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 289.44,
+        "y0": 80.28,
+        "x1": 480.96,
+        "y1": 91.08
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_42": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 71.28,
+        "y0": 80.28,
+        "x1": 276.48,
+        "y1": 91.08
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_43": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 489.24,
+        "y0": 80.28,
+        "x1": 576.72,
+        "y1": 91.08
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

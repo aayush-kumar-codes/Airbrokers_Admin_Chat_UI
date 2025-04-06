@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-21T22:44:03.207963",
+    "filename": "CRSP-16_G_-_Defective_Drywall_Addendum.pdf",
+    "document_title": "CRSP16.G.defective drywall addendum.pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 10,
+    "fields_by_type": {
+      "text": 10
+    },
+    "fields_by_page": {
+      "1": 10
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "18\u00b0 from Defective Drywall exceeds $.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 632.0,
+        "y0": 912.0,
+        "x1": 880.0,
+        "y1": 942.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Drywall within",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 385.0,
+        "y0": 736.0,
+        "x1": 479.0,
+        "y1": 766.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "( )\u00a2 )-\u00a2",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 521.0,
+        "y0": 479.0,
+        "x1": 605.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "( )\u00a2 )-\u00a2",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 411.0,
+        "y0": 479.0,
+        "x1": 492.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "(",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 270.0,
+        "y0": 479.0,
+        "x1": 354.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "(",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 160.0,
+        "y0": 479.0,
+        "x1": 241.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 151.0,
+        "y0": 410.0,
+        "x1": 1601.0,
+        "y1": 440.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "concerning the Property described as",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 619.0,
+        "y0": 366.0,
+        "x1": 1601.0,
+        "y1": 396.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "and",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 205.0,
+        "y0": 321.0,
+        "x1": 1478.0,
+        "y1": 351.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "between",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 264.0,
+        "y0": 277.0,
+        "x1": 1481.0,
+        "y1": 307.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

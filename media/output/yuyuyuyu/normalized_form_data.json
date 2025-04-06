@@ -1,0 +1,301 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-20T16:12:32.841964",
+    "filename": "yuyuyuyu.pdf",
+    "document_title": "C:/Users/fedi/Desktop/form-560-7_(restaur\u00e9)_12_02_2025_10_44.sla",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 21,
+    "fields_by_type": {
+      "text": 21
+    },
+    "fields_by_page": {
+      "1": 5,
+      "2": 16
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "\u2014 Buyer Initials",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 189.56179193314503,
+        "y0": 772.3398750242123,
+        "x1": 222.4351659772474,
+        "y1": 779.5378235332917
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "\u2014 Buyer Initials Seller Initials",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 280.7434133693414,
+        "y0": 772.3398750242123,
+        "x1": 313.3768357780853,
+        "y1": 779.5378235332917
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "\u2014 Buyer Initials",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 150.20972373436555,
+        "y0": 772.3398750242123,
+        "x1": 183.08309777846793,
+        "y1": 779.5378235332917
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "date is specified, this Agreement shall terminate without notice at 11:59 p.m. on that date which is",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 440.311250882685,
+        "y0": 396.12709961633254,
+        "x1": 503.4185309819472,
+        "y1": 403.3250481254119
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "Dated:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 69.1060709832225,
+        "y0": 315.51007631464404,
+        "x1": 171.8053709166226,
+        "y1": 322.7080248237234
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 155.72861134760902,
+        "y0": 786.4958404254016,
+        "x1": 188.6019853917114,
+        "y1": 793.693788934481
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 65.26684481748791,
+        "y0": 478.42364423680624,
+        "x1": 290.3414787836778,
+        "y1": 485.6215927458856
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "Title:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 65.0268931821295,
+        "y0": 455.6301406247217,
+        "x1": 290.5814304190362,
+        "y1": 462.82808913380103
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "Name:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 70.06587752465614,
+        "y0": 432.35677377869854,
+        "x1": 290.5814304190362,
+        "y1": 439.55472228777785
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "By:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 55.18887613243463,
+        "y0": 409.8032017835833,
+        "x1": 290.5814304190362,
+        "y1": 417.0011502926626
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 41.031729646288355,
+        "y0": 374.7731857060639,
+        "x1": 289.6216238776026,
+        "y1": 381.9711342151432
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "Business Entity Individual license #:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 410.7971997336004,
+        "y0": 354.1390666467031,
+        "x1": 500.7790629930047,
+        "y1": 361.33701515578247
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "Date: Name:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 357.76788831939143,
+        "y0": 331.5854946515879,
+        "x1": 543.7304057221603,
+        "y1": 338.7834431606672
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 65.26684481748791,
+        "y0": 331.10563141764925,
+        "x1": 290.5814304190362,
+        "y1": 338.3035799267286
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "By:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 346.7301130929045,
+        "y0": 306.15274325284093,
+        "x1": 547.3296802525365,
+        "y1": 313.35069176192025
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 41.271681281646764,
+        "y0": 306.15274325284093,
+        "x1": 286.02234934722645,
+        "y1": 313.35069176192025
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 63.82713500533744,
+        "y0": 283.5991712577257,
+        "x1": 283.8627846290007,
+        "y1": 290.797119766805
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 41.031729646288355,
+        "y0": 262.72512058139563,
+        "x1": 289.861575512961,
+        "y1": 269.92306909047494
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 285.06254280579276,
+        "y0": 95.2528519368165,
+        "x1": 313.6167874134438,
+        "y1": 102.45080044589582
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 169.16590292768007,
+        "y0": 72.21941670776263,
+        "x1": 189.32184029778662,
+        "y1": 79.41736521684196
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 55.90873103850986,
+        "y0": 60.462767476266386,
+        "x1": 76.06466840861643,
+        "y1": 67.66071598534572
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

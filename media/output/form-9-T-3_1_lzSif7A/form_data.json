@@ -1,0 +1,1921 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-24T11:20:58.317555",
+    "filename": "form-9-T-3_1_lzSif7A.pdf",
+    "document_title": "REAL ESTATE CLOSING INFORMATION",
+    "number_of_pages": 3,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 131,
+    "fields_by_type": {
+      "checkbox": 27,
+      "text": 104
+    },
+    "fields_by_page": {
+      "1": 69,
+      "2": 62
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "Attached: OOffer to Purchase and Contract & All Addenda QO Deed OSurvey OQ Title Insurance Policy",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1179.0,
+        "y0": 262.0,
+        "x1": 1195.0,
+        "y1": 278.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "Attached: OOffer to Purchase and Contract & All Addenda QO Deed OSurvey OQ Title Insurance Policy",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1029.0,
+        "y0": 262.0,
+        "x1": 1045.0,
+        "y1": 278.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "Attached: OOffer to Purchase and Contract & All Addenda QO Deed OSurvey OQ Title Insurance Policy",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 904.0,
+        "y0": 262.0,
+        "x1": 920.0,
+        "y1": 278.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "LOAN INFORMATION: Will Buyer Attend Closing? QyYes ONo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1053.0,
+        "y0": 689.0,
+        "x1": 1069.0,
+        "y1": 705.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "LOAN INFORMATION: Will Buyer Attend Closing? QyYes ONo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 940.0,
+        "y0": 689.0,
+        "x1": 956.0,
+        "y1": 705.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "Premium Amount $ Q Paid in Advance Q Paid at Closing OQ) Buyer Will Deliver Policy to Closing",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1053.0,
+        "y0": 929.0,
+        "x1": 1069.0,
+        "y1": 945.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_6": {
+      "question": "Premium Amount $ Q Paid in Advance Q Paid at Closing OQ) Buyer Will Deliver Policy to Closing",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 815.0,
+        "y0": 929.0,
+        "x1": 831.0,
+        "y1": 945.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_7": {
+      "question": "Premium Amount $ Q Paid in Advance Q Paid at Closing OQ) Buyer Will Deliver Policy to Closing",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 553.0,
+        "y0": 929.0,
+        "x1": 569.0,
+        "y1": 945.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_8": {
+      "question": "Premium Amount $ Q Paid in Advance Q Paid at Closing OQ) Buyer Will Deliver Policy to Closing",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1053.0,
+        "y0": 1073.0,
+        "x1": 1069.0,
+        "y1": 1089.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_9": {
+      "question": "Premium Amount $ Q Paid in Advance Q Paid at Closing OQ) Buyer Will Deliver Policy to Closing",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 815.0,
+        "y0": 1073.0,
+        "x1": 831.0,
+        "y1": 1089.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_10": {
+      "question": "Premium Amount $ Q Paid in Advance Q Paid at Closing OQ) Buyer Will Deliver Policy to Closing",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 553.0,
+        "y0": 1073.0,
+        "x1": 569.0,
+        "y1": 1089.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_11": {
+      "question": "Q Buyer authorizes Attorney to order survey Q Buyer will provide survey to Attorney prior to closing",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 853.0,
+        "y0": 1408.0,
+        "x1": 869.0,
+        "y1": 1424.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_12": {
+      "question": "Q Buyer authorizes Attorney to order survey Q Buyer will provide survey to Attorney prior to closing",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 253.0,
+        "y0": 1408.0,
+        "x1": 269.0,
+        "y1": 1424.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_13": {
+      "question": "REALTOR\u00ae",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 171.0,
+        "y0": 2060.0,
+        "x1": 185.0,
+        "y1": 2075.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "ADDITIONAL INFORMATION: (List any bills to be paid by Buyer)",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 902.0,
+        "y0": 1742.0,
+        "x1": 1577.0,
+        "y1": 1772.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Address:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 227.0,
+        "y0": 1692.0,
+        "x1": 1584.0,
+        "y1": 1722.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Phone: Email:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1029.0,
+        "y0": 1647.0,
+        "x1": 1582.0,
+        "y1": 1677.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 588.0,
+        "y0": 1645.0,
+        "x1": 926.0,
+        "y1": 1675.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 205.0,
+        "y0": 1642.0,
+        "x1": 530.0,
+        "y1": 1672.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "BUYER\u2019S ATTORNEY: Paralegal:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1152.0,
+        "y0": 1600.0,
+        "x1": 1579.0,
+        "y1": 1630.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "BUYER\u2019S ATTORNEY:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 399.0,
+        "y0": 1597.0,
+        "x1": 1032.0,
+        "y1": 1627.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "FIRM COMPENSATION PAID BY BUYER:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 654.0,
+        "y0": 1550.0,
+        "x1": 1583.0,
+        "y1": 1580.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "Phone: Fax: Email:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1029.0,
+        "y0": 1503.0,
+        "x1": 1577.0,
+        "y1": 1533.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 205.0,
+        "y0": 1500.0,
+        "x1": 530.0,
+        "y1": 1530.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "Phone: Fax:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 588.0,
+        "y0": 1500.0,
+        "x1": 916.0,
+        "y1": 1530.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "SELLING FIRM:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 316.0,
+        "y0": 1456.0,
+        "x1": 925.0,
+        "y1": 1486.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "SELLING FIRM: Agent:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1019.0,
+        "y0": 1450.0,
+        "x1": 1582.0,
+        "y1": 1480.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "Phone: Fax:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 588.0,
+        "y0": 1358.0,
+        "x1": 915.0,
+        "y1": 1388.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 207.0,
+        "y0": 1358.0,
+        "x1": 534.0,
+        "y1": 1388.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "Phone: Fax: Email:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1027.0,
+        "y0": 1358.0,
+        "x1": 1576.0,
+        "y1": 1388.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "SURVEY: Surveyor:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 346.0,
+        "y0": 1311.0,
+        "x1": 1328.0,
+        "y1": 1341.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "SURVEY: Surveyor:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1387.0,
+        "y0": 1308.0,
+        "x1": 1579.0,
+        "y1": 1338.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1027.0,
+        "y0": 1261.0,
+        "x1": 1577.0,
+        "y1": 1291.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 588.0,
+        "y0": 1261.0,
+        "x1": 914.0,
+        "y1": 1291.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 207.0,
+        "y0": 1261.0,
+        "x1": 535.0,
+        "y1": 1291.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "HOA MANAGEMENT CO #2: Contact:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1174.0,
+        "y0": 1214.0,
+        "x1": 1570.0,
+        "y1": 1244.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "HOA MANAGEMENT CO #2:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 480.0,
+        "y0": 1214.0,
+        "x1": 1050.0,
+        "y1": 1244.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 599.0,
+        "y0": 1167.0,
+        "x1": 933.0,
+        "y1": 1197.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_24": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 204.0,
+        "y0": 1167.0,
+        "x1": 536.0,
+        "y1": 1197.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_25": {
+      "question": "Phone: Email:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1024.0,
+        "y0": 1164.0,
+        "x1": 1578.0,
+        "y1": 1194.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_26": {
+      "question": "HOA MANAGEMENT CO #1: Contact:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1174.0,
+        "y0": 1117.0,
+        "x1": 1570.0,
+        "y1": 1147.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_27": {
+      "question": "HOA MANAGEMENT CO #1:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 485.0,
+        "y0": 1117.0,
+        "x1": 1048.0,
+        "y1": 1147.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_28": {
+      "question": "Premium Amount $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 343.0,
+        "y0": 1070.0,
+        "x1": 530.0,
+        "y1": 1100.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_29": {
+      "question": "Phone: Fax: Email:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1038.0,
+        "y0": 1022.0,
+        "x1": 1575.0,
+        "y1": 1052.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_30": {
+      "question": "Phone: Fax:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 613.0,
+        "y0": 1022.0,
+        "x1": 929.0,
+        "y1": 1052.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_31": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 207.0,
+        "y0": 1022.0,
+        "x1": 534.0,
+        "y1": 1052.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_32": {
+      "question": "FLOOD INSURANCE:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 382.0,
+        "y0": 972.0,
+        "x1": 1071.0,
+        "y1": 1002.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_33": {
+      "question": "FLOOD INSURANCE: Agent:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1168.0,
+        "y0": 972.0,
+        "x1": 1578.0,
+        "y1": 1002.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_34": {
+      "question": "Premium Amount $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 344.0,
+        "y0": 925.0,
+        "x1": 534.0,
+        "y1": 955.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_35": {
+      "question": "Phone: Fax:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 602.0,
+        "y0": 881.0,
+        "x1": 933.0,
+        "y1": 911.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_36": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 205.0,
+        "y0": 878.0,
+        "x1": 532.0,
+        "y1": 908.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_37": {
+      "question": "Phone: Fax: Email:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1013.0,
+        "y0": 878.0,
+        "x1": 1576.0,
+        "y1": 908.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_38": {
+      "question": "AZARD INSURANCE:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 416.0,
+        "y0": 831.0,
+        "x1": 1080.0,
+        "y1": 861.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_39": {
+      "question": "AZARD INSURANCE: Agent:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1166.0,
+        "y0": 831.0,
+        "x1": 1579.0,
+        "y1": 861.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_40": {
+      "question": "Phone: Email:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1010.0,
+        "y0": 784.0,
+        "x1": 1580.0,
+        "y1": 814.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_41": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 599.0,
+        "y0": 781.0,
+        "x1": 931.0,
+        "y1": 811.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_42": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 207.0,
+        "y0": 781.0,
+        "x1": 541.0,
+        "y1": 811.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_43": {
+      "question": "Lender: Contact:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1044.0,
+        "y0": 733.0,
+        "x1": 1578.0,
+        "y1": 763.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_44": {
+      "question": "Lender:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 216.0,
+        "y0": 733.0,
+        "x1": 918.0,
+        "y1": 763.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_45": {
+      "question": "Email: Email:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 949.0,
+        "y0": 639.0,
+        "x1": 1571.0,
+        "y1": 669.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_46": {
+      "question": "Email:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 202.0,
+        "y0": 636.0,
+        "x1": 837.0,
+        "y1": 666.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_47": {
+      "question": "Phones: Home: Cell:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1016.0,
+        "y0": 545.0,
+        "x1": 1287.0,
+        "y1": 575.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_48": {
+      "question": "Phones: Home: Cell:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1335.0,
+        "y0": 542.0,
+        "x1": 1581.0,
+        "y1": 572.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_49": {
+      "question": "Phones: Home: Cell:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 671.0,
+        "y0": 542.0,
+        "x1": 943.0,
+        "y1": 572.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_50": {
+      "question": "Phones: Home:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 299.0,
+        "y0": 542.0,
+        "x1": 610.0,
+        "y1": 572.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_51": {
+      "question": "Current Address:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 319.0,
+        "y0": 492.0,
+        "x1": 1578.0,
+        "y1": 522.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_52": {
+      "question": "NAME(S); Marital Status",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1382.0,
+        "y0": 433.0,
+        "x1": 1572.0,
+        "y1": 463.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_53": {
+      "question": "NAME(S);",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 227.0,
+        "y0": 434.0,
+        "x1": 1221.0,
+        "y1": 464.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_54": {
+      "question": "Property:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 204.0,
+        "y0": 164.0,
+        "x1": 1607.0,
+        "y1": 194.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_14": {
+      "question": "Is this the Seller\u2019s primary residence? Q Yes QO No Will Seller Attend Closing? Ol Yes ONo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 1243.0,
+        "y0": 396.0,
+        "x1": 1259.0,
+        "y1": 412.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_15": {
+      "question": "Is this the Seller\u2019s primary residence? Q Yes QO No Will Seller Attend Closing? Ol Yes ONo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 1143.0,
+        "y0": 396.0,
+        "x1": 1159.0,
+        "y1": 412.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_16": {
+      "question": "Is this the Seller\u2019s primary residence? Q Yes QO No Will Seller Attend Closing? Ol Yes ONo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 655.0,
+        "y0": 396.0,
+        "x1": 671.0,
+        "y1": 412.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_17": {
+      "question": "Is this the Seller\u2019s primary residence? Q Yes QO No Will Seller Attend Closing? Ol Yes ONo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 555.0,
+        "y0": 396.0,
+        "x1": 571.0,
+        "y1": 412.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_18": {
+      "question": "Q Closing Attorney to Prepare Seller\u2019s Closing Documentation Q Closing Documents To Be Mailed To Seller For Signing",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 880.0,
+        "y0": 444.0,
+        "x1": 896.0,
+        "y1": 460.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_19": {
+      "question": "Q Closing Attorney to Prepare Seller\u2019s Closing Documentation Q Closing Documents To Be Mailed To Seller For Signing",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 118.0,
+        "y0": 444.0,
+        "x1": 134.0,
+        "y1": 460.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_20": {
+      "question": "Q Seller\u2019s Attorney/Relocation Company Will Provide Closing Documentation",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 118.0,
+        "y0": 492.0,
+        "x1": 134.0,
+        "y1": 508.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_21": {
+      "question": "1 Mortgage: Equity Line of Credit: Q Yes OQ No",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 1047.0,
+        "y0": 729.0,
+        "x1": 1063.0,
+        "y1": 745.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_22": {
+      "question": "1 Mortgage: Equity Line of Credit: Q Yes OQ No",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 958.0,
+        "y0": 729.0,
+        "x1": 974.0,
+        "y1": 745.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_23": {
+      "question": "2\u21224 Mortgage: Equity Line of Credit: Q Yes O No",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 1045.0,
+        "y0": 873.0,
+        "x1": 1061.0,
+        "y1": 889.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_24": {
+      "question": "2\u21224 Mortgage: Equity Line of Credit: Q Yes O No",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 956.0,
+        "y0": 873.0,
+        "x1": 972.0,
+        "y1": 889.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_25": {
+      "question": "3\" Mortgage: Equity Line of Credit: O Yes Q No",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 1041.0,
+        "y0": 1016.0,
+        "x1": 1057.0,
+        "y1": 1032.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_26": {
+      "question": "3\" Mortgage: Equity Line of Credit: O Yes Q No",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 952.0,
+        "y0": 1016.0,
+        "x1": 968.0,
+        "y1": 1032.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_55": {
+      "question": "SETTLEMENT DATE;",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 466.0,
+        "y0": 2103.0,
+        "x1": 878.0,
+        "y1": 2133.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_56": {
+      "question": "ADDITIONAL INFORMATION: (List any bills to be paid by Seller)",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 891.0,
+        "y0": 1784.0,
+        "x1": 1566.0,
+        "y1": 1814.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_57": {
+      "question": "Phone: Fax: Email:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1068.0,
+        "y0": 1739.0,
+        "x1": 1563.0,
+        "y1": 1769.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_58": {
+      "question": "Phone: Fax:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 593.0,
+        "y0": 1739.0,
+        "x1": 981.0,
+        "y1": 1769.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_59": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 196.0,
+        "y0": 1739.0,
+        "x1": 527.0,
+        "y1": 1769.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_60": {
+      "question": "Address:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 218.0,
+        "y0": 1645.0,
+        "x1": 1563.0,
+        "y1": 1675.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_61": {
+      "question": "Phone: : Email:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1069.0,
+        "y0": 1595.0,
+        "x1": 1561.0,
+        "y1": 1625.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_62": {
+      "question": "Phone: :",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 591.0,
+        "y0": 1595.0,
+        "x1": 979.0,
+        "y1": 1625.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_63": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 194.0,
+        "y0": 1595.0,
+        "x1": 522.0,
+        "y1": 1625.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_64": {
+      "question": "SELLER\u2019S ATTORNEY: Paralegal:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1143.0,
+        "y0": 1547.0,
+        "x1": 1555.0,
+        "y1": 1577.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_65": {
+      "question": "SELLER\u2019S ATTORNEY:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 396.0,
+        "y0": 1547.0,
+        "x1": 1029.0,
+        "y1": 1577.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_66": {
+      "question": "TOTAL COMMISSION: $ Paid to Listing Firm: $ Paid to Selling Firm:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1327.0,
+        "y0": 1500.0,
+        "x1": 1557.0,
+        "y1": 1530.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_67": {
+      "question": "TOTAL COMMISSION: $",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 410.0,
+        "y0": 1500.0,
+        "x1": 610.0,
+        "y1": 1530.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_68": {
+      "question": "TOTAL COMMISSION: $ Paid to Listing Firm:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 860.0,
+        "y0": 1497.0,
+        "x1": 1064.0,
+        "y1": 1527.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_69": {
+      "question": "Phone: : Email:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1066.0,
+        "y0": 1453.0,
+        "x1": 1562.0,
+        "y1": 1483.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_70": {
+      "question": "Phone: :",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 591.0,
+        "y0": 1450.0,
+        "x1": 977.0,
+        "y1": 1480.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_71": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 193.0,
+        "y0": 1450.0,
+        "x1": 520.0,
+        "y1": 1480.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_72": {
+      "question": "HOA MANAGEMENT CO #2 :",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 480.0,
+        "y0": 1403.0,
+        "x1": 1078.0,
+        "y1": 1433.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_73": {
+      "question": "HOA MANAGEMENT CO #2 : Contact:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1188.0,
+        "y0": 1403.0,
+        "x1": 1559.0,
+        "y1": 1433.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_74": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 196.0,
+        "y0": 1356.0,
+        "x1": 526.0,
+        "y1": 1386.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_75": {
+      "question": "Phone: :",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 591.0,
+        "y0": 1356.0,
+        "x1": 983.0,
+        "y1": 1386.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_76": {
+      "question": "Phone: : Email:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1069.0,
+        "y0": 1353.0,
+        "x1": 1563.0,
+        "y1": 1383.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_77": {
+      "question": "HOA MANAGEMENT CO #1: Contact:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1174.0,
+        "y0": 1309.0,
+        "x1": 1562.0,
+        "y1": 1339.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_78": {
+      "question": "HOA MANAGEMENT CO #1:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 479.0,
+        "y0": 1309.0,
+        "x1": 1071.0,
+        "y1": 1339.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_79": {
+      "question": "CURRENT TITLE INSURANCE INFORMATION:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 716.0,
+        "y0": 1261.0,
+        "x1": 1561.0,
+        "y1": 1291.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_80": {
+      "question": "List Any Additional Liens or Judgments:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 574.0,
+        "y0": 1203.0,
+        "x1": 1568.0,
+        "y1": 1233.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_81": {
+      "question": "ndicate if any of the above loans are to be assumed:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 707.0,
+        "y0": 1156.0,
+        "x1": 1568.0,
+        "y1": 1186.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_82": {
+      "question": "Address:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 213.0,
+        "y0": 1109.0,
+        "x1": 1561.0,
+        "y1": 1139.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_83": {
+      "question": "Phone: : Email:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1066.0,
+        "y0": 1064.0,
+        "x1": 1565.0,
+        "y1": 1094.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_84": {
+      "question": "Phone: :",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 593.0,
+        "y0": 1064.0,
+        "x1": 979.0,
+        "y1": 1094.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_85": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 196.0,
+        "y0": 1061.0,
+        "x1": 532.0,
+        "y1": 1091.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_86": {
+      "question": "3\" Mortgage:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 266.0,
+        "y0": 1014.0,
+        "x1": 694.0,
+        "y1": 1044.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_87": {
+      "question": "Address:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 218.0,
+        "y0": 964.0,
+        "x1": 1562.0,
+        "y1": 994.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_88": {
+      "question": "Phone: Email:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1066.0,
+        "y0": 920.0,
+        "x1": 1561.0,
+        "y1": 950.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_89": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 588.0,
+        "y0": 917.0,
+        "x1": 977.0,
+        "y1": 947.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_90": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 194.0,
+        "y0": 917.0,
+        "x1": 523.0,
+        "y1": 947.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_91": {
+      "question": "2\u21224 Mortgage:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 271.0,
+        "y0": 870.0,
+        "x1": 701.0,
+        "y1": 900.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_92": {
+      "question": "Phone: Fax: Email:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1069.0,
+        "y0": 775.0,
+        "x1": 1563.0,
+        "y1": 805.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_93": {
+      "question": "Phone: Fax:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 591.0,
+        "y0": 775.0,
+        "x1": 976.0,
+        "y1": 805.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_94": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 194.0,
+        "y0": 772.0,
+        "x1": 522.0,
+        "y1": 802.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_95": {
+      "question": "1 Mortgage:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 266.0,
+        "y0": 725.0,
+        "x1": 690.0,
+        "y1": 755.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_96": {
+      "question": "Forwarding Address:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 354.0,
+        "y0": 348.0,
+        "x1": 1570.0,
+        "y1": 378.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_97": {
+      "question": "Email:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 904.0,
+        "y0": 300.0,
+        "x1": 1567.0,
+        "y1": 330.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_98": {
+      "question": "Email:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 191.0,
+        "y0": 295.0,
+        "x1": 826.0,
+        "y1": 325.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_99": {
+      "question": "Phones: Home:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1343.0,
+        "y0": 253.0,
+        "x1": 1562.0,
+        "y1": 283.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_100": {
+      "question": "Phones: Home:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1019.0,
+        "y0": 247.0,
+        "x1": 1289.0,
+        "y1": 277.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_101": {
+      "question": "Phones: Home:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 652.0,
+        "y0": 247.0,
+        "x1": 941.0,
+        "y1": 277.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_102": {
+      "question": "NAME(S):",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 219.0,
+        "y0": 156.0,
+        "x1": 1199.0,
+        "y1": 186.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_103": {
+      "question": "NAME(S): Marital Status:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1371.0,
+        "y0": 153.0,
+        "x1": 1561.0,
+        "y1": 183.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

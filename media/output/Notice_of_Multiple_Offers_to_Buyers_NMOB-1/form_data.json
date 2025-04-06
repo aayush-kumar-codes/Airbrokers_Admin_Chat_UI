@@ -1,0 +1,393 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-23T10:14:11.902594",
+    "filename": "Notice_of_Multiple_Offers_to_Buyers_NMOB-1.pdf",
+    "document_title": "Notice of Multiple Offers to Buyers_NMOB-1.pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 27,
+    "fields_by_type": {
+      "checkbox": 2,
+      "text": 25
+    },
+    "fields_by_page": {
+      "1": 27
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "Oa.m.O p.m. on 20__. (\u201cDeadline\u201d)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 538.0,
+        "y0": 893.0,
+        "x1": 555.0,
+        "y1": 911.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "Oa.m.O p.m. on 20__. (\u201cDeadline\u201d)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 444.0,
+        "y0": 893.0,
+        "x1": 461.0,
+        "y1": 911.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "Date: /",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 905.0,
+        "y0": 1942.0,
+        "x1": 1489.0,
+        "y1": 1972.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 276.0,
+        "y0": 1942.0,
+        "x1": 891.0,
+        "y1": 1972.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Buyer(s) Signature: /",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 905.0,
+        "y0": 1897.0,
+        "x1": 1489.0,
+        "y1": 1927.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "Buyer(s) Signature:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 460.0,
+        "y0": 1897.0,
+        "x1": 891.0,
+        "y1": 1927.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "Buyer(s) Name (Print): /",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 905.0,
+        "y0": 1851.0,
+        "x1": 1489.0,
+        "y1": 1881.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Buyer(s) Name (Print):",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 491.0,
+        "y0": 1851.0,
+        "x1": 891.0,
+        "y1": 1881.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "Date: /",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 905.0,
+        "y0": 1771.0,
+        "x1": 1489.0,
+        "y1": 1801.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 276.0,
+        "y0": 1771.0,
+        "x1": 891.0,
+        "y1": 1801.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "Seller(s) Signature: /",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 905.0,
+        "y0": 1725.0,
+        "x1": 1489.0,
+        "y1": 1755.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "Seller(s) Signature:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 460.0,
+        "y0": 1725.0,
+        "x1": 891.0,
+        "y1": 1755.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "Seller(s) Name (Print): /",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 905.0,
+        "y0": 1680.0,
+        "x1": 1489.0,
+        "y1": 1710.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "Seller(s) Name (Print):",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 491.0,
+        "y0": 1680.0,
+        "x1": 891.0,
+        "y1": 1710.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "Oa.m.O p.m. on",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 666.0,
+        "y0": 887.0,
+        "x1": 1193.0,
+        "y1": 917.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 200.0,
+        "y0": 887.0,
+        "x1": 433.0,
+        "y1": 917.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "Selling Agent\u2019s Email:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 491.0,
+        "y0": 715.0,
+        "x1": 1289.0,
+        "y1": 745.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "Selling Agent:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 383.0,
+        "y0": 680.0,
+        "x1": 1289.0,
+        "y1": 710.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "Selling Brokerage:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 445.0,
+        "y0": 645.0,
+        "x1": 1289.0,
+        "y1": 675.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "Buyer(s):",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 322.0,
+        "y0": 611.0,
+        "x1": 1182.0,
+        "y1": 641.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "Listing Agent\u2019s Email:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 476.0,
+        "y0": 542.0,
+        "x1": 1289.0,
+        "y1": 572.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "Listing Agent:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 383.0,
+        "y0": 508.0,
+        "x1": 1289.0,
+        "y1": 538.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "Listing Brokerage:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 445.0,
+        "y0": 473.0,
+        "x1": 1289.0,
+        "y1": 503.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "Seller(s):",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 322.0,
+        "y0": 439.0,
+        "x1": 1182.0,
+        "y1": 469.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "MLS#",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 280.0,
+        "y0": 361.0,
+        "x1": 791.0,
+        "y1": 391.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 215.0,
+        "y0": 319.0,
+        "x1": 1488.0,
+        "y1": 349.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_24": {
+      "question": "Property Address: (\u201cProperty\u201d).",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 583.0,
+        "y0": 284.0,
+        "x1": 1488.0,
+        "y1": 314.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

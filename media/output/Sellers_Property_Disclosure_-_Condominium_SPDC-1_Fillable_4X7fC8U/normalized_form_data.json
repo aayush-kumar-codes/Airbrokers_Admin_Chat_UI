@@ -1,0 +1,2940 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-10T09:39:48.300481",
+    "filename": "Sellers_Property_Disclosure_-_Condominium_SPDC-1_Fillable_4X7fC8U.pdf",
+    "document_title": "Condominium Disclosure Statement",
+    "number_of_pages": 3,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 156,
+    "fields_by_type": {
+      "checkbox": 126,
+      "text": 30
+    },
+    "fields_by_page": {
+      "1": 33,
+      "2": 64,
+      "3": 59
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "The Unitis [owner occupied O tenant occupied O unoccupied (if unoccupied, how long has it been since Seller occupied the",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 263.52,
+        "y0": 420.47999999999996,
+        "x1": 269.28,
+        "y1": 426.24
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "The Unitis [owner occupied O tenant occupied O unoccupied (if unoccupied, how long has it been since Seller occupied the",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 178.92,
+        "y0": 420.47999999999996,
+        "x1": 184.68,
+        "y1": 426.24
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "The Unitis [owner occupied O tenant occupied O unoccupied (if unoccupied, how long has it been since Seller occupied the",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 92.52,
+        "y0": 420.47999999999996,
+        "x1": 98.28,
+        "y1": 426.24
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "(a) Is the roof a common element maintained by the Association? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 546.12,
+        "y0": 478.79999999999995,
+        "x1": 551.88,
+        "y1": 484.56
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "(a) Is the roof a common element maintained by the Association? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 492.12,
+        "y0": 478.79999999999995,
+        "x1": 497.88,
+        "y1": 484.56
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "(a) Is the roof a common element maintained by the Association? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 438.12,
+        "y0": 478.79999999999995,
+        "x1": 443.88,
+        "y1": 484.56
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_6": {
+      "question": "(b) To your knowledge, is roof of Unit structurally sound and free of leaks? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 546.12,
+        "y0": 491.03999999999996,
+        "x1": 551.88,
+        "y1": 496.79999999999995
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_7": {
+      "question": "(b) To your knowledge, is roof of Unit structurally sound and free of leaks? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 492.12,
+        "y0": 491.03999999999996,
+        "x1": 497.88,
+        "y1": 496.79999999999995
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_8": {
+      "question": "(b) To your knowledge, is roof of Unit structurally sound and free of leaks? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 438.12,
+        "y0": 491.03999999999996,
+        "x1": 443.88,
+        "y1": 496.79999999999995
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_9": {
+      "question": "structurally sound and free of leaks? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 546.12,
+        "y0": 515.88,
+        "x1": 551.88,
+        "y1": 521.64
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_10": {
+      "question": "structurally sound and free of leaks? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 492.12,
+        "y0": 515.88,
+        "x1": 497.88,
+        "y1": 521.64
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_11": {
+      "question": "structurally sound and free of leaks? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 438.12,
+        "y0": 515.88,
+        "x1": 443.88,
+        "y1": 521.64
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_12": {
+      "question": "(d) Has any additional structural reinforcement been added to the Unit? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 546.12,
+        "y0": 528.48,
+        "x1": 551.88,
+        "y1": 534.24
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_13": {
+      "question": "(d) Has any additional structural reinforcement been added to the Unit? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 492.12,
+        "y0": 528.48,
+        "x1": 497.88,
+        "y1": 534.24
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_14": {
+      "question": "(d) Has any additional structural reinforcement been added to the Unit? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 438.12,
+        "y0": 528.48,
+        "x1": 443.88,
+        "y1": 534.24
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_15": {
+      "question": "Association? oO oO oO",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 546.12,
+        "y0": 553.3199999999999,
+        "x1": 551.88,
+        "y1": 559.0799999999999
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_16": {
+      "question": "Association? oO oO oO",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 492.12,
+        "y0": 553.3199999999999,
+        "x1": 497.88,
+        "y1": 559.0799999999999
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_17": {
+      "question": "Association? oO oO oO",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 438.12,
+        "y0": 553.3199999999999,
+        "x1": 443.88,
+        "y1": 559.0799999999999
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_18": {
+      "question": "i.e., operating in a manner in which the item was designed to operate? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 546.12,
+        "y0": 577.0799999999999,
+        "x1": 551.88,
+        "y1": 582.84
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_19": {
+      "question": "i.e., operating in a manner in which the item was designed to operate? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 492.12,
+        "y0": 577.0799999999999,
+        "x1": 497.88,
+        "y1": 582.84
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_20": {
+      "question": "i.e., operating in a manner in which the item was designed to operate? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 438.12,
+        "y0": 577.0799999999999,
+        "x1": 443.88,
+        "y1": 582.84
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_21": {
+      "question": "designed to operate? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 546.12,
+        "y0": 612.72,
+        "x1": 551.88,
+        "y1": 618.48
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_22": {
+      "question": "designed to operate? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 492.12,
+        "y0": 612.72,
+        "x1": 497.88,
+        "y1": 618.48
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_23": {
+      "question": "designed to operate? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 438.12,
+        "y0": 612.72,
+        "x1": 443.88,
+        "y1": 618.48
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_24": {
+      "question": "(h) Are any of the appliances leased? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 546.12,
+        "y0": 624.9599999999999,
+        "x1": 551.88,
+        "y1": 630.72
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_25": {
+      "question": "(h) Are any of the appliances leased? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 492.12,
+        "y0": 624.9599999999999,
+        "x1": 497.88,
+        "y1": 630.72
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_26": {
+      "question": "(h) Are any of the appliances leased? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 438.12,
+        "y0": 624.9599999999999,
+        "x1": 443.88,
+        "y1": 630.72
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 36.36,
+        "y0": 685.8,
+        "x1": 180.35999999999999,
+        "y1": 696.6
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "explain:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 128.51999999999998,
+        "y0": 675.72,
+        "x1": 424.08,
+        "y1": 686.52
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "If yes, which ones:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 173.16,
+        "y0": 640.0799999999999,
+        "x1": 424.44,
+        "y1": 650.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "unit?",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 63.0,
+        "y0": 434.88,
+        "x1": 574.92,
+        "y1": 445.68
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 42.12,
+        "y0": 394.56,
+        "x1": 527.76,
+        "y1": 405.35999999999996
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Seller makes the following disclosure regarding the property described as:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 344.88,
+        "y0": 371.15999999999997,
+        "x1": 574.92,
+        "y1": 381.96
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_27": {
+      "question": "(a) Are termites; other wood-destroying organisms, including fungi; or Oo Oo Oo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 546.12,
+        "y0": 76.67999999999999,
+        "x1": 551.88,
+        "y1": 82.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_28": {
+      "question": "(a) Are termites; other wood-destroying organisms, including fungi; or Oo Oo Oo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 492.12,
+        "y0": 76.67999999999999,
+        "x1": 497.88,
+        "y1": 82.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_29": {
+      "question": "(a) Are termites; other wood-destroying organisms, including fungi; or Oo Oo Oo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 438.12,
+        "y0": 76.67999999999999,
+        "x1": 443.88,
+        "y1": 82.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_30": {
+      "question": "organisms, including fungi; or pests? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 546.12,
+        "y0": 122.39999999999999,
+        "x1": 551.88,
+        "y1": 128.16
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_31": {
+      "question": "organisms, including fungi; or pests? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 492.12,
+        "y0": 122.39999999999999,
+        "x1": 497.88,
+        "y1": 128.16
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_32": {
+      "question": "organisms, including fungi; or pests? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 438.12,
+        "y0": 122.39999999999999,
+        "x1": 443.88,
+        "y1": 128.16
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_33": {
+      "question": "(a) Has past or present water intrusion or flooding affected the Unit? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 546.12,
+        "y0": 181.44,
+        "x1": 551.88,
+        "y1": 187.2
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_34": {
+      "question": "(a) Has past or present water intrusion or flooding affected the Unit? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 492.12,
+        "y0": 181.44,
+        "x1": 497.88,
+        "y1": 187.2
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_35": {
+      "question": "(a) Has past or present water intrusion or flooding affected the Unit? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 438.12,
+        "y0": 181.44,
+        "x1": 443.88,
+        "y1": 187.2
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_36": {
+      "question": "(b) Are polybutylene pipes present in the Unit? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 546.12,
+        "y0": 192.95999999999998,
+        "x1": 551.88,
+        "y1": 198.72
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_37": {
+      "question": "(b) Are polybutylene pipes present in the Unit? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 492.12,
+        "y0": 192.95999999999998,
+        "x1": 497.88,
+        "y1": 198.72
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_38": {
+      "question": "(b) Are polybutylene pipes present in the Unit? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 438.12,
+        "y0": 192.95999999999998,
+        "x1": 443.88,
+        "y1": 198.72
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_39": {
+      "question": "(c) Have past or present plumbing leaks or backups affected the Unit? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 546.12,
+        "y0": 204.48,
+        "x1": 551.88,
+        "y1": 210.23999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_40": {
+      "question": "(c) Have past or present plumbing leaks or backups affected the Unit? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 492.12,
+        "y0": 204.48,
+        "x1": 497.88,
+        "y1": 210.23999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_41": {
+      "question": "(c) Have past or present plumbing leaks or backups affected the Unit? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 438.12,
+        "y0": 204.48,
+        "x1": 443.88,
+        "y1": 210.23999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_42": {
+      "question": "below or adjacent to it? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 546.12,
+        "y0": 239.04,
+        "x1": 551.88,
+        "y1": 244.79999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_43": {
+      "question": "below or adjacent to it? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 492.12,
+        "y0": 239.04,
+        "x1": 497.88,
+        "y1": 244.79999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_44": {
+      "question": "below or adjacent to it? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 438.12,
+        "y0": 239.04,
+        "x1": 443.88,
+        "y1": 244.79999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_45": {
+      "question": "(e) Does your lender require flood insurance? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 546.12,
+        "y0": 250.56,
+        "x1": 551.88,
+        "y1": 256.32
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_46": {
+      "question": "(e) Does your lender require flood insurance? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 492.12,
+        "y0": 250.56,
+        "x1": 497.88,
+        "y1": 256.32
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_47": {
+      "question": "(e) Does your lender require flood insurance? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 438.12,
+        "y0": 250.56,
+        "x1": 443.88,
+        "y1": 256.32
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_48": {
+      "question": "(a) Does the Unit have sprinklers for fire protection? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 546.12,
+        "y0": 309.59999999999997,
+        "x1": 551.88,
+        "y1": 315.36
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_49": {
+      "question": "(a) Does the Unit have sprinklers for fire protection? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 492.12,
+        "y0": 309.59999999999997,
+        "x1": 497.88,
+        "y1": 315.36
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_50": {
+      "question": "(a) Does the Unit have sprinklers for fire protection? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 438.12,
+        "y0": 309.59999999999997,
+        "x1": 443.88,
+        "y1": 315.36
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_51": {
+      "question": "fire sprinkler system? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 546.12,
+        "y0": 332.64,
+        "x1": 551.88,
+        "y1": 338.4
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_52": {
+      "question": "fire sprinkler system? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 492.12,
+        "y0": 332.64,
+        "x1": 497.88,
+        "y1": 338.4
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_53": {
+      "question": "fire sprinkler system? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 438.12,
+        "y0": 332.64,
+        "x1": 443.88,
+        "y1": 338.4
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_54": {
+      "question": "by others, been made without obtaining required Association approval? oOo o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 546.12,
+        "y0": 355.68,
+        "x1": 551.88,
+        "y1": 361.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_55": {
+      "question": "by others, been made without obtaining required Association approval? oOo o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 492.12,
+        "y0": 355.68,
+        "x1": 497.88,
+        "y1": 361.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_56": {
+      "question": "by others, been made without obtaining required Association approval? oOo o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 438.12,
+        "y0": 355.68,
+        "x1": 443.88,
+        "y1": 361.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_57": {
+      "question": "restrictions or without necessary permits? oOo o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 546.12,
+        "y0": 390.24,
+        "x1": 551.88,
+        "y1": 396.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_58": {
+      "question": "restrictions or without necessary permits? oOo o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 492.12,
+        "y0": 390.24,
+        "x1": 497.88,
+        "y1": 396.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_59": {
+      "question": "restrictions or without necessary permits? oOo o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 438.12,
+        "y0": 390.24,
+        "x1": 443.88,
+        "y1": 396.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_60": {
+      "question": "(d) Are any improvements located below the base flood elevation? o o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 546.12,
+        "y0": 401.4,
+        "x1": 551.88,
+        "y1": 407.15999999999997
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_61": {
+      "question": "(d) Are any improvements located below the base flood elevation? o o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 492.12,
+        "y0": 401.4,
+        "x1": 497.88,
+        "y1": 407.15999999999997
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_62": {
+      "question": "(d) Are any improvements located below the base flood elevation? o o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 438.12,
+        "y0": 401.4,
+        "x1": 443.88,
+        "y1": 407.15999999999997
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_63": {
+      "question": "local flood guidelines? o o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 546.12,
+        "y0": 424.44,
+        "x1": 551.88,
+        "y1": 430.2
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_64": {
+      "question": "local flood guidelines? o o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 492.12,
+        "y0": 424.44,
+        "x1": 497.88,
+        "y1": 430.2
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_65": {
+      "question": "local flood guidelines? o o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 438.12,
+        "y0": 424.44,
+        "x1": 443.88,
+        "y1": 430.2
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_66": {
+      "question": "final inspection? o o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 546.12,
+        "y0": 447.47999999999996,
+        "x1": 551.88,
+        "y1": 453.24
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_67": {
+      "question": "final inspection? o o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 492.12,
+        "y0": 447.47999999999996,
+        "x1": 497.88,
+        "y1": 453.24
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_68": {
+      "question": "final inspection? o o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 438.12,
+        "y0": 447.47999999999996,
+        "x1": 443.88,
+        "y1": 453.24
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_69": {
+      "question": "(a) Was the Property built before 1978? o o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 546.12,
+        "y0": 506.52,
+        "x1": 551.88,
+        "y1": 512.28
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_70": {
+      "question": "(a) Was the Property built before 1978? o o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 492.12,
+        "y0": 506.52,
+        "x1": 497.88,
+        "y1": 512.28
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_71": {
+      "question": "(a) Was the Property built before 1978? o o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 438.12,
+        "y0": 506.52,
+        "x1": 443.88,
+        "y1": 512.28
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_72": {
+      "question": "or defective drywall? o o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 546.12,
+        "y0": 564.12,
+        "x1": 551.88,
+        "y1": 569.88
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_73": {
+      "question": "or defective drywall? o o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 492.12,
+        "y0": 564.12,
+        "x1": 497.88,
+        "y1": 569.88
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_74": {
+      "question": "or defective drywall? o o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 438.12,
+        "y0": 564.12,
+        "x1": 443.88,
+        "y1": 569.88
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_75": {
+      "question": "of the substances or materials listed in subparagraph (b) above? o o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 546.12,
+        "y0": 587.16,
+        "x1": 551.88,
+        "y1": 592.92
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_76": {
+      "question": "of the substances or materials listed in subparagraph (b) above? o o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 492.12,
+        "y0": 587.16,
+        "x1": 497.88,
+        "y1": 592.92
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_77": {
+      "question": "of the substances or materials listed in subparagraph (b) above? o o o",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 438.12,
+        "y0": 587.16,
+        "x1": 443.88,
+        "y1": 592.92
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_78": {
+      "question": "etc. that are for your exclusive use? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 546.12,
+        "y0": 668.88,
+        "x1": 551.88,
+        "y1": 674.64
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_79": {
+      "question": "etc. that are for your exclusive use? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 492.12,
+        "y0": 668.88,
+        "x1": 497.88,
+        "y1": 674.64
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_80": {
+      "question": "etc. that are for your exclusive use? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 438.12,
+        "y0": 668.88,
+        "x1": 443.88,
+        "y1": 674.64
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 95.03999999999999,
+        "y0": 706.68,
+        "x1": 429.84,
+        "y1": 717.48
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "legal document grants the exclusive right to use:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 307.08,
+        "y0": 689.04,
+        "x1": 429.84,
+        "y1": 699.8399999999999
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 95.03999999999999,
+        "y0": 613.0799999999999,
+        "x1": 429.84,
+        "y1": 623.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "If any answer to questions 5(b)-5(c) is yes, please explain:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 351.71999999999997,
+        "y0": 595.8,
+        "x1": 429.84,
+        "y1": 606.6
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 95.03999999999999,
+        "y0": 473.76,
+        "x1": 429.84,
+        "y1": 484.56
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "(g) If any answer to questions 4(b)-4(f) is yes, please explain:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 345.96,
+        "y0": 456.12,
+        "x1": 429.84,
+        "y1": 466.91999999999996
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 95.03999999999999,
+        "y0": 276.48,
+        "x1": 429.84,
+        "y1": 287.28
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "(f) If any answer to questions 3(a)-3(d) is yes, please explain:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 351.71999999999997,
+        "y0": 259.2,
+        "x1": 429.84,
+        "y1": 270.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 95.03999999999999,
+        "y0": 148.68,
+        "x1": 429.84,
+        "y1": 159.48
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "(c) If any answer to questions 2(a)-2(b) is yes, please explain:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 351.71999999999997,
+        "y0": 131.04,
+        "x1": 429.84,
+        "y1": 141.84
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_81": {
+      "question": "(a) Is there any proposed change to the Association\u2019s governing documents? Oo Oo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 546.12,
+        "y0": 76.67999999999999,
+        "x1": 551.88,
+        "y1": 82.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_82": {
+      "question": "(a) Is there any proposed change to the Association\u2019s governing documents? Oo Oo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 492.12,
+        "y0": 76.67999999999999,
+        "x1": 497.88,
+        "y1": 82.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_83": {
+      "question": "(a) Is there any proposed change to the Association\u2019s governing documents? Oo Oo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 438.12,
+        "y0": 76.67999999999999,
+        "x1": 443.88,
+        "y1": 82.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_84": {
+      "question": "(b) Is there any proposed plan to materially alter the common elements? Oo Oo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 546.12,
+        "y0": 88.2,
+        "x1": 551.88,
+        "y1": 93.96
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_85": {
+      "question": "(b) Is there any proposed plan to materially alter the common elements? Oo Oo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 492.12,
+        "y0": 88.2,
+        "x1": 497.88,
+        "y1": 93.96
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_86": {
+      "question": "(b) Is there any proposed plan to materially alter the common elements? Oo Oo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 438.12,
+        "y0": 88.2,
+        "x1": 443.88,
+        "y1": 93.96
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_87": {
+      "question": "Association? Oo Oo oO",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 546.12,
+        "y0": 110.88,
+        "x1": 551.88,
+        "y1": 116.64
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_88": {
+      "question": "Association? Oo Oo oO",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 492.12,
+        "y0": 110.88,
+        "x1": 497.88,
+        "y1": 116.64
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_89": {
+      "question": "Association? Oo Oo oO",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 438.12,
+        "y0": 110.88,
+        "x1": 443.88,
+        "y1": 116.64
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_90": {
+      "question": "a claim over construction defects or defective building products? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 546.12,
+        "y0": 133.92,
+        "x1": 551.88,
+        "y1": 139.68
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_91": {
+      "question": "a claim over construction defects or defective building products? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 492.12,
+        "y0": 133.92,
+        "x1": 497.88,
+        "y1": 139.68
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_92": {
+      "question": "a claim over construction defects or defective building products? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 438.12,
+        "y0": 133.92,
+        "x1": 443.88,
+        "y1": 139.68
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_93": {
+      "question": "Condominium to something else? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 546.12,
+        "y0": 156.96,
+        "x1": 551.88,
+        "y1": 162.72
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_94": {
+      "question": "Condominium to something else? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 492.12,
+        "y0": 156.96,
+        "x1": 497.88,
+        "y1": 162.72
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_95": {
+      "question": "Condominium to something else? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 438.12,
+        "y0": 156.96,
+        "x1": 443.88,
+        "y1": 162.72
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_96": {
+      "question": "to purchase units in the complex? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 546.12,
+        "y0": 180.0,
+        "x1": 551.88,
+        "y1": 185.76
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_97": {
+      "question": "to purchase units in the complex? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 492.12,
+        "y0": 180.0,
+        "x1": 497.88,
+        "y1": 185.76
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_98": {
+      "question": "to purchase units in the complex? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 438.12,
+        "y0": 180.0,
+        "x1": 443.88,
+        "y1": 185.76
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_99": {
+      "question": "Implemented? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 546.12,
+        "y0": 203.04,
+        "x1": 551.88,
+        "y1": 208.79999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_100": {
+      "question": "Implemented? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 492.12,
+        "y0": 203.04,
+        "x1": 497.88,
+        "y1": 208.79999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_101": {
+      "question": "Implemented? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 438.12,
+        "y0": 203.04,
+        "x1": 443.88,
+        "y1": 208.79999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_102": {
+      "question": "hazard area? oO oO oO",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 546.12,
+        "y0": 226.07999999999998,
+        "x1": 551.88,
+        "y1": 231.84
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_103": {
+      "question": "hazard area? oO oO oO",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 492.12,
+        "y0": 226.07999999999998,
+        "x1": 497.88,
+        "y1": 231.84
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_104": {
+      "question": "hazard area? oO oO oO",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 438.12,
+        "y0": 226.07999999999998,
+        "x1": 443.88,
+        "y1": 231.84
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_105": {
+      "question": "coastal construction control line? oO oO oO",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 546.12,
+        "y0": 249.12,
+        "x1": 551.88,
+        "y1": 254.88
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_106": {
+      "question": "coastal construction control line? oO oO oO",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 492.12,
+        "y0": 249.12,
+        "x1": 497.88,
+        "y1": 254.88
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_107": {
+      "question": "coastal construction control line? oO oO oO",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 438.12,
+        "y0": 249.12,
+        "x1": 443.88,
+        "y1": 254.88
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_108": {
+      "question": "any portion of the Association\u2019s property? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 546.12,
+        "y0": 272.15999999999997,
+        "x1": 551.88,
+        "y1": 277.92
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_109": {
+      "question": "any portion of the Association\u2019s property? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 492.12,
+        "y0": 272.15999999999997,
+        "x1": 497.88,
+        "y1": 277.92
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_110": {
+      "question": "any portion of the Association\u2019s property? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 438.12,
+        "y0": 272.15999999999997,
+        "x1": 443.88,
+        "y1": 277.92
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_111": {
+      "question": "Property? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 546.12,
+        "y0": 294.84,
+        "x1": 551.88,
+        "y1": 300.59999999999997
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_112": {
+      "question": "Property? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 492.12,
+        "y0": 294.84,
+        "x1": 497.88,
+        "y1": 300.59999999999997
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_113": {
+      "question": "Property? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 438.12,
+        "y0": 294.84,
+        "x1": 443.88,
+        "y1": 300.59999999999997
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_114": {
+      "question": "the Associations\u2019 property? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 546.12,
+        "y0": 318.24,
+        "x1": 551.88,
+        "y1": 324.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_115": {
+      "question": "the Associations\u2019 property? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 492.12,
+        "y0": 318.24,
+        "x1": 497.88,
+        "y1": 324.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_116": {
+      "question": "the Associations\u2019 property? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 438.12,
+        "y0": 318.24,
+        "x1": 443.88,
+        "y1": 324.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_117": {
+      "question": "(m) Are there any rental restrictions by the Association? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 546.12,
+        "y0": 329.4,
+        "x1": 551.88,
+        "y1": 335.15999999999997
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_118": {
+      "question": "(m) Are there any rental restrictions by the Association? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 492.12,
+        "y0": 329.4,
+        "x1": 497.88,
+        "y1": 335.15999999999997
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_119": {
+      "question": "(m) Are there any rental restrictions by the Association? oOo oOo oOo",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 438.12,
+        "y0": 329.4,
+        "x1": 443.88,
+        "y1": 335.15999999999997
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_120": {
+      "question": "(n) Are there any pet restrictions by the Association? oOo o o",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 546.12,
+        "y0": 340.91999999999996,
+        "x1": 551.88,
+        "y1": 346.68
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_121": {
+      "question": "(n) Are there any pet restrictions by the Association? oOo o o",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 492.12,
+        "y0": 340.91999999999996,
+        "x1": 497.88,
+        "y1": 346.68
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_122": {
+      "question": "(n) Are there any pet restrictions by the Association? oOo o o",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 438.12,
+        "y0": 340.91999999999996,
+        "x1": 443.88,
+        "y1": 346.68
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_123": {
+      "question": "Internal Revenue Code? oO oO oO",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 546.12,
+        "y0": 413.64,
+        "x1": 551.88,
+        "y1": 419.4
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_124": {
+      "question": "Internal Revenue Code? oO oO oO",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 492.12,
+        "y0": 413.64,
+        "x1": 497.88,
+        "y1": 419.4
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_125": {
+      "question": "Internal Revenue Code? oO oO oO",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 438.12,
+        "y0": 413.64,
+        "x1": 443.88,
+        "y1": 419.4
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_16": {
+      "question": "Buyer: / Date:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 496.79999999999995,
+        "y0": 654.12,
+        "x1": 574.92,
+        "y1": 664.92
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "Buyer: /",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 256.68,
+        "y0": 654.12,
+        "x1": 446.76,
+        "y1": 664.92
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 72.72,
+        "y0": 654.12,
+        "x1": 245.51999999999998,
+        "y1": 664.92
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "Buyer: / Date:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 496.79999999999995,
+        "y0": 631.0799999999999,
+        "x1": 574.92,
+        "y1": 641.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "Buyer: /",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 256.68,
+        "y0": 631.0799999999999,
+        "x1": 446.76,
+        "y1": 641.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 72.72,
+        "y0": 631.0799999999999,
+        "x1": 245.88,
+        "y1": 641.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "Seller: / Date:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 496.79999999999995,
+        "y0": 572.76,
+        "x1": 574.92,
+        "y1": 583.56
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "Seller: /",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 257.03999999999996,
+        "y0": 572.76,
+        "x1": 446.76,
+        "y1": 583.56
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_24": {
+      "question": "Seller:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 72.72,
+        "y0": 572.76,
+        "x1": 245.88,
+        "y1": 583.56
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_25": {
+      "question": "Seller: / Date:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 496.79999999999995,
+        "y0": 549.72,
+        "x1": 574.92,
+        "y1": 560.52
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_26": {
+      "question": "Seller: /",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 257.03999999999996,
+        "y0": 549.72,
+        "x1": 446.76,
+        "y1": 560.52
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_27": {
+      "question": "Seller:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 72.72,
+        "y0": 549.72,
+        "x1": 245.88,
+        "y1": 560.52
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_28": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 95.03999999999999,
+        "y0": 367.2,
+        "x1": 429.84,
+        "y1": 378.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_29": {
+      "question": "(o) If any answer to questions 7(a)-7(n) is yes, please explain:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 351.71999999999997,
+        "y0": 349.56,
+        "x1": 429.84,
+        "y1": 360.36
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

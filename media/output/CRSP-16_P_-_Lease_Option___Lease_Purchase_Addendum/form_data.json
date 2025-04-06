@@ -1,0 +1,245 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-21T23:13:40.507821",
+    "filename": "CRSP-16_P_-_Lease_Option___Lease_Purchase_Addendum.pdf",
+    "document_title": "CRSP16.P.lease option addendum.pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 14,
+    "fields_by_type": {
+      "checkbox": 5,
+      "text": 9
+    },
+    "fields_by_page": {
+      "1": 14
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "Buyer executing a Llease option Lllease purchase agreement containing mutually agreeable terms within",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 597.0,
+        "y0": 517.0,
+        "x1": 615.0,
+        "y1": 535.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "Buyer executing a Llease option Lllease purchase agreement containing mutually agreeable terms within",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 399.0,
+        "y0": 517.0,
+        "x1": 418.0,
+        "y1": 535.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "agreement will be paid by LiSeller LBuyer Cisplit equally between Seller and Buyer (split equally if left blank). If",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 730.0,
+        "y0": 581.0,
+        "x1": 749.0,
+        "y1": 599.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "agreement will be paid by LiSeller LBuyer Cisplit equally between Seller and Buyer (split equally if left blank). If",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 607.0,
+        "y0": 581.0,
+        "x1": 626.0,
+        "y1": 599.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "agreement will be paid by LiSeller LBuyer Cisplit equally between Seller and Buyer (split equally if left blank). If",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 487.0,
+        "y0": 581.0,
+        "x1": 506.0,
+        "y1": 599.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "Buyer executing a Llease option Lllease purchase agreement containing mutually agreeable terms within",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1507.0,
+        "y0": 511.0,
+        "x1": 1602.0,
+        "y1": 541.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "( )( )-(",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 489.0,
+        "y0": 479.0,
+        "x1": 571.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "( )(",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 384.0,
+        "y0": 479.0,
+        "x1": 466.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "(",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 261.0,
+        "y0": 479.0,
+        "x1": 346.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 156.0,
+        "y0": 479.0,
+        "x1": 238.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 151.0,
+        "y0": 410.0,
+        "x1": 1601.0,
+        "y1": 440.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "concerning the Property described as",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 619.0,
+        "y0": 366.0,
+        "x1": 1601.0,
+        "y1": 396.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "and",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 205.0,
+        "y0": 321.0,
+        "x1": 1478.0,
+        "y1": 351.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "between",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 264.0,
+        "y0": 277.0,
+        "x1": 1481.0,
+        "y1": 307.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

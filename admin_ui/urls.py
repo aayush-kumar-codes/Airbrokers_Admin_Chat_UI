@@ -17,10 +17,12 @@ Including another URLconf
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
-
+from django.contrib import admin 
 from . import views
 
 urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('process_pdf/', include('forms.urls')),
     path('', views.DashboardView.as_view(), name='dashboard'),
     path('users/', include('users.urls')),
     path('chats/', include('chat.urls')),

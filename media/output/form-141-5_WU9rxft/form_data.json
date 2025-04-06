@@ -1,0 +1,248 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-20T23:13:40.527928",
+    "filename": "form-141-5_WU9rxft.pdf",
+    "document_title": "Mineral, Oil & Gas Right...re Statement rec425.pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 17,
+    "fields_by_type": {
+      "text": 17
+    },
+    "fields_by_page": {
+      "1": 17
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "Purchaser Signature: Date",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1210.0,
+        "y0": 2043.0,
+        "x1": 1332.0,
+        "y1": 2073.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Purchaser Signature:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 342.0,
+        "y0": 2043.0,
+        "x1": 1138.0,
+        "y1": 2073.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Purchaser Signature: Date",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1210.0,
+        "y0": 1985.0,
+        "x1": 1332.0,
+        "y1": 2015.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "Purchaser Signature:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 342.0,
+        "y0": 1985.0,
+        "x1": 1138.0,
+        "y1": 2015.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "Owner Signature: Date",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1194.0,
+        "y0": 1835.0,
+        "x1": 1332.0,
+        "y1": 1865.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Owner Signature:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 310.0,
+        "y0": 1835.0,
+        "x1": 1122.0,
+        "y1": 1865.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "Owner Signature: Date",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1194.0,
+        "y0": 1777.0,
+        "x1": 1332.0,
+        "y1": 1807.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "Owner Signature:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 310.0,
+        "y0": 1777.0,
+        "x1": 1122.0,
+        "y1": 1807.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "Owner's Name(s):",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 317.0,
+        "y0": 1657.0,
+        "x1": 1404.0,
+        "y1": 1687.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "Property Address:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 317.0,
+        "y0": 1598.0,
+        "x1": 1404.0,
+        "y1": 1628.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 155.0,
+        "y0": 1265.0,
+        "x1": 1549.0,
+        "y1": 1295.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 167.0,
+        "y0": 1186.0,
+        "x1": 305.0,
+        "y1": 1216.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 167.0,
+        "y0": 1111.0,
+        "x1": 305.0,
+        "y1": 1141.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 167.0,
+        "y0": 1035.0,
+        "x1": 305.0,
+        "y1": 1065.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 167.0,
+        "y0": 935.0,
+        "x1": 305.0,
+        "y1": 965.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 167.0,
+        "y0": 861.0,
+        "x1": 305.0,
+        "y1": 891.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 167.0,
+        "y0": 785.0,
+        "x1": 305.0,
+        "y1": 815.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

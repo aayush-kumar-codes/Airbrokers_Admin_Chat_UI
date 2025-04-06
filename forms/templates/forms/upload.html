@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add PDF Upload</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        background-color: #f8f9fa;
+      }
+      .form-container {
+        max-width: 800px;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .form-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #007bff;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .btn-group {
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="form-container">
+        <h1 class="form-title">Add PDF Upload</h1>
+        <form id="uploadForm">
+          {% csrf_token %}
+          <div class="form-group">
+            <label for="inputPdf">Input PDF:</label>
+            <input
+              type="file"
+              class="form-control"
+              id="inputPdf"
+              accept="application/pdf"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="processedPdf">Processed PDF:</label>
+          </div>
+          <div class="form-group">
+            <label for="formDataJson">Form Data JSON:</label>
+          </div>
+          <div class="form-group">
+            <label for="normalizedDataJson">Normalized Data JSON:</label>
+          </div>
+          <div class="form-group">
+            <label for="uploadedAt">Uploaded At:</label>
+          </div>
+          <div class="btn-group">
+            <button type="submit" class="btn btn-primary" id="saveBtn">
+              Save
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+      // Handle form submission for the Save button
+      $("#uploadForm").on("submit", function (e) {
+        e.preventDefault();
+        const file = $("#inputPdf")[0].files[0];
+
+        if (file) {
+          const formData = new FormData();
+          formData.append("file", file);
+
+          // Simulated API call
+          fetch(
+            "http://127.0.0.1:8001/forms/api/process-pdf/",
+            {
+              method: "POST",
+              body: formData,
+            }
+          )
+            .then((response) => response.json())
+            console.log(response.json())
+            .then((data) => {
+              if (data.success) {
+                alert("PDF Uploaded Successfully!");
+                window.location.reload(); // Reload the page or redirect
+                window.location.href = "index.html";
+              } else {
+                alert("Error uploading PDF");
+              }
+            })
+            .catch((err) => alert("API Error: " + err));
+        } else {
+          alert("Please select a file before saving.");
+        }
+      });
+    </script>
+  </body>
+</html>

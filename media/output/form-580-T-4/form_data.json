@@ -1,0 +1,520 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-06T09:15:59.895271",
+    "filename": "form-580-T-4.pdf",
+    "document_title": " ",
+    "number_of_pages": 9,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 31,
+    "fields_by_type": {
+      "checkbox": 12,
+      "text": 19
+    },
+    "fields_by_page": {
+      "1": 4,
+      "2": 4,
+      "3": 18,
+      "5": 2,
+      "8": 1,
+      "9": 2
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "Q If this box is checked, \u201cProperty\u201d shall mean that property described on Exhibit A attached hereto and incorporated",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 204.0,
+        "y0": 1120.0,
+        "x1": 220.0,
+        "y1": 1136.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "(For information purposes: (i) the tax parcel number of the Property is:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 996.0,
+        "y0": 1209.0,
+        "x1": 1501.0,
+        "y1": 1239.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "a(n)",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 159.0,
+        "y0": 529.0,
+        "x1": 771.0,
+        "y1": 559.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 596.0,
+        "y0": 433.0,
+        "x1": 765.0,
+        "y1": 463.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "occur on or before or",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 838.0,
+        "y0": 1643.0,
+        "x1": 1601.0,
+        "y1": 1673.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "occur on or before",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 512.0,
+        "y0": 1643.0,
+        "x1": 801.0,
+        "y1": 1673.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 401.0,
+        "y0": 1020.0,
+        "x1": 501.0,
+        "y1": 1050.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "Is:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 436.0,
+        "y0": 677.0,
+        "x1": 810.0,
+        "y1": 707.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_1": {
+      "question": "Acting as: O Seller\u2019s Agent; Q Dual Agent",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 693.0,
+        "y0": 347.0,
+        "x1": 709.0,
+        "y1": 363.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "Acting as: O Seller\u2019s Agent; Q Dual Agent",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 431.0,
+        "y0": 347.0,
+        "x1": 447.0,
+        "y1": 363.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "Acting as: O Buyer\u2019s Agent; Q  Seller\u2019s (Sub)Agent; Q Dual Agent",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 1160.0,
+        "y0": 490.0,
+        "x1": 1176.0,
+        "y1": 506.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "Acting as: O Buyer\u2019s Agent; Q  Seller\u2019s (Sub)Agent; Q Dual Agent",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 760.0,
+        "y0": 490.0,
+        "x1": 776.0,
+        "y1": 506.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "Acting as: O Buyer\u2019s Agent; Q  Seller\u2019s (Sub)Agent; Q Dual Agent",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 431.0,
+        "y0": 490.0,
+        "x1": 447.0,
+        "y1": 506.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_6": {
+      "question": "Q (i) If this block is marked, additional terms of this Agreement are set forth on Exhibit B attached hereto and",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 154.0,
+        "y0": 1081.0,
+        "x1": 170.0,
+        "y1": 1097.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_7": {
+      "question": "Q (j) If this block is marked, additional terms of this Agreement are set forth on the Additional Provisions Addendum",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 154.0,
+        "y0": 1209.0,
+        "x1": 170.0,
+        "y1": 1225.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_8": {
+      "question": "Q (k) If this block is marked, additional terms of this Agreement are set forth on the Back Up Agreement Addendum",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 154.0,
+        "y0": 1305.0,
+        "x1": 170.0,
+        "y1": 1321.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_7": {
+      "question": "e-mail address: fax number:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 1036.0,
+        "y0": 962.0,
+        "x1": 1601.0,
+        "y1": 992.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "e-mail address:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 470.0,
+        "y0": 962.0,
+        "x1": 901.0,
+        "y1": 992.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "e-mail address: fax number:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 1036.0,
+        "y0": 691.0,
+        "x1": 1601.0,
+        "y1": 721.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "e-mail address:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 470.0,
+        "y0": 691.0,
+        "x1": 901.0,
+        "y1": 721.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "(\u201cSelling Agent\u201d- License",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 1355.0,
+        "y0": 435.0,
+        "x1": 1591.0,
+        "y1": 465.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 300.0,
+        "y0": 436.0,
+        "x1": 1038.0,
+        "y1": 466.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "and",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 347.0,
+        "y0": 389.0,
+        "x1": 1363.0,
+        "y1": 419.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 300.0,
+        "y0": 293.0,
+        "x1": 1010.0,
+        "y1": 323.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "(\u201cListing Agent\u201d License",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 1332.0,
+        "y0": 292.0,
+        "x1": 1592.0,
+        "y1": 322.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 300.0,
+        "y0": 245.0,
+        "x1": 1371.0,
+        "y1": 275.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_9": {
+      "question": "Q If this box is checked, Seller affirmatively represents and warrants that there are no Leases (as hereinafter defined)",
+      "type": "checkbox",
+      "page": 5,
+      "rect": {
+        "x0": 204.0,
+        "y0": 650.0,
+        "x1": 220.0,
+        "y1": 666.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_10": {
+      "question": "Q If this box is checked, Seller discloses that there are one or more leases affecting the Property (\"Leases\u201d), and the",
+      "type": "checkbox",
+      "page": 5,
+      "rect": {
+        "x0": 204.0,
+        "y0": 746.0,
+        "x1": 220.0,
+        "y1": 762.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_11": {
+      "question": "Q EIFS/SYNTHETIC STUCCO: If the adjacent box is checked, Seller discloses that the Property has been clad previously",
+      "type": "checkbox",
+      "page": 8,
+      "rect": {
+        "x0": 154.0,
+        "y0": 1131.0,
+        "x1": 170.0,
+        "y1": 1147.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_17": {
+      "question": "e-mail address: fax number:",
+      "type": "text",
+      "page": 9,
+      "rect": {
+        "x0": 836.0,
+        "y0": 1493.0,
+        "x1": 1401.0,
+        "y1": 1523.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "e-mail address:",
+      "type": "text",
+      "page": 9,
+      "rect": {
+        "x0": 270.0,
+        "y0": 1493.0,
+        "x1": 701.0,
+        "y1": 1523.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

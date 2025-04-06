@@ -1,0 +1,4096 @@
+metadata:
+  timestamp: '2024-12-19T13:40:22.785924'
+  filename: tests.pdf
+  document_title: MNAR0371_xxx.pdf
+  number_of_pages: 12
+  versions:
+    pymupdf: !!python/tuple
+    - 1.25.1
+    - 1.25.2
+    - '20241211000001'
+  summary: This is a document used in real estate transactions to provide potential
+    buyers with essential information about a property. It outlines the seller's knowledge
+    of the property's condition, including details about structural integrity, appliances,
+    utilities, and any known defects or past issues. This statement helps establish
+    transparency and protects both parties by disclosing relevant property-related
+    information upfront.
+summary:
+  total_fields: 421
+  fields_by_type:
+    text: 93
+    checkbox: 328
+  fields_by_page:
+    '1': 27
+    '2': 42
+    '3': 53
+    '4': 196
+    '5': 29                                                                                                      
+    '6': 31
+    '7': 19
+    '8': 10
+    '9': 2
+    '10': 12   
+fields:
+  {
+  "checkbox_0": {
+    "question": "Build the home?",
+    "type": "checkbox",
+    "page": 1,
+    "answers": [
+      {
+        "rect": {
+          "x0": 204.6383819580078,
+          "y0": 608.849853515625,
+          "x1": 215.3427734375,
+          "y1": 619.55517578125
+        },
+        "value": "[{'answer': '1) Yes, Build the home'}, {'answer': '1) Yes, Build the home,]Yes"
+      },
+      {
+        "rect": {
+          "x0": 264.7415771484375,
+          "y0": 608.849853515625,
+          "x1": 275.4459533691406,
+          "y1": 619.55517578125
+        },
+        "value": "[{'answer': '1) Yes, Build the home'}, {'answer': '1) Yes, Build the home,]No"
+      }
+    ]
+  },
+  "checkbox_2": {
+    "question": "Type of title evidence",
+    "type": "checkbox",
+    "page": 1,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 639.8502197265625,
+          "x1": 496.9549255371094,
+          "y1": 650.5555419921875
+        },
+        "value": "[{'answer': '1) Yes, there is an existing Owner\u2019s Title Insurance Policy.'}, {'answer': \"2) No, there isn't an Owner's Title Insurance Policy.\"}, {'answer': \"3) I'm not sure, I need to check the documents first.\"}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 639.8502197265625,
+          "x1": 560.0115966796875,
+          "y1": 650.5555419921875
+        },
+        "value": "[{'answer': '1) Yes, there is an existing Owner\u2019s Title Insurance Policy.'}, {'answer': \"2) No, there isn't an Owner's Title Insurance Policy.\"}, {'answer': \"3) I'm not sure, I need to check the documents first.\"}]No"
+      }
+    ]
+  },
+  "checkbox_3": {
+    "question": "Is there an existing Owner's Title Insurance Policy?",
+    "type": "checkbox",
+    "page": 1,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 653.849853515625,
+          "x1": 496.9549255371094,
+          "y1": 664.55517578125
+        },
+        "value": "[{'answer': '1) Yes, I have lived in this house without interruption since I acquired it.'}, {'answer': '2) No, I had to move elsewhere for a couple of years due to work.'}, {'answer': '3) Partially, I used it as a vacation home and only lived in it during certain months.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 653.849853515625,
+          "x1": 560.0115966796875,
+          "y1": 664.55517578125
+        },
+        "value": "[{'answer': '1) Yes, I have lived in this house without interruption since I acquired it.'}, {'answer': '2) No, I had to move elsewhere for a couple of years due to work.'}, {'answer': '3) Partially, I used it as a vacation home and only lived in it during certain months.'}]No"
+      }
+    ]
+  },
+  "checkbox_4": {
+    "question": "Have you occupied this home continuously during your ownership?",
+    "type": "checkbox",
+    "page": 1,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 653.849853515625,
+          "x1": 496.9549255371094,
+          "y1": 664.55517578125
+        },
+        "value": "[{'answer': '1) Yes, I have lived in this house without interruption since I acquired it.'}, {'answer': '2) YES, I had to move elsewhere for a couple of years due to work.'}, {'answer': '3) Partially, I used it as a vacation home and only lived in it during certain months.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 653.849853515625,
+          "x1": 560.0115966796875,
+          "y1": 664.55517578125
+        },
+        "value": "[{'answer': '1) NO, I have lived in this house without interruption since I acquired it.'}, {'answer': '2) No, I had to move elsewhere for a couple of years due to work.'}, {'answer': '3) Partially, I used it as a vacation home and only lived in it during certain months.'}]No"
+      }
+    ]
+  },
+  "checkbox_5": {
+    "question": "Is the home suitable for year-round use?",
+    "type": "checkbox",
+    "page": 1,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 684.8502197265625,
+          "x1": 496.9549255371094,
+          "y1": 695.5555419921875
+        },
+        "value": "[{'answer': '1) Yes, the home is suitable for year-round use.'}, {'answer': '2) YES, the home is only suitable for seasonal use.'}, {'answer': '3) The home can be used year-round but may require additional heating solutions during winter.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 684.8502197265625,
+          "x1": 560.0115966796875,
+          "y1": 695.5555419921875
+        },
+        "value": "[{'answer': '1) NO, the home is suitable for year-round use.'}, {'answer': '2) No, the home is only suitable for seasonal use.'}, {'answer': '3) The home can be used year-round but may require additional heating solutions during winter.'}]No"
+      }
+    ]
+  },
+  "checkbox_6": {
+    "question": "Are you in possession of prior seller's disclosure statement(s)?",
+    "type": "checkbox",
+    "page": 1,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 698.849853515625,
+          "x1": 496.9549255371094,
+          "y1": 709.55517578125
+        },
+        "value": "[{'answer': '1) Yes, I am. I will attach them here.'}, {'answer': '2) Yes, I don’t have them.'}, {'answer': '3) I’m not sure, I will need to check.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 698.849853515625,
+          "x1": 560.0115966796875,
+          "y1": 709.55517578125
+        },
+        "value": "[{'answer': '1) No, I am. I will attach them here.'}, {'answer': '2) No, I don’t have them.'}, {'answer': '3) I’m not sure, I will need to check.'}]No"
+      }
+    ]
+  },
+  "checkbox_7": {
+    "question": "Is the Property located on a public or a private road?",
+    "type": "checkbox",
+    "page": 2,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 161.64923095703125,
+          "x1": 496.9549255371094,
+          "y1": 172.35357666015625
+        },
+        "value": "[{'answer': 'Apologies, but the question provided appears to be in an unrecognizable format or language. Could you please provide additional details or clarify the question?'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 161.64923095703125,
+          "x1": 560.0115966796875,
+          "y1": 172.35357666015625
+        },
+        "value": "[{'answer': 'Apologies, but the question provided appears to be in an unrecognizable format or language. Could you please provide additional details or clarify the question?'}]No"
+      }
+    ]
+  },
+  "checkbox_8": {
+    "question": "Do you know which zone the property is located in?",
+    "type": "checkbox",
+    "page": 2,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 195.64910888671875,
+          "x1": 496.9549255371094,
+          "y1": 206.35443115234375
+        },
+        "value": "[{'answer': 'Apologies, but the question seems to be gibberish or encoded in an unreadable format. Please provide a clear question.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 195.64910888671875,
+          "x1": 560.0115966796875,
+          "y1": 206.35443115234375
+        },
+        "value": "[{'answer': 'Apologies, but the question seems to be gibberish or encoded in an unreadable format. Please provide a clear question.'}]No"
+      }
+    ]
+  },
+  "checkbox_9": {
+    "question": "Have you ever had a flood insurance policy?",
+    "type": "checkbox",
+    "page": 2,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 211.64990234375,
+          "x1": 496.9549255371094,
+          "y1": 222.355224609375
+        },
+        "value": "[{'answer': '1. The policy is currently active and in force.'}, {'answer': '2. No, the policy is not active anymore.'}, {'answer': '3. The policy status is pending renewal.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 211.64990234375,
+          "x1": 560.0115966796875,
+          "y1": 222.355224609375
+        },
+        "value": "[{'answer': '1. The policy is currently active and in force.'}, {'answer': '2. No, the policy is not active anymore.'}, {'answer': '3. The policy status is pending renewal.'}]No"
+      }
+    ]
+  },
+  "checkbox_10": {
+    "question": "Have you ever had a claim with a flood insurance carrier or FEMA?",
+    "type": "checkbox",
+    "page": 2,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 261.6500244140625,
+          "x1": 496.9549255371094,
+          "y1": 272.35443115234375
+        },
+        "value": "[{'answer': 'Apologies, the question provided seems to be composed of non-English characters or encoded language. Please provide a clear question.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 261.6500244140625,
+          "x1": 560.0115966796875,
+          "y1": 272.35443115234375
+        },
+        "value": "[{'answer': 'Apologies, the question provided seems to be composed of non-English characters or encoded language. Please provide a clear question.'}]No"
+      }
+    ]
+  },
+  "checkbox_11": {
+    "question": "Homeowners associations or shared amenities?",
+    "type": "checkbox",
+    "page": 2,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 394.8538818359375,
+          "x1": 496.9549255371094,
+          "y1": 405.5592041015625
+        },
+        "value": "[{'answer': '1) Homeowners associations usually manage shared amenities in a residential community such as gardens, swimming pools, gyms, or clubhouses.'}, {'answer': '2) In some cases, residents may prefer shared amenities because it fosters a sense of community, while others might prefer homeowners associations for the ability to collectively manage property standards.'}, {'answer': '3) Shared amenities are common facilities that everyone in the community can use, while homeowners associations are organizations which decide on and enforce community rules and standards.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 394.8538818359375,
+          "x1": 560.0115966796875,
+          "y1": 405.5592041015625
+        },
+        "value": "[{'answer': '1) Homeowners associations usually manage shared amenities in a residential community such as gardens, swimming pools, gyms, or clubhouses.'}, {'answer': '2) In some cases, residents may prefer shared amenities because it fosters a sense of community, while others might prefer homeowners associations for the ability to collectively manage property standards.'}, {'answer': '3) Shared amenities are common facilities that everyone in the community can use, while homeowners associations are organizations which decide on and enforce community rules and standards.'}]No"
+      }
+    ]
+  },
+  "checkbox_12": {
+    "question": "Encroachments?",
+    "type": "checkbox",
+    "page": 2,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 408.0586853027344,
+          "x1": 496.9549255371094,
+          "y1": 418.7640075683594
+        },
+        "value": "[{'answer': '1) Encroachments are activities or constructions that advance into or infringe upon others property, such as building a fence on a neighbor's land.'}, {'answer': '2) In urban planning, encroachments might refer to illegal extensions or constructions in public properties or areas.'}, {'answer': '3) In legal terms, encroachments suggest unauthorized intrusion into another's property, which may lead to disputes or legal actions.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 408.0586853027344,
+          "x1": 560.0115966796875,
+          "y1": 418.7640075683594
+        },
+        "value": "[{'answer': '1) Encroachments are activities or constructions that advance into or infringe upon others property, such as building a fence on a neighbor's land.'}, {'answer': '2) In urban planning, encroachments might refer to illegal extensions or constructions in public properties or areas.'}, {'answer': '3) In legal terms, encroachments suggest unauthorized intrusion into another's property, which may lead to disputes or legal actions.'}]No"
+      }
+    ]
+  },
+  "checkbox_13": {
+    "question": "Enjoyment of the Property (e.g., shoreland restrictions, non-conforming use, etc.)?",
+    "type": "checkbox",
+    "page": 2,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 462.4676513671875,
+          "x1": 496.9549255371094,
+          "y1": 473.1720275878906
+        },
+        "value": "[{'answer': '1. There may be restrictions on the use of the property like building limitations, vegetation removal, or limits on structures near the water for shoreland properties.'}, {'answer': '2. Non-conforming use could allow certain properties to be exempt from current zoning laws if the property's use predates those laws.'}, {'answer': '3. Enjoyment of the property could be impacted by factors such as noise regulations, environmental protections, and community restrictions.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 462.4676513671875,
+          "x1": 560.0115966796875,
+          "y1": 473.1720275878906
+        },
+        "value": "[{'answer': '1. There may be restrictions on the use of the property like building limitations, vegetation removal, or limits on structures near the water for shoreland properties.'}, {'answer': '2. Non-conforming use could allow certain properties to be exempt from current zoning laws if the property's use predates those laws.'}, {'answer': '3. Enjoyment of the property could be impacted by factors such as noise regulations, environmental protections, and community restrictions.'}]No"
+      }
+    ]
+  },
+  "checkbox_14": {
+    "question": "Easements, other than utility or drainage easements?",
+    "type": "checkbox",
+    "page": 2,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 478.4674987792969,
+          "x1": 496.9549255371094,
+          "y1": 489.17279052734375
+        },
+        "value": "[{'answer': '1) Easements for a right of way, light and air, and support.'}, {'answer': '2) Conservation easements, historical preservation easements, and scenic easements.'}, {'answer': '3) Private road easements, beach access easements, and shared driveway easements.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 478.4674987792969,
+          "x1": 560.0115966796875,
+          "y1": 489.17279052734375
+        },
+        "value": "[{'answer': '1) Easements for a right of way, light and air, and support.'}, {'answer': '2) Conservation easements, historical preservation easements, and scenic easements.'}, {'answer': '3) Private road easements, beach access easements,and shared driveway easements.'}]No"
+      }
+    ]
+  },
+  "checkbox_15": {
+    "question": "Has there been any damage by wind, fire, flood, hail, or other cause(s)?",
+    "type": "checkbox",
+    "page": 2,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 604.4682006835938,
+          "x1": 496.9549255371094,
+          "y1": 615.1735229492188
+        },
+        "value": "[{'answer': 'Apologies, but the question provided seems to be in a different language or improperly formatted. Could you please provide the correct question?'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 604.4682006835938,
+          "x1": 560.0115966796875,
+          "y1": 615.1735229492188
+        },
+        "value": "[{'answer': 'Apologies, but the question provided seems to be in a different language or improperly formatted. Could you please provide the correct question?'}]No"
+      }
+    ]
+  },
+  "checkbox_16": {
+    "question": "Have you ever had an insurance claim(s) related to the Property?",
+    "type": "checkbox",
+    "page": 2,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 656.468505859375,
+          "x1": 496.9549255371094,
+          "y1": 667.173828125
+        },
+        "value": "[{'answer': '1) Yes, I have previously made a claim for water damage in the property.'}, {'answer': '2) Yes, I have not made any insurance claims related to the property.'}, {'answer': '3) Yes, I have made multiple claims regarding storm damage and a burglary incident.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 656.468505859375,
+          "x1": 560.0115966796875,
+          "y1": 667.173828125
+        },
+        "value": "[{'answer': '1) No, I have previously made a claim for water damage in the property.'}, {'answer': '2) No, I have not made any insurance claims related to the property.'}, {'answer': '3) No, I have made multiple claims regarding storm damage and a burglary incident.'}]No"
+      }
+    ]
+  },
+  "checkbox_17": {
+    "question": "Did you receive compensation for the claim(s)?",
+    "type": "checkbox",
+    "page": 2,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 708.4688110351562,
+          "x1": 496.9549255371094,
+          "y1": 719.1732177734375
+        },
+        "value": "[{'answer': '1) Yes, I received the full compensation for the claims.'}, {'answer': '2) Yes, I did not receive any compensation.'}, {'answer': '3) I only received partial compensation for my claims.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 708.4688110351562,
+          "x1": 560.0115966796875,
+          "y1": 719.1732177734375
+        },
+        "value": "[{'answer': '1) No, I received the full compensation for the claims.'}, {'answer': '2) No, I did not receive any compensation.'}, {'answer': '3) I only received partial compensation for my claims.'}]No"
+      }
+    ]
+  },
+  "checkbox_18": {
+    "question": "Did you have the items repaired?",
+    "type": "checkbox",
+    "page": 2,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 724.4682006835938,
+          "x1": 496.9549255371094,
+          "y1": 735.1735229492188
+        },
+        "value": "[{'answer': '1) Yes, I had the items repaired.'}, {'answer': '2) Yes, I haven’t had time to get them repaired yet.'}, {'answer': '3) They couldn’t be repaired so I had to replace them instead.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 724.4682006835938,
+          "x1": 560.0115966796875,
+          "y1": 735.1735229492188
+        },
+        "value": "[{'answer': '1) No, I had the items repaired.'}, {'answer': '2) No, I haven’t had time to get them repaired yet.'}, {'answer': '3) They couldn’t be repaired so I had to replace them instead.'}]No"
+      }
+    ]
+  },
+  "checkbox_19": {
+    "question": "(e.g., additions, altered roof lines, changes to load-bearing walls)",
+    "type": "checkbox",
+    "page": 3,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.2418518066406,
+          "y0": 135.65960693359375,
+          "x1": 496.9469909667969,
+          "y1": 146.36474609375
+        },
+        "value": "[{'answer': '1. These are all examples of major home renovation projects that require architectural planning and permits.'}, {'answer': '2. They are modifications that could potentially change the internal structure of a house.'}, {'answer': '3. These are significant changes in a building structure that can impact the resale value of a property.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.2896118164062,
+          "y0": 135.67010498046875,
+          "x1": 559.99365234375,
+          "y1": 146.37506103515625
+        },
+        "value": "[{'answer': '1. These are all examples of major home renovation projects that require architectural planning and permits.'}, {'answer': '2. They are modifications that could potentially change the internal structure of a house.'}, {'answer': '3. These are significant changes in a building structure that can impact the resale value of a property.'}]No"
+      }
+    ]
+  },
+  "checkbox_19": {
+    "question": "Has any work been performed on the Property?(e.g., additions to the Property, wiring, plumbing, retaining wall, general finishing)",
+    "type": "checkbox",
+    "page": 3,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.2107849121094,
+          "y0": 212.90093994140625,
+          "x1": 496.91522216796875,
+          "y1": 223.60540771484375
+        },
+        "value": "[{'answer': 'The question appears to be in a different language or encrypted, and sadly, can’t understand or provide answers for it at the moment.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.2545776367188,
+          "y0": 212.91015625,
+          "x1": 559.9579467773438,
+          "y1": 223.61444091796875
+        },
+        "value": "[{'answer': 'The question appears to be in a different language or encrypted, and sadly, can’t understand or provide answers for it at the moment.'}]No"
+      }
+    ]
+  },
+  "checkbox_20": {
+    "question": "Appropriate permits were not obtained?",
+    "type": "checkbox",
+    "page": 3,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.1797180175781,
+          "y0": 280.134033203125,
+          "x1": 496.88348388671875,
+          "y1": 290.83685302734375
+        },
+        "value": "[{'answer': '1) Yes, the appropriate permits were not obtained.'}, {'answer': '2) Yes, we have made sure to obtain all the necessary permits.'}, {'answer': '3) We are currently in the process of obtaining the permits.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.219482421875,
+          "y0": 280.1421813964844,
+          "x1": 559.922119140625,
+          "y1": 290.8448486328125
+        },
+        "value": "[{'answer': '1) No, the appropriate permits were not obtained.'}, {'answer': '2) No, we have made sure to obtain all the necessary permits.'}, {'answer': '3) We are currently in the process of obtaining the permits.'}]No"
+      }
+    ]
+  },
+  "checkbox_21": {
+    "question": "Has there been any damage to flooring or floor covering?",
+    "type": "checkbox",
+    "page": 3,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.148681640625,
+          "y0": 340.1533203125,
+          "x1": 496.8517761230469,
+          "y1": 350.85638427734375
+        },
+        "value": "[{'answer': 'The text appears to be garbled and does not form a coherent question. Please provide a clear question.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.1843872070312,
+          "y0": 340.1605224609375,
+          "x1": 559.8864135742188,
+          "y1": 350.8634338378906
+        },
+        "value": "[{'answer': 'The text appears to be garbled and does not form a coherent question. Please provide a clear question.'}]No"
+      }
+    ]
+  },
+  "checkbox_22": {
+    "question": "Do you have or have you previously had any pets?",
+    "type": "checkbox",
+    "page": 3,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.11761474609375,
+          "y0": 400.1658935546875,
+          "x1": 496.82000732421875,
+          "y1": 410.8682861328125
+        },
+        "value": "[{'answer': '1) Yes, I currently have a dog and a cat.'}, {'answer': '2) I used to have a parrot, but not anymore.'}, {'answer': '3) No, I have never owned a pet.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.1492919921875,
+          "y0": 400.1721496582031,
+          "x1": 559.8506469726562,
+          "y1": 410.8743896484375
+        },
+        "value": "[{'answer': '1) No, I currently have a dog and a cat.'}, {'answer': '2) I used to have a parrot, but not anymore.'}, {'answer': '3) No, I have never owned a pet.'}]No"
+      }
+    ]
+  },
+  "checkbox_23": {
+    "question": "Cracked floor/walls?",
+    "type": "checkbox",
+    "page": 3,
+    "answers": [
+      {
+        "rect": {
+          "x0": 234.1680450439453,
+          "y0": 487.1665954589844,
+          "x1": 244.86961364746094,
+          "y1": 497.8681640625
+        },
+        "value": "[{'answer': 'The question provided is not understandable, it seems to be a random or encrypted string of characters. Please provide a legitimate question.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 279.2046203613281,
+          "y0": 487.1714782714844,
+          "x1": 289.9050598144531,
+          "y1": 497.87286376953125
+        },
+        "value": "[{'answer': 'The question provided is not understandable, it seems to be a random or encrypted string of characters. Please provide a legitimate question.'}]No"
+      }
+    ]
+  },
+  "checkbox_24": {
+    "question": "Leakage/seepage?",
+    "type": "checkbox",
+    "page": 3,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.0632629394531,
+          "y0": 487.1763610839844,
+          "x1": 496.76446533203125,
+          "y1": 497.8775634765625
+        },
+        "value": "[{'answer': 'This question is incoherent or written with characters and symbols that makes it impossible to provide relevant answers.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.0879516601562,
+          "y0": 487.18121337890625,
+          "x1": 559.7880249023438,
+          "y1": 497.88226318359375
+        },
+        "value": "[{'answer': 'This question is incoherent or written with characters and symbols that makes it impossible to provide relevant answers.'}]No"
+      }
+    ]
+  },
+  "checkbox_25": {
+    "question": "Drain tile problem?",
+    "type": "checkbox",
+    "page": 3,
+    "answers": [
+      {
+        "rect": {
+          "x0": 234.153076171875,
+          "y0": 502.17987060546875,
+          "x1": 244.8539581298828,
+          "y1": 512.8807373046875
+        },
+        "value": "[{'answer': '1. The drain tile might be clogged with debris or roots.'}, {'answer': '2. The drain tile could be improperly installed.'}, {'answer': '3. The drain tile may have cracked or broken.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 279.1867980957031,
+          "y0": 502.1844787597656,
+          "x1": 289.8865661621094,
+          "y1": 512.8851928710938
+        },
+        "value": "[{'answer': '1. The drain tile might be clogged with debris or roots.'}, {'answer': '2. The drain tile could be improperly installed.'}, {'answer': '3. The drain tile may have cracked or broken.'}]No"
+      }
+    ]
+  },
+  "checkbox_26": {
+    "question": "Sewer backup?",
+    "type": "checkbox",
+    "page": 3,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.0322265625,
+          "y0": 502.1891174316406,
+          "x1": 496.7327575683594,
+          "y1": 512.8896484375
+        },
+        "value": "[{'answer': '1) Yes'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.0528564453125,
+          "y0": 502.1937255859375,
+          "x1": 559.7523193359375,
+          "y1": 512.8941040039062
+        },
+        "value": "[{'answer': '1) No}]No"
+      }
+    ]
+  },
+  "checkbox_27": {
+    "question": "Flooding?",
+    "type": "checkbox",
+    "page": 3,
+    "answers": [
+      {
+        "rect": {
+          "x0": 234.13812255859375,
+          "y0": 517.191162109375,
+          "x1": 244.8383331298828,
+          "y1": 527.891357421875
+        },
+        "value": "[{'answer': 'Apologies, the question provided seems to include special characters or is incomplete. Please provide a valid question.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 279.1689758300781,
+          "y0": 517.195556640625,
+          "x1": 289.8680419921875,
+          "y1": 527.8955688476562
+        },
+        "value": "[{'answer': 'Apologies, the question provided seems to include special characters or is incomplete. Please provide a valid question.'}]No"
+
+      }
+    ]
+  },
+  "checkbox_28": {
+    "question": "Wet floors/walls?",
+    "type": "checkbox",
+    "page": 3,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.0011901855469,
+          "y0": 517.199951171875,
+          "x1": 496.7010498046875,
+          "y1": 527.8997802734375
+        },
+        "value": "[{'answer': 'Apologies, the question provided seems to include special characters or is incomplete. Please provide a valid question.'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.017822265625,
+          "y0": 517.204345703125,
+          "x1": 559.716552734375,
+          "y1": 527.904052734375
+        },
+        "value": "[{'answer': 'The question is not understandable, please provide a valid question.'}]No"
+      }
+    ]
+  },
+  "checkbox_29": {
+    "question": "Foundation problem?",
+    "type": "checkbox",
+    "page": 3,
+    "answers": [
+      {
+        "rect": {
+          "x0": 548.9827270507812,
+          "y0": 532.2130126953125,
+          "x1": 559.6807861328125,
+          "y1": 542.9119873046875
+        },
+        "value": "[{'answer': '1. Yes'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 467.9356689453125,
+          "y0": 651.1536254882812,
+          "x1": 478.6338195800781,
+          "y1": 661.851806640625
+        },
+        "value": "[{'answer': '1. No'}]No"
+      }
+    ]
+  },
+  "checkbox_30": {
+    "question": "Has there been any interior or exterior damage?",
+    "type": "checkbox",
+    "page": 3,
+    "answers": [
+      {
+        "rect": {
+          "x0": 521.89111328125,
+          "y0": 651.1558837890625,
+          "x1": 532.589111328125,
+          "y1": 661.8538818359375
+        },
+        "value": "[{'answer': '1) No, there has been no interior or exterior damage.'}, {'answer': '2) No, there has been minor interior damage but no exterior damage.'}, {'answer': '3) There has been significant exterior damage, but the interior remains untouched.'}]No"
+      },
+      {
+        "rect": {
+          "x0": 467.92071533203125,
+          "y0": 666.1475830078125,
+          "x1": 478.6185302734375,
+          "y1": 676.8453979492188
+        },
+        "value": "[{'answer': '1) Yes, there has been no interior or exterior damage.'}, {'answer': '2) Yes, there has been minor interior damage but no exterior damage.'}, {'answer': '3) There has been significant exterior damage, but the interior remains untouched.'}]Yes"
+      }
+    ]
+  },
+  "checkbox_31": {
+    "question": "Has there been interior damage from ice buildup?",
+    "type": "checkbox",
+    "page": 3,
+    "answers": [
+      {
+        "rect": {
+          "x0": 521.8744506835938,
+          "y0": 666.1495971679688,
+          "x1": 532.5720825195312,
+          "y1": 676.8472290039062
+        },
+        "value": "[{'answer': '1) Yes, there has been significant interior damage due to ice buildup.'}, {'answer': '2) Yes, there has been no interior damage from ice buildup.'}, {'answer': '3) There has been minor interior damage due to ice buildup.'}]No"
+      },
+      {
+        "rect": {
+          "x0": 467.9057922363281,
+          "y0": 681.140625,
+          "x1": 478.6032409667969,
+          "y1": 691.8380737304688
+        },
+        "value": "[{'answer': '1) No, there has been significant interior damage due to ice buildup.'}, {'answer': '2) No, there has been no interior damage from ice buildup.'}, {'answer': '3) There has been minor interior damage due to ice buildup.'}]Yes"
+      }
+    ]
+  },
+  "checkbox_32": {
+    "question": "Has there been any leakage?",
+    "type": "checkbox",
+    "page": 3,
+    "answers": [
+      {
+        "rect": {
+          "x0": 521.8577880859375,
+          "y0": 681.1423950195312,
+          "x1": 532.5550537109375,
+          "y1": 691.8396606445312
+        },
+        "value": "[{'answer': '1) No, there hasn\'t been any leakage.'}, {'answer': '2) No, there has been a small leakage.'}, {'answer': '3) I\'m not sure, we need to investigate further.'}]No"
+      },
+      {
+        "rect": {
+          "x0": 467.8908386230469,
+          "y0": 696.1326904296875,
+          "x1": 478.58795166015625,
+          "y1": 706.8297729492188
+        },
+        "value": "[{'answer': '1) Yes, there hasn\'t been any leakage.'}, {'answer': '2) Yes, there has been a small leakage.'}, {'answer': '3) I\'m not sure, we need to investigate further.'}]Yes"
+      }
+    ]
+  },
+  "checkbox_33": {
+    "question": "Have there been any repairs or replacements made to the roof?",
+    "type": "checkbox",
+    "page": 3,
+    "answers": [
+      {
+        "rect": {
+          "x0": 521.8411254882812,
+          "y0": 696.1342163085938,
+          "x1": 532.5380859375,
+          "y1": 706.8311767578125
+        },
+        "value": "[{'answer': '1) No, there haven\'t been any repairs or replacements.'}, {'answer': '2) No, the roof was completely replaced five years ago.'}, {'answer': '3) Only minor repairs have been made in the past few years.'}]No"
+      },
+      {
+        "rect": {
+          "x0": 468.2496032714844,
+          "y0": 150.446044921875,
+          "x1": 478.9549255371094,
+          "y1": 161.150390625
+        },
+        "value": "[{'answer': '1) Yes, there haven\'t been any repairs or replacements.'}, {'answer': '2) Yes, the roof was completely replaced five years ago.'}, {'answer': '3) Only minor repairs have been made in the past few years.'}]Yes"
+      }
+    ]
+  },
+  "checkbox_34": {
+    "question": "Cracks/damage?",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 522.2495727539062,
+          "y0": 150.446044921875,
+          "x1": 532.9548950195312,
+          "y1": 161.150390625
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2) There was minor damage.'}, {'answer': '3) Significant damage was sustained.'}]No"
+      },
+      {
+        "rect": {
+          "x0": 468.2496032714844,
+          "y0": 164.4443359375,
+          "x1": 478.9549255371094,
+          "y1": 175.14959716796875
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) There was minor damage.'}, {'answer': '3) Significant damage was sustained.'}]Yes"
+      }
+    ]
+  },
+  "checkbox_35": {
+    "question": "Leakage/seepage?",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 522.2495727539062,
+          "y0": 164.4443359375,
+          "x1": 532.9548950195312,
+          "y1": 175.14959716796875
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2) There\'s a minor leakage.'}, {'answer': '3) It\'s fixed, no seepage now.'}]No"
+      },
+      {
+        "rect": {
+          "x0": 468.2496032714844,
+          "y0": 178.44354248046875,
+          "x1": 478.9549255371094,
+          "y1": 189.14886474609375
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) There\'s a minor leakage.'}, {'answer': '3) It\'s fixed, no seepage now.'}]Yes"
+      }
+    ]
+  },
+  "checkbox_36": {
+    "question": "Other?",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 522.2495727539062,
+          "y0": 178.44354248046875,
+          "x1": 532.9548950195312,
+          "y1": 189.14886474609375
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Maybe'}],Yes"
+      },
+      {
+        "rect": {
+          "x0": 522.2495727539062,
+          "y0": 178.44354248046875,
+          "x1": 532.9548950195312,
+          "y1": 189.14886474609375
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)}]No"
+      }
+    ]
+  },
+  "checkbox_37": {
+    "question": "Air-conditioning.............................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 317.65069580078125,
+          "x1": 251.751708984375,
+          "y1": 328.35601806640625
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 317.65069580078125,
+          "x1": 278.751708984375,
+          "y1": 328.35601806640625
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_37": {
+    "question": "Pool and equipmenty.................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 317.65069580078125,
+          "x1": 305.751708984375,
+          "y1": 328.35601806640625
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 511.0464172363281,
+          "y0": 317.65069580078125,
+          "x1": 521.751708984375,
+          "y1": 328.35601806640625
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_39": {
+    "question": "Propane tank ............................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 538.04638671875,
+          "y0": 317.65069580078125,
+          "x1": 548.751708984375,
+          "y1": 328.35601806640625
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 565.04638671875,
+          "y0": 317.65069580078125,
+          "x1": 575.751708984375,
+          "y1": 328.35601806640625
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_40": {
+    "question": "Air exchange system.......................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 97.9303207397461,
+          "y0": 330.8531188964844,
+          "x1": 108.63469696044922,
+          "y1": 341.55841064453125
+        },
+       "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 149.69447326660156,
+          "y0": 330.8531188964844,
+          "x1": 160.39886474609375,
+          "y1": 341.55841064453125
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_41": {
+    "question": "Carbon monoxide detector .............",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 190.7183837890625,
+          "y0": 330.8531188964844,
+          "x1": 201.4227752685547,
+          "y1": 341.55841064453125
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 511.0464172363281,
+          "y0": 330.8531188964844,
+          "x1": 521.751708984375,
+          "y1": 341.55841064453125
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_42": {
+    "question": "Range/oven...............................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 538.04638671875,
+          "y0": 330.8531188964844,
+          "x1": 548.751708984375,
+          "y1": 341.55841064453125
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 565.04638671875,
+          "y0": 330.8531188964844,
+          "x1": 575.751708984375,
+          "y1": 341.55841064453125
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_43": {
+    "question": "Ceiling fan .......................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 344.058837890625,
+          "x1": 251.751708984375,
+          "y1": 354.7632141113281
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 344.058837890625,
+          "x1": 278.751708984375,
+          "y1": 354.7632141113281
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_44": {
+    "question": "Range hood ..............................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 344.058837890625,
+          "x1": 305.751708984375,
+          "y1": 354.7632141113281
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 340.9295959472656,
+          "y0": 344.058837890625,
+          "x1": 351.6349182128906,
+          "y1": 354.7632141113281
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_45": {
+    "question": "Central vacuum ...............................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 395.4839782714844,
+          "y0": 344.058837890625,
+          "x1": 406.1893005371094,
+          "y1": 354.7632141113281
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 357.26361083984375,
+          "x1": 251.751708984375,
+          "y1": 367.9679870605469
+        },
+       "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_46": {
+    "question": "140",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 357.26361083984375,
+          "x1": 278.751708984375,
+          "y1": 367.9679870605469
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_47": {
+    "question": "Refrigerator ...............................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 357.26361083984375,
+          "x1": 305.751708984375,
+          "y1": 367.9679870605469
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 511.0464172363281,
+          "y0": 357.26361083984375,
+          "x1": 521.751708984375,
+          "y1": 367.9679870605469
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_48": {
+    "question": "Clothes dryer...................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 538.04638671875,
+          "y0": 357.26361083984375,
+          "x1": 548.751708984375,
+          "y1": 367.9679870605469
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 565.04638671875,
+          "y0": 357.26361083984375,
+          "x1": 575.751708984375,
+          "y1": 367.9679870605469
+        },
+       "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_49": {
+    "question": "Security system ........................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 370.4674987792969,
+          "x1": 251.751708984375,
+          "y1": 381.17279052734375
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 370.4674987792969,
+          "x1": 278.751708984375,
+          "y1": 381.17279052734375
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_50": {
+    "question": "Clothes washer ...............................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 370.4674987792969,
+          "x1": 305.751708984375,
+          "y1": 381.17279052734375
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 511.0464172363281,
+          "y0": 370.4674987792969,
+          "x1": 521.751708984375,
+          "y1": 381.17279052734375
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_51": {
+    "question": "Dishwasher......................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 538.04638671875,
+          "y0": 370.4674987792969,
+          "x1": 548.751708984375,
+          "y1": 381.17279052734375
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 565.04638671875,
+          "y0": 370.4674987792969,
+          "x1": 575.751708984375,
+          "y1": 381.17279052734375
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_52": {
+    "question": "Smoke detectors (battery) ........................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 383.67230224609375,
+          "x1": 251.751708984375,
+          "y1": 394.3775939941406
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 383.67230224609375,
+          "x1": 278.751708984375,
+          "y1": 394.3775939941406
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_53": {
+    "question": "Doorbell...........................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 383.67230224609375,
+          "x1": 305.751708984375,
+          "y1": 394.3775939941406
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 511.0464172363281,
+          "y0": 383.67230224609375,
+          "x1": 521.751708984375,
+          "y1": 394.3775939941406
+        },
+       "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_54": {
+    "question": "Smoke detectors (hardwired)....................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 538.04638671875,
+          "y0": 383.67230224609375,
+          "x1": 548.751708984375,
+          "y1": 394.3775939941406
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 565.04638671875,
+          "y0": 383.67230224609375,
+          "x1": 575.751708984375,
+          "y1": 394.3775939941406
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_55": {
+    "question": "Drain tile system..............................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 396.8780212402344,
+          "x1": 251.751708984375,
+          "y1": 407.5823974609375
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 396.8780212402344,
+          "x1": 278.751708984375,
+          "y1": 407.5823974609375
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_56": {
+    "question": "Solar collectors .........................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 396.8780212402344,
+          "x1": 305.751708984375,
+          "y1": 407.5823974609375
+        },
+       "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 511.0464172363281,
+          "y0": 396.8780212402344,
+          "x1": 521.751708984375,
+          "y1": 407.5823974609375
+        },
+       "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_57": {
+    "question": "Electrical system .............................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 538.04638671875,
+          "y0": 396.8780212402344,
+          "x1": 548.751708984375,
+          "y1": 407.5823974609375
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 565.04638671875,
+          "y0": 396.8780212402344,
+          "x1": 575.751708984375,
+          "y1": 407.5823974609375
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_58": {
+    "question": "Sump pump ..............................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 410.0819091796875,
+          "x1": 251.751708984375,
+          "y1": 420.7872009277344
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 410.0819091796875,
+          "x1": 278.751708984375,
+          "y1": 420.7872009277344
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_59": {
+    "question": "Environmental remediation system .....",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 410.0819091796875,
+          "x1": 305.751708984375,
+          "y1": 420.7872009277344
+        },
+       "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 340.9295959472656,
+          "y0": 410.0819091796875,
+          "x1": 351.6349182128906,
+          "y1": 420.7872009277344
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_60": {
+    "question": "Toilet mechanisms ....................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 395.4839782714844,
+          "y0": 410.0819091796875,
+          "x1": 406.1893005371094,
+          "y1": 420.7872009277344
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 423.2867126464844,
+          "x1": 251.751708984375,
+          "y1": 433.9920349121094
+        },
+       "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_61": {
+    "question": "Exhaust system...............................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 423.2867126464844,
+          "x1": 278.751708984375,
+          "y1": 433.9920349121094
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 423.2867126464844,
+          "x1": 305.751708984375,
+          "y1": 433.9920349121094
+        },
+      "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_62": {
+    "question": "TV antenna system ...................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 511.0464172363281,
+          "y0": 423.2867126464844,
+          "x1": 521.751708984375,
+          "y1": 433.9920349121094
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 538.04638671875,
+          "y0": 423.2867126464844,
+          "x1": 548.751708984375,
+          "y1": 433.9920349121094
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_63": {
+    "question": "Fire sprinkler system .......................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 565.04638671875,
+          "y0": 423.2867126464844,
+          "x1": 575.751708984375,
+          "y1": 433.9920349121094
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 436.49005126953125,
+          "x1": 251.751708984375,
+          "y1": 447.1944274902344
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_64": {
+    "question": "TV cable system .......................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 436.49005126953125,
+          "x1": 278.751708984375,
+          "y1": 447.1944274902344
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 436.49005126953125,
+          "x1": 305.751708984375,
+          "y1": 447.1944274902344
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_65": {
+    "question": "Fireplace..........................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 511.0464172363281,
+          "y0": 436.49005126953125,
+          "x1": 521.751708984375,
+          "y1": 447.1944274902344
+        },
+       "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 538.04638671875,
+          "y0": 436.49005126953125,
+          "x1": 548.751708984375,
+          "y1": 447.1944274902344
+        },
+       "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_66": {
+    "question": "TV receiver ................................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 565.04638671875,
+          "y0": 436.49005126953125,
+          "x1": 575.751708984375,
+          "y1": 447.1944274902344
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 449.6962890625,
+          "x1": 251.751708984375,
+          "y1": 460.401611328125
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_67": {
+    "question": "Fireplace mechanisms ....................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 449.6962890625,
+          "x1": 278.751708984375,
+          "y1": 460.401611328125
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 449.6962890625,
+          "x1": 305.751708984375,
+          "y1": 460.401611328125
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_68": {
+    "question": "TV satellite dish.........................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 511.0464172363281,
+          "y0": 449.6962890625,
+          "x1": 521.751708984375,
+          "y1": 460.401611328125
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 538.04638671875,
+          "y0": 449.6962890625,
+          "x1": 548.751708984375,
+          "y1": 460.401611328125
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_69": {
+    "question": "Frezzer",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 565.04638671875,
+          "y0": 449.6962890625,
+          "x1": 575.751708984375,
+          "y1": 460.401611328125
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 462.9010925292969,
+          "x1": 251.751708984375,
+          "y1": 473.6064147949219
+        },
+       "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_70": {
+    "question": "Water heater .............................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 462.9010925292969,
+          "x1": 278.751708984375,
+          "y1": 473.6064147949219
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 462.9010925292969,
+          "x1": 305.751708984375,
+          "y1": 473.6064147949219
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_71": {
+    "question": "Furnace humidifier ..........................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 511.0464172363281,
+          "y0": 462.9010925292969,
+          "x1": 521.751708984375,
+          "y1": 473.6064147949219
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 538.04638671875,
+          "y0": 462.9010925292969,
+          "x1": 548.751708984375,
+          "y1": 473.6064147949219
+        },
+       "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_72": {
+    "question": "Garage door auto reverse ...............",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 565.04638671875,
+          "y0": 462.9010925292969,
+          "x1": 575.751708984375,
+          "y1": 473.6064147949219
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 511.0464172363281,
+          "y0": 476.10443115234375,
+          "x1": 521.751708984375,
+          "y1": 486.8088073730469
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_73": {
+    "question": "Garage door opener........................ .........................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 538.04638671875,
+          "y0": 476.10443115234375,
+          "x1": 548.751708984375,
+          "y1": 486.8088073730469
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 565.04638671875,
+          "y0": 476.10443115234375,
+          "x1": 575.751708984375,
+          "y1": 486.8088073730469
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_74": {
+    "question": "Garage door opener........................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 489.30828857421875,
+          "x1": 251.751708984375,
+          "y1": 500.01361083984375
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 489.30828857421875,
+          "x1": 278.751708984375,
+          "y1": 500.01361083984375
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_75": {
+    "question": "Garage door opener remote............",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 489.30828857421875,
+          "x1": 305.751708984375,
+          "y1": 500.01361083984375
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 511.0464172363281,
+          "y0": 489.30828857421875,
+          "x1": 521.751708984375,
+          "y1": 500.01361083984375
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_76": {
+    "question": "Water softener ..........................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 538.04638671875,
+          "y0": 489.30828857421875,
+          "x1": 548.751708984375,
+          "y1": 500.01361083984375
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 565.04638671875,
+          "y0": 489.30828857421875,
+          "x1": 575.751708984375,
+          "y1": 500.01361083984375
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_77": {
+    "question": "Garbage disposal ............................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 502.5130920410156,
+          "x1": 251.751708984375,
+          "y1": 513.2183837890625
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 502.5130920410156,
+          "x1": 278.751708984375,
+          "y1": 513.2183837890625
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_78": {
+    "question": "Heating system (central)..................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 502.5130920410156,
+          "x1": 305.751708984375,
+          "y1": 513.2183837890625
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 511.0464172363281,
+          "y0": 502.5130920410156,
+          "x1": 521.751708984375,
+          "y1": 513.2183837890625
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_79": {
+    "question": "Water treatment system............................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 538.04638671875,
+          "y0": 502.5130920410156,
+          "x1": 548.751708984375,
+          "y1": 513.2183837890625
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 565.04638671875,
+          "y0": 502.5130920410156,
+          "x1": 575.751708984375,
+          "y1": 513.2183837890625
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_80": {
+    "question": "Heating system (supplemental).......",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 515.7188720703125,
+          "x1": 251.751708984375,
+          "y1": 526.4232177734375
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 515.7188720703125,
+          "x1": 278.751708984375,
+          "y1": 526.4232177734375
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_81": {
+    "question": "Incinerator .......................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 515.7188720703125,
+          "x1": 305.751708984375,
+          "y1": 526.4232177734375
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 511.0464172363281,
+          "y0": 515.7188720703125,
+          "x1": 521.751708984375,
+          "y1": 526.4232177734375
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_82": {
+    "question": "Windows",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 538.04638671875,
+          "y0": 515.7188720703125,
+          "x1": 548.751708984375,
+          "y1": 526.4232177734375
+        },
+       "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 565.04638671875,
+          "y0": 515.7188720703125,
+          "x1": 575.751708984375,
+          "y1": 526.4232177734375
+        },
+       "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_83": {
+    "question": "Intercom ..........................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 528.9226684570312,
+          "x1": 251.751708984375,
+          "y1": 539.6279907226562
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 528.9226684570312,
+          "x1": 278.751708984375,
+          "y1": 539.6279907226562
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_84": {
+    "question": "Window treatments...................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 528.9226684570312,
+          "x1": 305.751708984375,
+          "y1": 539.6279907226562
+        },
+       "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 511.0464172363281,
+          "y0": 528.9226684570312,
+          "x1": 521.751708984375,
+          "y1": 539.6279907226562
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_85": {
+    "question": "In-ground pet containment system",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 538.04638671875,
+          "y0": 528.9226684570312,
+          "x1": 548.751708984375,
+          "y1": 539.6279907226562
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 565.04638671875,
+          "y0": 528.9226684570312,
+          "x1": 575.751708984375,
+          "y1": 539.6279907226562
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_86": {
+    "question": "Wood-burning stove .................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 542.1272583007812,
+          "x1": 251.751708984375,
+          "y1": 552.8325805664062
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 542.1272583007812,
+          "x1": 278.751708984375,
+          "y1": 552.8325805664062
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_87": {
+    "question": "Lawn sprinkler system ....................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 542.1272583007812,
+          "x1": 305.751708984375,
+          "y1": 552.8325805664062
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 511.0464172363281,
+          "y0": 542.1272583007812,
+          "x1": 521.751708984375,
+          "y1": 552.8325805664062
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_88": {
+    "question": "140",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 538.04638671875,
+          "y0": 542.1272583007812,
+          "x1": 548.751708984375,
+          "y1": 552.8325805664062
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_89": {
+    "question": "Other",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 565.04638671875,
+          "y0": 542.1272583007812,
+          "x1": 575.751708984375,
+          "y1": 552.8325805664062
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2)Yes'}, {'answer': '3)}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 555.3308715820312,
+          "x1": 251.751708984375,
+          "y1": 566.0361328125
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_90": {
+    "question": "Microwave .......................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 555.3308715820312,
+          "x1": 278.751708984375,
+          "y1": 566.0361328125
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 555.3308715820312,
+          "x1": 305.751708984375,
+          "y1": 566.0361328125
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_91": {
+    "question": "Other",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 338.150390625,
+          "y0": 555.3308715820312,
+          "x1": 348.8547668457031,
+          "y1": 566.0361328125
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 392.7048034667969,
+          "y0": 555.3308715820312,
+          "x1": 403.4091796875,
+          "y1": 566.0361328125
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_92": {
+    "question": "Plumbing .........................................",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 568.53662109375,
+          "x1": 251.751708984375,
+          "y1": 579.241943359375
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 568.53662109375,
+          "x1": 278.751708984375,
+          "y1": 579.241943359375
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_93": {
+    "question": "Other",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 568.53662109375,
+          "x1": 305.751708984375,
+          "y1": 579.241943359375
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 511.0464172363281,
+          "y0": 568.53662109375,
+          "x1": 521.751708984375,
+          "y1": 579.241943359375
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_94": {
+    "question": "via internet protocol (“IP”), to a router or gateway or directly to the cloud?",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 538.04638671875,
+          "y0": 568.53662109375,
+          "x1": 548.751708984375,
+          "y1": 579.241943359375
+        },
+       "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}, {'answer': '3)'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 565.04638671875,
+          "y0": 568.53662109375,
+          "x1": 575.751708984375,
+          "y1": 579.241943359375
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}, {'answer': '3)}]No"
+      }
+    ]
+  },
+  "checkbox_95": {
+    "question": "Seller know of a subsurface sewage treatment system on or serving the above-described real Property",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 581.740234375,
+          "x1": 251.751708984375,
+          "y1": 592.445556640625
+        },
+       "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 581.740234375,
+          "x1": 278.751708984375,
+          "y1": 592.445556640625
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2)No'}]No"
+      }
+    ]
+  },
+  "checkbox_96": {
+    "question": "There is an abandoned subsurface sewage treatment system on the above-described real Property.",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 581.740234375,
+          "x1": 305.751708984375,
+          "y1": 592.445556640625
+        },
+        "value": "[{'answer': '1) Yes'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 511.0464172363281,
+          "y0": 581.740234375,
+          "x1": 521.751708984375,
+          "y1": 592.445556640625
+        },
+       "value": "[{'answer': '1) No'}]No"
+      }
+    ]
+  },
+  "checkbox_97": {
+    "question": "Seller knows of any wells on the above-described real Property",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 538.04638671875,
+          "y0": 581.740234375,
+          "x1": 548.751708984375,
+          "y1": 592.445556640625
+        },
+        "value": "[{'answer': '1) Yes'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 565.04638671875,
+          "y0": 581.740234375,
+          "x1": 575.751708984375,
+          "y1": 592.445556640625
+        },
+        "value": "[{'answer': '1) No'}]No"
+      }
+    ]
+  },
+  "checkbox_98": {
+    "question": "There are one or more wells located on the above-described real Property. (See Disclosure Statement: Well.)",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 594.9450073242188,
+          "x1": 251.751708984375,
+          "y1": 605.6503295898438
+        },
+        "value": "[{'answer': '1) Yes'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 594.9450073242188,
+          "x1": 278.751708984375,
+          "y1": 605.6503295898438
+        },
+        "value": "[{'answer': '1) No'}]No"
+      }
+    ]
+  },
+  "checkbox_99": {
+    "question": "This Property is in a Special Well Construction Area.",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 594.9450073242188,
+          "x1": 305.751708984375,
+          "y1": 605.6503295898438
+        },
+         "value": "[{'answer': '1) Yes'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 340.9295959472656,
+          "y0": 594.9450073242188,
+          "x1": 351.6349182128906,
+          "y1": 605.6503295898438
+        },
+       "value": "[{'answer': '1) No'}]No"
+      }
+    ]
+  },
+  "checkbox_100": {
+    "question": "There are wells serving the above-described Property that are not located on the Property.",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 395.4839782714844,
+          "y0": 594.9450073242188,
+          "x1": 406.1893005371094,
+          "y1": 605.6503295898438
+        },
+         "value": "[{'answer': '1) Yes'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 608.1505126953125,
+          "x1": 251.751708984375,
+          "y1": 618.8548583984375
+        },
+         "value": "[{'answer': '1) No'}]No"
+      }
+    ]
+  },
+  "checkbox_101": {
+    "question": "Is there a maintenance agreement for the shared well?",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 608.1505126953125,
+          "x1": 278.751708984375,
+          "y1": 618.8548583984375
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 608.1505126953125,
+          "x1": 305.751708984375,
+          "y1": 618.8548583984375
+        },
+       "value": "[{'answer': '1) No'}, {'answer': '2) No'}]No"
+      }
+    ]
+  },
+  "checkbox_102": {
+    "question": "Non-Profit Status, Rural Preserve,etc3",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 511.0464172363281,
+          "y0": 608.1505126953125,
+          "x1": 521.751708984375,
+          "y1": 618.8548583984375
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 538.04638671875,
+          "y0": 608.1505126953125,
+          "x1": 548.751708984375,
+          "y1": 618.8548583984375
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2) No'}]No"
+      }
+    ]
+  },
+  "checkbox_103": {
+    "question": "If 'Yes,' would these terminate upon the sale of the Property?",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 565.04638671875,
+          "y0": 608.1505126953125,
+          "x1": 575.751708984375,
+          "y1": 618.8548583984375
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 621.3543701171875,
+          "x1": 251.751708984375,
+          "y1": 632.0596923828125
+        },
+       "value": "[{'answer': '1) No'}, {'answer': '2) No'}]No"
+      }
+    ]
+  },
+  "checkbox_104": {
+    "question": "Seller received a notice regarding any proposed, ongoing, or completed improvement",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 621.3543701171875,
+          "x1": 278.751708984375,
+          "y1": 632.0596923828125
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 621.3543701171875,
+          "x1": 305.751708984375,
+          "y1": 632.0596923828125
+        },
+       "value": "[{'answer': '1) No'}, {'answer': '2) Yes'}]No"
+      }
+    ]
+  },
+  "checkbox_105": {
+    "question": "Seller represents that a foreign person (i.e., a non-resident alien individual, foreign corporation)",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 340.9295959472656,
+          "y0": 621.3543701171875,
+          "x1": 351.6349182128906,
+          "y1": 632.0596923828125
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 395.4839782714844,
+          "y0": 621.3543701171875,
+          "x1": 406.1893005371094,
+          "y1": 632.0596923828125
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2) No'}]No"
+      }
+    ]
+  },
+  "checkbox_106": {
+    "question": "Seller is not aware of any methamphetamine production that has occurred on the Property",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 634.5591430664062,
+          "x1": 251.751708984375,
+          "y1": 645.2644653320312
+        },
+        "value": "[{'answer': '1) Yes'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 634.5591430664062,
+          "x1": 278.751708984375,
+          "y1": 645.2644653320312
+        },
+       "value": "[{'answer': '1) No'}]No"
+      }
+    ]
+  },
+  "checkbox_107": {
+    "question": "Health nuisance on the Property?",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 295.04638671875,
+          "y0": 634.5591430664062,
+          "x1": 305.751708984375,
+          "y1": 645.2644653320312
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 511.0464172363281,
+          "y0": 634.5591430664062,
+          "x1": 521.751708984375,
+          "y1": 645.2644653320312
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2) No'}]No"
+      }
+    ]
+  },
+  "checkbox_108": {
+    "question": "Seller is aware that methamphetamine production has occurred on the Property.",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 538.04638671875,
+          "y0": 634.5591430664062,
+          "x1": 548.751708984375,
+          "y1": 645.2644653320312
+        },
+         "value": "[{'answer': '1) Yes'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 565.04638671875,
+          "y0": 634.5591430664062,
+          "x1": 575.751708984375,
+          "y1": 645.2644653320312
+        },
+         "value": "[{'answer': '1) No'}]No"
+      }
+    ]
+  },
+  "checkbox_109": {
+    "question": "Are you aware of any human remains, burials, or cemeteries located on the Property?",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 241.04638671875,
+          "y0": 647.763671875,
+          "x1": 251.751708984375,
+          "y1": 658.4680786132812
+        },
+        "value": "[{'answer': '1) Yes'}, {'answer': '2) Yes'}]Yes"
+      },
+      {
+        "rect": {
+          "x0": 268.04638671875,
+          "y0": 647.763671875,
+          "x1": 278.751708984375,
+          "y1": 658.4680786132812
+        },
+        "value": "[{'answer': '1) No'}, {'answer': '2) Yes'}]No"
+      }
+    ]
+  },
+  "checkbox_110": {
+    "question": "Animal/Insect/Pest Infestation?",
+    "type": "checkbox",
+    "page": 6,
+    "answers": [
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 582.0591430664062,
+          "x1": 496.9549255371094,
+          "y1": 592.7644653320312
+        },
+        "value": "Yes"
+      },
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 582.0591430664062,
+          "x1": 560.0115966796875,
+          "y1": 592.7644653320312
+        },
+        "value": "No"
+      }
+    ]
+  },
+  "checkbox_111": {
+    "question": "Lead? (e.g., paint, plumbing)",
+    "type": "checkbox",
+    "page": 6,
+    "answers": [
+      {
+        "rect": {
+          "x0": 234.2503204345703,
+          "y0": 595.263671875,
+          "x1": 244.9556427001953,
+          "y1": 605.9680786132812
+        },
+        "value": "Yes"
+      },
+      {
+        "rect": {
+          "x0": 234.2503204345703,
+          "y0": 595.263671875,
+          "x1": 244.9556427001953,
+          "y1": 605.9680786132812
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_112": {
+    "question": "Asbestos?",
+    "type": "checkbox",
+    "page": 6,
+    "answers": [
+      {
+        "rect": {
+          "x0": 288.2496032714844,
+          "y0": 595.263671875,
+          "x1": 298.9549255371094,
+          "y1": 605.9680786132812
+        },
+        "value": "No"
+      },
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 595.263671875,
+          "x1": 496.9549255371094,
+          "y1": 605.9680786132812
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_113": {
+    "question": "Mold?",
+    "type": "checkbox",
+    "page": 6,
+    "answers": [
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 595.263671875,
+          "x1": 560.0115966796875,
+          "y1": 605.9680786132812
+        },
+        "value": "No"
+      },
+      {
+        "rect": {
+          "x0": 234.2503204345703,
+          "y0": 608.468505859375,
+          "x1": 244.9556427001953,
+          "y1": 619.173828125
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_114": {
+    "question": "Diseased trees?",
+    "type": "checkbox",
+    "page": 6,
+    "answers": [
+      {
+        "rect": {
+          "x0": 288.2496032714844,
+          "y0": 608.468505859375,
+          "x1": 298.9549255371094,
+          "y1": 619.173828125
+        },
+        "value": "No"
+      },
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 608.468505859375,
+          "x1": 496.9549255371094,
+          "y1": 619.173828125
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_115": {
+    "question": "Soil problems?",
+    "type": "checkbox",
+    "page": 6,
+    "answers": [
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 608.468505859375,
+          "x1": 560.0115966796875,
+          "y1": 619.173828125
+        },
+        "value": "No"
+      },
+      {
+        "rect": {
+          "x0": 234.2503204345703,
+          "y0": 621.672119140625,
+          "x1": 244.9556427001953,
+          "y1": 632.37744140625
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_116": {
+    "question": "Formaldehyde?",
+    "type": "checkbox",
+    "page": 6,
+    "answers": [
+      {
+        "rect": {
+          "x0": 288.2496032714844,
+          "y0": 621.672119140625,
+          "x1": 298.9549255371094,
+          "y1": 632.37744140625
+        },
+        "value": "No"
+      },
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 621.672119140625,
+          "x1": 496.9549255371094,
+          "y1": 632.37744140625
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_117": {
+    "question": "Underground storage tanks?",
+    "type": "checkbox",
+    "page": 6,
+    "answers": [
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 621.672119140625,
+          "x1": 560.0115966796875,
+          "y1": 632.37744140625
+        },
+        "value": "No"
+      },
+      {
+        "rect": {
+          "x0": 234.2503204345703,
+          "y0": 634.8778686523438,
+          "x1": 244.9556427001953,
+          "y1": 645.582275390625
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_118": {
+    "question": "HaZardous waste/substance?",
+    "type": "checkbox",
+    "page": 6,
+    "answers": [
+      {
+        "rect": {
+          "x0": 288.2496032714844,
+          "y0": 634.8778686523438,
+          "x1": 298.9549255371094,
+          "y1": 645.582275390625
+        },
+        "value": "No"
+      },
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 634.8778686523438,
+          "x1": 496.9549255371094,
+          "y1": 645.582275390625
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_119": {
+    "question": "Vapor intrusion?",
+    "type": "checkbox",
+    "page": 6,
+    "answers": [
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 634.8778686523438,
+          "x1": 560.0115966796875,
+          "y1": 645.582275390625
+        },
+        "value": "No"
+      },
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 652.8778686523438,
+          "x1": 496.9549255371094,
+          "y1": 663.582275390625
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_120": {
+    "question": "Other?",
+    "type": "checkbox",
+    "page": 6,
+    "answers": [
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 652.8778686523438,
+          "x1": 560.0115966796875,
+          "y1": 663.582275390625
+        },
+        "value": "No"
+      },
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 694.081787109375,
+          "x1": 496.9549255371094,
+          "y1": 704.7861328125
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_121": {
+    "question": "Have you ever been contacted or received any information from any governmental authority pertaining to possible or actual environmental contamination(e.g., vapor intrusion, drinking water, and/or soil contamination, etc) affecting the Property?",
+    "type": "checkbox",
+    "page": 6,
+    "answers": [
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 694.081787109375,
+          "x1": 560.0115966796875,
+          "y1": 704.7861328125
+        },
+        "value": "No"
+      },
+      {
+        "rect": {
+          "x0": 486.2496032714844,
+          "y0": 145.64990234375,
+          "x1": 496.9549255371094,
+          "y1": 156.355224609375
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_122": {
+    "question": "Are you aware if there are currently, or have previously been, any orders issued on the Property by any governmental authority ordering the remediation of a public health nuisance on the Property?",
+    "type": "checkbox",
+    "page": 7,
+    "answers": [
+      {
+        "rect": {
+          "x0": 549.3071899414062,
+          "y0": 145.64990234375,
+          "x1": 560.0115966796875,
+          "y1": 156.355224609375
+        },
+        "value": "No"
+      },
+      {
+        "rect": {
+          "x0": 259.4687805175781,
+          "y0": 160.64990234375,
+          "x1": 270.1741027832031,
+          "y1": 171.355224609375
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_123": {
+    "question": "If answer above is “Yes,” all orders",
+    "type": "checkbox",
+    "page": 7,
+    "answers": [
+      {
+        "rect": {
+          "x0": 179.10935974121094,
+          "y0": 542.0501708984375,
+          "x1": 189.81375122070312,
+          "y1": 552.7554931640625
+        },
+        "value": "No"
+      },
+      {
+        "rect": {
+          "x0": 222.91775512695312,
+          "y0": 542.0501708984375,
+          "x1": 233.62306213378906,
+          "y1": 552.7554931640625
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_124": {
+    "question": "Radon test(s) occurred on the Property",
+    "type": "checkbox",
+    "page": 7,
+    "answers": [
+      {
+        "rect": {
+          "x0": 148.0003204345703,
+          "y0": 626.4505004882812,
+          "x1": 158.7047119140625,
+          "y1": 637.1558227539062
+        },
+        "value": "No"
+      },
+      {
+        "rect": {
+          "x0": 174.21096801757812,
+          "y0": 626.4505004882812,
+          "x1": 184.91627502441406,
+          "y1": 637.1558227539062
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_125": {
+    "question": "There a radon mitigation system currently installed on the Property",
+    "type": "checkbox",
+    "page": 7,
+    "answers": [
+      {
+        "rect": {
+          "x0": 489.03118896484375,
+          "y0": 740.850830078125,
+          "x1": 499.7365417480469,
+          "y1": 751.55517578125
+        },
+        "value": "No"
+      },
+      {
+        "rect": {
+          "x0": 525.8040161132812,
+          "y0": 740.850830078125,
+          "x1": 536.5093383789062,
+          "y1": 751.55517578125
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_126": {
+    "question": "Has Chronic Wasting Disease been detected on the Property?",
+    "type": "checkbox",
+    "page": 8,
+    "answers": [
+      {
+        "rect": {
+          "x0": 127.73902893066406,
+          "y0": 148.44354248046875,
+          "x1": 138.4443359375,
+          "y1": 159.14886474609375
+        },
+        "value": "Yes"
+      },
+      {
+        "rect": {
+          "x0": 160.24415588378906,
+          "y0": 148.44354248046875,
+          "x1": 170.94949340820312,
+          "y1": 159.14886474609375
+        },
+        "value": "No"
+      }
+    ]
+  },
+  "checkbox_127": {
+    "question": "Are there any other material facts that could adversely and significantly affect an ordinary buyer's use or enjoyment of the property or any intended use of the Property?",
+    "type": "checkbox",
+    "page": 8,
+    "answers": [
+      {
+        "rect": {
+          "x0": 127.73902893066406,
+          "y0": 148.44354248046875,
+          "x1": 138.4443359375,
+          "y1": 159.14886474609375
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_128": {
+    "question": "Are there any other material facts that could adversely and significantly affect an ordinary buyer's use or enjoyment of the property or any intended use of the Property?",
+    "type": "checkbox",
+    "page": 8,
+    "answers": [
+      {
+        "rect": {
+          "x0": 127.73902893066406,
+          "y0": 148.44354248046875,
+          "x1": 138.4443359375,
+          "y1": 159.14886474609375
+        },
+        "value": "Yes"
+      },
+      {
+        "rect": {
+          "x0": 160.24415588378906,
+          "y0": 148.44354248046875,
+          "x1": 170.94949340820312,
+          "y1": 159.14886474609375
+        },
+        "value": "No"
+      }
+    ]
+  },
+    "text_0": {
+        "question": "Date",
+        "type": "text",
+        "possible_answers": [
+            {"answer": "1. June 12, 2022"},
+            {"answer": "2. October 31, 2020"},
+            {"answer": "3. August 5, 2021"}
+        ],
+        "page": 1,
+        "rect": {"x0": 378.0, "y0": 92.94964599609375, "x1": 576.0, "y1": 104.94964599609375},
+        "value": "entryDate"
+    },
+    "text_1": {
+        "question": "Page 1 of",
+        "type": "text",
+        "possible_answers": [
+            {"answer": "1. A novel or book"},
+            {"answer": "2. A report or document"},
+            {"answer": "3. A research paper"}
+        ],
+        "page": 1,
+        "rect": {"x0": 387.5591735839844, "y0": 109.9488525390625, "x1": 459.5591735839844, "y1": 121.9488525390625},
+        "value": "PageNumber"
+    },
+    "text_2": {
+        "question": "Property located at",
+        "type": "text",
+        "possible_answers": [
+            {"answer": "1. 123 Main Street, Anytown, USA"},
+            {"answer": "2. 456 Elm Street, London, UK"},
+            {"answer": "3. 789 Pine Avenue, Sydney, Australia"}
+        ],
+        "page": 1,
+        "rect": {"x0": 151.15774536132812, "y0": 515.9495849609375, "x1": 572.0087890625, "y1": 527.9495849609375},
+        "value": "PropertyLocation"
+    },
+    "text_3": {
+        "question": "City of",
+        "type": "text",
+        "possible_answers": [
+            {"answer": "1. London"},
+            {"answer": "2. New York"},
+            {"answer": "3. Sydney"}
+        ],
+        "page": 1,
+        "rect": {"x0": 95.4000015258789, "y0": 532.9487915039062, "x1": 304.97998046875, "y1": 544.9487915039062},
+        "value": "CityName"
+    },
+    "text_4": {
+        "question": "County of",
+        "type": "text",
+        "possible_answers": [
+            {"answer": "1. Los Angeles"},
+            {"answer": "2. Harris County"},
+            {"answer": "3. Orange County"}
+        ],
+        "page": 1,
+        "rect": {"x0": 360.9120178222656, "y0": 532.9487915039062, "x1": 570.1631469726562, "y1": 544.9487915039062},
+        "value": "CountyOfResidence"
+    },
+    "text_5": {
+        "question": "State of Minnesota, Zip Code",
+        "type": "text",
+        "possible_answers": [
+            {"answer": "1. 55415 (Minneapolis)"},
+            {"answer": "2. 55101 (St. Paul)"},
+            {"answer": "3. 56001 (Mankato)"}
+        ],
+        "page": 1,
+        "rect": {"x0": 197.09808349609375, "y0": 549.9506225585938, "x1": 396.748779296875, "y1": 561.9506225585938},
+        "value": "MinnesotaZipCode"
+    },
+    "text_6": {
+        "question": "Build the home?",
+        "type": "text",
+        "possible_answers": [
+            {"answer": "1) Yes, I did build the home."},
+            {"answer": "2) No, I hired a construction company to build the home."},
+            {"answer": "3) I am still in the process of building the home."}
+        ],
+        "page": 1,
+        "rect": {"x0": 324.4463806152344, "y0": 583.9500122070312, "x1": 515.335205078125, "y1": 595.9500122070312},
+        "value": "BuildTheHome"
+    },
+    "text_7": {
+        "question": "Location of Abstract:",
+        "type": "text",
+        "possible_answers": [
+            {"answer": "1. At the beginning of a research paper or report."},
+            {"answer": "2. In an art gallery or museum."},
+            {"answer": "3. Within a scientific journal or academic article."}
+        ],
+        "page": 1,
+        "rect": {"x0": 192.34031677246094, "y0": 622.55517578125, "x1": 576.0, "y1": 634.55517578125},
+        "value": "AbstractLocation"
+    },
+    "text_8": {
+        "question": "If “No,” explain",
+        "type": "text",
+        "possible_answers": [
+            {"answer": "1. This is not feasible due to budget constraints."},
+            {"answer": "2. This decision conflicts with our company's policies and guidelines."},
+            {"answer": "3. I don't have enough information to give an affirmative response."}
+        ],
+        "page": 1,
+        "rect": {"x0": 166.67999267578125, "y0": 667.55517578125, "x1": 576.0, "y1": 679.55517578125},
+        "value": "NoExplanation"
+    },
+    "text_9": {
+        "question": "If Yes, HUD #(s) is/are",
+        "type": "text",
+        "possible_answers": [
+            {"answer": "1. 12345"},
+            {"answer": "2. 67890, 11223, 44556"},
+            {"answer": "3. Not available"}
+        ],
+        "page": 1,
+        "rect": {"x0": 205.2093505859375, "y0": 726.5558471679688, "x1": 576.0, "y1": 738.5558471679688},
+        "value": "HudNumbers"
+    },
+    "text_10": {
+        "question": "Property located at",
+        "type": "text",
+        "possible_answers": [
+            {"answer": "1. 123 Main Street, Los Angeles, California"},
+            {"answer": "2. 789 Park Avenue, New York, New York"},
+            {"answer": "3. Apt 3B, 456 Ocean Drive, Miami, Florida"}
+        ],
+        "page": 2,
+        "rect": {"x0": 151.15774536132812, "y0": 101.150390625, "x1": 572.1383666992188, "y1": 113.150390625},
+        "value": "propertyLocationAddress"
+    },
+  "text_11": {
+    "question": 'if "yes," which zone?',
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1) Unable to provide answers as the question is incoherent."},
+      {"answer": "2) The question seems to be encrypted or contains special characters."},
+      {"answer": "3) Apologies, but the question isn't understandable."}
+    ],
+    "page": 2,
+    "rect": {"x0": 209.74966430664062, "y0": 176.35443115234375, "x1": 576.0, "y1": 188.35443115234375},
+    "value": "questionsAnsweredYesDetails"
+  },
+  "text_12": {
+    "question": "If “Yes,” what is the annual premium?",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. $600"},
+      {"answer": "2. $1200"},
+      {"answer": "3. $3600"}
+    ],
+    "page": 2,
+    "rect": {"x0": 294.83758544921875, "y0": 225.355224609375, "x1": 478.9295959472656, "y1": 237.355224609375},
+    "value": "AnnualPremiumAmount"
+  },
+  "text_13": {
+    "question": "If “Yes,” who is the insurance carrier?",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1) Geico"},
+      {"answer": "2) Allstate"},
+      {"answer": "3) State Farm"}
+    ],
+    "page": 2,
+    "rect": {"x0": 282.1896057128906, "y0": 242.35443115234375, "x1": 576.0, "y1": 254.35443115234375},
+    "value": "InsuranceCarrierName"
+  },
+  "text_14": {
+    "question": "If “Yes,” please explain",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1) Yes, because the product showed remarkable performance improvements."},
+      {"answer": "2) Yes, I made that decision based on data analysis indicating a higher return on investment."},
+      {"answer": "3) Yes, the proposed changes align better with our long-term goals."}
+    ],
+    "page": 2,
+    "rect": {"x0": 220.21966552734375, "y0": 276.3551940917969, "x1": 576.0, "y1": 288.3551940917969},
+    "value": "ExplanationIfYes"
+  },
+  "text_15": {
+    "question": 'please provide clarification or further explanation for all application "yes" response in Section A',
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. The atomic number of platinum."},
+      {"answer": "2. The number of cards in a complete tarot deck."},
+      {"answer": "3. The number of rotations Earth makes in 13 weeks."}
+    ],
+    "page": 2,
+    "rect": {"x0": 108.0, "y0": 527.1719970703125, "x1": 576.0, "y1": 539.1719970703125},
+    "value": "explainDetails"
+  },
+  "text_16": {
+    "question": 'If “Yes,” give details of what happened and when',
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. The accident occurred on September 5th around 11:30 am. A car ran a red light and hit another car in the intersection. Fortunately, no one was critically injured."},
+      {"answer": "2. The burglary took place last night at approximately 2:00 am. The burglars broke in through a rear window and stole electronics and jewelry."},
+      {"answer": "3. The meeting was held yesterday afternoon. The key points discussed included budget reallocation, the upcoming sales campaign, and introduction of new team members."}
+    ],
+    "page": 2,
+    "rect": {"x0": 316.7903747558594, "y0": 619.173828125, "x1": 576.0, "y1": 631.173828125},
+    "value": "EventDetailsAndTime"
+  },
+  "text_17": {
+    "question": "If “Yes,” what was the claim(s) for (e.g., hail damage to roof)?",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. Measurement of severity."},
+      {"answer": "2. Monetary sum for repairs."},
+      {"answer": "3. Magnitude of structural impact."}
+    ],
+    "page": 2,
+    "rect": {"x0": 369.13677978515625, "y0": 671.1732177734375, "x1": 576.0, "y1": 683.1732177734375},
+    "value": "DamageMeasurementInMeter"
+  },
+  "text_18": {
+    "question": "What dates did the claim(s) occur?",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. The claim occurred on January 25, 2020."},
+      {"answer": "2. The claims occurred on April 8, 2019 and May 15, 2019."},
+      {"answer": "3. The claim was made on December 12, 2021."}
+    ],
+    "page": 2,
+    "rect": {"x0": 255.72000122070312, "y0": 739.173828125, "x1": 576.0, "y1": 751.173828125},
+    "value": "ClaimOccurrenceDates"
+  },
+  "text_19": {
+    "question": 'Property located at',
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. 123 Main Street, Los Angeles, CA"},
+      {"answer": "2. 4596 Pine Avenue, New York, NY"},
+      {"answer": "3. 7854 Lakeside Drive, Chicago, IL"}
+    ],
+    "page": 3,
+    "rect": {"x0": 151.15774536132812, "y0": 101.150390625, "x1": 572.1383666992188, "y1": 113.150390625},
+    "value": "PropertyLocationAddress"
+  },
+  "text_20": {
+    "question": 'If “Yes,” please specify what was done, when, and by whom (owner or contractor)',
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. A numerical grade on an exam."},
+      {"answer": "2. The atomic number of the element Californium."},
+      {"answer": "3. The year 1998."}
+    ],
+    "page": 3,
+    "rect": {"x0": 116.99252319335938, "y0": 180.39349365234375, "x1": 575.9631958007812, "y1": 192.39349365234375},
+    "value": "explainDetails"
+  },
+  "text_21": {
+    "question": "If “Yes,” please explain",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. 'Yes, I agree with the company policy because it promotes equality and fairness among all employees.'"},
+      {"answer": "2. 'Yes, I think additional training will be beneficial because it will update our team's skills and knowledge.'"},
+      {"answer": "3. 'Yes, I am available to work overtime as it will allow me to complete my projects more efficiently.'"}
+    ],
+    "page": 3,
+    "rect": {"x0": 220.19505310058594, "y0": 227.6201171875, "x1": 575.9356079101562, "y1": 239.6201171875},
+    "value": "ExplanationIfYes"
+  },
+  "text_22": {
+    "question": "If “Yes,” please explain:",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. 'Yes, I agree with the proposed changes because they are more sustainable and will create long-term benefits for the company.'"},
+      {"answer": "2. 'Yes, I am available for the meeting. I have cleared my schedule for the day to prioritize our discussion.'"},
+      {"answer": "3. 'Yes, I did complete the assignment, as I believe it was necessary to increase my understanding of the topic.'"}
+    ],
+    "page": 3,
+    "rect": {"x0": 220.1809844970703, "y0": 294.84844970703125, "x1": 575.8988037109375, "y1": 306.84844970703125},
+    "value": "ExplanationIfYes"
+  },
+  "text_23": {
+    "question": 'If “Yes,” give details of what happened and when',
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. 'On March 3rd at 2pm, a fire broke out in the warehouse due to a short circuit. The fire brigade was able to control the blaze within an hour, but significant damage was done to the stored goods.'"},
+      {"answer": "2. 'Yesterday, around 10am, we launched our new online platform. The launch was successful, resulting in a significant increase in user registrations.'"},
+      {"answer": "3. 'On April 19th, a car accident occurred at the intersection of 5th and Elm streets around 5:30pm due to a red light violation. Police arrived on scene immediately and an investigation is underway.'"}
+    ],
+    "page": 3,
+    "rect": {"x0": 316.7145080566406, "y0": 354.86505126953125, "x1": 575.862060546875, "y1": 366.86505126953125},
+    "value": "DetailedEventDescription"
+  },
+  "text_24": {
+    "question": "If “Yes,” indicate type",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. Yes, type A"},
+      {"answer": "2. Yes, residential property"},
+      {"answer": "3. Yes, full-time employment"}
+    ],
+    "page": 3,
+    "rect": {"x0": 197.2885284423828, "y0": 414.8740234375, "x1": 440.0936584472656, "y1": 426.8740234375},
+    "value": "IndicateTypeIfYes"
+  },
+  "text_25": {
+    "question": 'The type of foundation is (i.e., block, poured, wood, stone, other)',
+    "type": "text",
+    "possible_answers": [
+      {"answer": "A prime number, A number in the Fibonacci sequence, An odd number"}
+    ],
+    "page": 3,
+    "rect": {"x0": 98.96680450439453, "y0": 450.87359619140625, "x1": 572.2080688476562, "y1": 462.87359619140625},
+    "value": "explainDetails"
+  },
+  "text_26": {
+    "question": 'other?',
+    "type": "text",
+    "possible_answers": [
+      {"answer": "This question isn't clear, please provide more information."}
+    ],
+    "page": 3,
+    "rect": {"x0": 409.25506591796875, "y0": 528.9075927734375, "x1": 477.56536865234375, "y1": 540.9075927734375},
+    "value": "OtherDetails"
+  },
+  "text_27": {
+    "question": 'Give details',
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. A number that comes after 119 and before 121."},
+      {"answer": "2. The temperature in Fahrenheit that is considered extremely hot."},
+      {"answer": "3. A perfect score in some games or tests."}
+    ],
+    "page": 3,
+    "rect": {"x0": 98.93994140625, "y0": 563.606201171875, "x1": 575.6505737304688, "y1": 575.606201171875},
+    "value": "explainDetails"
+  },
+  "text_28": {
+    "question": 'Home',
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. Location where an individual or family resides."},
+      {"answer": "2. A place of comfort and familiarity."},
+      {"answer": "3. A building or structure used as a living space."}
+    ],
+    "page": 3,
+    "rect": {"x0": 145.22720336914062, "y0": 632.8588256835938, "x1": 217.1812286376953, "y1": 644.8588256835938},
+    "value": "HomeAddress"
+  },
+  "text_29": {
+    "question": 'years Garage(s)/Outbuilding(s):',
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1) 2 cars garage and 1 workshop."},
+      {"answer": "2) 1 detached garage and 1 storage shed."},
+      {"answer": "3) No garages or outbuildings."}
+    ],
+    "page": 3,
+    "rect": {"x0": 368.756103515625, "y0": 632.8612060546875, "x1": 440.7089538574219, "y1": 644.8612060546875},
+    "value": "GarageOutbuildings"
+  },
+  "text_30": {
+    "question": "Give details ",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "The question is not readable. Please provide a clearly formulated question."}
+    ],
+    "page": 3,
+    "rect": {"x0": 301.95721435546875, "y0": 710.820068359375, "x1": 575.540283203125, "y1": 722.820068359375},
+    "value": "questionsAnsweredYesDetails"
+  },
+  "text_31": {
+    "question": "Property located at",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. 123 Main Street, New York, NY"},
+      {"answer": "2. 4567 Maple Drive, Los Angeles, CA"},
+      {"answer": "3. 890 Pine Street, Miami, FL"}
+    ],
+    "page": 4,
+    "rect": {"x0": 151.15774536132812, "y0": 101.150390625, "x1": 572.1383666992188, "y1": 113.150390625},
+    "value": "PropertyLocationAddress"
+  },
+  "text_32": {
+    "question": 'is (e.g., vinyl, stucco, brick, other):',
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. A type of house siding."},
+      {"answer": "2. A material used in wall construction."},
+      {"answer": "3. A specific texture applied to surfaces."}
+    ],
+    "page": 4,
+    "rect": {"x0": 352.0799865722656, "y0": 133.14959716796875, "x1": 576.0, "y1": 145.14959716796875},
+    "value": "MaterialType"
+  },
+  "text_33": {
+    "question": "Give details",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "The question appears to be in code or a foreign language that is not recognizable. Therefore, it's impossible to provide an appropriate answer."}
+    ],
+    "page": 4,
+    "rect": {"x0": 302.1983947753906, "y0": 191.150390625, "x1": 576.0, "y1": 203.150390625},
+    "value": "questionsAnsweredYesDetails"
+  },
+  "text_34": {
+    "question": 'Other',
+    "type": "text",
+    "possible_answers": [
+      {"answer": "The question is missing. Please provide the relevant question so I can suggest potential answers."}
+    ],
+    "page": 4,
+    "rect": {"x0": 351.78961181640625, "y0": 699.2868041992188, "x1": 504.7200012207031, "y1": 711.2868041992188},
+    "value": "otherDetails"
+  },
+  "text_35": {
+    "question": 'Other',
+    "type": "text",
+    "possible_answers": [
+      {"answer": "This appears to be an error. I need a context or a specific question in order to provide possible answers."}
+    ],
+    "page": 4,
+    "rect": {"x0": 351.78961181640625, "y0": 712.4915771484375, "x1": 504.7200012207031, "y1": 724.4915771484375},
+    "value": "otherDetails"
+  },
+  "text_36": {
+    "question": 'Other',
+    "type": "text",
+    "possible_answers": [
+      {"answer": "Apologies, but it seems the question detail is missing. Could you please provide the question so I can suggest accurate answers?"}
+    ],
+    "page": 4,
+    "rect": {"x0": 351.78961181640625, "y0": 725.6961669921875, "x1": 504.7200012207031, "y1": 737.6961669921875},
+    "value": "otherDetails"
+  },
+  "text_37": {
+    "question": 'Property located at',
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. 182 Main Street, Los Angeles, California"},
+      {"answer": "2. 182 Lakeview Drive, Austin, Texas"},
+      {"answer": "3. 182 Park Avenue, New York, New York"}
+    ],
+    "page": 5,
+    "rect": {"x0": 151.15533447265625, "y0": 101.1612548828125, "x1": 572.1292114257812, "y1": 113.1612548828125},
+    "value": "PropertyLocationAddress"
+  },
+  "text_38": {
+    "question": 'nts regarding issues in Section C:',
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. Section C primarily has problems with inconsistent formatting and undefined terms."},
+      {"answer": "2. The main issues in Section C are outdated information and data inaccuracies."},
+      {"answer": "3. Section C needs revision in terms of clarity and detailed explanation for the points discussed."}
+    ],
+    "page": 5,
+    "rect": {"x0": 267.2109069824219, "y0": 150.39544677734375, "x1": 575.9631958007812, "y1": 162.39544677734375},
+    "value": "SectionCIssuesComments"
+  },
+  "text_39": {
+    "question": "How many properties or residences does the shared well serve?",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. The shared well serves 10 residences."},
+      {"answer": "2. The well serves three farms and five houses."},
+      {"answer": "3. The well provides water for the entire village, approximately 50 households."}
+    ],
+    "page": 5,
+    "rect": {"x0": 404.2944641113281, "y0": 371.8399353027344, "x1": 575.8804321289062, "y1": 383.8399353027344},
+    "value": "SharedWellServiceCount"
+  },
+  "text_40": {
+    "question": "'Property. If “HAS”, please attach and/or explain",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. A high score in a bowling game."},
+      {"answer": "2. The atomic number of an undiscovered element."},
+      {"answer": "3. The number formed by multiplying 10 by 21."}
+    ],
+    "page": 5,
+    "rect": {"x0": 80.97154998779297, "y0": 519.4515380859375, "x1": 575.7976684570312, "y1": 531.4515380859375},
+    "value": "explainDetails"
+  },
+  "text_41": {
+    "question": "Property located at",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. 226 Main Street, Seattle, WA, USA"},
+      {"answer": "2. 226 Kings Road, London, UK"},
+      {"answer": "3. 226 Rue de Rivoli, Paris, France"}
+    ],
+    "page": 6,
+    "rect": {"x0": 151.15774536132812, "y0": 101.150390625, "x1": 572.1383666992188, "y1": 113.150390625},
+    "value": "PropertyLocationAddress"
+  },
+  "text_42": {
+    "question": "If yes please explain:",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. I agree because the statistics provided convincingly support the argument made."},
+      {"answer": "2. I selected 'Yes' because I have personally experienced the benefits of the program."},
+      {"answer": "3. Yes, because the evidence provided in the research overwhelmingly indicates positive outcomes."}
+    ],
+    "page": 6,
+    "rect": {"x0": 184.21966552734375, "y0": 495.5592041015625, "x1": 576.0, "y1": 507.5592041015625},
+    "value": "ExplanationIfYes"
+  },
+  "text_43": {
+    "question": "Other?",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. Prefer not to say"},
+      {"answer": "2. N/A"},
+      {"answer": "3. It's complicated"}
+    ],
+    "page": 6,
+    "rect": {"x0": 133.4287109375, "y0": 649.5825805664062, "x1": 470.1191711425781, "y1": 661.5825805664062},
+    "value": "OtherDetails"
+  },
+  "text_44": {
+    "question": "Property located at",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. 272 Park Avenue, New York, NY."},
+      {"answer": "2. 272 Main Street, San Francisco, CA."},
+      {"answer": "3. 272 Pine Street, Boston, MA."}
+    ],
+    "page": 7,
+    "rect": {"x0": 151.15774536132812, "y0": 101.150390625, "x1": 572.1383666992188, "y1": 113.150390625},
+    "value": "PropertyLocationAddress"
+  },
+  "text_45": {
+    "question": "278.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. A number between 277 and 279."},
+      {"answer": "2. Two hundred and seventy-eight."},
+      {"answer": "3. The natural number following 277 and preceding 279."}
+    ],
+    "page": 7,
+    "rect": {"x0": 102.0, "y0": 198.7559814453125, "x1": 576.0, "y1": 210.7559814453125},
+    "value": "explainDetails"
+  },
+  "text_46": {
+    "question": "279.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. A number between 278 and 280."},
+      {"answer": "2. The sum of 139 and 140."},
+      {"answer": "3. The number of days that a leap year exceeds a regular year multiplied by 279."}
+    ],
+    "page": 7,
+    "rect": {"x0": 102.0, "y0": 216.7559814453125, "x1": 576.0, "y1": 228.7559814453125},
+    "value": "explainDetails"
+  },
+  "text_47": {
+    "question": "280.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. It is the number of degrees in a straight line."},
+      {"answer": "2. It's the answer to the equation 560 divided by 2."},
+      {"answer": "3. It's the amount of days in a 40-week pregnancy."}
+    ],
+    "page": 7,
+    "rect": {"x0": 102.0, "y0": 234.7559814453125, "x1": 576.0, "y1": 246.7559814453125},
+    "value": "explainDetails"
+  },
+  "text_48": {
+    "question": "281.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. A prime number."},
+      {"answer": "2. The product of 23 and 11."},
+      {"answer": "3. Not a Fibonacci number."}
+    ],
+    "page": 7,
+    "rect": {"x0": 102.0, "y0": 254.75518798828125, "x1": 576.0, "y1": 266.75518798828125},
+    "value": "explainDetails"
+  },
+  "text_49": {
+    "question": "305.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. A highway in Miami, Florida."},
+      {"answer": "2. The number after 304 and before 306."},
+      {"answer": "3. A model of a product, such as a car or a printer."}
+    ],
+    "page": 7,
+    "rect": {"x0": 117.0, "y0": 591.15478515625, "x1": 576.0, "y1": 603.15478515625},
+    "value": "explainDetails"
+  },
+  "text_50": {
+    "question": "306.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. A model number for a product."},
+      {"answer": "2. The number of pages in a book."},
+      {"answer": "3. An area code for a region in Saskatchewan, Canada."}
+    ],
+    "page": 7,
+    "rect": {"x0": 117.0, "y0": 609.15478515625, "x1": 576.0, "y1": 621.15478515625},
+    "value": "explainDetails"
+  },
+  "text_51": {
+    "question": "310.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. A type of stainless-steel"},
+      {"answer": "2. The number that comes after 309"},
+      {"answer": "3. An area code in Pennsylvania."}
+    ],
+    "page": 7,
+    "rect": {"x0": 117.0, "y0": 673.55517578125, "x1": 576.0, "y1": 685.55517578125},
+    "value": "explainDetails"
+  },
+  "text_52": {
+    "question": "311.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. It's a prime number."},
+      {"answer": "2. It's an American rock band from Omaha, Nebraska."},
+      {"answer": "3. The police non-emergency contact number in some US cities."}
+    ],
+    "page": 7,
+    "rect": {"x0": 117.0, "y0": 691.55517578125, "x1": 576.0, "y1": 703.55517578125},
+    "value": "explainDetails"
+  },
+  "text_53": {
+    "question": "Property located at",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. 318 Park Avenue, New York, NY."},
+      {"answer": "2. 318 Lancaster Road, London, England."},
+      {"answer": "3. 318 Sydney Road, Melbourne, Australia."}
+    ],
+    "page": 8,
+    "rect": {"x0": 151.15774536132812, "y0": 97.14959716796875, "x1": 572.1383666992188, "y1": 109.14959716796875},
+    "value": "PropertyLocationAddress"
+  },
+  "text_54": {
+    "question": "322.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. Seems like an error, there's no question provided."},
+      {"answer": "2. Could you please repeat your question?"},
+      {"answer": "3. I'm sorry, I didn't catch the question."}
+    ],
+    "page": 8,
+    "rect": {"x0": 81.0, "y0": 163.14959716796875, "x1": 576.0, "y1": 175.14959716796875},
+    "value": "explainDetails"
+  },
+  "text_55": {
+    "question": "323.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. A number between 322 and 324."},
+      {"answer": "2. An area code in Los Angeles, California."},
+      {"answer": "3. Three hundred twenty-three."}
+    ],
+    "page": 8,
+    "rect": {"x0": 81.0, "y0": 181.14959716796875, "x1": 576.0, "y1": 193.14959716796875},
+    "value": "explainDetails"
+  },
+  "text_56": {
+    "question": "324.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "This appears to be an incomplete question or a mistake. Please provide a complete question."}
+    ],
+    "page": 8,
+    "rect": {"x0": 81.0, "y0": 199.14959716796875, "x1": 576.0, "y1": 211.14959716796875},
+    "value": "explainDetails"
+  },
+  "text_57": {
+    "question": "325.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. The number after 324."},
+      {"answer": "2. Three hundred and twenty-five."},
+      {"answer": "3. The square root of 105625."}
+    ],
+    "page": 8,
+    "rect": {"x0": 81.0, "y0": 217.14959716796875, "x1": 576.0, "y1": 229.14959716796875},
+    "value": "explainDetails"
+  },
+  "text_58": {
+    "question": "326.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. The number of pages in a novel."},
+      {"answer": "2. The total students in a school."},
+      {"answer": "3. The house number on a street."}
+    ],
+    "page": 8,
+    "rect": {"x0": 81.0, "y0": 235.14959716796875, "x1": 576.0, "y1": 247.14959716796875},
+    "value": "explainDetails"
+  },
+  "text_59": {
+    "question": "327.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. A type of engine model."},
+      {"answer": "2. A mathematical equation's result."},
+      {"answer": "3. A specific room number in a building."}
+    ],
+    "page": 8,
+    "rect": {"x0": 81.0, "y0": 253.14959716796875, "x1": 576.0, "y1": 265.14959716796875},
+    "value": "explainDetails"
+  },
+  "text_60": {
+    "question": "328.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "A numerical value"},
+      {"answer": "A model number for a product"},
+      {"answer": "An error code"}
+    ],
+    "page": 8,
+    "rect": {"x0": 81.0, "y0": 271.1496276855469, "x1": 576.0, "y1": 283.1496276855469},
+    "value": "explainDetails"
+  },
+  "text_61": {
+    "question": "Property located at",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. 123 Main Street, New York, NY 10001"},
+      {"answer": "2. Apartment 4B, The Gotham Building, 333 Park Ave, New York, NY 10022"},
+      {"answer": "3. Commercial lot, Sunset Blvd, Los Angeles, CA 90028"}
+    ],
+    "page": 9,
+    "rect": {"x0": 151.15774536132812, "y0": 101.150390625, "x1": 572.1383666992188, "y1": 113.150390625},
+    "value": "PropertyLocationAddress"
+  },
+  "text_62": {
+    "question": "416. Property located at",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. 416 East 9th street, New York City"},
+      {"answer": "2. 416 Northbrook Drive, Atlanta, Georgia"},
+      {"answer": "3. Property ID 416, 2nd Avenue, Los Angeles, California"}
+    ],
+    "page": 10,
+    "rect": {"x0": 151.15774536132812, "y0": 101.150390625, "x1": 572.1383666992188, "y1": 113.150390625},
+    "value": "propertyLocationAddress"
+  },
+  "text_63": {
+    "question": "418.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. An HTTP status code indicating 'I'm a Teapot'."},
+      {"answer": "2. A number between 417 and 419."},
+      {"answer": "3. The next number in the sequence is 419."}
+    ],
+    "page": 10,
+    "rect": {"x0": 80.99870300292969, "y0": 137.16064453125, "x1": 575.9907836914062, "y1": 149.16064453125},
+    "value": "explainDetails"
+  },
+  "text_64": {
+    "question": "419.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "This question appears to be incomplete or incorrect. Please provide a complete question."}
+    ],
+    "page": 10,
+    "rect": {"x0": 80.99740600585938, "y0": 155.17041015625, "x1": 575.9815673828125, "y1": 167.17041015625},
+    "value": "explainDetails"
+  },
+  "text_65": {
+    "question": "420.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "This question is incomplete. Please provide a full and clear question."}
+    ],
+    "page": 10,
+    "rect": {"x0": 80.9961166381836, "y0": 173.17950439453125, "x1": 575.9723510742188, "y1": 185.17950439453125},
+    "value": "explainDetails"
+  },
+  "text_66": {
+    "question": "421.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "The question lacks any context or information to provide a relevant answer. Please provide a complete question."}
+    ],
+    "page": 10,
+    "rect": {"x0": 80.99481964111328, "y0": 191.18804931640625, "x1": 575.9631958007812, "y1": 203.18804931640625},
+    "value": "explainDetails"
+  },
+  "text_67": {
+    "question": "422.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. An error code for 'Unprocessable Entity' in HTTP protocol."},
+      {"answer": "2. A model of Porsche car."},
+      {"answer": "3. The number following 421 and preceding 423."}
+    ],
+    "page": 10,
+    "rect": {"x0": 80.9935302734375, "y0": 209.19598388671875, "x1": 575.9539794921875, "y1": 221.19598388671875},
+    "value": "explainDetails"
+  },
+  "text_68": {
+    "question": "423.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "This question seems to be incomplete or seems like an error. It needs to be more specific."}
+    ],
+    "page": 10,
+    "rect": {"x0": 80.99224090576172, "y0": 227.203369140625, "x1": 575.94482421875, "y1": 239.203369140625},
+    "value": "explainDetails"
+  },
+  "text_69": {
+    "question": "424.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. It's the area code for Los Angeles, California."},
+      {"answer": "2. It's a number between 423 and 425."},
+      {"answer": "3. It's the aircraft model number for a specific manufacturer."}
+    ],
+    "page": 10,
+    "rect": {"x0": 80.9909439086914, "y0": 245.210205078125, "x1": 575.9356079101562, "y1": 257.210205078125},
+    "value": "explainDetails"
+  },
+  "text_70": {
+    "question": "438.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1) The number of students in a school"},
+      {"answer": "2) A model number for an appliance"},
+      {"answer": "3) The total amount of pages in a book"}
+    ],
+    "page": 10,
+    "rect": {"x0": 80.98965454101562, "y0": 461.1911315917969, "x1": 296.9620666503906, "y1": 473.1911315917969},
+    "value": "sellerSignature"
+  },
+  "text_71": {
+    "question": "438.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "This question appears to be incomplete or the actual question is missing. Please provide the full question."}
+    ],
+    "page": 10,
+    "rect": {"x0": 332.95745849609375, "y0": 461.1911315917969, "x1": 575.9264526367188, "y1": 473.1911315917969},
+    "value": "sellerSignature"
+  },
+  "text_72": {
+    "question": "446.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. An error code in HTTP, indicating that the requested resource is not available."},
+      {"answer": "2. The number following 445."},
+      {"answer": "3. The area code for Youngstown, Ohio."}
+    ],
+    "page": 10,
+    "rect": {"x0": 80.98835754394531, "y0": 613.5745849609375, "x1": 296.9573059082031, "y1": 625.5745849609375},
+    "value": "buyerSignature"
+  },
+  "text_73": {
+    "question": "446.",
+    "type": "text",
+    "possible_answers": [
+      {"answer": "1. That's the total number of guests we hosted last year."},
+      {"answer": "2. That's the page number of my favorite chapter in the book."},
+      {"answer": "3. That's the house number of my grandmother's house."}
+    ],
+    "page": 10,
+    "rect": {"x0": 332.9521179199219, "y0": 613.5745849609375, "x1": 575.9171752929688, "y1": 625.5745849609375},
+    "value": "buyerSignature"
+  }
+}

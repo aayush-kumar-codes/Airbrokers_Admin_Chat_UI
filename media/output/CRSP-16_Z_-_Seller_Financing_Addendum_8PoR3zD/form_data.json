@@ -1,0 +1,271 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-27T12:54:19.453309",
+    "filename": "CRSP-16_Z_-_Seller_Financing_Addendum_8PoR3zD.pdf",
+    "document_title": "CRSP16.Z.seller financing addendum.pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 16,
+    "fields_by_type": {
+      "checkbox": 5,
+      "text": 11
+    },
+    "fields_by_page": {
+      "1": 16
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "iy Realtors",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1449.0,
+        "y0": 143.0,
+        "x1": 1462.0,
+        "y1": 158.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "iy Realtors",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1590.0,
+        "y0": 150.0,
+        "x1": 1600.0,
+        "y1": 161.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "Addendum to Contract for Residential Sale and Purchase iy Realtors",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1424.0,
+        "y0": 164.0,
+        "x1": 1435.0,
+        "y1": 177.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "to Seller that Kis Cis not subordinate to any third party financing in the amount of $ bearing",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 400.0,
+        "y0": 529.0,
+        "x1": 419.0,
+        "y1": 547.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "to Seller that Kis Cis not subordinate to any third party financing in the amount of $ bearing",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 334.0,
+        "y0": 529.0,
+        "x1": 353.0,
+        "y1": 547.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "annual interest at %, and payable as follows:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 805.0,
+        "y0": 562.0,
+        "x1": 1601.0,
+        "y1": 592.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "annual interest at",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 373.0,
+        "y0": 562.0,
+        "x1": 467.0,
+        "y1": 592.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "to Seller that Kis Cis not subordinate to any third party financing in the amount of $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1242.0,
+        "y0": 523.0,
+        "x1": 1490.0,
+        "y1": 553.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "( d\u00a2 )-( d\u00a2",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 498.0,
+        "y0": 484.0,
+        "x1": 578.0,
+        "y1": 514.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "( d\u00a2",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 388.0,
+        "y0": 484.0,
+        "x1": 471.0,
+        "y1": 514.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "(",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 263.0,
+        "y0": 484.0,
+        "x1": 347.0,
+        "y1": 514.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "(",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 160.0,
+        "y0": 484.0,
+        "x1": 240.0,
+        "y1": 514.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 151.0,
+        "y0": 410.0,
+        "x1": 1601.0,
+        "y1": 440.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "concerning the Property described as",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 619.0,
+        "y0": 366.0,
+        "x1": 1601.0,
+        "y1": 396.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "and",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 205.0,
+        "y0": 321.0,
+        "x1": 1478.0,
+        "y1": 351.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "between",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 264.0,
+        "y0": 277.0,
+        "x1": 1481.0,
+        "y1": 307.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

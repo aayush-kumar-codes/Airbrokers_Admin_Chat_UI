@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-21T13:39:18.150650",
+    "filename": "form-2A9-T-4_1.pdf",
+    "document_title": "LEAD-BASED PAINT OR LEAD-BASED PAINT HAZARD ADDENDUM",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 4,
+    "fields_by_type": {
+      "text": 4
+    },
+    "fields_by_page": {
+      "2": 4
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 324.36,
+        "y0": 630.0,
+        "x1": 574.56,
+        "y1": 640.8
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 36.36,
+        "y0": 616.68,
+        "x1": 286.2,
+        "y1": 627.48
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 324.36,
+        "y0": 431.64,
+        "x1": 574.56,
+        "y1": 442.44
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 36.36,
+        "y0": 417.59999999999997,
+        "x1": 282.24,
+        "y1": 428.4
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

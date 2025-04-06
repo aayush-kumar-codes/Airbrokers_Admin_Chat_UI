@@ -1,0 +1,261 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-21T06:59:13.633759",
+    "filename": "Community_Development_District_Addendum_CDDA-2_Rev._02_2018.pdf",
+    "document_title": "Community Development District Addendum_CDDA_2.pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 18,
+    "fields_by_type": {
+      "text": 18
+    },
+    "fields_by_page": {
+      "1": 18
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "$ per. to",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 800.0,
+        "y0": 1395.0,
+        "x1": 1574.0,
+        "y1": 1425.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "$ per.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 454.0,
+        "y0": 1395.0,
+        "x1": 778.0,
+        "y1": 1425.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "$",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 89.0,
+        "y0": 1395.0,
+        "x1": 414.0,
+        "y1": 1425.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "$ per. to",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 800.0,
+        "y0": 1317.0,
+        "x1": 1574.0,
+        "y1": 1347.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "$ per.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 454.0,
+        "y0": 1317.0,
+        "x1": 778.0,
+        "y1": 1347.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "$",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 89.0,
+        "y0": 1317.0,
+        "x1": 414.0,
+        "y1": 1347.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1155.0,
+        "y0": 1146.0,
+        "x1": 1636.0,
+        "y1": 1176.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 855.0,
+        "y0": 1146.0,
+        "x1": 1088.0,
+        "y1": 1176.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 356.0,
+        "y0": 1146.0,
+        "x1": 774.0,
+        "y1": 1176.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 56.0,
+        "y0": 1146.0,
+        "x1": 273.0,
+        "y1": 1176.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1155.0,
+        "y0": 986.0,
+        "x1": 1636.0,
+        "y1": 1016.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 856.0,
+        "y0": 986.0,
+        "x1": 1088.0,
+        "y1": 1016.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 356.0,
+        "y0": 986.0,
+        "x1": 774.0,
+        "y1": 1016.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 56.0,
+        "y0": 986.0,
+        "x1": 273.0,
+        "y1": 1016.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "THE.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 129.0,
+        "y0": 738.0,
+        "x1": 1038.0,
+        "y1": 768.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "concerning the Property located at",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 498.0,
+        "y0": 638.0,
+        "x1": 1571.0,
+        "y1": 668.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "and",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 118.0,
+        "y0": 571.0,
+        "x1": 1472.0,
+        "y1": 601.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "or Vacant Land Contract between",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 483.0,
+        "y0": 504.0,
+        "x1": 1484.0,
+        "y1": 534.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

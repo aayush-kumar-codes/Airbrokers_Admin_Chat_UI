@@ -1,0 +1,600 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-20T11:33:19.505383",
+    "filename": "form-4-T-6_TzJuJgd.pdf",
+    "document_title": "AGREEMENT TO AMEND CONTRACT",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 44,
+    "fields_by_type": {
+      "text": 44
+    },
+    "fields_by_page": {
+      "1": 27,
+      "2": 17
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1288.0,
+        "y0": 3189.0,
+        "x1": 1368.0,
+        "y1": 3219.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 687.0,
+        "y0": 3190.0,
+        "x1": 832.0,
+        "y1": 3220.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1401.0,
+        "y0": 3190.0,
+        "x1": 1545.0,
+        "y1": 3220.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 362.0,
+        "y0": 2590.0,
+        "x1": 1422.0,
+        "y1": 2620.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 362.0,
+        "y0": 2446.0,
+        "x1": 1422.0,
+        "y1": 2476.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Somes Ecce Age leer ccs",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1180.0,
+        "y0": 2275.0,
+        "x1": 1296.0,
+        "y1": 2305.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "Bans bee the smmmt of $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 869.0,
+        "y0": 2091.0,
+        "x1": 1617.0,
+        "y1": 2121.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "Bans bee the smmmt of $ the",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1768.0,
+        "y0": 2064.0,
+        "x1": 1916.0,
+        "y1": 2094.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "O Escuew Agee The Esmamw and Ageetis the Escumw hemeber Ages\u2019 cheered came to:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1155.0,
+        "y0": 1995.0,
+        "x1": 2383.0,
+        "y1": 2025.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 150.0,
+        "y0": 1899.0,
+        "x1": 877.0,
+        "y1": 1929.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "Ages Oe iS Eee ee ce cheers! to ee crime Gah 500 pm. on:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1110.0,
+        "y0": 1669.0,
+        "x1": 1691.0,
+        "y1": 1699.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "to: $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 225.0,
+        "y0": 1525.0,
+        "x1": 828.0,
+        "y1": 1555.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "0 aim Earnest Meeeg. The (/aiianel) Exmest Mowry Daa is kemaisy Commer! fame: $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1858.0,
+        "y0": 1478.0,
+        "x1": 2398.0,
+        "y1": 1508.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "QO) Peete Prive. The Poocimee Price is beer cle! See $ to: $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1931.0,
+        "y0": 1390.0,
+        "x1": 2012.0,
+        "y1": 1420.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "QO) Peete Prive. The Poocimee Price is beer cle! See $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1244.0,
+        "y0": 1391.0,
+        "x1": 1783.0,
+        "y1": 1421.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "be ferthy edmkimmes! eee! Ont reteceerl fee the Comme by Geter Brmery",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1404.0,
+        "y0": 1221.0,
+        "x1": 1491.0,
+        "y1": 1251.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "emma to all coeeets aaa pekrteses geeen Beseerin the Cemieert",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1383.0,
+        "y0": 1173.0,
+        "x1": 1469.0,
+        "y1": 1203.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "a\u00e9led the",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 402.0,
+        "y0": 1080.0,
+        "x1": 517.0,
+        "y1": 1110.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "a\u00e9led the Cemmect as sulk) beeper ged wet] be",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1124.0,
+        "y0": 1082.0,
+        "x1": 1266.0,
+        "y1": 1112.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "OO) Aciztheome?! Bueer, By Stommme Sits smut, (eet noe aay)",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1319.0,
+        "y0": 1056.0,
+        "x1": 2358.0,
+        "y1": 1086.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "eam 12-7) (\u201cCommeact\u2019?) commie the pameciomec ame sate of the fans pempcery Goscrt peecty anieess",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1974.0,
+        "y0": 768.0,
+        "x1": 2389.0,
+        "y1": 798.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 2213.0,
+        "y0": 358.0,
+        "x1": 2314.0,
+        "y1": 388.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 701.0,
+        "y0": 358.0,
+        "x1": 784.0,
+        "y1": 388.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1319.0,
+        "y0": 362.0,
+        "x1": 1429.0,
+        "y1": 392.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_24": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 564.0,
+        "y0": 363.0,
+        "x1": 677.0,
+        "y1": 393.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_25": {
+      "question": "(Arment #",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1365.0,
+        "y0": 262.0,
+        "x1": 1454.0,
+        "y1": 292.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_26": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1134.0,
+        "y0": 239.0,
+        "x1": 1323.0,
+        "y1": 269.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_27": {
+      "question": "Date Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1503.0,
+        "y0": 1878.0,
+        "x1": 2397.0,
+        "y1": 1908.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_28": {
+      "question": "Name",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 281.0,
+        "y0": 1687.0,
+        "x1": 1216.0,
+        "y1": 1717.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_29": {
+      "question": "By:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 616.0,
+        "y0": 1590.0,
+        "x1": 758.0,
+        "y1": 1620.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_30": {
+      "question": "By: By:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1472.0,
+        "y0": 1591.0,
+        "x1": 2386.0,
+        "y1": 1621.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_31": {
+      "question": "By:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 762.0,
+        "y0": 1590.0,
+        "x1": 883.0,
+        "y1": 1620.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_32": {
+      "question": "Buyer: Dee Seker",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1542.0,
+        "y0": 1293.0,
+        "x1": 2040.0,
+        "y1": 1323.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_33": {
+      "question": "Buyer: Dee",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1087.0,
+        "y0": 1293.0,
+        "x1": 1288.0,
+        "y1": 1323.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_34": {
+      "question": "Beever. Dexte Setar Date",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 2178.0,
+        "y0": 1183.0,
+        "x1": 2379.0,
+        "y1": 1213.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_35": {
+      "question": "Beever.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 298.0,
+        "y0": 1183.0,
+        "x1": 901.0,
+        "y1": 1213.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_36": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 2186.0,
+        "y0": 997.0,
+        "x1": 2266.0,
+        "y1": 1027.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_37": {
+      "question": "All",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 213.0,
+        "y0": 905.0,
+        "x1": 305.0,
+        "y1": 935.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_38": {
+      "question": "OC) Bamerisey eliiain a axesceer ue Wameamey ala costo) exceee \u00a2",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1403.0,
+        "y0": 791.0,
+        "x1": 1648.0,
+        "y1": 821.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_39": {
+      "question": "QO) Heeamwe W area. The Hemme W commer",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 868.0,
+        "y0": 671.0,
+        "x1": 1034.0,
+        "y1": 701.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_40": {
+      "question": "Choweer] ee So \u2014C\u2014i\u2014itiO Pe ot Se me aes FH",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1432.0,
+        "y0": 504.0,
+        "x1": 1512.0,
+        "y1": 534.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_41": {
+      "question": "Choweer] ee",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 431.0,
+        "y0": 505.0,
+        "x1": 1305.0,
+        "y1": 535.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_42": {
+      "question": "forthe sett peegeme of Commis the perme! fee",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1234.0,
+        "y0": 287.0,
+        "x1": 1370.0,
+        "y1": 317.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_43": {
+      "question": "O) Sottinmeeet tcheck Bate rey The Tiss Satheugeet fintiremiees Dore ciso is will homely apis) cham! The to:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1231.0,
+        "y0": 217.0,
+        "x1": 2375.0,
+        "y1": 247.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-25T17:46:42.946671",
+    "filename": "form-2A9-T-4_9kGw1Su.pdf",
+    "document_title": "LEAD-BASED PAINT OR LEAD-BASED PAINT HAZARD ADDENDUM",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 10,
+    "fields_by_type": {
+      "checkbox": 6,
+      "text": 4
+    },
+    "fields_by_page": {
+      "1": 5,
+      "2": 5
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "Q Known lead-based paint and/or lead-based paint hazards are present in the housing (explain).",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 145.44,
+        "y0": 415.08,
+        "x1": 151.2,
+        "y1": 420.84
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "Q Seller has no knowledge of lead-based paint and/or lead-based paint hazards in the housing.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 145.44,
+        "y0": 449.64,
+        "x1": 151.2,
+        "y1": 455.4
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "Q Seller has provided the Buyer with all available records and reports pertaining to lead-based",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 145.44,
+        "y0": 484.2,
+        "x1": 151.2,
+        "y1": 489.96
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "Q Seller has no reports or records pertaining to lead-based paint and/or lead-based paint hazards",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 145.44,
+        "y0": 529.92,
+        "x1": 151.2,
+        "y1": 535.68
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "Q Accepts the opportunity during the Due Diligence Period to conduct a risk assessment or",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 145.44,
+        "y0": 633.6,
+        "x1": 151.2,
+        "y1": 639.36
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "Q Waives the opportunity to conduct a risk assessment or inspection for the presence of lead-based",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 145.44,
+        "y0": 35.64,
+        "x1": 151.2,
+        "y1": 41.4
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 324.36,
+        "y0": 630.0,
+        "x1": 574.56,
+        "y1": 640.8
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 36.36,
+        "y0": 616.68,
+        "x1": 286.2,
+        "y1": 627.48
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 324.36,
+        "y0": 431.64,
+        "x1": 574.56,
+        "y1": 442.44
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 36.36,
+        "y0": 417.59999999999997,
+        "x1": 282.24,
+        "y1": 428.4
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-21T23:09:56.164188",
+    "filename": "CRSP-16_N_-_Insurance_Addendum.pdf",
+    "document_title": "CRSP16.N.insurance addendum.pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 18,
+    "fields_by_type": {
+      "checkbox": 4,
+      "text": 14
+    },
+    "fields_by_page": {
+      "1": 18
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "38* (a) Homeowner's Insurance: If Buyer is unable to obtain comprehensive homeowner's insurance coverage",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 254.0,
+        "y0": 585.0,
+        "x1": 272.0,
+        "y1": 603.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "14* (b) Flood Insurance: If Buyer is unable to obtain flood insurance through the National Flood Insurance",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 254.0,
+        "y0": 777.0,
+        "x1": 272.0,
+        "y1": 795.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "(a) Buyer is notified that the Property is located in an area that is a defined floodable area and flood insurance",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 254.0,
+        "y0": 985.0,
+        "x1": 273.0,
+        "y1": 1003.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "22* (b) Buyer is notified that the Property is located in an area that was declared a flood disaster area after",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 254.0,
+        "y0": 1049.0,
+        "x1": 272.0,
+        "y1": 1067.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "16*",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 250.0,
+        "y0": 835.0,
+        "x1": 560.0,
+        "y1": 865.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "15* Program at a first year premium not to exceed $ or",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1162.0,
+        "y0": 803.0,
+        "x1": 1256.0,
+        "y1": 833.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "15* Program at a first year premium not to exceed $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 868.0,
+        "y0": 803.0,
+        "x1": 1117.0,
+        "y1": 833.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "117",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 250.0,
+        "y0": 675.0,
+        "x1": 560.0,
+        "y1": 705.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "10* a first year annual premium not to exceed $ or",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1138.0,
+        "y0": 643.0,
+        "x1": 1232.0,
+        "y1": 673.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "10* a first year annual premium not to exceed $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 850.0,
+        "y0": 643.0,
+        "x1": 1099.0,
+        "y1": 673.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "6* (__)(_)-(",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 484.0,
+        "y0": 482.0,
+        "x1": 565.0,
+        "y1": 512.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "6*",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 380.0,
+        "y0": 482.0,
+        "x1": 462.0,
+        "y1": 512.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "6*",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 260.0,
+        "y0": 482.0,
+        "x1": 341.0,
+        "y1": 512.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "6*",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 156.0,
+        "y0": 482.0,
+        "x1": 238.0,
+        "y1": 512.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 151.0,
+        "y0": 408.0,
+        "x1": 1601.0,
+        "y1": 438.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "concerning the Property described as",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 619.0,
+        "y0": 367.0,
+        "x1": 1601.0,
+        "y1": 397.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "and",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 205.0,
+        "y0": 320.0,
+        "x1": 1478.0,
+        "y1": 350.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "between",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 264.0,
+        "y0": 272.0,
+        "x1": 1481.0,
+        "y1": 302.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

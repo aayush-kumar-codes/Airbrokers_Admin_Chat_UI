@@ -1,0 +1,352 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-21T12:44:21.157834",
+    "filename": "form-890-T-4.pdf",
+    "document_title": "Termination of Contract By Mutual Agreement With Release of Earnest Money and/or Building Deposit",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 25,
+    "fields_by_type": {
+      "text": 25
+    },
+    "fields_by_page": {
+      "1": 25
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "Date: Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 910.0,
+        "y0": 1970.0,
+        "x1": 1245.0,
+        "y1": 2000.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 124.0,
+        "y0": 1970.0,
+        "x1": 431.0,
+        "y1": 2000.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Title: Title:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 918.0,
+        "y0": 1910.0,
+        "x1": 1585.0,
+        "y1": 1940.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "Title:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 125.0,
+        "y0": 1910.0,
+        "x1": 751.0,
+        "y1": 1940.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "Name: Name:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 931.0,
+        "y0": 1849.0,
+        "x1": 1585.0,
+        "y1": 1879.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Name:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 138.0,
+        "y0": 1849.0,
+        "x1": 751.0,
+        "y1": 1879.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "By: By:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 890.0,
+        "y0": 1788.0,
+        "x1": 1586.0,
+        "y1": 1818.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "By:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 97.0,
+        "y0": 1788.0,
+        "x1": 751.0,
+        "y1": 1818.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "Entity Seller: Entity Buyer:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1007.0,
+        "y0": 1708.0,
+        "x1": 1579.0,
+        "y1": 1738.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "Entity Seller:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 204.0,
+        "y0": 1708.0,
+        "x1": 748.0,
+        "y1": 1738.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 850.0,
+        "y0": 1619.0,
+        "x1": 1574.0,
+        "y1": 1649.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 50.0,
+        "y0": 1619.0,
+        "x1": 746.0,
+        "y1": 1649.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 850.0,
+        "y0": 1536.0,
+        "x1": 1254.0,
+        "y1": 1566.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 50.0,
+        "y0": 1536.0,
+        "x1": 454.0,
+        "y1": 1566.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 850.0,
+        "y0": 1453.0,
+        "x1": 1574.0,
+        "y1": 1483.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 50.0,
+        "y0": 1453.0,
+        "x1": 746.0,
+        "y1": 1483.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 850.0,
+        "y0": 1370.0,
+        "x1": 1254.0,
+        "y1": 1400.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 50.0,
+        "y0": 1370.0,
+        "x1": 454.0,
+        "y1": 1400.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "7. Other Payment/Reimbursement: 0) Buyer 0 Seller shall pay promptly $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 914.0,
+        "y0": 1157.0,
+        "x1": 1304.0,
+        "y1": 1187.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "6. Building Deposit. The Parties agree that the Building Deposit shall be disbursed in the following manner:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1276.0,
+        "y0": 1061.0,
+        "x1": 1652.0,
+        "y1": 1091.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "The Effective Date of the Contract is",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 468.0,
+        "y0": 608.0,
+        "x1": 1108.0,
+        "y1": 638.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 57.0,
+        "y0": 544.0,
+        "x1": 1503.0,
+        "y1": 574.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "1. Contract. The Parties entered into a contract for the purchase and sale of the following real property:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1219.0,
+        "y0": 480.0,
+        "x1": 1637.0,
+        "y1": 510.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "Mailing Address:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 251.0,
+        "y0": 365.0,
+        "x1": 1641.0,
+        "y1": 395.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_24": {
+      "question": "Mailing Address:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 251.0,
+        "y0": 250.0,
+        "x1": 1641.0,
+        "y1": 280.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

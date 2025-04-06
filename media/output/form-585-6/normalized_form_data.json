@@ -1,0 +1,323 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-24T17:42:44.569122",
+    "filename": "form-585-6.pdf",
+    "document_title": "PROFESSIONAL SERVICE DISCLOSURE AND AGREEMENT",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 21,
+    "fields_by_type": {
+      "checkbox": 3,
+      "text": 18
+    },
+    "fields_by_page": {
+      "1": 7,
+      "2": 14
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 65.16,
+        "y0": 37.08,
+        "x1": 76.67999999999999,
+        "y1": 51.12
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "REALTOR",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 71.64,
+        "y0": 72.0,
+        "x1": 75.96,
+        "y1": 76.67999999999999
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 67.67999999999999,
+        "y0": 695.88,
+        "x1": 79.2,
+        "y1": 709.56
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "REALTOR \u2014 Individual Agent Initials",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 200.51999999999998,
+        "y0": 727.56,
+        "x1": 231.12,
+        "y1": 738.36
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Real Estate Firm:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 105.83999999999999,
+        "y0": 154.79999999999998,
+        "x1": 541.4399999999999,
+        "y1": 165.6
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Buyer or Seller:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 99.72,
+        "y0": 143.28,
+        "x1": 490.32,
+        "y1": 154.07999999999998
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "Property Address:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 108.36,
+        "y0": 131.76,
+        "x1": 523.8,
+        "y1": 142.56
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 57.599999999999994,
+        "y0": 538.56,
+        "x1": 273.24,
+        "y1": 549.36
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Title:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 57.96,
+        "y0": 515.52,
+        "x1": 273.24,
+        "y1": 526.3199999999999
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "Name:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 62.64,
+        "y0": 492.47999999999996,
+        "x1": 273.24,
+        "y1": 503.28
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "By:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 50.4,
+        "y0": 469.44,
+        "x1": 271.08,
+        "y1": 480.24
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 36.0,
+        "y0": 446.4,
+        "x1": 271.44,
+        "y1": 457.2
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 335.15999999999997,
+        "y0": 416.52,
+        "x1": 550.8,
+        "y1": 427.32
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 57.599999999999994,
+        "y0": 405.0,
+        "x1": 273.24,
+        "y1": 415.8
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "Individual license #:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 395.28,
+        "y0": 393.47999999999996,
+        "x1": 510.84,
+        "y1": 404.28
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 36.0,
+        "y0": 381.96,
+        "x1": 271.44,
+        "y1": 392.76
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "Name:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 340.2,
+        "y0": 370.44,
+        "x1": 550.8,
+        "y1": 381.24
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 57.599999999999994,
+        "y0": 358.91999999999996,
+        "x1": 273.24,
+        "y1": 369.71999999999997
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "By:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 327.96,
+        "y0": 347.4,
+        "x1": 548.64,
+        "y1": 358.2
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 36.0,
+        "y0": 336.24,
+        "x1": 271.44,
+        "y1": 347.03999999999996
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "Individual",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 313.56,
+        "y0": 313.2,
+        "x1": 549.0,
+        "y1": 324.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

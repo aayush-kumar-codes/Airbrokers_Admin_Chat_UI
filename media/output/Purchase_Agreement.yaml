@@ -1,0 +1,2870 @@
+metadata:
+  timestamp: '2024-12-23T11:52:54.916574'
+  filename: test.pdf
+  document_title: PA23_final_oct23.pdf
+  number_of_pages: 13
+  versions:
+    pymupdf: !!python/tuple
+    - 1.25.1
+    - 1.25.2
+    - '20241211000001'
+  summary: This is a document used in real estate transactions to provide potential
+    buyers with essential information about a property. It outlines the seller's knowledge
+    of the property's condition, including details about structural integrity, appliances,
+    utilities, and any known defects or past issues. This statement helps establish
+    transparency and protects both parties by disclosing relevant property-related
+    information upfront.
+summary:
+  total_fields: 252
+  fields_by_type:
+    text: 141
+    checkbox: 111
+  fields_by_page:
+    '1': 21
+    '2': 19
+    '3': 12
+    '4': 21
+    '5': 24
+    '6': 26
+    '7': 5
+    '8': 4
+    '9': 32
+    '10': 10
+    '11': 27
+    '12': 17
+    '13': 2
+fields:
+  {
+  "checkbox_0": {
+    "question": "click checkbox for no later than two",
+    "type": "checkbox",
+    "page": 1,
+    "answers": [
+      {
+        "rect": {
+          "x0": 282.2348327636719,
+          "y0": 173.91510009765625,
+          "x1": 292.93896484375,
+          "y1": 184.6182861328125
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_1": {
+    "question": "Select This Purchase Agreement",
+    "type": "checkbox",
+    "page": 2,
+    "answers": [
+      {
+        "rect": {
+          "x0": 208.04989624023438,
+          "y0": 112.0894775390625,
+          "x1": 218.75454711914062,
+          "y1": 122.79315185546875
+        },
+        "value": "Yes"
+      },
+      {
+        "rect": {
+          "x0": 63.245269775390625,
+          "y0": 178.49249267578125,
+          "x1": 73.94879913330078,
+          "y1": 189.19696044921875
+        },
+        "value": "No"
+      }
+    ]
+  },
+  "checkbox_2": {
+    "question": "56. Select Mortgage financing",
+    "type": "checkbox",
+    "page": 2,
+    "answers": [
+      {
+        "rect": {
+          "x0": 193.88174438476562,
+          "y0": 178.5023193359375,
+          "x1": 204.58511352539062,
+          "y1": 189.20660400390625
+        },
+        "value": "FIRST MORTGAGE only"
+      },
+      {
+        "rect": {
+          "x0": 63.243247985839844,
+          "y0": 210.51007080078125,
+          "x1": 73.9464340209961,
+          "y1": 221.21417236328125
+        },
+        "value": "FIRST MORTGAGE AND SUBORDINATE FINANCING"
+      }
+    ]
+  },
+  "checkbox_3": {
+    "question": "57. Which type of loan option is applicable to the Buyer? (Please check all that apply)",
+    "type": "checkbox",
+    "page": 2,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.24224090576172,
+          "y0": 223.72247314453125,
+          "x1": 73.94525909423828,
+          "y1": 234.42645263671875
+        },
+        "value": "CONVENTIONAL OR PRIVATELY INSURED CONVENTIONAL"
+      },
+      {
+        "rect": {
+          "x0": 63.24122619628906,
+          "y0": 237.729736328125,
+          "x1": 73.9440689086914,
+          "y1": 248.43255615234375
+        },
+        "value": "DEPARTMENT OF VETERANS' AFFAIRS (DVA) GUARANTEED"
+      },
+      {
+        "rect": {
+          "x0": 63.24021911621094,
+          "y0": 251.7369384765625,
+          "x1": 73.9428939819336,
+          "y1": 262.4405517578125
+        },
+        "value": "FEDERAL HOUSING ADMINISTRATION (FHA) INSURED"
+      },
+      {
+        "rect": {
+          "x0": 63.23920822143555,
+          "y0": 269.742431640625,
+          "x1": 73.94171142578125,
+          "y1": 280.44586181640625
+        },
+        "value": "UNITED STATES DEPARTMENT OF AGRICULTURE (USDA) RURAL DEVELOPMENT"
+      },
+      {
+        "rect": {
+          "x0": 63.235172271728516,
+          "y0": 389.7470397949219,
+          "x1": 73.9369888305664,
+          "y1": 400.4497985839844
+        },
+        "value": "OTHER"
+      }
+    ]
+  },
+  "checkbox_4": {
+    "question": "This Purchase Agreement is contingent upon the following and applies to the first mortgage and any subordinate financing",
+    "type": "checkbox",
+    "page": 2,
+    "answers": [
+      {
+        "rect": {
+          "x0": 81.22956085205078,
+          "y0": 429.74261474609375,
+          "x1": 91.93120574951172,
+          "y1": 440.44427490234375
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_5": {
+    "question": "If the Buyer cannot secure the financing specified in this Purchase Agreement, and this Purchase Agreement is canceled, should the earnest money be refunded to the Buyer or forfeited to the Seller?",
+    "type": "checkbox",
+    "page": 2,
+    "answers": [
+      {
+        "rect": {
+          "x0": 207.78549194335938,
+          "y0": 429.7484130859375,
+          "x1": 218.4879150390625,
+          "y1": 440.44989013671875
+        },
+        "value": "Refunded to Buyer"
+      },
+      {
+        "rect": {
+          "x0": 63.232139587402344,
+          "y0": 496.13494873046875,
+          "x1": 73.9334487915039,
+          "y1": 506.8371887207031
+        },
+        "value": "Forfeited to Seller"
+      }
+    ]
+  },
+  "checkbox_6": {
+    "question": "77. Should the Buyer provide the Seller, or the licensee representing or assisting the Seller, with a Written Statement confirming the loan status?",
+    "type": "checkbox",
+    "page": 2,
+    "answers": [
+      {
+        "rect": {
+          "x0": 274.6140441894531,
+          "y0": 295.27386474609375,
+          "x1": 285.3179016113281,
+          "y1": 305.97772216796875
+        },
+        "value": "YES"
+      }
+    ]
+  },
+  "checkbox_7": {
+    "question": "104 If the Written Statement is not provided by the date specified on line 78, Seller may, at Seller's option, declare this Purchase Agreement canceled by written notice to Buyer at any time prior to Seller receiving the Written Statement, in which case this Purchase Agreement is canceled. In the event Seller declares this Purchase Agreement canceled, Buyer and Seller shall immediately sign a Cancellation of Purchase Agreement confirming said cancellation and directing all earnest money paid here to be:",
+    "type": "checkbox",
+    "page": 3,
+    "answers": [
+      {
+        "rect": {
+          "x0": 399.15447998046875,
+          "y0": 295.28179931640625,
+          "x1": 409.859130859375,
+          "y1": 305.9854736328125
+        },
+        "value": "Retained by Seller"
+      },
+      {
+        "rect": {
+          "x0": 184.42335510253906,
+          "y0": 352.4881896972656,
+          "x1": 195.12782287597656,
+          "y1": 363.1926574707031
+        },
+        "value": "Refunded to Buyer"
+      }
+    ]
+  },
+  "checkbox_8": {
+    "question": "If the Written Statement is not provided, and Seller has not previously canceled this Purchase Agreement, this Purchase Agreement is canceled as of the closing date specified in this Purchase Agreement. Buyer and Seller shall immediately sign a Cancellation of Purchase Agreement confirming said cancellation and directing all earnest money paid here to be:",
+    "type": "checkbox",
+    "page": 3,
+    "answers": [
+      {
+        "rect": {
+          "x0": 308.96319580078125,
+          "y0": 352.4952087402344,
+          "x1": 319.6665344238281,
+          "y1": 363.1994934082031
+        },
+        "value": "Retained by Seller"
+      },
+      {
+        "rect": {
+          "x0": 63.243247985839844,
+          "y0": 409.495849609375,
+          "x1": 73.9464340209961,
+          "y1": 420.1999816894531
+        },
+        "value": "Refunded to Buyer"
+      }
+    ]
+  },
+  "checkbox_9": {
+    "question": "The Rate shall be locked with the lender(s) by Buyer:",
+    "type": "checkbox",
+    "page": 3,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.24224090576172,
+          "y0": 425.5007019042969,
+          "x1": 73.94525909423828,
+          "y1": 436.20465087890625
+        },
+        "value": "Within five (5) business days of final acceptance date"
+      },
+      {
+        "rect": {
+          "x0": 63.24021911621094,
+          "y0": 563.4908447265625,
+          "x1": 73.9428939819336,
+          "y1": 574.1944580078125
+        },
+        "value": "At any time prior to closing or as required by lender(s)"
+      }
+    ]
+  },
+  "checkbox_10": {
+    "question": "Seller/Buyer agrees to pay any reinspections fee required by Buyer's lender(s):",
+    "type": "checkbox",
+    "page": 3,
+    "answers": [
+      {
+        "rect": {
+          "x0": 122.21724700927734,
+          "y0": 563.4945068359375,
+          "x1": 132.92068481445312,
+          "y1": 574.1979370117188
+        },
+        "value": "Seller"
+      },
+      {
+        "rect": {
+          "x0": 315.95635986328125,
+          "y0": 172.09552001953125,
+          "x1": 326.6598815917969,
+          "y1": 182.799072265625
+        },
+        "value": "Buyer"
+      }
+    ]
+  },
+  "checkbox_11": {
+    "question": "Pursuant to federal regulations, a one-time Funding Fee based on loan amount must be paid at the closing of this transaction as follows: paid by Buyer",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 397.4715270996094,
+          "y0": 172.10540771484375,
+          "x1": 408.1758117675781,
+          "y1": 182.80877685546875
+        },
+        "value": "At Closing"
+      },
+      {
+        "rect": {
+          "x0": 90.21527099609375,
+          "y0": 393.50872802734375,
+          "x1": 100.91887664794922,
+          "y1": 404.21234130859375
+        },
+        "value": "Added to Mortgage Amount"
+      }
+    ]
+  },
+  "checkbox_12": {
+    "question": "Select Seller contributing to Buyer's costs",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 114.96427917480469,
+          "y0": 393.5151062011719,
+          "x1": 125.66678619384766,
+          "y1": 404.2185363769531
+        },
+        "value": "IS"
+      },
+      {
+        "rect": {
+          "x0": 63.23820114135742,
+          "y0": 419.9163818359375,
+          "x1": 73.9405288696289,
+          "y1": 430.6196594238281
+        },
+        "value": "IS NOT"
+      }
+    ]
+  },
+  "checkbox_13": {
+    "question": "159. If answer is IS, Seller agrees to pay at closing, up to",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.23617935180664,
+          "y0": 437.92425537109375,
+          "x1": 73.93817138671875,
+          "y1": 448.6271667480469
+        },
+        "value": "$"
+      },
+      {
+        "rect": {
+          "x0": 410.573486328125,
+          "y0": 569.902099609375,
+          "x1": 421.2751159667969,
+          "y1": 580.6046752929688
+        },
+        "value": "percent(%)"
+      }
+    ]
+  },
+  "checkbox_14": {
+    "question": "Buyer has been made aware of the availability of property inspections. Buyer to have a",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 467.0667724609375,
+          "y0": 569.9056396484375,
+          "x1": 477.76824951171875,
+          "y1": 580.6080322265625
+        },
+        "value": "ELECTS"
+      },
+      {
+        "rect": {
+          "x0": 181.117919921875,
+          "y0": 604.2989501953125,
+          "x1": 191.82015991210938,
+          "y1": 615.001220703125
+        },
+        "value": "DECLINES"
+      }
+    ]
+  },
+  "checkbox_15": {
+    "question": "This Purchase Agreement contingent upon any inspections of the property obtained by Buyer to",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 207.6382598876953,
+          "y0": 604.3019409179688,
+          "x1": 218.34033203125,
+          "y1": 615.0040283203125
+        },
+        "value": "IS"
+      },
+      {
+        "rect": {
+          "x0": 90.98997497558594,
+          "y0": 706.672607421875,
+          "x1": 101.69187927246094,
+          "y1": 717.37451171875
+        },
+        "value": "IS NOT"
+      }
+    ]
+  },
+  "checkbox_16": {
+    "question": "Seller agrees to allow Buyer to perform intrusive testing or inspections(s).",
+    "type": "checkbox",
+    "page": 4,
+    "answers": [
+      {
+        "rect": {
+          "x0": 136.07852172851562,
+          "y0": 706.6739501953125,
+          "x1": 146.78025817871094,
+          "y1": 717.3756713867188
+        },
+        "value": "DOES"
+      },
+      {
+        "rect": {
+          "x0": 63.233116149902344,
+          "y0": 339.16754150390625,
+          "x1": 73.93458557128906,
+          "y1": 349.86993408203125
+        },
+        "value": "DOES NOT"
+      }
+    ]
+  },
+  "checkbox_17": {
+    "question": "Is this Purchase Agreement subject to an Addendum to Purchase Agreement: Sale of Buyer’s Property Contingency for the sale of Buyer’s property?",
+    "type": "checkbox",
+    "page": 5,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.2275505065918,
+          "y0": 381.1922912597656,
+          "x1": 73.9280776977539,
+          "y1": 391.8937683105469
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_18": {
+    "question": "Is this Purchase Agreement contingent upon the successful closing on the Buyer’s property located at ______, which is scheduled to close on ______?",
+    "type": "checkbox",
+    "page": 5,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.21084976196289,
+          "y0": 507.22216796875,
+          "x1": 73.90855407714844,
+          "y1": 517.9207763671875
+        },
+        "value": "Yes"
+      },
+      {
+        "rect": {
+          "x0": 133.18382263183594,
+          "y0": 591.1881103515625,
+          "x1": 143.8815155029297,
+          "y1": 601.8858642578125
+        },
+        "value": "No"
+      }
+    ]
+  },
+  "checkbox_19": {
+    "question": "Does Buyer represent that Buyer has the financial ability to perform on this Purchase Agreement without the sale and closing on any other property?",
+    "type": "checkbox",
+    "page": 5,
+    "answers": [
+      {
+        "rect": {
+          "x0": 322.9950256347656,
+          "y0": 591.205810546875,
+          "x1": 333.6917724609375,
+          "y1": 601.902587890625
+        },
+        "value": "Yes"
+      },
+      {
+        "rect": {
+          "x0": 357.8675231933594,
+          "y0": 591.2235107421875,
+          "x1": 368.5633544921875,
+          "y1": 601.9193115234375
+        },
+        "value": "No"
+      }
+    ]
+  },
+  "checkbox_20": {
+    "question": "Buyer shall pay real estate taxes due and payable in the year of closing",
+    "type": "checkbox",
+    "page": 5,
+    "answers": [
+      {
+        "rect": {
+          "x0": 402.7178039550781,
+          "y0": 591.2412109375,
+          "x1": 413.41265869140625,
+          "y1": 601.93603515625
+        },
+        "value": "PRORATED FROM DAY OF CLOSING"
+      },
+      {
+        "rect": {
+          "x0": 128.84405517578125,
+          "y0": 629.6439819335938,
+          "x1": 139.53627014160156,
+          "y1": 640.336181640625
+        },
+        "value": "ALL"
+      },
+      {
+        "rect": {
+          "x0": 297.1642761230469,
+          "y0": 629.6699829101562,
+          "x1": 307.8538513183594,
+          "y1": 640.3604736328125
+        },
+        "value": "NONE"
+      }
+    ]
+  },
+  "checkbox_21": {
+    "question": "Seller shall pay real estate taxes due and payable in the year of closing",
+    "type": "checkbox",
+    "page": 5,
+    "answers": [
+      {
+        "rect": {
+          "x0": 330.5714111328125,
+          "y0": 629.6959228515625,
+          "x1": 341.26019287109375,
+          "y1": 640.384765625
+        },
+        "value": "PRORATED FROM DAY OF CLOSING"
+      },
+      {
+        "rect": {
+          "x0": 373.8174133300781,
+          "y0": 629.721923828125,
+          "x1": 384.5044860839844,
+          "y1": 640.4090576171875
+        },
+        "value": "ALL"
+      },
+      {
+        "rect": {
+          "x0": 460.3421325683594,
+          "y0": 668.09619140625,
+          "x1": 471.0257873535156,
+          "y1": 678.7798461914062
+        },
+        "value": "NONE"
+      }
+    ]
+  },
+  "checkbox_22": {
+    "question": "If the Property tax status is a part-or non-homestead classification in the year of closing, Seller",
+    "type": "checkbox",
+    "page": 6,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.24728775024414,
+          "y0": 108.07708740234375,
+          "x1": 73.95115661621094,
+          "y1": 118.78192138671875
+        },
+        "value": "SHALL"
+      },
+      {
+        "rect": {
+          "x0": 177.03836059570312,
+          "y0": 108.0880126953125,
+          "x1": 187.7429962158203,
+          "y1": 118.79266357421875
+        },
+        "value": "SHALL NOT"
+      }
+    ]
+  },
+  "checkbox_23": {
+    "question": "227. Who will pay any deferred real estate taxes (e.g., Green Acres) or special assessments required as a result of the closing of this sale on the date of closing?",
+    "type": "checkbox",
+    "page": 6,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.245269775390625,
+          "y0": 146.495849609375,
+          "x1": 73.94879913330078,
+          "y1": 157.2003173828125
+        },
+        "value": "Buyer Shall Pay"
+      },
+      {
+        "rect": {
+          "x0": 440.1850280761719,
+          "y0": 146.50616455078125,
+          "x1": 450.88836669921875,
+          "y1": 157.21044921875
+        },
+        "value": "Seller Shall Pay"
+      }
+    ]
+  },
+  "checkbox_24": {
+    "question": "229. Will Buyer and Seller prorate any special assessments as of the date of closing?",
+    "type": "checkbox",
+    "page": 6,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.243247985839844,
+          "y0": 196.91082763671875,
+          "x1": 73.9464340209961,
+          "y1": 207.61492919921875
+        },
+        "value": "Buyer and Seller Shall Prorate"
+      },
+      {
+        "rect": {
+          "x0": 198.89906311035156,
+          "y0": 196.92034912109375,
+          "x1": 209.6020965576172,
+          "y1": 207.624267578125
+        },
+        "value": "Seller Shall Pay"
+      }
+    ]
+  },
+  "checkbox_25": {
+    "question": "232. On date of closing all other special assessments levied as of the Date of this Purchase Agreement.",
+    "type": "checkbox",
+    "page": 6,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.24122619628906,
+          "y0": 235.3243408203125,
+          "x1": 73.9440689086914,
+          "y1": 246.02813720703125
+        },
+        "value": "BUYER SHALL ASSUME"
+      },
+      {
+        "rect": {
+          "x0": 197.4742889404297,
+          "y0": 235.33319091796875,
+          "x1": 208.1779022216797,
+          "y1": 246.03680419921875
+        },
+        "value": "SELLER SHALL PROVIDE FOR PAYMENT OF"
+      }
+    ]
+  },
+  "checkbox_26": {
+    "question": "240. As of the Date of this Purchase Agreement, Seller represents that seller received a notice",
+    "type": "checkbox",
+    "page": 6,
+    "answers": [
+      {
+        "rect": {
+          "x0": 394.36590576171875,
+          "y0": 328.426513671875,
+          "x1": 405.0693359375,
+          "y1": 339.1299743652344
+        },
+        "value": "HAS"
+      },
+      {
+        "rect": {
+          "x0": 433.9616394042969,
+          "y0": 328.4339294433594,
+          "x1": 444.6639404296875,
+          "y1": 339.1371765136719
+        },
+        "value": "HAS NOT"
+      }
+    ]
+  },
+  "checkbox_27": {
+    "question": "Is this Purchase Agreement subject to the cancellation of a previously executed purchase agreement dated ______?",
+    "type": "checkbox",
+    "page": 6,
+    "answers": [
+      {
+        "rect": {
+          "x0": 445.6258850097656,
+          "y0": 482.8085021972656,
+          "x1": 456.3280334472656,
+          "y1": 493.5115966796875
+        },
+        "value": "IS"
+      },
+      {
+        "rect": {
+          "x0": 474.9546203613281,
+          "y0": 482.81341552734375,
+          "x1": 485.65753173828125,
+          "y1": 493.516357421875
+        },
+        "value": "IS NOT"
+      }
+    ]
+  },
+  "checkbox_28": {
+    "question": "Upon performance by Buyer, Seller shall deliver:",
+    "type": "checkbox",
+    "page": 6,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.233150482177734,
+          "y0": 592.1998291015625,
+          "x1": 73.93462371826172,
+          "y1": 602.9013671875
+        },
+        "value": "Warranty Deed"
+      },
+      {
+        "rect": {
+          "x0": 163.14926147460938,
+          "y0": 592.2030639648438,
+          "x1": 173.8514862060547,
+          "y1": 602.9043579101562
+        },
+        "value": "Personal Representative’s Deed"
+      },
+      {
+        "rect": {
+          "x0": 358.607177734375,
+          "y0": 592.2062377929688,
+          "x1": 369.3083190917969,
+          "y1": 602.9073486328125
+        },
+        "value": "Contract for Deed"
+      },
+      {
+        "rect": {
+          "x0": 479.4508361816406,
+          "y0": 592.2094116210938,
+          "x1": 490.1527404785156,
+          "y1": 602.910400390625
+        },
+        "value": "Trustee’s Deed"
+      }
+    ]
+  },
+  "checkbox_29": {
+    "question": "What type of deed will be delivered, joined in by spouse, if any, conveying marketable title, subject to the following conditions?",
+    "type": "checkbox",
+    "page": 6,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.22911071777344,
+          "y0": 610.2066040039062,
+          "x1": 73.9299087524414,
+          "y1": 620.9073486328125
+        },
+        "value": "YES"
+      }
+    ]
+  },
+  "checkbox_30": {
+    "question": "270. Seller shall deliver possession of the Property",
+    "type": "checkbox",
+    "page": 7,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.24728775024414,
+          "y0": 103.2821044921875,
+          "x1": 73.95115661621094,
+          "y1": 113.9869384765625
+        },
+        "value": "IMMEDIATELY AFTER CLOSING"
+      },
+      {
+        "rect": {
+          "x0": 63.24627685546875,
+          "y0": 121.2919921875,
+          "x1": 73.9499740600586,
+          "y1": 131.99658203125
+        },
+        "value": "OTHER"
+      }
+    ]
+  },
+  "checkbox_31": {
+    "question": "364. Has the Buyer received:",
+    "type": "checkbox",
+    "page": 8,
+    "answers": [
+      {
+        "rect": {
+          "x0": 309.1435852050781,
+          "y0": 637.052490234375,
+          "x1": 319.8474426269531,
+          "y1": 647.7572631835938
+        },
+        "value": "Disclosure Statement: Seller's Property Disclosure Statement"
+      },
+      {
+        "rect": {
+          "x0": 213.5798797607422,
+          "y0": 650.2595825195312,
+          "x1": 224.28358459472656,
+          "y1": 660.9642333984375
+        },
+        "value": "Disclosure Statement: Seller's Disclosure Alternatives Form"
+      }
+    ]
+  },
+  "checkbox_32": {
+    "question": "375. SELLER WARRANTS THAT THE PROPERTY IS EITHER DIRECTLY OR INDIRECTLY CONNECTED TO FOR 'CITY SEWER':",
+    "type": "checkbox",
+    "page": 9,
+    "answers": [
+      {
+        "rect": {
+          "x0": 128.26832580566406,
+          "y0": 129.07611083984375,
+          "x1": 138.97219848632812,
+          "y1": 139.7808837890625
+        },
+        "value": "Yes"
+      },
+      {
+        "rect": {
+          "x0": 164.91912841796875,
+          "y0": 129.086669921875,
+          "x1": 175.623779296875,
+          "y1": 139.79132080078125
+        },
+        "value": "No"
+      }
+    ]
+  },
+  "checkbox_33": {
+    "question": "375. SELLER WARRANTS THAT THE PROPERTY IS EITHER DIRECTLY OR INDIRECTLY CONNECTED TO FOR 'CITY WATER':",
+    "type": "checkbox",
+    "page": 9,
+    "answers": [
+      {
+        "rect": {
+          "x0": 271.5455322265625,
+          "y0": 129.09722900390625,
+          "x1": 282.2490234375,
+          "y1": 139.80169677734375
+        },
+        "value": "Yes"
+      },
+      {
+        "rect": {
+          "x0": 308.19287109375,
+          "y0": 129.10784912109375,
+          "x1": 318.89715576171875,
+          "y1": 139.8121337890625
+        },
+        "value": "No"
+      }
+    ]
+  },
+  "checkbox_34": {
+    "question": "378. Does Seller know of a subsurface sewage treatment system on or serving the property?",
+    "type": "checkbox",
+    "page": 9,
+    "answers": [
+      {
+        "rect": {
+          "x0": 107.15834045410156,
+          "y0": 162.11468505859375,
+          "x1": 117.86152648925781,
+          "y1": 172.81884765625
+        },
+        "value": "Yes"
+      },
+      {
+        "rect": {
+          "x0": 158.0601348876953,
+          "y0": 162.124755859375,
+          "x1": 168.76315307617188,
+          "y1": 172.8287353515625
+        },
+        "value": "No"
+      }
+    ]
+  },
+  "checkbox_35": {
+    "question": "382. Does Seller know of a well on or serving the property?",
+    "type": "checkbox",
+    "page": 9,
+    "answers": [
+      {
+        "rect": {
+          "x0": 113.76236724853516,
+          "y0": 227.52545166015625,
+          "x1": 124.46614074707031,
+          "y1": 238.229248046875
+        },
+        "value": "Yes"
+      },
+      {
+        "rect": {
+          "x0": 172.3037567138672,
+          "y0": 227.53448486328125,
+          "x1": 183.00735473632812,
+          "y1": 238.238037109375
+        },
+        "value": "No"
+      }
+    ]
+  },
+  "checkbox_36": {
+    "question": "Is this Purchase Agreement subject to an Addendum to Purchase Agreement: Subsurface Sewage Treatment System and Well Inspection Contingency?",
+    "type": "checkbox",
+    "page": 9,
+    "answers": [
+      {
+        "rect": {
+          "x0": 208.94808959960938,
+          "y0": 265.93670654296875,
+          "x1": 219.65151977539062,
+          "y1": 276.64013671875
+        },
+        "value": "IS"
+      },
+      {
+        "rect": {
+          "x0": 235.1887664794922,
+          "y0": 265.94512939453125,
+          "x1": 245.89202880859375,
+          "y1": 276.64837646484375
+        },
+        "value": "IS NOT"
+      }
+    ]
+  },
+  "checkbox_37": {
+    "question": "390. Buyer and Seller are advised to investigate the various home protections/warranty plans available for purchase. Different home protection/warranty plans have different coverage options, exclusions, limitations, and service fees. Most plans exclude pre-existing conditions.",
+    "type": "checkbox",
+    "page": 9,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.23719024658203,
+          "y0": 412.3231201171875,
+          "x1": 73.9393539428711,
+          "y1": 423.0262145996094
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_38": {
+    "question": "393. Will a Home Protection/Warranty Plan be obtained and paid for by:",
+    "type": "checkbox",
+    "page": 9,
+    "answers": [
+      {
+        "rect": {
+          "x0": 363.0940246582031,
+          "y0": 412.3291931152344,
+          "x1": 373.79693603515625,
+          "y1": 423.0321044921875
+        },
+        "value": "BUYER"
+      },
+      {
+        "rect": {
+          "x0": 427.085693359375,
+          "y0": 412.3352355957031,
+          "x1": 437.7884216308594,
+          "y1": 423.0379943847656
+        },
+        "value": "SELLER"
+      }
+    ]
+  },
+  "checkbox_39": {
+    "question": "394. Who will issue the Home Protection/Warranty Plan?",
+    "type": "checkbox",
+    "page": 9,
+    "answers": [
+      {
+        "rect": {
+          "x0": 81.22956085205078,
+          "y0": 438.7345886230469,
+          "x1": 91.93120574951172,
+          "y1": 449.4371643066406
+        },
+        "value": "Buyer"
+      },
+      {
+        "rect": {
+          "x0": 135.40843200683594,
+          "y0": 438.740234375,
+          "x1": 146.1099090576172,
+          "y1": 449.442626953125
+        },
+        "value": "SELLER"
+      }
+    ]
+  },
+  "checkbox_40": {
+    "question": "396. No Home Protection/Warranty Plan negotiated as part of this Purchase Agreement, but Buyer may elect to purchase one?",
+    "type": "checkbox",
+    "page": 9,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.23012161254883,
+          "y0": 483.1429443359375,
+          "x1": 73.93108367919922,
+          "y1": 493.8448486328125
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_41": {
+    "question": "399. Is the licensee acting as:",
+    "type": "checkbox",
+    "page": 9,
+    "answers": [
+      {
+        "rect": {
+          "x0": 279.9840087890625,
+          "y0": 539.13330078125,
+          "x1": 290.6855773925781,
+          "y1": 549.8338623046875
+        },
+        "value": "Seller’s Agent"
+      },
+      {
+        "rect": {
+          "x0": 361.578369140625,
+          "y0": 539.1373291015625,
+          "x1": 372.27972412109375,
+          "y1": 549.8377685546875
+        },
+        "value": "Buyer’s Agent"
+      },
+      {
+        "rect": {
+          "x0": 444.2712707519531,
+          "y0": 539.141357421875,
+          "x1": 454.9715270996094,
+          "y1": 549.8416748046875
+        },
+        "value": "Dual Agent"
+      },
+      {
+        "rect": {
+          "x0": 511.9123840332031,
+          "y0": 539.1453857421875,
+          "x1": 522.6124877929688,
+          "y1": 549.8455200195312
+        },
+        "value": "Facilitator"
+      }
+    ]
+  },
+  "checkbox_42": {
+    "question": "401. Is the licensee acting as:",
+    "type": "checkbox",
+    "page": 9,
+    "answers": [
+      {
+        "rect": {
+          "x0": 279.9571838378906,
+          "y0": 595.9326782226562,
+          "x1": 290.65771484375,
+          "y1": 606.6332397460938
+        },
+        "value": "Seller’s Agent"
+      },
+      {
+        "rect": {
+          "x0": 361.5437316894531,
+          "y0": 595.935791015625,
+          "x1": 372.24407958984375,
+          "y1": 606.63623046875
+        },
+        "value": "Buyer’s Agent"
+      },
+      {
+        "rect": {
+          "x0": 444.2287292480469,
+          "y0": 595.93896484375,
+          "x1": 454.927978515625,
+          "y1": 606.63916015625
+        },
+        "value": "Dual Agent"
+      },
+      {
+        "rect": {
+          "x0": 511.86334228515625,
+          "y0": 595.9420776367188,
+          "x1": 522.5624389648438,
+          "y1": 606.64208984375
+        },
+        "value": "Facilitator"
+      }
+    ]
+  },
+  "checkbox_43": {
+    "question": "407. Select Dual Agency representation apply in this transaction.",
+    "type": "checkbox",
+    "page": 10,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.24728775024414,
+          "y0": 144.07537841796875,
+          "x1": 73.95115661621094,
+          "y1": 154.7801513671875
+        },
+        "value": "DOES NOT"
+      },
+      {
+        "rect": {
+          "x0": 63.24627685546875,
+          "y0": 162.08453369140625,
+          "x1": 73.9499740600586,
+          "y1": 172.7891845703125
+        },
+        "value": "DOES"
+      }
+    ]
+  },
+  "checkbox_44": {
+    "question": "Addendum to Purchase Agreement",
+    "type": "checkbox",
+    "page": 11,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.20528793334961,
+          "y0": 528.2322998046875,
+          "x1": 73.90204620361328,
+          "y1": 538.9299926757812
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_45": {
+    "question": "Addendum to Purchase Agreement: Additional Signatures",
+    "type": "checkbox",
+    "page": 11,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.19972229003906,
+          "y0": 540.245849609375,
+          "x1": 73.89553833007812,
+          "y1": 550.942626953125
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_46": {
+    "question": "Addendum to Purchase Agreement: Assumption Financing",
+    "type": "checkbox",
+    "page": 11,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.194156646728516,
+          "y0": 554.2569580078125,
+          "x1": 73.8890380859375,
+          "y1": 564.9518432617188
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_47": {
+    "question": "Addendum to Purchase Agreement: Buyer Move-In Agreement",
+    "type": "checkbox",
+    "page": 11,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.18859100341797,
+          "y0": 568.263916015625,
+          "x1": 73.88253021240234,
+          "y1": 578.9588012695312
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_48": {
+    "question": "Addendum to Purchase Agreement: Buyer Purchasing 'As Is' and Limitation of Seller Liability",
+    "type": "checkbox",
+    "page": 11,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.18302917480469,
+          "y0": 582.2684326171875,
+          "x1": 73.87602233886719,
+          "y1": 592.96240234375
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_49": {
+    "question": "Addendum to Purchase Agreement: Condominium/Townhouse/Cooperative Common Interest Community",
+    "type": "checkbox",
+    "page": 11,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.172916412353516,
+          "y0": 596.2854614257812,
+          "x1": 73.86419677734375,
+          "y1": 606.9767456054688
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_50": {
+    "question": "Addendum to Purchase Agreement: Contract for Deed Financing",
+    "type": "checkbox",
+    "page": 11,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.16280746459961,
+          "y0": 622.280517578125,
+          "x1": 73.85237884521484,
+          "y1": 632.9710693359375
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_51": {
+    "question": "Addendum to Purchase Agreement: Disclosure of Information on Lead-Based Paint and Lead-Based Paint Hazards",
+    "type": "checkbox",
+    "page": 11,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.1526985168457,
+          "y0": 636.2857666015625,
+          "x1": 73.84056091308594,
+          "y1": 646.9745483398438
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_52": {
+    "question": "Addendum to Purchase Agreement: Sale of Buyer's Property Contingency",
+    "type": "checkbox",
+    "page": 11,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.1425895690918,
+          "y0": 662.2670288085938,
+          "x1": 73.82874298095703,
+          "y1": 672.9531860351562
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_53": {
+    "question": "Addendum to Purchase Agreement: Seller's Rent Back Agreement",
+    "type": "checkbox",
+    "page": 11,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.13248062133789,
+          "y0": 676.2614135742188,
+          "x1": 73.81692504882812,
+          "y1": 686.94677734375
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_54": {
+    "question": "Addendum to Purchase Agreement: Seller's Purchase/Lease Contingency",
+    "type": "checkbox",
+    "page": 11,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.122379302978516,
+          "y0": 690.2512817382812,
+          "x1": 73.80510711669922,
+          "y1": 700.9349365234375
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_55": {
+    "question": "Addendum to Purchase Agreement: Short Sale Contingency",
+    "type": "checkbox",
+    "page": 11,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.11227798461914,
+          "y0": 704.2376708984375,
+          "x1": 73.79329681396484,
+          "y1": 714.9196166992188
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_56": {
+    "question": "Addendum to Purchase Agreement: Subsurface Sewage Treatment System and Well Water Inspection Contingency",
+    "type": "checkbox",
+    "page": 11,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.102176666259766,
+          "y0": 718.2186279296875,
+          "x1": 73.78148651123047,
+          "y1": 728.8988647460938
+        },
+        "value": "Checkbox"
+      }
+    ]
+  },
+  "checkbox_57": {
+    "question": "488. OTHER:",
+    "type": "checkbox",
+    "page": 11,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.09207534790039,
+          "y0": 736.1853637695312,
+          "x1": 73.7696762084961,
+          "y1": 746.8638916015625
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_58": {
+    "question": "If checked, this Purchase Agreement is subject to attached Addendum to Purchase Agreement: Counteroffer and the Final Acceptance Date shall be noted on the Addendum.",
+    "type": "checkbox",
+    "page": 12,
+    "answers": [
+      {
+        "rect": {
+          "x0": 63.24728775024414,
+          "y0": 150.0750732421875,
+          "x1": 73.95115661621094,
+          "y1": 160.7799072265625
+        },
+        "value": "Yes"
+      }
+    ]
+  },
+  "checkbox_59": {
+    "question": "499. Seller represents and warrants, under penalty of perjury, that Seller is a foreign person",
+    "type": "checkbox",
+    "page": 12,
+    "answers": [
+      {
+        "rect": {
+          "x0": 153.28732299804688,
+          "y0": 217.2867431640625,
+          "x1": 163.99195861816406,
+          "y1": 227.990478515625
+        },
+        "value": "IS"
+      },
+      {
+        "rect": {
+          "x0": 177.68997192382812,
+          "y0": 217.29595947265625,
+          "x1": 188.39443969726562,
+          "y1": 227.99945068359375
+        },
+        "value": "IS NOT"
+      }
+    ]
+  },
+  "text_0": {
+    "question": "Date",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. May 4, 2022" },
+      { "answer": "2. June 15, 1998" },
+      { "answer": "3. January 1, 2000" }
+    ],
+    "page": 1,
+    "rect": {
+      "x0": 377.99395751953125,
+      "y0": 78.560791015625,
+      "x1": 575.9907836914062,
+      "y1": 90.560791015625
+    },
+    "value": "entryDate"
+  },
+  "text_1": {
+    "question": "BUYER (S):",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. John Smith" },
+      { "answer": "2. ABC Company" },
+      { "answer": "3. Sarah Johnson and David Johnson" }
+    ],
+    "page": 1,
+    "rect": {
+      "x0": 116.50498962402344,
+      "y0": 106.57196044921875,
+      "x1": 573.9727783203125,
+      "y1": 118.57196044921875
+    },
+    "value": "BuyerNames"
+  },
+  "text_2": {
+    "question": "Buyer's earnest money in the amount of",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "$500" },
+      { "answer": "£2,500" },
+      { "answer": "€1,000" }
+    ],
+    "page": 1,
+    "rect": {
+      "x0": 310.3001708984375,
+      "y0": 138.590576171875,
+      "x1": 575.9631958007812,
+      "y1": 150.590576171875
+    },
+    "value": "MoneyAmount"
+  },
+  "text_3": {
+    "question": "Select Dollars",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. A symbol for American currency." },
+      { "answer": "2. The unit of currency used in the United States, Canada, Australia, and other countries." },
+      { "answer": "3. A form of currency measured in units of 100 cents." }
+    ],
+    "page": 1,
+    "rect": {
+      "x0": 415.2898254394531,
+      "y0": 154.6103515625,
+      "x1": 568.5366821289062,
+      "y1": 166.6103515625
+    },
+    "value": "DollarAmount"
+  },
+  "text_4": {
+    "question": "Shall be delivered to listing broker, or, if checked, to no later than two Business",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "This question seems incomplete. Could you please provide more context or details?" }
+    ],
+    "page": 1,
+    "rect": {
+      "x0": 295.0735168457031,
+      "y0": 170.62664794921875,
+      "x1": 448.3131103515625,
+      "y1": 182.62664794921875
+    },
+    "value": "ListingBrokerChecked"
+  },
+  "text_5": {
+    "question": "Street Address:",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. 123 Main Street, Anytown, USA" },
+      { "answer": "2. 564 Apple Lane, Cityville, UK" },
+      { "answer": "3. 789 Elm Street, Stateville, AU" }
+    ],
+    "page": 1,
+    "rect": {
+      "x0": 134.1810302734375,
+      "y0": 247.02703857421875,
+      "x1": 575.9171752929688,
+      "y1": 259.02703857421875
+    },
+    "value": "streetAddress"
+  },
+  "text_6": {
+    "question": "City of",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. New York" },
+      { "answer": "2. London" },
+      { "answer": "3. Tokyo" }
+    ],
+    "page": 1,
+    "rect": {
+      "x0": 94.83453369140625,
+      "y0": 263.03143310546875,
+      "x1": 312.07977294921875,
+      "y1": 275.03143310546875
+    },
+    "value": "CityName"
+  },
+  "text_7": {
+    "question": "County of",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "Los Angeles, Orange, Cook" }
+    ],
+    "page": 1,
+    "rect": {
+      "x0": 366.8955383300781,
+      "y0": 263.0396728515625,
+      "x1": 569.7678833007812,
+      "y1": 275.0396728515625
+    },
+    "value": "CountyOf"
+  },
+  "text_8": {
+    "question": "State of Minnesota, Zip Code",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. 55101 (Saint Paul, MN)" },
+      { "answer": "2. 55401 (Minneapolis, MN)" },
+      { "answer": "3. 56001 (Mankato, MN)" }
+    ],
+    "page": 1,
+    "rect": {
+      "x0": 195.87661743164062,
+      "y0": 279.0456237792969,
+      "x1": 301.47821044921875,
+      "y1": 291.0456237792969
+    },
+    "value": "MinnesotaZipCode"
+  },
+  "text_9": {
+    "question": "legally described as",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. The property, located at 123 Main Street, registered under the Deed Book 567, Page 89." },
+      { "answer": "2. The plaintiff, identified as John Doe, in the Case No. 23456 of the county court." },
+      { "answer": "3. The law, referenced as the Civil Rights Act of 1964, in the United States Code, Title VII." }
+    ],
+    "page": 1,
+    "rect": {
+      "x0": 399.9081726074219,
+      "y0": 279.0536193847656,
+      "x1": 575.8804321289062,
+      "y1": 291.0536193847656
+    },
+    "value": "LegalDescription"
+  },
+  "text_10": {
+    "question": "Seller has agreed to sell the Property to Buyer for the sum of ($",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. The total sale price agreed upon by both parties is mentioned in the contract." },
+      { "answer": "2. Please specify the agreed sum or leave it blank if the amount is still undecided." },
+      { "answer": "3. The exact dollar amount will be confirmed once both parties finalize the sale agreement." }
+    ],
+    "page": 1,
+    "rect": {
+      "x0": 346.653076171875,
+      "y0": 589.0025024414062,
+      "x1": 564.9146118164062,
+      "y1": 601.0025024414062
+    },
+    "value": "PropertySalePrice"
+  },
+  "text_11": {
+    "question": "which Buyer agrees to pay in the following manner. 1.the sale price in CASH",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "The buyer agrees to pay the full sale price in cash at the time of closing." },
+      { "answer": "The buyer will make a one-time cash payment for the total amount specified." },
+      { "answer": "The buyer confirms they have sufficient cash available for the purchase, as agreed in the contract." }
+    ],
+    "page": 1,
+    "rect": {
+      "x0": 80.97542572021484,
+      "y0": 632.9949340820312,
+      "x1": 131.4285125732422,
+      "y1": 644.9949340820312
+    },
+    "value": "Question41"
+  },
+  "text_12": {
+    "question": "which Buyer agrees to pay in the following manner. 2.'the sale price in MORTGAGE FINANCING'",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "The buyer will finance the purchase through a mortgage loan with a specified lender." },
+      { "answer": "The buyer has arranged for mortgage financing and will provide the necessary documentation for approval." },
+      { "answer": "The buyer intends to pay for the property using a mortgage, with the down payment and terms outlined in the agreement." }
+    ],
+    "page": 1,
+    "rect": {
+      "x0": 80.97413635253906,
+      "y0": 648.9924926757812,
+      "x1": 131.42640686035156,
+      "y1": 660.9924926757812
+    },
+    "value": "Question42Answer2"
+  },
+  "text_13": {
+    "question": "which Buyer agrees to pay in the following manner. 3. sale price by ASSUMING",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "The buyer agrees to assume the existing mortgage on the property." },
+      { "answer": "The buyer will take over the current loan balance and terms of the seller’s mortgage." },
+      { "answer": "The buyer is willing to assume responsibility for the property’s existing financial obligations." }
+    ],
+    "page": 1,
+    "rect": {
+      "x0": 80.97283935546875,
+      "y0": 664.989501953125,
+      "x1": 131.42431640625,
+      "y1": 676.989501953125
+    },
+    "value": "Question43Field3"
+  },
+  "text_14": {
+    "question": "which Buyer agrees to pay in the following manner. 4.sale price by CONTRACT FOR DEED",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "The buyer agrees to make installment payments directly to the seller under a contract for deed arrangement." },
+      { "answer": "The sale price will be paid through a contract for deed, with the buyer taking possession of the property while paying over time." },
+      { "answer": "The buyer has agreed to purchase the property through a contract for deed, with terms for the down payment and interest specified in the contract." }
+    ],
+    "page": 1,
+    "rect": {
+      "x0": 80.97154998779297,
+      "y0": 692.9808959960938,
+      "x1": 131.42221069335938,
+      "y1": 704.9808959960938
+    },
+    "value": "QuestionNumber"
+  },
+  "text_15": {
+    "question": "The date of closing shall be",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. March 15, 2023" },
+      { "answer": "2. On the last day of the fiscal year." },
+      { "answer": "3. Determined upon completion of all requirements." }
+    ],
+    "page": 1,
+    "rect": {
+      "x0": 196.8392791748047,
+      "y0": 737.9657592773438,
+      "x1": 396.7566223144531,
+      "y1": 749.9657592773438
+    },
+    "value": "ClosingDate"
+  },
+  "text_16": {
+    "question": "Page 2 Date",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. February 10, 2022" },
+      { "answer": "2. March 15, 2000" },
+      { "answer": "3. July 26, 1980" }
+    ],
+    "page": 2,
+    "rect": {
+      "x0": 419.7029113769531,
+      "y0": 50.76202392578125,
+      "x1": 575.8012084960938,
+      "y1": 62.76202392578125
+    },
+    "value": "Page2Date"
+  },
+  "text_17": {
+    "question": "Property located at",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. 123 Main Street, New York City, NY" },
+      { "answer": "2. Suite 200, 456 Broadway Avenue, Los Angeles, CA" },
+      { "answer": "3. 789 Park Blvd, Vancouver, BC" }
+    ],
+    "page": 2,
+    "rect": {
+      "x0": 151.15292358398438,
+      "y0": 68.77313232421875,
+      "x1": 572.1200561523438,
+      "y1": 80.77313232421875
+    },
+    "value": "PropertyLocation"
+  },
+  "text_18": {
+    "question": "OTHER",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. Miscellaneous" },
+      { "answer": "2. Various" },
+      { "answer": "3. Different" }
+    ],
+    "page": 2,
+    "rect": {
+      "x0": 114.3419189453125,
+      "y0": 266.45281982421875,
+      "x1": 575.8896484375,
+      "y1": 278.45281982421875
+    },
+    "value": "OtherDetails"
+  },
+  "text_19": {
+    "question": "initial interest rate at no more than",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. 5%" },
+      { "answer": "2. 10%" },
+      { "answer": "3. 3%" }
+    ],
+    "page": 2,
+    "rect": {
+      "x0": 342.1994934082031,
+      "y0": 302.461181640625,
+      "x1": 397.4183349609375,
+      "y1": 314.461181640625
+    },
+    "value": "InterestRateLimit"
+  },
+  "text_20": {
+    "question": "Buyer shall provide Seller, or licensee or assisting Seller, with the Written Statement, On or before",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. This seems to be an incomplete sentence could you provide more information?" },
+      { "answer": "2. Sorry, the question seems unclear. Could you rephrase it?" },
+      { "answer": "3. This statement seems to be missing some information, could you provide more details?" }
+    ],
+    "page": 2,
+    "rect": {
+      "x0": 124.1116943359375,
+      "y0": 510.8353271484375,
+      "x1": 351.543701171875,
+      "y1": 522.8353271484375
+    },
+    "value": "BeforeOrAfter78"
+  },
+  "text_21": {
+    "question": "Page 3 Date",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. September 12, 2021" },
+      { "answer": "2. March 15, 2002" },
+      { "answer": "3. June 30, 1990" }
+    ],
+    "page": 3,
+    "rect": {
+      "x0": 419.7029113769531,
+      "y0": 50.76202392578125,
+      "x1": 575.8012084960938,
+      "y1": 62.76202392578125
+    },
+    "value": "page3Date"
+  },
+  "text_22": {
+    "question": "Property located at",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. 123 Main Street, Los Angeles, California" },
+      { "answer": "2. 455 Elm Avenue, Austin, Texas" },
+      { "answer": "3. Apartment 14B, Sky High Tower, New York City, New York" }
+    ],
+    "page": 3,
+    "rect": {
+      "x0": 151.15292358398438,
+      "y0": 68.77313232421875,
+      "x1": 572.1200561523438,
+      "y1": 80.77313232421875
+    },
+    "value": "PropertyLocation"
+  },
+  "text_23": {
+    "question": "Seller agrees to pay up to $",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. 1000" },
+      { "answer": "2. 500" },
+      { "answer": "3. 2000" }
+    ],
+    "page": 3,
+    "rect": {
+      "x0": 378.401611328125,
+      "y0": 446.2079772949219,
+      "x1": 538.5833740234375,
+      "y1": 458.2079772949219
+    },
+    "value": "SellerAgreedPaymentAmount"
+  },
+  "text_24": {
+    "question": "appraised value of the Property of the Property as not less than $",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. $500,000" },
+      { "answer": "2. $1,000,000" },
+      { "answer": "3. $750,000" }
+    ],
+    "page": 3,
+    "rect": {
+      "x0": 287.2513427734375,
+      "y0": 658.5823364257812,
+      "x1": 474.35546875,
+      "y1": 670.5823364257812
+    },
+    "value": "PropertyNotLessThanValue"
+  },
+  "text_25": {
+    "question": "Page 4 Date",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. March 17, 2022" },
+      { "answer": "2. Yesterday" },
+      { "answer": "3. Not available" }
+    ],
+    "page": 4,
+    "rect": {
+      "x0": 419.7029113769531,
+      "y0": 50.76202392578125,
+      "x1": 575.8012084960938,
+      "y1": 62.76202392578125
+    },
+    "value": "Page4Date"
+  },
+  "text_26": {
+    "question": "Property located at",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. 138 Main Street, New York City, NY." },
+      { "answer": "2. 138 Highroad Avenue, Los Angeles, CA." },
+      { "answer": "3. 138 Lakeside Drive, Seattle, WA." }
+    ],
+    "page": 4,
+    "rect": {
+      "x0": 151.15292358398438,
+      "y0": 68.77313232421875,
+      "x1": 572.1200561523438,
+      "y1": 80.77313232421875
+    },
+    "value": "PropertyLocationAddress"
+  },
+  "text_27": {
+    "question": "Miscellaneous processing fees which cannot be charged to Buyer, not to exceed $",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "The processing fees will be covered by the seller, and no charges will be passed on to the buyer." },
+      { "answer": "These fees are capped and should not exceed the specified amount, as per the agreement." },
+      { "answer": "The buyer will not be responsible for any miscellaneous processing fees beyond the agreed-upon amount." }
+    ],
+    "page": 4,
+    "rect": {
+      "x0": 431.6048889160156,
+      "y0": 106.78192138671875,
+      "x1": 570.5582275390625,
+      "y1": 118.78192138671875
+    },
+    "value": "InvalidQuestion"
+  },
+  "text_28": {
+    "question": "Amount must be paid at the closing of this transaction paid by Buyer",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "The total amount owed by the buyer will be confirmed at the closing, including any fees and adjustments." },
+      { "answer": "The buyer's payment at closing will include the sale price, less any deposit or credits applied." },
+      { "answer": "The buyer must pay the full purchase price at closing, in addition to any agreed-upon processing or miscellaneous fees." }
+    ],
+    "page": 4,
+    "rect": {
+      "x0": 62.995975494384766,
+      "y0": 168.78790283203125,
+      "x1": 242.98446655273438,
+      "y1": 180.78790283203125
+    },
+    "value": "explainDetails"
+  },
+  "text_29": {
+    "question": "Amount must be paid at the closing of this transaction paid by Seller",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "The seller is responsible for paying certain closing costs, including commissions and prorated taxes." },
+      { "answer": "At the closing, the seller must pay any remaining costs or obligations agreed upon in the contract." },
+      { "answer": "The seller's payment at closing may include fees for repairs, adjustments, or other conditions specified in the sale agreement." }
+    ],
+    "page": 4,
+    "rect": {
+      "x0": 62.992958068847656,
+      "y0": 189.21484375,
+      "x1": 242.97283935546875,
+      "y1": 201.21484375
+    },
+    "value": "explainDetails"
+  },
+  "text_30": {
+    "question": "Fill OTHER MORTGAGE FINANCING ITEMS:",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. Home appraisal, credit report, and mortgage insurance." },
+      { "answer": "2. Down payment, interest rate, and loan term." },
+      { "answer": "3. Origination fee, property taxes, and private mortgage insurance." }
+    ],
+    "page": 4,
+    "rect": {
+      "x0": 256.3160400390625,
+      "y0": 333.20587158203125,
+      "x1": 575.9264526367188,
+      "y1": 345.20587158203125
+    },
+    "value": "MortgageFinancingItems"
+  },
+  "text_31": {
+    "question": "Seller agrees to pay at closing if IS $",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. $500,000" },
+      { "answer": "2. $1,000,000" },
+      { "answer": "3. $750,000" }
+    ],
+    "page": 4,
+    "rect": {
+      "x0": 85.30708312988281,
+      "y0": 416.6242370605469,
+      "x1": 216.67404174804688,
+      "y1": 428.6242370605469
+    },
+    "value": "pricedetails"
+  },
+  "text_32": {
+    "question": "percent of the sale price for seller's contribution to buyer's costs",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "The seller's contribution to the buyer's costs is typically negotiated and is a percentage of the sale price, often ranging from 2% to 5%." },
+      { "answer": "Seller contributions can vary based on the agreement but are generally calculated as a percentage of the sale price, typically not exceeding a certain percentage." },
+      { "answer": "The percentage contribution from the seller towards the buyer’s closing costs is agreed upon during negotiations and may depend on market conditions and the terms of the sale." }
+    ],
+    "page": 4,
+    "rect": {
+      "x0": 76.96636199951172,
+      "y0": 434.63153076171875,
+      "x1": 132.18313598632812,
+      "y1": 446.63153076171875
+    },
+    "value": "explainDetails"
+  },
+  "text_33": {
+    "question": "Page 5 Date",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. October 10, 2021" },
+      { "answer": "2. July 16, 2005" },
+      { "answer": "3. March 25, 1998" }
+    ],
+    "page": 5,
+    "rect": {
+      "x0": 419.7029113769531,
+      "y0": 50.76202392578125,
+      "x1": 575.8012084960938,
+      "y1": 62.76202392578125
+    },
+    "value": "PageFiveDate"
+  },
+  "text_34": {
+    "question": "Property located at",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. 182 Main Street, Los Angeles, CA" },
+      { "answer": "2. 182 North Hampton Drive, Houston, TX" },
+      { "answer": "3. 182 Park Avenue, New York, NY" }
+    ],
+    "page": 5,
+    "rect": {
+      "x0": 151.15292358398438,
+      "y0": 68.77313232421875,
+      "x1": 572.1200561523438,
+      "y1": 80.77313232421875
+    },
+    "value": "PropertyLocationAddress"
+  },
+  "text_35": {
+    "question": "OTHER INSPECTION ITEMS:",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. Structural Integrity of the Building." },
+      { "answer": "2. Electrical and Plumbing Systems." },
+      { "answer": "3. HVAC System Performance." }
+    ],
+    "page": 5,
+    "rect": {
+      "x0": 200.9365234375,
+      "y0": 234.78533935546875,
+      "x1": 575.9631958007812,
+      "y1": 246.78533935546875
+    },
+    "value": "OtherInspectionItems"
+  },
+  "text_36": {
+    "question": "This Purchase Agreement is contingent upon the successful closing on the Buyer's property located at",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "The address of the Buyer's property where the successful closing must occur." },
+      { "answer": "The location where the closing of the Buyer's property is scheduled to take place." },
+      { "answer": "The physical address of the property involved in this transaction." }
+    ],
+    "page": 5,
+    "rect": {
+      "x0": 98.95564270019531,
+      "y0": 395.922607421875,
+      "x1": 432.526123046875,
+      "y1": 407.922607421875
+    },
+    "value": "explainDetails"
+  },
+  "text_37": {
+    "question": "This Purchase Agreement is contingent upon the successful closing on the Buyer's property scheduled to",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "The specific date when the Buyer's property is expected to close." },
+      { "answer": "The date that the closing of the Buyer's property is set to happen." },
+      { "answer": "The time frame specified for the closing of the Buyer's property." }
+    ],
+    "page": 5,
+    "rect": {
+      "x0": 98.94692993164062,
+      "y0": 413.94677734375,
+      "x1": 305.8359680175781,
+      "y1": 425.94677734375
+    },
+    "value": "explainDetails"
+  },
+  "text_38": {
+    "question": "Page 6 Date",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. March 15, 2021" },
+      { "answer": "2. 10/12/2020" },
+      { "answer": "3. January 1, 2022" }
+    ],
+    "page": 6,
+    "rect": {
+      "x0": 419.7029113769531,
+      "y0": 50.76202392578125,
+      "x1": 575.8012084960938,
+      "y1": 62.76202392578125
+    },
+    "value": "Page6Date"
+  },
+  "text_39": {
+    "question": "Property located at",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. 225 Main Street, New York, NY." },
+      { "answer": "2. 225 Park Avenue, Los Angeles, CA." },
+      { "answer": "3. 225 Cherry Lane, Chicago, IL." }
+    ],
+    "page": 6,
+    "rect": {
+      "x0": 151.15292358398438,
+      "y0": 68.77313232421875,
+      "x1": 572.1200561523438,
+      "y1": 80.77313232421875
+    },
+    "value": "PropertyLocationAddress"
+  },
+  "text_40": {
+    "question": "cancellation of a previously executed purchase agreement dated",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "The cancellation of the purchase agreement should specify the exact date of the original agreement." },
+      { "answer": "The agreement may be canceled if both parties agree, and the date of cancellation will be noted." },
+      { "answer": "The exact date of the previously executed purchase agreement should be provided for reference in the cancellation." }
+    ],
+    "page": 6,
+    "rect": {
+      "x0": 367.1720275878906,
+      "y0": 502.916748046875,
+      "x1": 568.8461303710938,
+      "y1": 514.916748046875
+    },
+    "value": "InvalidQuestionFormat"
+  },
+  "text_41": {
+    "question": "if answer is IS said cancellation shall be obtained no later than",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. The end of the next business day." },
+      { "answer": "2. Wednesday of next week." },
+      { "answer": "3. Within 30 days from receipt of the letter." }
+    ],
+    "page": 6,
+    "rect": {
+      "x0": 367.2021484375,
+      "y0": 520.9166259765625,
+      "x1": 568.8729858398438,
+      "y1": 532.9166259765625
+    },
+    "value": "ObtainedNoLaterThan"
+  },
+  "text_42": {
+    "question": "OTHER rather than warranty deed, personal representative's deed, contract for deed or trustee's deed:",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "select other option as per your better need" }
+    ],
+    "page": 6,
+    "rect": {
+      "x0": 117.21561431884766,
+      "y0": 606.9111328125,
+      "x1": 259.74713134765625,
+      "y1": 618.9111328125
+    },
+    "value": "OtherDetails"
+  },
+  "text_43": {
+    "question": "right of tenants as follows (unless specified, not subject to tenancies)",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "The tenant’s rights are not subject to the tenancy unless specifically stated in the agreement." },
+      { "answer": "Unless otherwise specified, tenants have no claim over the property once the agreement terms are fulfilled." },
+      { "answer": "Tenant rights are subject to the tenancy agreement unless exceptions are noted in writing." }
+    ],
+    "page": 6,
+    "rect": {
+      "x0": 406.3171081542969,
+      "y0": 670.8907470703125,
+      "x1": 575.7884521484375,
+      "y1": 682.8907470703125
+    },
+    "value": "UnableToTranslateText"
+  },
+  "text_44": {
+    "question": "right of tenants as follows (must be specified in writing)",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "Any rights of tenants must be clearly defined in writing within the lease agreement." },
+      { "answer": "The tenant's rights regarding property use and other terms should be explicitly mentioned in the lease agreement." },
+      { "answer": "The lease agreement must specify the rights of tenants in writing to ensure clarity." }
+    ],
+    "page": 6,
+    "rect": {
+      "x0": 261.25567626953125,
+      "y0": 706.8798217773438,
+      "x1": 575.7700805664062,
+      "y1": 718.8798217773438
+    },
+    "value": "NotInterpretableText"
+  },
+  "text_45": {
+    "question": "Page 7 Date",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. September 10, 2021" },
+      { "answer": "2. July 25, 2020" },
+      { "answer": "3. April 15, 2019" }
+    ],
+    "page": 7,
+    "rect": {
+      "x0": 419.7029113769531,
+      "y0": 50.76202392578125,
+      "x1": 575.8012084960938,
+      "y1": 62.76202392578125
+    },
+    "value": "Page7Date"
+  },
+  "text_46": {
+    "question": "Property located at",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. 269 Park Avenue, New York, NY" },
+      { "answer": "2. 269 High Street, Los Angeles, CA" },
+      { "answer": "3. 269 Cherry Lane, Chicago, IL" }
+    ],
+    "page": 7,
+    "rect": {
+      "x0": 151.15292358398438,
+      "y0": 68.77313232421875,
+      "x1": 572.1200561523438,
+      "y1": 80.77313232421875
+    },
+    "value": "PropertyLocationAddress"
+  },
+  "text_47": {
+    "question": "Seller shall deliver possession of the property (immediately after closing) or OTHER:",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "Fill other details" }
+    ],
+    "page": 7,
+    "rect": {
+      "x0": 118.08568572998047,
+      "y0": 118.008056640625,
+      "x1": 569.4865112304688,
+      "y1": 130.008056640625
+    },
+    "value": "OtherDetails"
+  },
+  "text_48": {
+    "question": "Page 8 Date",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. September 12, 2022" },
+      { "answer": "2. July 5, 2021" },
+      { "answer": "3. March 14, 2023" }
+    ],
+    "page": 8,
+    "rect": {
+      "x0": 419.7029113769531,
+      "y0": 50.76202392578125,
+      "x1": 575.8012084960938,
+      "y1": 62.76202392578125
+    },
+    "value": "Page8Date"
+  },
+  "text_49": {
+    "question": "Property located at",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. 322 Main Street, Los Angeles, California." },
+      { "answer": "2. 322 Park Avenue, New York, New York." },
+      { "answer": "3. 322 Lakeside Drive, Chicago, Illinois." }
+    ],
+    "page": 8,
+    "rect": {
+      "x0": 151.15292358398438,
+      "y0": 68.77313232421875,
+      "x1": 572.1200561523438,
+      "y1": 80.77313232421875
+    },
+    "value": "PropertyLocationAddress"
+  },
+  "text_50": {
+    "question": "Page 9 Date",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. March 22, 2020" },
+      { "answer": "2. June 15, 2021" },
+      { "answer": "3. September 10, 2019" }
+    ],
+    "page": 9,
+    "rect": {
+      "x0": 419.7029113769531,
+      "y0": 50.76202392578125,
+      "x1": 575.8012084960938,
+      "y1": 62.76202392578125
+    },
+    "value": "Page9Date"
+  },
+  "text_51": {
+    "question": "Property located at",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. 123 Main Street, Los Angeles, CA, 90001" },
+      { "answer": "2. 373 Broadway, New York, NY, 10013" },
+      { "answer": "3. 729 Park Avenue, Chicago, IL, 60611" }
+    ],
+    "page": 9,
+    "rect": {
+      "x0": 151.15292358398438,
+      "y0": 68.77313232421875,
+      "x1": 572.1200561523438,
+      "y1": 80.77313232421875
+    },
+    "value": "PropertyLocationAddress"
+  },
+  "text_52": {
+    "question": "394. SELLER to be issued by",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. A sales license." },
+      { "answer": "2. A selling permit." },
+      { "answer": "3. An invoice for the sale." }
+    ],
+    "page": 9,
+    "rect": {
+      "x0": 269.9223937988281,
+      "y0": 435.449462890625,
+      "x1": 575.8344116210938,
+      "y1": 447.449462890625
+    },
+    "value": "SellerToBeIssuedBy"
+  },
+  "text_53": {
+    "question": "At a cost not to exceed $",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "The cost should not exceed the agreed-upon amount, as stated in the contract." },
+      { "answer": "The maximum allowable cost for the specified service or item is capped at the given amount." },
+      { "answer": "The total cost, including any fees or expenses, should not go beyond the specified maximum limit." }
+    ],
+    "page": 9,
+    "rect": {
+      "x0": 195.03919982910156,
+      "y0": 461.8469543457031,
+      "x1": 338.503662109375,
+      "y1": 473.8469543457031
+    },
+    "value": "invalidQuestionFormat"
+  },
+  "text_54": {
+    "question": "399. Licensee",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "1. Fill Licensee details here" }
+    ],
+    "page": 9,
+    "rect": {
+      "x0": 63.0201416015625,
+      "y0": 535.8314819335938,
+      "x1": 252.2441864013672,
+      "y1": 547.8314819335938
+    },
+    "value": "explainDetails"
+  },
+  "text_55": {
+    "question": "400. Real Estate Company Name",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "Fill Real Estate Company Name" }
+    ],
+    "page": 9,
+    "rect": {
+      "x0": 63.015106201171875,
+      "y0": 564.2396240234375,
+      "x1": 252.2240447998047,
+      "y1": 576.2396240234375
+    },
+    "value": "explainDetails"
+  },
+  "text_56": {
+    "question": "401. Licensee",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "fill Licensee details" }
+    ],
+    "page": 9,
+    "rect": {
+      "x0": 63.014102935791016,
+      "y0": 592.6314697265625,
+      "x1": 252.2200164794922,
+      "y1": 604.6314697265625
+    },
+    "value": "explainDetails"
+  },
+  "text_57": {
+    "question": "Real Estate Company Name",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "Fill the Real Estate company name" }
+    ],
+    "page": 9,
+    "rect": {
+      "x0": 63.009071350097656,
+      "y0": 621.0316162109375,
+      "x1": 252.19989013671875,
+      "y1": 633.0316162109375
+    },
+    "value": "explainDetails"
+  },
+  "text_58": {
+    "question": "404. Page 10 Date",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "September 15, 2022" },
+      { "answer": "January 10, 2021" },
+      { "answer": "April 12, 2023" }
+    ],
+    "page": 10,
+    "rect": {
+      "x0": 419.7029113769531,
+      "y0": 50.76202392578125,
+      "x1": 575.8012084960938,
+      "y1": 62.76202392578125
+    },
+    "value": "pageTenDate"
+  },
+  "text_59": {
+    "question": "405. Property located at",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "405 East Main Street, Springfield, Oregon." },
+      { "answer": "405 Lakeside Avenue, Boston, Massachusetts." },
+      { "answer": "405 Victoria Square, Los Angeles, California." }
+    ],
+    "page": 10,
+    "rect": {
+      "x0": 151.15292358398438,
+      "y0": 68.77313232421875,
+      "x1": 572.1200561523438,
+      "y1": 80.77313232421875
+    },
+    "value": "PropertyLocationAddress"
+  },
+  "text_60": {
+    "question": "423. Seller",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "An individual or company that sells goods or services." },
+      { "answer": "A person listing a property or item for sale in a real estate transaction or marketplace." },
+      { "answer": "A character in Arthur Miller's play 'Death of a Salesman'." }
+    ],
+    "page": 10,
+    "rect": {
+      "x0": 90.7624282836914,
+      "y0": 350.78466796875,
+      "x1": 294.1445007324219,
+      "y1": 362.78466796875
+    },
+    "value": "SellerDetails"
+  },
+  "text_61": {
+    "question": "Buyer",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "A person who purchases goods or services." },
+      { "answer": "The role in a transaction where someone is purchasing something." },
+      { "answer": "An individual or company that acquires goods for resale." }
+    ],
+    "page": 10,
+    "rect": {
+      "x0": 359.47833251953125,
+      "y0": 350.7915344238281,
+      "x1": 575.94482421875,
+      "y1": 362.7915344238281
+    },
+    "value": "BuyerName"
+  },
+  "text_62": {
+    "question": "424. Seller",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "A person who sells goods or services." },
+      { "answer": "An Amazon online merchant." },
+      { "answer": "A real estate agent." }
+    ],
+    "page": 10,
+    "rect": {
+      "x0": 90.75953674316406,
+      "y0": 374.7956848144531,
+      "x1": 294.1351013183594,
+      "y1": 386.7956848144531
+    },
+    "value": "SellerDetails"
+  },
+  "text_63": {
+    "question": "Buyer",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "A person who purchases goods or services for personal use or ownership." },
+      { "answer": "The individual or organization that acquires property or services in a legal agreement." },
+      { "answer": "The entity in a financial transaction that provides payment in exchange for the goods or services being purchased." }
+    ],
+    "page": 10,
+    "rect": {
+      "x0": 359.46685791015625,
+      "y0": 374.8021545410156,
+      "x1": 575.9264526367188,
+      "y1": 386.8021545410156
+    },
+    "value": "BuyerInfo"
+  },
+  "text_64": {
+    "question": "425. Date",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "February 2, 2023" },
+      { "answer": "October 25, 1994" },
+      { "answer": "April 25, 2021" }
+    ],
+    "page": 10,
+    "rect": {
+      "x0": 86.69689178466797,
+      "y0": 398.8052062988281,
+      "x1": 293.4945983886719,
+      "y1": 410.8052062988281
+    },
+    "value": "DateField"
+  },
+  "text_65": {
+    "question": "Date",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "April 10, 2022" },
+      { "answer": "November 30, 1985" },
+      { "answer": "July 15, 1999" }
+    ],
+    "page": 10,
+    "rect": {
+      "x0": 356.65264892578125,
+      "y0": 398.811279296875,
+      "x1": 575.7184448242188,
+      "y1": 410.811279296875
+    },
+    "value": "DateField"
+  },
+  "text_66": {
+    "question": "445. Page 11 Date",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "March 15, 2021" },
+      { "answer": "January 7, 2020" },
+      { "answer": "December 25, 2022" }
+    ],
+    "page": 11,
+    "rect": {
+      "x0": 419.7029113769531,
+      "y0": 50.76202392578125,
+      "x1": 575.8012084960938,
+      "y1": 62.76202392578125
+    },
+    "value": "Page11Date"
+  },
+  "text_67": {
+    "question": "446. Property located at",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "446 Property St, Brooklyn, NY 11231" },
+      { "answer": "446 Property Ave, Los Angeles, CA 90010" },
+      { "answer": "446 Property Drive, Chicago, IL 60647" }
+    ],
+    "page": 11,
+    "rect": {
+      "x0": 151.15292358398438,
+      "y0": 74.77294921875,
+      "x1": 572.1200561523438,
+      "y1": 86.77294921875
+    },
+    "value": "buyerSignature"
+  },
+  "text_68": {
+    "question": "461. OTHER AGREEMENT",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "Fill other details for agreement" }
+    ],
+    "page": 11,
+    "rect": {
+      "x0": 103.30472564697266,
+      "y0": 306.7731628417969,
+      "x1": 575.9723510742188,
+      "y1": 318.7731628417969
+    },
+    "value": "OtherDetails"
+  },
+  "text_69": {
+    "question": "488. Other addendum agreement:",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "fill other details for addendum agreement" }
+    ],
+    "page": 11,
+    "rect": {
+      "x0": 111.27305603027344,
+      "y0": 732.8767700195312,
+      "x1": 574.4669799804688,
+      "y1": 744.8767700195312
+    },
+    "value": "otherDetails"
+  },
+  "text_70": {
+    "question": "489. Page 12 Date",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "September 30th, 2020" },
+      { "answer": "July 17th, 2019" },
+      { "answer": "January 6th, 2021" }
+    ],
+    "page": 12,
+    "rect": {
+      "x0": 419.7029113769531,
+      "y0": 50.76202392578125,
+      "x1": 575.8012084960938,
+      "y1": 62.76202392578125
+    },
+    "value": "Page12Date"
+  },
+  "text_71": {
+    "question": "490. Property located at",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "490 Main Street, Boston, MA." },
+      { "answer": "490 Maple Drive, Chicago, IL." },
+      { "answer": "490 Park Avenue, New York City, NY." }
+    ],
+    "page": 12,
+    "rect": {
+      "x0": 151.15292358398438,
+      "y0": 74.77294921875,
+      "x1": 572.1200561523438,
+      "y1": 86.77294921875
+    },
+    "value": "PropertyLocationAddress"
+  },
+  "text_72": {
+    "question": "506. X Seller's Signature & Date",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "Fill the current Signature & DATE filed" }
+    ],
+    "page": 12,
+    "rect": {
+      "x0": 72.4411392211914,
+      "y0": 312.3999938964844,
+      "x1": 306.41943359375,
+      "y1": 324.3999938964844
+    },
+    "value": "SellerDate"
+  },
+  "text_73": {
+    "question": "X Buyer's Signature & Date",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "Fill the current Signature & DATE filed" }
+    ],
+    "page": 12,
+    "rect": {
+      "x0": 341.9617614746094,
+      "y0": 312.407470703125,
+      "x1": 575.9356079101562,
+      "y1": 324.407470703125
+    },
+    "value": "BuyerDate"
+  },
+  "text_74": {
+    "question": "507. X Seller'S Printed Name",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "Fill correct Printed name" }
+    ],
+    "page": 12,
+    "rect": {
+      "x0": 72.43882751464844,
+      "y0": 350.8100280761719,
+      "x1": 306.40966796875,
+      "y1": 362.8100280761719
+    },
+    "value": "SellerPrintedName"
+  },
+  "text_75": {
+    "question": "X Buyer's Printed Name",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "Fill correct Printed name" }
+    ],
+    "page": 12,
+    "rect": {
+      "x0": 342.3995666503906,
+      "y0": 350.81689453125,
+      "x1": 575.914794921875,
+      "y1": 362.81689453125
+    },
+    "value": "BuyerPrintedName"
+  },
+  "text_76": {
+    "question": "508. X Seller's Signature & Date",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "Fill the current Signature & DATE filed" }
+    ],
+    "page": 12,
+    "rect": {
+      "x0": 72.43650817871094,
+      "y0": 389.2176208496094,
+      "x1": 306.39984130859375,
+      "y1": 401.2176208496094
+    },
+    "value": "SellerSignatureDate"
+  },
+  "text_77": {
+    "question": "X Buyer's Signature & Date",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "Fill the current Signature & DATE filed" }
+    ],
+    "page": 12,
+    "rect": {
+      "x0": 341.9399108886719,
+      "y0": 389.2238464355469,
+      "x1": 575.8988037109375,
+      "y1": 401.2238464355469
+    },
+    "value": "BuyerSignatureDate"
+  },
+  "text_78": {
+    "question": "509. X Seller'S Printed Name",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "Fill correct Printed name" }
+    ],
+    "page": 12,
+    "rect": {
+      "x0": 71.9862060546875,
+      "y0": 427.62274169921875,
+      "x1": 305.9413757324219,
+      "y1": 439.62274169921875
+    },
+    "value": "QuestionX509"
+  },
+  "text_79": {
+    "question": "X Buyer'S Printed Name",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "Fill correct Printed name" }
+    ],
+    "page": 12,
+    "rect": {
+      "x0": 342.380126953125,
+      "y0": 427.62835693359375,
+      "x1": 575.8804321289062,
+      "y1": 439.62835693359375
+    },
+    "value": "QuestionX"
+  },
+  "text_80": {
+    "question": "510. FINAL ACCEPTANCE DATE:",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "September 30, 2022" },
+      { "answer": "January 15, 2023" },
+      { "answer": "December 20, 2022" }
+    ],
+    "page": 12,
+    "rect": {
+      "x0": 198.7130126953125,
+      "y0": 460.0267333984375,
+      "x1": 450.65765380859375,
+      "y1": 472.0267333984375
+    },
+    "value": "finalAcceptanceDate"
+  },
+  "text_81": {
+    "question": "AN OPTIONAL, VOLUNTARY AGREEMENT SEPARATE(SELLER(S))",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "this is optional agreement filed, you can fill" }
+    ],
+    "page": 12,
+    "rect": {
+      "x0": 118.15849304199219,
+      "y0": 584.0017700195312,
+      "x1": 305.5547790527344,
+      "y1": 596.0017700195312
+    },
+    "value": "AGREEMENTSEPARATESELLER"
+  },
+  "text_82": {
+    "question": "AN OPTIONAL, VOLUNTARY AGREEMENT SEPARATE(BUYER(S))",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "this is optional agreement filed, you can fill" }
+    ],
+    "page": 12,
+    "rect": {
+      "x0": 383.6451721191406,
+      "y0": 584.0048828125,
+      "x1": 575.5864868164062,
+      "y1": 596.0048828125
+    },
+    "value": "AGREEMENTSEPARATEBUYER"
+  },
+  "text_83": {
+    "question": "518 'AN OPTIONAL, VOLUNTARY AGREEMENT SEPARATE(SELLER(S))' ",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "this is optional agreement filed, you can fill" }
+    ],
+    "page": 12,
+    "rect": {
+      "x0": 118.15471649169922,
+      "y0": 611.999755859375,
+      "x1": 305.5450134277344,
+      "y1": 623.999755859375
+    },
+    "value": "AGREEMENTSEPARATESELLER"
+  },
+  "text_84": {
+    "question": "AN OPTIONAL, VOLUNTARY AGREEMENT SEPARATE(BUYER(S))",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "this is optional agreement filed, you can fill" }
+    ],
+    "page": 12,
+    "rect": {
+      "x0": 383.6329040527344,
+      "y0": 612.00244140625,
+      "x1": 575.568115234375,
+      "y1": 624.00244140625
+    },
+    "value": "AGREEMENTSEPARATEBUYER"
+  },
+  "text_85": {
+    "question": "Signature and Date for Acknowledge",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "Please fill the signature and date here" }
+    ],
+    "page": 13,
+    "rect": {
+      "x0": 35.99942398071289,
+      "y0": 649.2620849609375,
+      "x1": 287.9953918457031,
+      "y1": 661.2620849609375
+    },
+    "value": "SignatureDateAcknowledge"
+  },
+  "text_86": {
+    "question": "Signature and Date for Acknowledge",
+    "type": "text",
+    "possible_answers": [
+      { "answer": "Please fill the signature and date here" }
+    ],
+    "page": 13,
+    "rect": {
+      "x0": 323.9896240234375,
+      "y0": 649.26416015625,
+      "x1": 575.9815673828125,
+      "y1": 661.26416015625
+    },
+    "value": "SignatureDateAcknowledge"
+  }
+}

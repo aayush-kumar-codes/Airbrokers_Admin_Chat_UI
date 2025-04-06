@@ -1,0 +1,430 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-22T15:51:42.903188",
+    "filename": "form-710-8_1.pdf",
+    "document_title": "EXCLUSIVE RIGHT TO SELL LISTING AGREEMENT",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 31,
+    "fields_by_type": {
+      "text": 31
+    },
+    "fields_by_page": {
+      "1": 31
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "By: Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 410.4,
+        "y0": 691.0477698237885,
+        "x1": 538.56,
+        "y1": 701.8453912272852
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "By:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 37.44,
+        "y0": 689.9680076834388,
+        "x1": 386.28,
+        "y1": 700.7656290869355
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Firm (Firm Name):",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 99.72,
+        "y0": 666.9330820226459,
+        "x1": 539.64,
+        "y1": 677.7307034261426
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 20.52,
+        "y0": 643.8981563618529,
+        "x1": 538.92,
+        "y1": 654.6957777653496
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "Name: Title,",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 406.8,
+        "y0": 620.86323070106,
+        "x1": 541.4399999999999,
+        "y1": 631.6608521045567
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Name:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 50.76,
+        "y0": 620.86323070106,
+        "x1": 384.84,
+        "y1": 631.6608521045567
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "By: Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 409.68,
+        "y0": 598.9080671806167,
+        "x1": 536.04,
+        "y1": 609.7056885841134
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "By:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 37.44,
+        "y0": 597.8283050402671,
+        "x1": 385.56,
+        "y1": 608.6259264437638
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "Entity Client:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 77.75999999999999,
+        "y0": 562.9159958356278,
+        "x1": 540.72,
+        "y1": 573.7136172391245
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 20.52,
+        "y0": 540.9608323151845,
+        "x1": 539.28,
+        "y1": 551.7584537186812
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "Client:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 50.76,
+        "y0": 519.0056687947412,
+        "x1": 383.4,
+        "y1": 529.8032901982378
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "Client: Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 407.52,
+        "y0": 517.9259066543915,
+        "x1": 540.72,
+        "y1": 528.7235280578882
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "Client:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 50.76,
+        "y0": 494.89098099359853,
+        "x1": 383.4,
+        "y1": 505.6886023970952
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 56.519999999999996,
+        "y0": 408.1500890521751,
+        "x1": 534.6,
+        "y1": 418.94771045567177
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 56.519999999999996,
+        "y0": 375.0373834147852,
+        "x1": 534.6,
+        "y1": 385.8350048182819
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 56.519999999999996,
+        "y0": 357.0413477422907,
+        "x1": 533.52,
+        "y1": 367.8389691457874
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "e Other amendments:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 133.56,
+        "y0": 339.04531206979624,
+        "x1": 532.4399999999999,
+        "y1": 349.84293347329293
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "e Price shall be changed from $ to $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 349.56,
+        "y0": 316.0103864090033,
+        "x1": 532.4399999999999,
+        "y1": 326.80800781249997
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "e Price shall be changed from",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 170.64,
+        "y0": 316.0103864090033,
+        "x1": 333.36,
+        "y1": 326.80800781249997
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "e Renewed and extended until 11:59 p.m.,",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 221.76,
+        "y0": 268.86077294706774,
+        "x1": 358.2,
+        "y1": 279.65839435056444
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "Property A ddress/MLS# (if applicable):",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 182.51999999999998,
+        "y0": 223.1508423389317,
+        "x1": 540.72,
+        "y1": 233.9484637424284
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 28.439999999999998,
+        "y0": 191.1178988418915,
+        "x1": 525.96,
+        "y1": 201.9155202453882
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "O NCAR Form #601 (Exclusive Right to Sell Listing A greement-A uction Sales) dated",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 441.71999999999997,
+        "y0": 179.96035672494492,
+        "x1": 518.76,
+        "y1": 190.7579781284416
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "O NCAR Form #60 (Exclusive Tenant Representation A greement) dated",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 441.71999999999997,
+        "y0": 169.16273532144822,
+        "x1": 518.76,
+        "y1": 179.96035672494492
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_24": {
+      "question": "O NCAR Form #05 (Exclusive Right to A dvertise/Lease A greement) dated",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 441.71999999999997,
+        "y0": 155.8456689238023,
+        "x1": 519.12,
+        "y1": 166.643290327299
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_25": {
+      "question": "O NCAR Form #203 (Non-Exclusive Buyer A gency Agreement) dated",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 441.71999999999997,
+        "y0": 146.1278096606553,
+        "x1": 517.68,
+        "y1": 156.92543106415198
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_26": {
+      "question": "O NCAR Form #201 (Exclusive Buyer A gency Agreement) dated",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 441.71999999999997,
+        "y0": 133.17066397645925,
+        "x1": 519.84,
+        "y1": 143.96828537995594
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_27": {
+      "question": "O NCAR Form #103 (Exclusive Right to Sell Listing A greement \u2014 Vacant Lot/Land) dated",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 441.71999999999997,
+        "y0": 122.01312185951267,
+        "x1": 519.12,
+        "y1": 132.81074326300936
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_28": {
+      "question": "O NCAR Form #101 (Exclusive Right to Sell Listing Agreement) dated",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 440.64,
+        "y0": 111.21550045601596,
+        "x1": 520.92,
+        "y1": 122.01312185951267
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_29": {
+      "question": "Real Estate Firm:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 92.52,
+        "y0": 53.268265590583695,
+        "x1": 509.4,
+        "y1": 64.06588699408039
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_30": {
+      "question": "Client:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 51.48,
+        "y0": 30.95318135669053,
+        "x1": 507.59999999999997,
+        "y1": 41.75080276018722
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

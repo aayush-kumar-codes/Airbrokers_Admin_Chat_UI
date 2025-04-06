@@ -1,0 +1,446 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-24T17:23:23.584922",
+    "filename": "form-770-6_1.pdf",
+    "document_title": "DISCLOSURE OF COMPENSATION, INCENTIVE, BONUS, REBATE, OR OTHER VALUABLE CONSIDERATION",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 30,
+    "fields_by_type": {
+      "checkbox": 4,
+      "text": 26
+    },
+    "fields_by_page": {
+      "1": 30
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "O Monetary: $ or. percent of sales price of Property received/to be received from",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 104.0,
+        "y0": 656.0,
+        "x1": 120.0,
+        "y1": 672.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "( Non-monetary: (describe) received/to be",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 104.0,
+        "y0": 751.0,
+        "x1": 120.0,
+        "y1": 767.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "O Other:",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 104.0,
+        "y0": 848.0,
+        "x1": 120.0,
+        "y1": 864.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "REALTOR\u00ae SeroRTUNtTy \u00a9 7/2024",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 141.0,
+        "y0": 2131.0,
+        "x1": 155.0,
+        "y1": 2144.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "Name: Title:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1250.0,
+        "y0": 1803.0,
+        "x1": 1602.0,
+        "y1": 1833.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Name:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 179.0,
+        "y0": 1801.0,
+        "x1": 1180.0,
+        "y1": 1831.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "By Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1250.0,
+        "y0": 1740.0,
+        "x1": 1602.0,
+        "y1": 1770.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "By",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 137.0,
+        "y0": 1737.0,
+        "x1": 1180.0,
+        "y1": 1767.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "Entity Client:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 256.0,
+        "y0": 1639.0,
+        "x1": 1578.0,
+        "y1": 1669.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Client: ate:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1253.0,
+        "y0": 1578.0,
+        "x1": 1610.0,
+        "y1": 1608.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "Client:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 181.0,
+        "y0": 1579.0,
+        "x1": 1186.0,
+        "y1": 1609.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "Client: Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1254.0,
+        "y0": 1514.0,
+        "x1": 1606.0,
+        "y1": 1544.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "Client:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 181.0,
+        "y0": 1512.0,
+        "x1": 1044.0,
+        "y1": 1542.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "Client Cte:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1254.0,
+        "y0": 1451.0,
+        "x1": 1611.0,
+        "y1": 1481.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "Client",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 179.0,
+        "y0": 1451.0,
+        "x1": 1182.0,
+        "y1": 1481.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "By Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1265.0,
+        "y0": 1195.0,
+        "x1": 1593.0,
+        "y1": 1225.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "By",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 147.0,
+        "y0": 1195.0,
+        "x1": 868.0,
+        "y1": 1225.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "Firm",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 156.0,
+        "y0": 1098.0,
+        "x1": 1590.0,
+        "y1": 1128.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 100.0,
+        "y0": 879.0,
+        "x1": 1390.0,
+        "y1": 909.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "O Other:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 228.0,
+        "y0": 842.0,
+        "x1": 1605.0,
+        "y1": 872.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "received from",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 267.0,
+        "y0": 795.0,
+        "x1": 990.0,
+        "y1": 825.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "received from estimated value: $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1190.0,
+        "y0": 792.0,
+        "x1": 1599.0,
+        "y1": 822.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "( Non-monetary: (describe)",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 445.0,
+        "y0": 745.0,
+        "x1": 1168.0,
+        "y1": 775.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 100.0,
+        "y0": 698.0,
+        "x1": 824.0,
+        "y1": 728.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "O Monetary: $ or. percent of sales price of Property received/to be received from",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1434.0,
+        "y0": 648.0,
+        "x1": 1591.0,
+        "y1": 678.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "O Monetary: $ or.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 615.0,
+        "y0": 648.0,
+        "x1": 734.0,
+        "y1": 678.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "O Monetary: $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 301.0,
+        "y0": 648.0,
+        "x1": 582.0,
+        "y1": 678.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "Real Estate Firm:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 292.0,
+        "y0": 331.0,
+        "x1": 1458.0,
+        "y1": 361.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_24": {
+      "question": "Buyer or Seller:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 275.0,
+        "y0": 267.0,
+        "x1": 1442.0,
+        "y1": 297.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_25": {
+      "question": "Property Address;",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 298.0,
+        "y0": 204.0,
+        "x1": 1467.0,
+        "y1": 234.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

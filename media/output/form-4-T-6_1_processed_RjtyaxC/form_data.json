@@ -1,0 +1,628 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-11T13:12:53.340254",
+    "filename": "form-4-T-6_1_processed_RjtyaxC.pdf",
+    "document_title": "",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 38,
+    "fields_by_type": {
+      "checkbox": 15,
+      "text": 23
+    },
+    "fields_by_page": {
+      "1": 15,
+      "2": 23
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 3132.0,
+        "y0": 449.0,
+        "x1": 3163.0,
+        "y1": 487.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "O) Ache! Rewer, 5 y SS SSS cet Gs eer ety) is",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 324.0,
+        "y0": 2181.0,
+        "x1": 372.0,
+        "y1": 2229.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "O) Poerieees Price. The Pemcigee Price is ee col eee $ to: $",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 324.0,
+        "y0": 2879.0,
+        "x1": 372.0,
+        "y1": 2927.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "oo Eo heey eS a a a a a |",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 324.0,
+        "y0": 3061.0,
+        "x1": 372.0,
+        "y1": 3108.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "Tee ee ee a a a be",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 324.0,
+        "y0": 3359.0,
+        "x1": 372.0,
+        "y1": 3406.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "L) Bese Elfigeere Fee. Tire Duc Daggeere Fee peel to Seer is Seer cel fe: $ to: $",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 324.0,
+        "y0": 3638.0,
+        "x1": 372.0,
+        "y1": 3685.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_6": {
+      "question": "L) Bere Melee Peco. = The come Gee of the Duc Demgemrr Pepe is em come to com see 08 Dm. on",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 324.0,
+        "y0": 3838.0,
+        "x1": 372.0,
+        "y1": 3885.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_7": {
+      "question": "O) Esco Doeet The Escug Ageeits eee cheer to:",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 324.0,
+        "y0": 4138.0,
+        "x1": 372.0,
+        "y1": 4186.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1756.0,
+        "y0": 6680.0,
+        "x1": 2058.0,
+        "y1": 6710.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1429.0,
+        "y0": 6680.0,
+        "x1": 1733.0,
+        "y1": 6710.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 2919.0,
+        "y0": 6675.0,
+        "x1": 3216.0,
+        "y1": 6705.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 2594.0,
+        "y0": 6675.0,
+        "x1": 2891.0,
+        "y1": 6705.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 4333.0,
+        "y0": 5129.0,
+        "x1": 4504.0,
+        "y1": 5159.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "(em 12-7)",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 762.0,
+        "y0": 1560.0,
+        "x1": 874.0,
+        "y1": 1590.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 2021.0,
+        "y0": 779.0,
+        "x1": 2135.0,
+        "y1": 809.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_8": {
+      "question": "L) Sopieeeeet Bake [he Satcher Deste is beer Choe [o:",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 325.0,
+        "y0": 435.0,
+        "x1": 370.0,
+        "y1": 481.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_9": {
+      "question": "QO) tebe cea TT Sse fetes ats wale aeise The Dekey in Gop cee i the SS",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 637.0,
+        "y0": 533.0,
+        "x1": 684.0,
+        "y1": 581.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_10": {
+      "question": "L) Epes. ae ey a aS a ae he |S",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 324.0,
+        "y0": 933.0,
+        "x1": 372.0,
+        "y1": 981.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_11": {
+      "question": "QO) Eee W arc, The Hee WH cee eee Of the Came Ts pee Clommee! (0 pee cS Soke:",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 324.0,
+        "y0": 1433.0,
+        "x1": 372.0,
+        "y1": 1481.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_12": {
+      "question": "O) No bee waa is to be pamemdeg by Gelber",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 441.0,
+        "y0": 1531.0,
+        "x1": 489.0,
+        "y1": 1579.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_13": {
+      "question": ") Sener cey Glam o eee sear ee Wey cb Cost tp exc S$ Wal oes se tox ek See i",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 441.0,
+        "y0": 1631.0,
+        "x1": 489.0,
+        "y1": 1679.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_14": {
+      "question": "CSte=e= of LLC) Coppi cles | coset) (Pim Of LLC / Gomes? ces | eigen)",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 325.0,
+        "y0": 3112.0,
+        "x1": 351.0,
+        "y1": 3139.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_7": {
+      "question": "Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 3650.0,
+        "y0": 3946.0,
+        "x1": 3777.0,
+        "y1": 3976.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 4390.0,
+        "y0": 3942.0,
+        "x1": 4514.0,
+        "y1": 3972.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1583.0,
+        "y0": 3548.0,
+        "x1": 1710.0,
+        "y1": 3578.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "By: 8",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 3458.0,
+        "y0": 3348.0,
+        "x1": 3627.0,
+        "y1": 3378.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "By: 8",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 3154.0,
+        "y0": 3344.0,
+        "x1": 3279.0,
+        "y1": 3374.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "Buyer: Date Setter:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 4531.0,
+        "y0": 2727.0,
+        "x1": 4952.0,
+        "y1": 2757.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "Buyer: Date Setter:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 3210.0,
+        "y0": 2727.0,
+        "x1": 4250.0,
+        "y1": 2757.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "Buyer: Date",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 2262.0,
+        "y0": 2727.0,
+        "x1": 2683.0,
+        "y1": 2757.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 345.0,
+        "y0": 2654.0,
+        "x1": 533.0,
+        "y1": 2684.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "Buyer: Date",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 2302.0,
+        "y0": 2498.0,
+        "x1": 2722.0,
+        "y1": 2528.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "Buyer: Date Setter",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 3217.0,
+        "y0": 2498.0,
+        "x1": 4256.0,
+        "y1": 2528.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 618.0,
+        "y0": 2498.0,
+        "x1": 1877.0,
+        "y1": 2528.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "THE NORTH CAROLE OF",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 3014.0,
+        "y0": 2208.0,
+        "x1": 3129.0,
+        "y1": 2238.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1593.0,
+        "y0": 2210.0,
+        "x1": 1708.0,
+        "y1": 2240.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "THE NORTH",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1164.0,
+        "y0": 2112.0,
+        "x1": 1289.0,
+        "y1": 2142.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "changed fae",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 2548.0,
+        "y0": 1085.0,
+        "x1": 2718.0,
+        "y1": 1115.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

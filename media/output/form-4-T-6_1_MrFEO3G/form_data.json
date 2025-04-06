@@ -1,0 +1,268 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-09T20:02:47.320787",
+    "filename": "form-4-T-6_1_MrFEO3G.pdf",
+    "document_title": "AGREEMENT TO AMEND CONTRACT",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 12,
+    "fields_by_type": {
+      "checkbox": 12
+    },
+    "fields_by_page": {
+      "1": 7,
+      "2": 5
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "Q Additional Buyer. By signing this amendment, (insertnameonly) eee is",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 104.0,
+        "y0": 698.0,
+        "x1": 120.0,
+        "y1": 714.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 104.0,
+        "y0": 922.0,
+        "x1": 120.0,
+        "y1": 938.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "i",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 104.0,
+        "y0": 980.0,
+        "x1": 120.0,
+        "y1": 996.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "Q (Additional) Earnest Money Deposit Date: The date by which the (Additional) Earnest Money Deposit shall be paid to Escrow",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 104.0,
+        "y0": 1075.0,
+        "x1": 120.0,
+        "y1": 1091.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 104.0,
+        "y0": 1165.0,
+        "x1": 120.0,
+        "y1": 1181.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "Q Due Diligence Period. The expiration date of the Due Diligence Period is hereby changed to extend through 5:00 p.m. on",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 104.0,
+        "y0": 1229.0,
+        "x1": 120.0,
+        "y1": 1245.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_6": {
+      "question": "Q Escrow Agent. The Escrow Agentishereby changedto:",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 104.0,
+        "y0": 1324.0,
+        "x1": 120.0,
+        "y1": 1340.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_7": {
+      "question": "Q (check only if the following also will apply) The Delay in Settlement/Closing paragraph in the Contract is hereby amended",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 204.0,
+        "y0": 171.0,
+        "x1": 220.0,
+        "y1": 187.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_8": {
+      "question": "QO Expenses. The amount Seller shall pay at Settlement toward Buyer\u2019s expenses associated with the purchase of the Property is hereby",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 104.0,
+        "y0": 299.0,
+        "x1": 120.0,
+        "y1": 315.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_9": {
+      "question": "QO Home Warranty. The Home Warranty paragraph of the Contract is hereby changed to provide as follows:",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 104.0,
+        "y0": 459.0,
+        "x1": 120.0,
+        "y1": 475.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_10": {
+      "question": "QO No home warranty is to be provided by Seller.",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 142.0,
+        "y0": 491.0,
+        "x1": 158.0,
+        "y1": 507.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_11": {
+      "question": "Q Buyer may obtain a one-year home warranty at a cost not to exceed $ which includes sales tax and Seller agrees to",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 142.0,
+        "y0": 523.0,
+        "x1": 157.0,
+        "y1": 539.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-15T11:25:43.574805",
+    "filename": "Addendum_to_Purchase_Agreement__Condominium_Townhouse_Cooperative_Common_Interest_aHKxp9l.pdf",
+    "document_title": "AddnPA_CondoCoop20.pdf",
+    "number_of_pages": 4,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 17,
+    "fields_by_type": {
+      "text": 17
+    },
+    "fields_by_page": {
+      "1": 5,
+      "2": 1,
+      "3": 6,
+      "4": 5
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "27.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 276.0,
+        "y0": 1345.0,
+        "x1": 1601.0,
+        "y1": 1375.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "26.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 276.0,
+        "y0": 1295.0,
+        "x1": 1601.0,
+        "y1": 1325.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "5",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 512.0,
+        "x1": 1574.0,
+        "y1": 542.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "3 Addendum to Purchase Agreement between parties, dated",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 945.0,
+        "y0": 428.0,
+        "x1": 1601.0,
+        "y1": 458.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "1. Date",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1051.0,
+        "y0": 345.0,
+        "x1": 1601.0,
+        "y1": 375.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "43. Property located at",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 421.0,
+        "y0": 315.0,
+        "x1": 1590.0,
+        "y1": 345.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1123.0,
+        "x1": 1601.0,
+        "y1": 1153.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1073.0,
+        "x1": 1601.0,
+        "y1": 1103.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1023.0,
+        "x1": 1601.0,
+        "y1": 1053.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 176.0,
+        "y0": 973.0,
+        "x1": 1601.0,
+        "y1": 1003.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "109. OTHER:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 290.0,
+        "y0": 934.0,
+        "x1": 1601.0,
+        "y1": 964.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "93. Property located at",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 421.0,
+        "y0": 315.0,
+        "x1": 1590.0,
+        "y1": 345.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "163.",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 928.0,
+        "y0": 1322.0,
+        "x1": 1601.0,
+        "y1": 1352.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "163.",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1322.0,
+        "x1": 826.0,
+        "y1": 1352.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "162.",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 926.0,
+        "y0": 1198.0,
+        "x1": 1599.0,
+        "y1": 1228.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "162.",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1198.0,
+        "x1": 826.0,
+        "y1": 1228.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "Property located at",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 421.0,
+        "y0": 315.0,
+        "x1": 1590.0,
+        "y1": 345.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

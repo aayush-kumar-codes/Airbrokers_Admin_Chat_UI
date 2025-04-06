@@ -136,6 +136,7 @@ class FormElementDetector:
 
     @staticmethod
     def _is_valid_checkbox(x, y, w, h, area, aspect_ratio, solidity, contour, existing_checkboxes):
+
         """Enhanced checkbox validation using additional parameters."""
         params = Config.CHECKBOX_PARAMS
 
@@ -153,32 +154,33 @@ class FormElementDetector:
         if not (params['MIN_CONTOUR_POINTS'] <= len(contour) <= params['MAX_CONTOUR_POINTS']):
             return False
 
-        # Check perimeter
-        perimeter = cv2.arcLength(contour, True)
-        if not (params['MIN_PERIMETER'] <= perimeter <= params['MAX_PERIMETER']):
-            return False
+        # # Check perimeter
+        # perimeter = cv2.arcLength(contour, True)
+        # if not (params['MIN_PERIMETER'] <= perimeter <= params['MAX_PERIMETER']):
+        #     return False
 
-        # Check for approximate rectangle shape
-        approx = cv2.approxPolyDP(contour, 0.04 * perimeter, True)
-        if len(approx) != 4:  # Should have 4 corners
-            return False
+        # # Check for approximate rectangle shape
+        # approx = cv2.approxPolyDP(contour, 0.04 * perimeter, True)
+        # if len(approx) != 4:  # Should have 4 corners
+        #     return False
 
-        # Verify corners are roughly 90 degrees
-        for i in range(4):
-            pt1 = approx[i][0]
-            pt2 = approx[(i+1)%4][0]
-            pt3 = approx[(i+2)%4][0]
+        # # Verify corners are roughly 90 degrees
+        # for i in range(4):
+        #     pt1 = approx[i][0]
+        #     pt2 = approx[(i+1)%4][0]
+        #     pt3 = approx[(i+2)%4][0]
 
-            # Calculate angle
-            v1 = pt1 - pt2
-            v2 = pt3 - pt2
-            angle = abs(np.degrees(np.arctan2(np.cross(v1, v2), np.dot(v1, v2))))
-
-            if abs(angle - 90) > params['CORNER_ANGLE_TOLERANCE']:
-                return False
+        #     # Calculate angle
+        #     v1 = pt1 - pt2
+        #     v2 = pt3 - pt2
+        #     angle = abs(np.degrees(np.arctan2(np.cross(v1, v2), np.dot(v1, v2))))
+        
+        #     if abs(angle - 90) > params['CORNER_ANGLE_TOLERANCE']:
+        #         return False
 
         # Check for duplicates
         for existing in existing_checkboxes:
+            
             ex_x, ex_y, _, _ = existing['coordinates']
             if abs(x - ex_x) < params['DUPLICATE_THRESHOLD'] and abs(y - ex_y) < params['DUPLICATE_THRESHOLD']:
                 return False
@@ -188,6 +190,7 @@ class FormElementDetector:
     @staticmethod
     def detect_checkboxes(image):
         """Enhanced checkbox detection with preprocessing."""
+        print(image.shape)
         if len(image.shape) == 3:
             gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         else:

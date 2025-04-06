@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-25T19:43:00.720964",
+    "filename": "form-573-6.pdf",
+    "document_title": "DISCLOSURE AND FEE AGREEMENT FOR",
+    "number_of_pages": 3,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 8,
+    "fields_by_type": {
+      "checkbox": 6,
+      "text": 2
+    },
+    "fields_by_page": {
+      "1": 8
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 182.0,
+        "y0": 98.0,
+        "x1": 213.0,
+        "y1": 136.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "REALTOR",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 199.0,
+        "y0": 190.0,
+        "x1": 211.0,
+        "y1": 203.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "Q a Seller's Agent",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 204.0,
+        "y0": 869.0,
+        "x1": 220.0,
+        "y1": 885.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "Q aBuyer's Agent",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 204.0,
+        "y0": 934.0,
+        "x1": 220.0,
+        "y1": 950.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "a who would",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 204.0,
+        "y0": 1052.0,
+        "x1": 220.0,
+        "y1": 1068.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "Q any prospect Firm registers with Seller prior to showing the Property by giving Seller notice of such prospect, either",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 204.0,
+        "y0": 1149.0,
+        "x1": 220.0,
+        "y1": 1165.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "(Insert \u201cNone\u201d or the identification of any matters relating to (i) through (v) above, if any):",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1190.0,
+        "y0": 1472.0,
+        "x1": 1601.0,
+        "y1": 1502.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 100.0,
+        "y0": 730.0,
+        "x1": 1446.0,
+        "y1": 760.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

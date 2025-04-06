@@ -1,0 +1,385 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-17T11:22:26.817464",
+    "filename": "Residential Rental Listing Input Form (Rev. 10_22)_4itZYES.pdf",
+    "document_title": "ResidentialRental - revised.pdf",
+    "number_of_pages": 9,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 27,
+    "fields_by_type": {
+      "text": 27
+    },
+    "fields_by_page": {
+      "2": 2,
+      "3": 1,
+      "4": 19,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "QNone ON OS QE QW ONW ONE OSW OSE O Terrace Q Way Q Other",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1278.0,
+        "y0": 561.0,
+        "x1": 1579.0,
+        "y1": 591.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 60.0,
+        "y0": 496.0,
+        "x1": 848.0,
+        "y1": 526.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Address",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 159.0,
+        "y0": 97.0,
+        "x1": 1460.0,
+        "y1": 127.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 1300.0,
+        "y0": 1022.0,
+        "x1": 1643.0,
+        "y1": 1052.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 60.0,
+        "y0": 1022.0,
+        "x1": 1250.0,
+        "y1": 1052.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 1299.0,
+        "y0": 954.0,
+        "x1": 1643.0,
+        "y1": 984.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 60.0,
+        "y0": 959.0,
+        "x1": 1250.0,
+        "y1": 989.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 60.0,
+        "y0": 509.0,
+        "x1": 709.0,
+        "y1": 539.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 60.0,
+        "y0": 471.0,
+        "x1": 709.0,
+        "y1": 501.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 745.0,
+        "y0": 433.0,
+        "x1": 1632.0,
+        "y1": 463.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 60.0,
+        "y0": 433.0,
+        "x1": 709.0,
+        "y1": 463.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 745.0,
+        "y0": 395.0,
+        "x1": 1632.0,
+        "y1": 425.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 60.0,
+        "y0": 395.0,
+        "x1": 709.0,
+        "y1": 425.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 745.0,
+        "y0": 357.0,
+        "x1": 1632.0,
+        "y1": 387.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 60.0,
+        "y0": 357.0,
+        "x1": 709.0,
+        "y1": 387.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 745.0,
+        "y0": 319.0,
+        "x1": 1632.0,
+        "y1": 349.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 60.0,
+        "y0": 319.0,
+        "x1": 709.0,
+        "y1": 349.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 745.0,
+        "y0": 281.0,
+        "x1": 1632.0,
+        "y1": 311.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 60.0,
+        "y0": 281.0,
+        "x1": 709.0,
+        "y1": 311.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 745.0,
+        "y0": 243.0,
+        "x1": 1632.0,
+        "y1": 273.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 60.0,
+        "y0": 243.0,
+        "x1": 709.0,
+        "y1": 273.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "Address",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 159.0,
+        "y0": 97.0,
+        "x1": 1461.0,
+        "y1": 127.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "Address",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 159.0,
+        "y0": 97.0,
+        "x1": 1461.0,
+        "y1": 127.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "Address",
+      "type": "text",
+      "page": 6,
+      "rect": {
+        "x0": 159.0,
+        "y0": 90.0,
+        "x1": 1461.0,
+        "y1": 120.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_24": {
+      "question": "Address",
+      "type": "text",
+      "page": 7,
+      "rect": {
+        "x0": 158.0,
+        "y0": 97.0,
+        "x1": 1460.0,
+        "y1": 127.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_25": {
+      "question": "Address",
+      "type": "text",
+      "page": 8,
+      "rect": {
+        "x0": 158.0,
+        "y0": 97.0,
+        "x1": 1460.0,
+        "y1": 127.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_26": {
+      "question": "Address",
+      "type": "text",
+      "page": 9,
+      "rect": {
+        "x0": 158.0,
+        "y0": 97.0,
+        "x1": 1460.0,
+        "y1": 127.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

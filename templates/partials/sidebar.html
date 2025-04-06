@@ -81,6 +81,21 @@
                                     </a>
                                 </li>
                             </li>
+                            {% if file %}
+                            <li>
+                                <a href="{{ file }}" target="_blank">
+                                    <i data-feather="file"></i>
+                                    <span data-key="t-processed-pdf">Processed PDF</span>
+                                </a>
+                            </li>
+                            {% else %}
+                            <li>
+                                <a href="javascript:void(0);">
+                                    <i data-feather="file"></i>
+                                    <span data-key="t-processed-pdf">PDF PARSING</span>
+                                </a>
+                            </li>
+                            {% endif %}
                         </ul> 
                     </div>
                     <!-- Sidebar -->

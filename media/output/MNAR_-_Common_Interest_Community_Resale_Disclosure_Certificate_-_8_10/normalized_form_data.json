@@ -1,0 +1,607 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-11T15:07:41.681622",
+    "filename": "MNAR_-_Common_Interest_Community_Resale_Disclosure_Certificate_-_8_10.pdf",
+    "document_title": "CICResaleDiscl10.pdf",
+    "number_of_pages": 3,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 39,
+    "fields_by_type": {
+      "checkbox": 10,
+      "text": 29
+    },
+    "fields_by_page": {
+      "1": 17,
+      "2": 11,
+      "3": 11
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "24. The Association |_| has |_| has not approved a plan for levying certain common expense assessments",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 226.44,
+        "y0": 522.72,
+        "x1": 237.6,
+        "y1": 533.88
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "24. The Association |_| has |_| has not approved a plan for levying certain common expense assessments",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 191.88,
+        "y0": 522.72,
+        "x1": 203.04,
+        "y1": 533.88
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "23. 4) Other Charges $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 214.56,
+        "y0": 500.76,
+        "x1": 287.64,
+        "y1": 511.56
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "22. 3) Fines $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 173.51999999999998,
+        "y0": 480.96,
+        "x1": 246.6,
+        "y1": 491.76
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "21. 2) Special $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 179.28,
+        "y0": 460.79999999999995,
+        "x1": 252.35999999999999,
+        "y1": 471.59999999999997
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "20. 1) Annual $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 180.0,
+        "y0": 440.64,
+        "x1": 253.07999999999998,
+        "y1": 451.44
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "18. b. Special assessment installments: $ Due:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 433.8,
+        "y0": 402.84,
+        "x1": 506.88,
+        "y1": 413.64
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "18. b. Special assessment installments: $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 277.92,
+        "y0": 402.84,
+        "x1": 407.88,
+        "y1": 413.64
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "17. a. Annual assessment installments: $ Due:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 433.8,
+        "y0": 383.03999999999996,
+        "x1": 506.88,
+        "y1": 393.84
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "17. a. Annual assessment installments: $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 276.12,
+        "y0": 383.03999999999996,
+        "x1": 407.88,
+        "y1": 393.84
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "ao Unit Number(s) (include principal unit and any garage, storage or other auxiliary units);",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 447.84,
+        "y0": 171.0,
+        "x1": 569.52,
+        "y1": 181.79999999999998
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "a Address of Association:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 170.28,
+        "y0": 149.04,
+        "x1": 576.0,
+        "y1": 159.84
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "fF a Name of Association:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 160.2,
+        "y0": 129.24,
+        "x1": 576.0,
+        "y1": 140.04
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "w a Name of Common Interest Community:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 239.04,
+        "y0": 109.08,
+        "x1": 576.0,
+        "y1": 119.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "2. Page sof",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 465.12,
+        "y0": 84.96,
+        "x1": 538.1999999999999,
+        "y1": 95.75999999999999
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "2. Page",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 378.36,
+        "y0": 84.96,
+        "x1": 451.44,
+        "y1": 95.75999999999999
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "1. Date",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 378.36,
+        "y0": 66.96,
+        "x1": 576.0,
+        "y1": 77.75999999999999
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_2": {
+      "question": "Ceiling or wall finishing materials",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 117.72,
+        "y0": 600.84,
+        "x1": 128.51999999999998,
+        "y1": 611.64
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "Finished flooring",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 117.72,
+        "y0": 618.84,
+        "x1": 128.51999999999998,
+        "y1": 629.64
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "Cabinetry",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 117.72,
+        "y0": 636.84,
+        "x1": 128.51999999999998,
+        "y1": 647.64
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "Finished millwork",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 117.72,
+        "y0": 654.84,
+        "x1": 128.51999999999998,
+        "y1": 665.64
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_6": {
+      "question": "Electrical, heating, ventilating and air-conditioning equipment or plumbing fixtures serving a single unit",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 117.72,
+        "y0": 672.84,
+        "x1": 128.51999999999998,
+        "y1": 683.64
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_7": {
+      "question": "Built-in appliances",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 117.72,
+        "y0": 690.8399999999999,
+        "x1": 128.51999999999998,
+        "y1": 701.64
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_8": {
+      "question": "Improvements and betterments as originally constructed",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 117.72,
+        "y0": 708.8399999999999,
+        "x1": 128.51999999999998,
+        "y1": 719.64
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_9": {
+      "question": "Additional improvements and betterments installed by unit owners",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 117.72,
+        "y0": 726.8399999999999,
+        "x1": 128.51999999999998,
+        "y1": 737.64
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_15": {
+      "question": "44.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 99.36,
+        "y0": 232.92,
+        "x1": 576.0,
+        "y1": 243.72
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "35. Page",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 472.32,
+        "y0": 66.96,
+        "x1": 530.28,
+        "y1": 77.75999999999999
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "35. Page",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 396.36,
+        "y0": 66.96,
+        "x1": 458.28,
+        "y1": 77.75999999999999
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "103. Dated:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 252.35999999999999,
+        "y0": 663.12,
+        "x1": 576.0,
+        "y1": 673.92
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "103. Dated:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 95.39999999999999,
+        "y0": 663.12,
+        "x1": 222.84,
+        "y1": 673.92
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "102. Dated:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 252.35999999999999,
+        "y0": 630.72,
+        "x1": 576.0,
+        "y1": 641.52
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "102. Dated:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 95.39999999999999,
+        "y0": 630.72,
+        "x1": 222.84,
+        "y1": 641.52
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "95. Phone Number:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 136.07999999999998,
+        "y0": 516.6,
+        "x1": 383.03999999999996,
+        "y1": 527.4
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "94. Address:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 105.11999999999999,
+        "y0": 492.84,
+        "x1": 352.44,
+        "y1": 503.64
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_24": {
+      "question": "93. Title:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 87.47999999999999,
+        "y0": 459.35999999999996,
+        "x1": 334.44,
+        "y1": 470.15999999999997
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_25": {
+      "question": "92. By:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 80.28,
+        "y0": 435.24,
+        "x1": 327.24,
+        "y1": 446.03999999999996
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_26": {
+      "question": "91. | hereby certify that the foregoing information and statements are true and correct as of",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 450.0,
+        "y0": 402.84,
+        "x1": 570.24,
+        "y1": 413.64
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_27": {
+      "question": "72. Page of",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 472.32,
+        "y0": 66.96,
+        "x1": 530.28,
+        "y1": 77.75999999999999
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_28": {
+      "question": "72. Page",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 396.36,
+        "y0": 66.96,
+        "x1": 458.28,
+        "y1": 77.75999999999999
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

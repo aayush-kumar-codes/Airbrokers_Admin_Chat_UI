@@ -1,0 +1,309 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-28T11:43:53.703475",
+    "filename": "form-150-10_1.pdf",
+    "document_title": "Unrepresented Seller Disclosure & Fee Agreement",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 21,
+    "fields_by_type": {
+      "checkbox": 1,
+      "text": 20
+    },
+    "fields_by_page": {
+      "1": 9,
+      "2": 12
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "REALTOR\u00ae SpeoRTUNITY",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 173.0,
+        "y0": 2123.0,
+        "x1": 187.0,
+        "y1": 2136.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 93.0,
+        "y0": 1047.0,
+        "x1": 425.0,
+        "y1": 1077.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "C. If Seller sells the Property to Firm\u2019s Client, Seller agrees to pay Firm a fee of",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1168.0,
+        "y0": 658.0,
+        "x1": 1607.0,
+        "y1": 688.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 96.0,
+        "y0": 564.0,
+        "x1": 1313.0,
+        "y1": 594.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 96.0,
+        "y0": 450.0,
+        "x1": 1411.0,
+        "y1": 480.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "A. Seller is the owner of property commonly known as",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 819.0,
+        "y0": 403.0,
+        "x1": 1604.0,
+        "y1": 433.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "and",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 149.0,
+        "y0": 309.0,
+        "x1": 1505.0,
+        "y1": 339.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 102.0,
+        "y0": 259.0,
+        "x1": 1471.0,
+        "y1": 289.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "This Agreement is entered into on (Date)",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 563.0,
+        "y0": 208.0,
+        "x1": 1417.0,
+        "y1": 238.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 166.0,
+        "y0": 1078.0,
+        "x1": 759.0,
+        "y1": 1108.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "Title:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 166.0,
+        "y0": 1017.0,
+        "x1": 756.0,
+        "y1": 1047.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "Name:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 179.0,
+        "y0": 950.0,
+        "x1": 755.0,
+        "y1": 980.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "By:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 143.0,
+        "y0": 886.0,
+        "x1": 755.0,
+        "y1": 916.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 96.0,
+        "y0": 789.0,
+        "x1": 744.0,
+        "y1": 819.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "Seller:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 177.0,
+        "y0": 678.0,
+        "x1": 746.0,
+        "y1": 708.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "Date; Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 866.0,
+        "y0": 634.0,
+        "x1": 1583.0,
+        "y1": 664.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 157.0,
+        "y0": 631.0,
+        "x1": 748.0,
+        "y1": 661.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "Seller:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 171.0,
+        "y0": 583.0,
+        "x1": 749.0,
+        "y1": 613.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "Seller: By:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 843.0,
+        "y0": 584.0,
+        "x1": 1574.0,
+        "y1": 614.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 804.0,
+        "y0": 534.0,
+        "x1": 1574.0,
+        "y1": 564.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 174.0,
+        "y0": 534.0,
+        "x1": 752.0,
+        "y1": 564.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-22T00:40:42.654298",
+    "filename": "CRSP-16_T_-_New_Mortgage_Rates_Addendum.pdf",
+    "document_title": "CRSP16.T.new mortgage rates addendum.pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 12,
+    "fields_by_type": {
+      "checkbox": 2,
+      "text": 10
+    },
+    "fields_by_page": {
+      "1": 12
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "interest rate not exceeding % at origination, with no more than discount points charged. Buyer Clwill",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1540.0,
+        "y0": 549.0,
+        "x1": 1559.0,
+        "y1": 567.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "will not accept a balloon mortgage.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 154.0,
+        "y0": 581.0,
+        "x1": 173.0,
+        "y1": 599.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "interest rate not exceeding % at origination, with no more than",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1031.0,
+        "y0": 543.0,
+        "x1": 1126.0,
+        "y1": 573.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "interest rate not exceeding",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 492.0,
+        "y0": 543.0,
+        "x1": 586.0,
+        "y1": 573.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "unless Buyer is able to obtain the financing at a fixed interest rate not exceeding",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1181.0,
+        "y0": 511.0,
+        "x1": 1275.0,
+        "y1": 541.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "( d\u00a2",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 387.0,
+        "y0": 479.0,
+        "x1": 469.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "(",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 262.0,
+        "y0": 479.0,
+        "x1": 344.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 156.0,
+        "y0": 479.0,
+        "x1": 238.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 151.0,
+        "y0": 410.0,
+        "x1": 1601.0,
+        "y1": 440.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "concerning the Property described as",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 619.0,
+        "y0": 366.0,
+        "x1": 1601.0,
+        "y1": 396.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "and",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 205.0,
+        "y0": 321.0,
+        "x1": 1478.0,
+        "y1": 351.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "between",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 264.0,
+        "y0": 277.0,
+        "x1": 1481.0,
+        "y1": 307.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

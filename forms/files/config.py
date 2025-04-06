@@ -1,15 +1,16 @@
+
 class Config:
     DEFAULT_OUTPUT_FOLDER = 'output_images'
 
     CHECKBOX_PARAMS = {
-        'MIN_AREA': 757,
+        'MIN_AREA': 3,
         'MAX_AREA': 2276,
         'MIN_ASPECT_RATIO': 0.7111294007433661,
         'MAX_ASPECT_RATIO': 1.116370565334775,
         'MIN_SOLIDITY': 0.9317091763161064,
         'MIN_DIMENSION': 10,
         'DUPLICATE_THRESHOLD': 24,
-        'THRESHOLD_VALUE': 203,
+        'THRESHOLD_VALUE': 173,
         'MIN_CONTOUR_POINTS': 6,
         'MAX_CONTOUR_POINTS': 56,
         'FILL_THRESHOLD': 23.651973313666453,
@@ -24,7 +25,7 @@ class Config:
         'MAX_WIDTH': 1450,
         'MAX_HEIGHT': 3,
         'EXTENDED_HEIGHT': 30,
-        'THRESHOLD_VALUE': 240,
+        'THRESHOLD_VALUE': 220,
         'KERNEL_LENGTH': 40,
         'MIN_LINE_THICKNESS': 1,
         'MAX_LINE_THICKNESS': 10,

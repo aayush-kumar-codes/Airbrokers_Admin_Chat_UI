@@ -1,0 +1,281 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-24T18:07:15.246007",
+    "filename": "form-352-T-2.pdf",
+    "document_title": "TERMINATION OF CONTRACT FOR FAILURE TO PROVIDE LOAN COMMITMENT LETTER OR WAIVER OF LOAN CONDITION",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 14,
+    "fields_by_type": {
+      "checkbox": 10,
+      "text": 4
+    },
+    "fields_by_page": {
+      "1": 10,
+      "2": 4
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "Q Buyer\u2019s failure to timely deliver the Due Diligence Fee or Initial Earnest Money Deposit by cash, official bank check, wire",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 55.44,
+        "y0": 178.2,
+        "x1": 61.199999999999996,
+        "y1": 183.95999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "Q Buyer\u2019s failure to timely deliver (Additional) Earnest Money Deposit by cash, official bank check, wire transfer or electronic",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 55.44,
+        "y0": 208.07999999999998,
+        "x1": 61.199999999999996,
+        "y1": 213.84
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "Q Buyer\u2019s delay in Settlement and Closing beyond the time permitted under the terms of the Contract (see Paragraph 12) and",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 55.44,
+        "y0": 237.95999999999998,
+        "x1": 61.199999999999996,
+        "y1": 243.72
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "Q Exercise by Seller of right to terminate under Paragraph 4 of Short Sale Addendum (form 2A14-T) at any time prior to",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 55.44,
+        "y0": 267.84,
+        "x1": 61.199999999999996,
+        "y1": 273.59999999999997
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "Q Seller gives this notice of termination and alleges that Buyer has breached the Contract. Seller is strongly advised to seek",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 55.44,
+        "y0": 297.71999999999997,
+        "x1": 61.199999999999996,
+        "y1": 303.47999999999996
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "Q_ Seller gives this notice of termination without providing a reason. Seller is strongly advised to seek legal counsel before",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 55.44,
+        "y0": 327.59999999999997,
+        "x1": 61.199999999999996,
+        "y1": 333.36
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "(form 2-T) (\u201cContract\u201d). The Effective Dateofthe Contractis",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 289.44,
+        "y0": 139.32,
+        "x1": 338.76,
+        "y1": 150.12
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Property Address:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 108.72,
+        "y0": 109.44,
+        "x1": 524.16,
+        "y1": 120.24
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Slew",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 412.2,
+        "y0": 91.08,
+        "x1": 537.84,
+        "y1": 101.88
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 63.36,
+        "y0": 72.72,
+        "x1": 533.88,
+        "y1": 83.52
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_6": {
+      "question": "Seller OQ AGREES O DOES NOT AGREE that Escrow Agent may disburse any Earnest Money Deposit received in connection with",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 117.0,
+        "y0": 39.96,
+        "x1": 122.75999999999999,
+        "y1": 45.72
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_7": {
+      "question": "Seller OQ AGREES O DOES NOT AGREE that Escrow Agent may disburse any Earnest Money Deposit received in connection with",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 63.72,
+        "y0": 39.96,
+        "x1": 69.48,
+        "y1": 45.72
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_8": {
+      "question": "Buyer OQ AGREES O DOES NOT AGREE that Escrow Agent may disburse any Earnest Money Deposit received in connection with",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 117.72,
+        "y0": 166.32,
+        "x1": 123.47999999999999,
+        "y1": 172.07999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_9": {
+      "question": "Buyer OQ AGREES O DOES NOT AGREE that Escrow Agent may disburse any Earnest Money Deposit received in connection with",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 64.8,
+        "y0": 166.32,
+        "x1": 70.56,
+        "y1": 172.07999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    }
+  }
+}

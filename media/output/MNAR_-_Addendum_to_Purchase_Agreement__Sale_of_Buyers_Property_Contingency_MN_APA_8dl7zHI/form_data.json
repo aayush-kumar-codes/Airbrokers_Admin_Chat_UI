@@ -1,0 +1,237 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-17T11:33:24.055571",
+    "filename": "MNAR_-_Addendum_to_Purchase_Agreement__Sale_of_Buyers_Property_Contingency_MN_APA_8dl7zHI.pdf",
+    "document_title": "AddnPA_SaleBuyerProp21.pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 15,
+    "fields_by_type": {
+      "checkbox": 2,
+      "text": 13
+    },
+    "fields_by_page": {
+      "1": 15
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "8. Buyer\u2019s property Is Currently Listed Will Be Listed Within days rit",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 744.0,
+        "y0": 594.0,
+        "x1": 774.0,
+        "y1": 625.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "8. Buyer\u2019s property Is Currently Listed Will Be Listed Within days rit",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 414.0,
+        "y0": 594.0,
+        "x1": 445.0,
+        "y1": 625.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "38.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 926.0,
+        "y0": 1918.0,
+        "x1": 1601.0,
+        "y1": 1948.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "38.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1918.0,
+        "x1": 826.0,
+        "y1": 1948.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "37.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 926.0,
+        "y0": 1812.0,
+        "x1": 1601.0,
+        "y1": 1842.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "37.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1812.0,
+        "x1": 826.0,
+        "y1": 1842.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "36.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1728.0,
+        "x1": 1601.0,
+        "y1": 1758.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "35. OTHER:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 289.0,
+        "y0": 1690.0,
+        "x1": 1601.0,
+        "y1": 1720.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "15. deliver to Seller, or licensee representing or assisting Seller, at any time, but not later than",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1314.0,
+        "y0": 924.0,
+        "x1": 1479.0,
+        "y1": 954.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "9.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 662.0,
+        "x1": 1486.0,
+        "y1": 692.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "8. Buyer\u2019s property Is Currently Listed Will Be Listed Within",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1109.0,
+        "y0": 588.0,
+        "x1": 1452.0,
+        "y1": 618.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "7. Buyer\u2019s property located at",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 519.0,
+        "y0": 538.0,
+        "x1": 1583.0,
+        "y1": 568.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "5.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 184.0,
+        "y0": 472.0,
+        "x1": 1583.0,
+        "y1": 502.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "3. Addendum to Purchase Agreement between parties, dated",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 945.0,
+        "y0": 388.0,
+        "x1": 1601.0,
+        "y1": 418.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "1. Date",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1051.0,
+        "y0": 305.0,
+        "x1": 1601.0,
+        "y1": 335.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

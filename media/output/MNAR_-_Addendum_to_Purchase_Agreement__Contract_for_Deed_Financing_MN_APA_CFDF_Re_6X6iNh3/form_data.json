@@ -1,0 +1,1127 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-12T21:50:29.962151",
+    "filename": "MNAR_-_Addendum_to_Purchase_Agreement__Contract_for_Deed_Financing_MN_APA_CFDF_Re_6X6iNh3.pdf",
+    "document_title": "AddnPA_ContractforDeed20.pdf",
+    "number_of_pages": 4,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 73,
+    "fields_by_type": {
+      "checkbox": 21,
+      "text": 52
+    },
+    "fields_by_page": {
+      "1": 17,
+      "2": 20,
+      "3": 18,
+      "4": 18
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "TYPE OF CONTRACT: |_|CONTRACT FOR DEED |_| CONTRACT FOR DEED WITH ASSUMPTION OF FINANCING",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 809.0,
+        "y0": 738.0,
+        "x1": 839.0,
+        "y1": 768.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "TYPE OF CONTRACT: |_|CONTRACT FOR DEED |_| CONTRACT FOR DEED WITH ASSUMPTION OF FINANCING",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 465.0,
+        "y0": 738.0,
+        "x1": 495.0,
+        "y1": 768.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "CONTINGENCY FOR ATTORNEY REVIEW: This Purchase Agreement |_|IS |_|IS NOT contingent upon the parties",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1127.0,
+        "y0": 838.0,
+        "x1": 1157.0,
+        "y1": 868.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "CONTINGENCY FOR ATTORNEY REVIEW: This Purchase Agreement |_|IS |_|IS NOT contingent upon the parties",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1056.0,
+        "y0": 838.0,
+        "x1": 1087.0,
+        "y1": 868.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "The final payment |_| 1S |_| IS NOT a balloon payment.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 478.0,
+        "y0": 1928.0,
+        "x1": 508.0,
+        "y1": 1958.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "The final payment |_| 1S |_| IS NOT a balloon payment.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 405.0,
+        "y0": 1928.0,
+        "x1": 435.0,
+        "y1": 1958.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "The entire balance shall be due and payable in full no later than",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 966.0,
+        "y0": 1872.0,
+        "x1": 1398.0,
+        "y1": 1902.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Subsequent payments shall be due and payable on the",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 867.0,
+        "y0": 1822.0,
+        "x1": 961.0,
+        "y1": 1852.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "First payment shall be due and payable on",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 710.0,
+        "y0": 1772.0,
+        "x1": 1143.0,
+        "y1": 1802.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "Interest shall begin accruing on",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 571.0,
+        "y0": 1722.0,
+        "x1": 1003.0,
+        "y1": 1752.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "Interest at the rate of",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 442.0,
+        "y0": 1622.0,
+        "x1": 623.0,
+        "y1": 1652.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Monthly installment payments of",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 610.0,
+        "y0": 1522.0,
+        "x1": 974.0,
+        "y1": 1552.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "PAYMENT TERMS: Contract for Deed amount",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 808.0,
+        "y0": 1438.0,
+        "x1": 1194.0,
+        "y1": 1468.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "consulting with legal counsel regarding the terms of this Purchase Agreement. If IS, parties have within",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1420.0,
+        "y0": 888.0,
+        "x1": 1601.0,
+        "y1": 918.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 615.0,
+        "x1": 1587.0,
+        "y1": 645.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "Addendum to Purchase Agreement between parties, dated",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 945.0,
+        "y0": 532.0,
+        "x1": 1601.0,
+        "y1": 562.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "1. Date",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1051.0,
+        "y0": 265.0,
+        "x1": 1601.0,
+        "y1": 295.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_6": {
+      "question": "58. WARRANTY DEED or OTHER:",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 558.0,
+        "y0": 1141.0,
+        "x1": 588.0,
+        "y1": 1171.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_7": {
+      "question": "58. WARRANTY DEED or OTHER:",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1141.0,
+        "x1": 207.0,
+        "y1": 1171.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_8": {
+      "question": "60. IF CHECKED, the following liens or encumbrances:",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1224.0,
+        "x1": 207.0,
+        "y1": 1255.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_9": {
+      "question": "67. Buyer to pay 1/12ths taxes and hazard insurance premiums to Seller each month, in addition to the principal and",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1541.0,
+        "x1": 207.0,
+        "y1": 1571.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_10": {
+      "question": "70. Buyer shall pay real estate taxes and hazard insurance premiums directly as they become due and furnish Seller",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1674.0,
+        "x1": 207.0,
+        "y1": 1705.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_11": {
+      "question": "73. Tax and insurance escrow: If the real estate taxes and hazard insurance premiums are included in the assumed",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1808.0,
+        "x1": 207.0,
+        "y1": 1838.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_12": {
+      "question": "76. Other:",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1941.0,
+        "x1": 207.0,
+        "y1": 1971.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_11": {
+      "question": "76. Other:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 310.0,
+        "y0": 1935.0,
+        "x1": 1600.0,
+        "y1": 1965.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "61.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 226.0,
+        "y0": 1269.0,
+        "x1": 1601.0,
+        "y1": 1299.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "60. IF CHECKED, the following liens or encumbrances:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 868.0,
+        "y0": 1230.0,
+        "x1": 1601.0,
+        "y1": 1260.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "58. WARRANTY DEED or OTHER:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 736.0,
+        "y0": 1135.0,
+        "x1": 1601.0,
+        "y1": 1165.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "50. information. Seller has",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 462.0,
+        "y0": 819.0,
+        "x1": 643.0,
+        "y1": 849.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "46.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 635.0,
+        "x1": 1601.0,
+        "y1": 665.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "45.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 585.0,
+        "x1": 1601.0,
+        "y1": 615.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "44.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 535.0,
+        "x1": 1601.0,
+        "y1": 565.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "43.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 485.0,
+        "x1": 1601.0,
+        "y1": 515.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "42.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 435.0,
+        "x1": 1601.0,
+        "y1": 465.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "41.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 385.0,
+        "x1": 1601.0,
+        "y1": 415.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "40. ALTERATION OR ADDITION TO PAYMENT TERMS:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 843.0,
+        "y0": 346.0,
+        "x1": 1601.0,
+        "y1": 376.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "39. Property located at",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 421.0,
+        "y0": 268.0,
+        "x1": 1590.0,
+        "y1": 298.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_13": {
+      "question": "Deed encumbering said Property which |_| DOES |_| DOES NOT have a due-on-sale",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 1149.0,
+        "y0": 523.0,
+        "x1": 1179.0,
+        "y1": 554.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_14": {
+      "question": "Deed encumbering said Property which |_| DOES |_| DOES NOT have a due-on-sale",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 1024.0,
+        "y0": 523.0,
+        "x1": 1054.0,
+        "y1": 553.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_15": {
+      "question": "105. IS NOT transferrable.",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 526.0,
+        "y0": 1458.0,
+        "x1": 557.0,
+        "y1": 1488.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_16": {
+      "question": "106. IS transferrable only by first obtaining the written consent of Seller. If transferrable with",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 526.0,
+        "y0": 1494.0,
+        "x1": 557.0,
+        "y1": 1525.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_24": {
+      "question": "112. |",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 341.0,
+        "y0": 1738.0,
+        "x1": 491.0,
+        "y1": 1768.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_25": {
+      "question": "112.",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1738.0,
+        "x1": 326.0,
+        "y1": 1768.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_26": {
+      "question": "103. _ |",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 341.0,
+        "y0": 1370.0,
+        "x1": 491.0,
+        "y1": 1400.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_27": {
+      "question": "103.",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1370.0,
+        "x1": 326.0,
+        "y1": 1400.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_28": {
+      "question": "percent (%) discount on or before",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 1089.0,
+        "y0": 1003.0,
+        "x1": 1521.0,
+        "y1": 1033.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_29": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 526.0,
+        "y0": 1003.0,
+        "x1": 651.0,
+        "y1": 1033.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_30": {
+      "question": "|",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 341.0,
+        "y0": 907.0,
+        "x1": 491.0,
+        "y1": 937.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_31": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 176.0,
+        "y0": 907.0,
+        "x1": 326.0,
+        "y1": 937.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_32": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 549.0,
+        "y0": 674.0,
+        "x1": 889.0,
+        "y1": 704.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_33": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 549.0,
+        "y0": 624.0,
+        "x1": 889.0,
+        "y1": 654.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_34": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 1183.0,
+        "y0": 557.0,
+        "x1": 1601.0,
+        "y1": 587.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_35": {
+      "question": "|",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 341.0,
+        "y0": 435.0,
+        "x1": 491.0,
+        "y1": 465.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_36": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 176.0,
+        "y0": 435.0,
+        "x1": 326.0,
+        "y1": 465.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_37": {
+      "question": "78. Property located at",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 421.0,
+        "y0": 268.0,
+        "x1": 1590.0,
+        "y1": 298.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_17": {
+      "question": "128. IS a Multiple Seller of residential real property. (If checked, complete lines 130-137.)",
+      "type": "checkbox",
+      "page": 4,
+      "rect": {
+        "x0": 226.0,
+        "y0": 877.0,
+        "x1": 257.0,
+        "y1": 907.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_18": {
+      "question": "129. IS NOT a Multiple Seller of residential real property. (If checked, disregard lines 130-137.)",
+      "type": "checkbox",
+      "page": 4,
+      "rect": {
+        "x0": 226.0,
+        "y0": 927.0,
+        "x1": 257.0,
+        "y1": 957.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_19": {
+      "question": "133. is represented by a licensee who is not a dual agent. (If checked, disregard lines 134-137.)",
+      "type": "checkbox",
+      "page": 4,
+      "rect": {
+        "x0": 226.0,
+        "y0": 1110.0,
+        "x1": 257.0,
+        "y1": 1140.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_20": {
+      "question": "134. is represented by a lawyer. (If checked, disregard lines 135-137.)",
+      "type": "checkbox",
+      "page": 4,
+      "rect": {
+        "x0": 226.0,
+        "y0": 1160.0,
+        "x1": 257.0,
+        "y1": 1190.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_38": {
+      "question": "143.",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 926.0,
+        "y0": 1711.0,
+        "x1": 1601.0,
+        "y1": 1741.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_39": {
+      "question": "143.",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1711.0,
+        "x1": 826.0,
+        "y1": 1741.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_40": {
+      "question": "142.",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 926.0,
+        "y0": 1587.0,
+        "x1": 1601.0,
+        "y1": 1617.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_41": {
+      "question": "142.",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1587.0,
+        "x1": 826.0,
+        "y1": 1617.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_42": {
+      "question": "141.",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1487.0,
+        "x1": 1601.0,
+        "y1": 1517.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_43": {
+      "question": "140.",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1437.0,
+        "x1": 1601.0,
+        "y1": 1467.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_44": {
+      "question": "139.",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1387.0,
+        "x1": 1601.0,
+        "y1": 1417.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_45": {
+      "question": "138. OTHER:",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 289.0,
+        "y0": 1348.0,
+        "x1": 1601.0,
+        "y1": 1378.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_46": {
+      "question": "125. |",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 341.0,
+        "y0": 681.0,
+        "x1": 491.0,
+        "y1": 711.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_47": {
+      "question": "125.",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 176.0,
+        "y0": 681.0,
+        "x1": 326.0,
+        "y1": 711.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_48": {
+      "question": "120.",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 548.0,
+        "y0": 481.0,
+        "x1": 1025.0,
+        "y1": 511.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_49": {
+      "question": "117. _ |",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 341.0,
+        "y0": 352.0,
+        "x1": 491.0,
+        "y1": 382.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_50": {
+      "question": "117.",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 176.0,
+        "y0": 352.0,
+        "x1": 326.0,
+        "y1": 382.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_51": {
+      "question": "116. Property located at",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 421.0,
+        "y0": 268.0,
+        "x1": 1590.0,
+        "y1": 298.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

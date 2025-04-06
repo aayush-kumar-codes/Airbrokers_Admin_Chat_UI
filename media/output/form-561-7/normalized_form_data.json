@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-25T19:33:50.298114",
+    "filename": "form-561-7.pdf",
+    "document_title": "CONFIRMATION OF COMPENSATION",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 8,
+    "fields_by_type": {
+      "checkbox": 8
+    },
+    "fields_by_page": {
+      "1": 8
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "REALTOR\u2019",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 78.11999999999999,
+        "y0": 72.0,
+        "x1": 83.16,
+        "y1": 77.03999999999999
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 37.44,
+        "y0": 268.92,
+        "x1": 43.199999999999996,
+        "y1": 274.68
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 37.44,
+        "y0": 280.44,
+        "x1": 43.199999999999996,
+        "y1": 286.2
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "0 Other:",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 37.44,
+        "y0": 303.47999999999996,
+        "x1": 43.199999999999996,
+        "y1": 309.24
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "O Monetary:$",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 37.44,
+        "y0": 348.84,
+        "x1": 43.199999999999996,
+        "y1": 354.59999999999997
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "\u00a9 Non-monetary: (describe)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 37.44,
+        "y0": 360.36,
+        "x1": 43.199999999999996,
+        "y1": 366.12
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_6": {
+      "question": "0 Other:",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 37.44,
+        "y0": 383.4,
+        "x1": 43.199999999999996,
+        "y1": 389.15999999999997
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_7": {
+      "question": "STANDARD FORM 561",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 59.76,
+        "y0": 708.48,
+        "x1": 72.0,
+        "y1": 723.24
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    }
+  }
+}

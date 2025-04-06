@@ -1,0 +1,300 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-17T16:13:13.989445",
+    "filename": "Release_and_Cancellation_of_Contract_for_Sale_and_Purchase_RC-4.pdf",
+    "document_title": "Microsoft Word - Release and Cancellation of Contract for Sale and Purchase",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 21,
+    "fields_by_type": {
+      "text": 21
+    },
+    "fields_by_page": {
+      "1": 21
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1208.0,
+        "y0": 1872.0,
+        "x1": 1598.0,
+        "y1": 1902.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 202.0,
+        "y0": 1872.0,
+        "x1": 993.0,
+        "y1": 1902.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1208.0,
+        "y0": 1808.0,
+        "x1": 1598.0,
+        "y1": 1838.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 202.0,
+        "y0": 1808.0,
+        "x1": 993.0,
+        "y1": 1838.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1208.0,
+        "y0": 1744.0,
+        "x1": 1598.0,
+        "y1": 1774.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 202.0,
+        "y0": 1744.0,
+        "x1": 993.0,
+        "y1": 1774.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1208.0,
+        "y0": 1680.0,
+        "x1": 1598.0,
+        "y1": 1710.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 202.0,
+        "y0": 1680.0,
+        "x1": 993.0,
+        "y1": 1710.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "$ to",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 531.0,
+        "y0": 1615.0,
+        "x1": 1598.0,
+        "y1": 1645.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "$",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 223.0,
+        "y0": 1615.0,
+        "x1": 456.0,
+        "y1": 1645.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "$ to",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 531.0,
+        "y0": 1570.0,
+        "x1": 1598.0,
+        "y1": 1600.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "$",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 223.0,
+        "y0": 1570.0,
+        "x1": 456.0,
+        "y1": 1600.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "$ to",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 531.0,
+        "y0": 1525.0,
+        "x1": 1598.0,
+        "y1": 1555.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "$",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 223.0,
+        "y0": 1525.0,
+        "x1": 456.0,
+        "y1": 1555.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "$ to",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 531.0,
+        "y0": 1480.0,
+        "x1": 1598.0,
+        "y1": 1510.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "$",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 223.0,
+        "y0": 1480.0,
+        "x1": 456.0,
+        "y1": 1510.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 200.0,
+        "y0": 1174.0,
+        "x1": 1222.0,
+        "y1": 1204.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 200.0,
+        "y0": 1046.0,
+        "x1": 1222.0,
+        "y1": 1076.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "with an Effective Date of",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 508.0,
+        "y0": 767.0,
+        "x1": 1019.0,
+        "y1": 797.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "and",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 254.0,
+        "y0": 387.0,
+        "x1": 1461.0,
+        "y1": 417.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 200.0,
+        "y0": 339.0,
+        "x1": 1453.0,
+        "y1": 369.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-24T15:42:53.456045",
+    "filename": "CRSP-16_B_-_Appraisal_Addendum.pdf",
+    "document_title": "CRSP16.B.appraisal addendum.pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 14,
+    "fields_by_type": {
+      "checkbox": 2,
+      "text": 12
+    },
+    "fields_by_page": {
+      "1": 14
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "1. O Buyer's Right to Cancel: This Contract is contingent upon Buyer or Buyer's lender, at Buyer's expense,",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 204.0,
+        "y0": 648.0,
+        "x1": 222.0,
+        "y1": 665.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "18* 2. O Seller\u2019s Right to Reduce Purchase Price: This Contract is contingent upon Buyer or Buyer\u2019s lender, at",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 204.0,
+        "y0": 952.0,
+        "x1": 222.0,
+        "y1": 970.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "2* appraised value of the Property is less than the above value, Buyer may, on or before",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1291.0,
+        "y0": 1041.0,
+        "x1": 1601.0,
+        "y1": 1071.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "the Property is at least $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 540.0,
+        "y0": 1009.0,
+        "x1": 789.0,
+        "y1": 1039.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Property is less than the above value, Buyer may, on or before",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1002.0,
+        "y0": 737.0,
+        "x1": 1313.0,
+        "y1": 767.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "least $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 288.0,
+        "y0": 705.0,
+        "x1": 537.0,
+        "y1": 735.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "( d\u00a2 )-(",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 484.0,
+        "y0": 479.0,
+        "x1": 565.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "( d\u00a2",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 380.0,
+        "y0": 479.0,
+        "x1": 462.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "(",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 260.0,
+        "y0": 479.0,
+        "x1": 341.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 156.0,
+        "y0": 479.0,
+        "x1": 238.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 151.0,
+        "y0": 410.0,
+        "x1": 1601.0,
+        "y1": 440.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "concerning the Property described as",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 619.0,
+        "y0": 366.0,
+        "x1": 1601.0,
+        "y1": 396.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "and",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 205.0,
+        "y0": 321.0,
+        "x1": 1470.0,
+        "y1": 351.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "between",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 264.0,
+        "y0": 277.0,
+        "x1": 1481.0,
+        "y1": 307.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

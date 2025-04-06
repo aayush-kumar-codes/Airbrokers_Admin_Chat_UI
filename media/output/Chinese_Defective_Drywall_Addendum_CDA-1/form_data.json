@@ -1,0 +1,250 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-22T00:39:11.400138",
+    "filename": "Chinese_Defective_Drywall_Addendum_CDA-1.pdf",
+    "document_title": "",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 16,
+    "fields_by_type": {
+      "checkbox": 2,
+      "text": 14
+    },
+    "fields_by_page": {
+      "1": 16
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "(4 Buyer waives the opportunity to conduct a risk assessment or inspection for the presence of Chinese/defective drywall",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 133.0,
+        "y0": 1030.0,
+        "x1": 149.0,
+        "y1": 1046.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "(4 Buyer, at Buyer\u2019s expense, may have a home inspector, licensed contractor or other licensed professional (if required",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 133.0,
+        "y0": 1130.0,
+        "x1": 149.0,
+        "y1": 1146.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1131.0,
+        "y0": 1856.0,
+        "x1": 1601.0,
+        "y1": 1886.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 851.0,
+        "y0": 1856.0,
+        "x1": 1087.0,
+        "y1": 1886.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 384.0,
+        "y0": 1856.0,
+        "x1": 815.0,
+        "y1": 1886.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 101.0,
+        "y0": 1856.0,
+        "x1": 337.0,
+        "y1": 1886.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1131.0,
+        "y0": 1722.0,
+        "x1": 1601.0,
+        "y1": 1752.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 851.0,
+        "y0": 1722.0,
+        "x1": 1087.0,
+        "y1": 1752.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 384.0,
+        "y0": 1722.0,
+        "x1": 815.0,
+        "y1": 1752.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 101.0,
+        "y0": 1722.0,
+        "x1": 337.0,
+        "y1": 1752.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "$",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 175.0,
+        "y0": 1322.0,
+        "x1": 422.0,
+        "y1": 1352.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 160.0,
+        "y0": 1189.0,
+        "x1": 270.0,
+        "y1": 1219.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "documents, if any, to Buyer before accepting Buyer\u2019s offer)",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 851.0,
+        "y0": 772.0,
+        "x1": 1601.0,
+        "y1": 802.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "concerning the Property located at",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 522.0,
+        "y0": 439.0,
+        "x1": 1592.0,
+        "y1": 469.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "and",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 154.0,
+        "y0": 372.0,
+        "x1": 1502.0,
+        "y1": 402.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "between",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 211.0,
+        "y0": 306.0,
+        "x1": 1504.0,
+        "y1": 336.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

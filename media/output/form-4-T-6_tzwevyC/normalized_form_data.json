@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-20T11:00:46.254640",
+    "filename": "form-4-T-6_tzwevyC.pdf",
+    "document_title": "AGREEMENT TO AMEND CONTRACT",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 9,
+    "fields_by_type": {
+      "text": 9
+    },
+    "fields_by_page": {
+      "1": 1,
+      "2": 8
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 45.839999999999996,
+        "y0": 713.7837019085125,
+        "x1": 76.8,
+        "y1": 720.9815207512875
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Buyer: Date Seller: Date",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 522.24,
+        "y0": 310.2259921235989,
+        "x1": 570.48,
+        "y1": 317.4238109663738
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Buyer: Date Seller:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 370.08,
+        "y0": 310.2259921235989,
+        "x1": 489.59999999999997,
+        "y1": 317.4238109663738
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "Buyer: Date",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 260.88,
+        "y0": 310.2259921235989,
+        "x1": 309.12,
+        "y1": 317.4238109663738
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 71.52,
+        "y0": 310.2259921235989,
+        "x1": 216.23999999999998,
+        "y1": 317.4238109663738
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Buyer: Date Seller: Date",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 522.72,
+        "y0": 283.83398970009085,
+        "x1": 570.9599999999999,
+        "y1": 291.0318085428658
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "Buyer: Date Seller:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 370.8,
+        "y0": 283.83398970009085,
+        "x1": 490.32,
+        "y1": 291.0318085428658
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "Buyer: Date",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 265.44,
+        "y0": 283.83398970009085,
+        "x1": 313.68,
+        "y1": 291.0318085428658
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 71.52,
+        "y0": 283.83398970009085,
+        "x1": 216.23999999999998,
+        "y1": 291.0318085428658
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

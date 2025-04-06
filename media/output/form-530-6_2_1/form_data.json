@@ -1,0 +1,670 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-24T22:11:19.025282",
+    "filename": "form-530-6_2_1.pdf",
+    "document_title": "EXCLUSIVE REPRESENTATION AGREEMENT",
+    "number_of_pages": 4,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 47,
+    "fields_by_type": {
+      "checkbox": 4,
+      "text": 43
+    },
+    "fields_by_page": {
+      "1": 19,
+      "2": 4,
+      "3": 5,
+      "4": 19
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "NC REALTORS\u00ae BUYER/TENANT REPRESENTATION AGREEMENT",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 195.0,
+        "y0": 92.0,
+        "x1": 226.0,
+        "y1": 130.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "REALTOR",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 212.0,
+        "y0": 185.0,
+        "x1": 224.0,
+        "y1": 197.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "REALTOR Client Initials Firm Rep. Initials",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 920.0,
+        "y0": 2137.0,
+        "x1": 1023.0,
+        "y1": 2167.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "REALTOR Client Initials",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 612.0,
+        "y0": 2137.0,
+        "x1": 710.0,
+        "y1": 2167.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "REALTOR Client Initials",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 500.0,
+        "y0": 2137.0,
+        "x1": 607.0,
+        "y1": 2167.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "%) of the total rent for the remainder of the term; or $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 904.0,
+        "y0": 1637.0,
+        "x1": 1323.0,
+        "y1": 1667.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 109.0,
+        "y0": 1637.0,
+        "x1": 248.0,
+        "y1": 1667.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "percent ( %) of the total rent for the first months in which rent is to be paid, plus",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1267.0,
+        "y0": 1607.0,
+        "x1": 1510.0,
+        "y1": 1637.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "percent ( %) of the total rent for the",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 701.0,
+        "y0": 1607.0,
+        "x1": 815.0,
+        "y1": 1637.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "percent (",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 198.0,
+        "y0": 1607.0,
+        "x1": 360.0,
+        "y1": 1637.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "If Client and a landlord directly or indirectly leases or agrees to the lease of a property, Client shall pay Firm",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1320.0,
+        "y0": 1573.0,
+        "x1": 1599.0,
+        "y1": 1603.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1043.0,
+        "y0": 1384.0,
+        "x1": 1310.0,
+        "y1": 1414.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 115.0,
+        "y0": 1384.0,
+        "x1": 981.0,
+        "y1": 1414.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "(",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 109.0,
+        "y0": 1351.0,
+        "x1": 885.0,
+        "y1": 1381.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "conditional offer from Client, then Client shall pay Firm a fee equal to",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1109.0,
+        "y0": 1318.0,
+        "x1": 1504.0,
+        "y1": 1348.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "4. The geographic scope of this Agreement contemplates any properties within:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 995.0,
+        "y0": 915.0,
+        "x1": 1598.0,
+        "y1": 945.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 115.0,
+        "y0": 576.0,
+        "x1": 477.0,
+        "y1": 606.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "hereby employs",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 281.0,
+        "y0": 393.0,
+        "x1": 1493.0,
+        "y1": 423.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "The undersigned,",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 298.0,
+        "y0": 362.0,
+        "x1": 1479.0,
+        "y1": 392.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "Client Initials Firm Rep.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 887.0,
+        "y0": 2118.0,
+        "x1": 993.0,
+        "y1": 2148.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "Client Initials",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 584.0,
+        "y0": 2118.0,
+        "x1": 690.0,
+        "y1": 2148.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "Client Initials",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 467.0,
+        "y0": 2118.0,
+        "x1": 571.0,
+        "y1": 2148.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "7. In the event that, during the",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 509.0,
+        "y0": 757.0,
+        "x1": 762.0,
+        "y1": 787.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_2": {
+      "question": "Client Q DOES O DOES NOT authorize the same individual agent to represent both the Client and the",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 599.0,
+        "y0": 1023.0,
+        "x1": 615.0,
+        "y1": 1039.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "Client Q DOES O DOES NOT authorize the same individual agent to represent both the Client and the",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 482.0,
+        "y0": 1023.0,
+        "x1": 498.0,
+        "y1": 1039.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_21": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 295.0,
+        "y0": 1373.0,
+        "x1": 385.0,
+        "y1": 1403.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 492.0,
+        "y0": 1115.0,
+        "x1": 590.0,
+        "y1": 1145.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 201.0,
+        "y0": 920.0,
+        "x1": 285.0,
+        "y1": 950.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_24": {
+      "question": "E-mail:",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 184.0,
+        "y0": 1951.0,
+        "x1": 811.0,
+        "y1": 1981.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_25": {
+      "question": "Facsimile;",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 214.0,
+        "y0": 1884.0,
+        "x1": 809.0,
+        "y1": 1914.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_26": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 178.0,
+        "y0": 1820.0,
+        "x1": 808.0,
+        "y1": 1850.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_27": {
+      "question": "Date:",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 161.0,
+        "y0": 1626.0,
+        "x1": 792.0,
+        "y1": 1656.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_28": {
+      "question": "Title E-mail:",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 953.0,
+        "y0": 1559.0,
+        "x1": 1596.0,
+        "y1": 1589.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_29": {
+      "question": "Title",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 161.0,
+        "y0": 1559.0,
+        "x1": 796.0,
+        "y1": 1589.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_30": {
+      "question": "Name: Facsimile:",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 984.0,
+        "y0": 1495.0,
+        "x1": 1600.0,
+        "y1": 1525.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_31": {
+      "question": "By:_",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 945.0,
+        "y0": 1432.0,
+        "x1": 1608.0,
+        "y1": 1462.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_32": {
+      "question": "(Name of Entity)",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 972.0,
+        "y0": 1365.0,
+        "x1": 1608.0,
+        "y1": 1395.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_33": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 100.0,
+        "y0": 1334.0,
+        "x1": 789.0,
+        "y1": 1364.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_34": {
+      "question": "Address:",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 972.0,
+        "y0": 1304.0,
+        "x1": 1601.0,
+        "y1": 1334.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_35": {
+      "question": "Date; Date:",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 932.0,
+        "y0": 1159.0,
+        "x1": 1576.0,
+        "y1": 1189.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_36": {
+      "question": "Date;",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 159.0,
+        "y0": 1140.0,
+        "x1": 789.0,
+        "y1": 1170.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_37": {
+      "question": "Individual license #",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 1097.0,
+        "y0": 1104.0,
+        "x1": 1465.0,
+        "y1": 1134.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_38": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 100.0,
+        "y0": 1073.0,
+        "x1": 799.0,
+        "y1": 1103.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_39": {
+      "question": "Name:",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 945.0,
+        "y0": 1051.0,
+        "x1": 1583.0,
+        "y1": 1081.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_40": {
+      "question": "Date",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 159.0,
+        "y0": 1018.0,
+        "x1": 798.0,
+        "y1": 1048.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_41": {
+      "question": "By:",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 911.0,
+        "y0": 1001.0,
+        "x1": 1582.0,
+        "y1": 1031.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_42": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 97.0,
+        "y0": 968.0,
+        "x1": 789.0,
+        "y1": 998.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

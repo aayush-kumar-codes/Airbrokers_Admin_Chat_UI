@@ -1,0 +1,240 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-06T09:02:00.503798",
+    "filename": "form-351-T-2_1.pdf",
+    "document_title": "TERMINATION OF CONTRACT FOR FAILURE TO PROVIDE LOAN COMMITMENT LETTER OR WAIVER OF LOAN CONDITION",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 12,
+    "fields_by_type": {
+      "checkbox": 8,
+      "text": 4
+    },
+    "fields_by_page": {
+      "1": 12
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "Q Exercise by Buyer of right to terminate during the Due Diligence Period (see Paragraph 2 of the Contract)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 154.0,
+        "y0": 555.0,
+        "x1": 170.0,
+        "y1": 571.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "Q 1 Seller\u2019s delay in Settlement and Closing beyond the time permitted under the terms of the Contract (see Paragraph 10) and",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 154.0,
+        "y0": 606.0,
+        "x1": 170.0,
+        "y1": 622.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "Q Exercise by Buyer of right to terminate under Paragraph 9 of Back-Up Contract Addendum (form 2A1-T) prior to receipt by",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 154.0,
+        "y0": 689.0,
+        "x1": 170.0,
+        "y1": 705.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "Q_ The Property is not in substantially the same or better condition at Closing as on the date of this offer, reasonable wear and",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 154.0,
+        "y0": 772.0,
+        "x1": 170.0,
+        "y1": 788.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "Q_ The Property fails to satisfy the Governmental Compliance condition in the Contract. (See Paragraph 6(h)).",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 154.0,
+        "y0": 856.0,
+        "x1": 170.0,
+        "y1": 872.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "Q Exercise by Buyer of right to terminate under Paragraph 4 of Short Sale Addendum (form 2A14-T) at any time prior to",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 154.0,
+        "y0": 907.0,
+        "x1": 170.0,
+        "y1": 923.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_6": {
+      "question": "Q_ Buyer gives this notice of termination and alleges that Seller has breached the Contract. Buyer is strongly advised to seek",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 154.0,
+        "y0": 990.0,
+        "x1": 170.0,
+        "y1": 1006.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_7": {
+      "question": "Q_ Buyer gives this notice of termination after the expiration of the Due Diligence Period without providing a reason. Buyer is",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 154.0,
+        "y0": 1073.0,
+        "x1": 170.0,
+        "y1": 1089.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "Contract\u2014V acant Lot/Land (form 12-T) (\u201cContract\u201d). The Effective Date ofthe Contractis\u2014",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1136.0,
+        "y0": 447.0,
+        "x1": 1275.0,
+        "y1": 477.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Property Address:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 301.0,
+        "y0": 364.0,
+        "x1": 1454.0,
+        "y1": 394.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Sellers",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 881.0,
+        "y0": 313.0,
+        "x1": 1493.0,
+        "y1": 343.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 262.0,
+        "x1": 1481.0,
+        "y1": 292.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

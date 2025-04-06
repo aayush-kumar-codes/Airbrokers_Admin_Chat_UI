@@ -55,6 +55,7 @@ class StructuredFormProcessor:
                 fields_by_type['checkbox'] += 1
 
             for line in page_data['line_results']:
+                print(line)
                 field = self._create_text_field(line, page_num)
                 self.fields[f"text_{self.text_count}"] = field
                 self.text_count += 1

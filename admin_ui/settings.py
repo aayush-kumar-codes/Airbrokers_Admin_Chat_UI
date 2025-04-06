@@ -35,10 +35,9 @@ SECRET_KEY = 'django-insecure-!xq73#w#@s(fc0%do&&9c5f1ny3@$r(o95#zt+14p^630@l3qu
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+# ALLOWED_HOSTS = ['192.168.12.121','localhost','127.0.0.1','0.0.0.0',"*"]
 
-ALLOWED_HOSTS = ['192.168.12.121','localhost', '127.0.0.1']
-
-
+ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
@@ -48,7 +47,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.sites',
+    'corsheaders',
+    # 'django.contrib.sites',
 
     "crispy_forms",
     "crispy_bootstrap5",
@@ -61,6 +61,8 @@ INSTALLED_APPS = [
     'forms',   
 ]
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',  
+    'django.middleware.common.CommonMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -75,15 +77,15 @@ ROOT_URLCONF = 'admin_ui.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'templates'),os.path.join(BASE_DIR, 'forms/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
-                'admin_ui.context_processors.mqtt_connection_for_push_notification_context'
+                'django.contrib.messages.context_processors.messages'
+                # 'admin_ui.context_processors.mqtt_connection_for_push_notification_context'
             ],
         },
     },
@@ -159,6 +161,30 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'  # Static URL to access the media files
 
 # settings.py
-CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1:8000']
+CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1:3000']
 DEBUG = True 
 # CSRF_COOKIE_SECURE = True
+
+# settings.py
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',  # Use SQLite database
+        'NAME': BASE_DIR / 'db.sqlite3',         # Path to SQLite database
+    }
+}
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_METHODS = [
+    'GET',
+    'POST',
+    'PUT',
+    'PATCH',
+    'DELETE',
+    'OPTIONS',
+]
+
+CORS_ALLOW_HEADERS = [
+    'content-type',
+    'authorization',
+    'x-csrftoken',
+]

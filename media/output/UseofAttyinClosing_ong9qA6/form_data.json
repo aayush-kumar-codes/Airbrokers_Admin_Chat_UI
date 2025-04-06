@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-10T22:39:30.717068",
+    "filename": "UseofAttyinClosing_ong9qA6.pdf",
+    "document_title": "IMPORTANT NOTICE",
+    "number_of_pages": 5,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 3,
+    "fields_by_type": {
+      "text": 3
+    },
+    "fields_by_page": {
+      "4": 1,
+      "5": 2
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 4,
+      "rect": {
+        "x0": 251.0,
+        "y0": 1266.0,
+        "x1": 647.0,
+        "y1": 1296.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 251.0,
+        "y0": 894.0,
+        "x1": 651.0,
+        "y1": 924.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "",
+      "type": "text",
+      "page": 5,
+      "rect": {
+        "x0": 251.0,
+        "y0": 710.0,
+        "x1": 1452.0,
+        "y1": 740.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

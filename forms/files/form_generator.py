@@ -23,6 +23,8 @@ def create_acroform_from_images(image_files, form_data_file, output_pdf, page_di
     with open(form_data_file, 'r') as f:
         form_data = json.load(f)
 
+    print("form_data",form_data)
+
     # Get page dimensions
     pdf_width = page_dimensions['width'] if page_dimensions else 612  # default letter width
     pdf_height = page_dimensions['height'] if page_dimensions else 792  # default letter height

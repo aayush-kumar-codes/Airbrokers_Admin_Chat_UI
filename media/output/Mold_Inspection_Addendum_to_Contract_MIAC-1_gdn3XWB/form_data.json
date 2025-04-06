@@ -1,0 +1,248 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-21T22:40:06.640719",
+    "filename": "Mold_Inspection_Addendum_to_Contract_MIAC-1_gdn3XWB.pdf",
+    "document_title": "FARMIAC1.pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 17,
+    "fields_by_type": {
+      "text": 17
+    },
+    "fields_by_page": {
+      "1": 17
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "Buyer: / Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1266.0,
+        "y0": 1647.0,
+        "x1": 1591.0,
+        "y1": 1677.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Buyer: /",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 702.0,
+        "y0": 1647.0,
+        "x1": 1151.0,
+        "y1": 1677.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 184.0,
+        "y0": 1647.0,
+        "x1": 678.0,
+        "y1": 1677.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "Buyer: / Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1266.0,
+        "y0": 1553.0,
+        "x1": 1591.0,
+        "y1": 1583.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "Buyer: /",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 702.0,
+        "y0": 1553.0,
+        "x1": 1151.0,
+        "y1": 1583.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 184.0,
+        "y0": 1553.0,
+        "x1": 678.0,
+        "y1": 1583.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "Seller: / Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1264.0,
+        "y0": 1459.0,
+        "x1": 1589.0,
+        "y1": 1489.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "Seller: /",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 716.0,
+        "y0": 1459.0,
+        "x1": 1165.0,
+        "y1": 1489.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "Seller:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 182.0,
+        "y0": 1459.0,
+        "x1": 692.0,
+        "y1": 1489.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "Seller: / Date:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1264.0,
+        "y0": 1364.0,
+        "x1": 1589.0,
+        "y1": 1394.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "Seller: /",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 716.0,
+        "y0": 1364.0,
+        "x1": 1165.0,
+        "y1": 1394.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "Seller:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 182.0,
+        "y0": 1364.0,
+        "x1": 692.0,
+        "y1": 1394.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "to remove the mold, at a cost which exceeds $.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 731.0,
+        "y0": 854.0,
+        "x1": 902.0,
+        "y1": 884.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 153.0,
+        "y0": 554.0,
+        "x1": 278.0,
+        "y1": 584.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "concerning the Property located at",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 540.0,
+        "y0": 404.0,
+        "x1": 1591.0,
+        "y1": 434.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 117.0,
+        "y0": 354.0,
+        "x1": 1507.0,
+        "y1": 384.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "between",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 207.0,
+        "y0": 304.0,
+        "x1": 1443.0,
+        "y1": 334.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

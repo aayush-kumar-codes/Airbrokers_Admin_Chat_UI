@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-22T23:14:18.885817",
+    "filename": "form-391-T-2.pdf",
+    "document_title": "TERMINATION OF AGENCY AGREEMENT AND RELEASE",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 5,
+    "fields_by_type": {
+      "checkbox": 1,
+      "text": 4
+    },
+    "fields_by_page": {
+      "1": 4,
+      "2": 1
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "REALTOR\u00ae OPpPorr! UNITY",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 173.0,
+        "y0": 2143.0,
+        "x1": 187.0,
+        "y1": 2156.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 100.0,
+        "y0": 901.0,
+        "x1": 1447.0,
+        "y1": 931.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Mailing Address:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1288.0,
+        "y0": 723.0,
+        "x1": 1594.0,
+        "y1": 753.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Mailing Address:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 301.0,
+        "y0": 723.0,
+        "x1": 1287.0,
+        "y1": 753.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "The Deposit is being held by",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 420.0,
+        "y0": 1225.0,
+        "x1": 1365.0,
+        "y1": 1255.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

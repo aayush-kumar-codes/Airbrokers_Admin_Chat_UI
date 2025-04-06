@@ -1,0 +1,459 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-17T08:19:18.870326",
+    "filename": "MNAR - Addendum to Purchase Agreement_ Additional Signatures (MN_APA_AS) (Rev. 08_2022).pdf",
+    "document_title": "Add to PA Additional Signatures22.pdf",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 32,
+    "fields_by_type": {
+      "checkbox": 2,
+      "text": 30
+    },
+    "fields_by_page": {
+      "1": 22,
+      "2": 10
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "13. perjury, that Seller|_ |IS|_|IS NOT a foreign person",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 483.0,
+        "y0": 765.0,
+        "x1": 513.0,
+        "y1": 796.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "13. perjury, that Seller|_ |IS|_|IS NOT a foreign person",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 409.0,
+        "y0": 765.0,
+        "x1": 440.0,
+        "y1": 796.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "26. X Xx",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 976.0,
+        "y0": 1844.0,
+        "x1": 1601.0,
+        "y1": 1874.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "26. X",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 201.0,
+        "y0": 1844.0,
+        "x1": 826.0,
+        "y1": 1874.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "25. X Xx",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 976.0,
+        "y0": 1752.0,
+        "x1": 1601.0,
+        "y1": 1782.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "25. X",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 201.0,
+        "y0": 1752.0,
+        "x1": 826.0,
+        "y1": 1782.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "24. X Xx",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 976.0,
+        "y0": 1623.0,
+        "x1": 1601.0,
+        "y1": 1653.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "24. X",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 201.0,
+        "y0": 1623.0,
+        "x1": 826.0,
+        "y1": 1653.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "23. X Xx",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 976.0,
+        "y0": 1531.0,
+        "x1": 1601.0,
+        "y1": 1561.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "23. X",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 201.0,
+        "y0": 1531.0,
+        "x1": 826.0,
+        "y1": 1561.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "22. X Xx",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 976.0,
+        "y0": 1402.0,
+        "x1": 1601.0,
+        "y1": 1432.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "22. X",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 201.0,
+        "y0": 1402.0,
+        "x1": 826.0,
+        "y1": 1432.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "21. X Xx",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 976.0,
+        "y0": 1310.0,
+        "x1": 1601.0,
+        "y1": 1340.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "21. X",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 201.0,
+        "y0": 1310.0,
+        "x1": 826.0,
+        "y1": 1340.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "20. X Xx",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 976.0,
+        "y0": 1181.0,
+        "x1": 1601.0,
+        "y1": 1211.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "20. X",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 201.0,
+        "y0": 1181.0,
+        "x1": 826.0,
+        "y1": 1211.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "19. X Xx",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 976.0,
+        "y0": 1090.0,
+        "x1": 1601.0,
+        "y1": 1120.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "19. X",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 201.0,
+        "y0": 1090.0,
+        "x1": 826.0,
+        "y1": 1120.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "5.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 459.0,
+        "x1": 1593.0,
+        "y1": 489.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "4. (Date of this Purchase Agreement), pertaining to the purchase and sale of the Property at",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1284.0,
+        "y0": 413.0,
+        "x1": 1601.0,
+        "y1": 443.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "3. Addendum to Purchase Agreement between parties, dated",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 913.0,
+        "y0": 367.0,
+        "x1": 1601.0,
+        "y1": 397.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "1. Date",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1067.0,
+        "y0": 270.0,
+        "x1": 1601.0,
+        "y1": 300.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "SELLER(S) BUYER(S)",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1067.0,
+        "y0": 760.0,
+        "x1": 1600.0,
+        "y1": 790.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "SELLER(S)",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 329.0,
+        "y0": 760.0,
+        "x1": 850.0,
+        "y1": 790.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "SELLER(S) BUYER(S)",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1067.0,
+        "y0": 664.0,
+        "x1": 1600.0,
+        "y1": 694.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "SELLER(S)",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 329.0,
+        "y0": 664.0,
+        "x1": 850.0,
+        "y1": 694.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_24": {
+      "question": "SELLER(S) BUYER(S)",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1067.0,
+        "y0": 568.0,
+        "x1": 1600.0,
+        "y1": 598.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_25": {
+      "question": "SELLER(S)",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 329.0,
+        "y0": 568.0,
+        "x1": 850.0,
+        "y1": 598.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_26": {
+      "question": "SELLER(S) BUYER(S)",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1067.0,
+        "y0": 473.0,
+        "x1": 1600.0,
+        "y1": 503.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_27": {
+      "question": "SELLER(S)",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 329.0,
+        "y0": 473.0,
+        "x1": 850.0,
+        "y1": 503.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_28": {
+      "question": "30. Property located at",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 421.0,
+        "y0": 255.0,
+        "x1": 1586.0,
+        "y1": 285.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_29": {
+      "question": "29. Page2 Date",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1167.0,
+        "y0": 185.0,
+        "x1": 1600.0,
+        "y1": 215.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-22T00:42:11.922569",
+    "filename": "CRSP-16_U_-_Pre-1978_Housing_Lead-Based_Paint_Warning_Statement_Addendum.pdf",
+    "document_title": "CRSP16.U.LBP addendum.pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 21,
+    "fields_by_type": {
+      "checkbox": 1,
+      "text": 20
+    },
+    "fields_by_page": {
+      "1": 21
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "inspection for the presence of LBP/LBPH unless this box is checked (Buyer may, within the Inspection Period,",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1073.0,
+        "y0": 1111.0,
+        "x1": 1091.0,
+        "y1": 1129.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1401.0,
+        "y0": 1749.0,
+        "x1": 1601.0,
+        "y1": 1779.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 951.0,
+        "y0": 1749.0,
+        "x1": 1351.0,
+        "y1": 1779.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 651.0,
+        "y0": 1749.0,
+        "x1": 851.0,
+        "y1": 1779.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 201.0,
+        "y0": 1749.0,
+        "x1": 601.0,
+        "y1": 1779.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1401.0,
+        "y0": 1652.0,
+        "x1": 1601.0,
+        "y1": 1682.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 951.0,
+        "y0": 1652.0,
+        "x1": 1351.0,
+        "y1": 1682.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 651.0,
+        "y0": 1652.0,
+        "x1": 851.0,
+        "y1": 1682.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 201.0,
+        "y0": 1652.0,
+        "x1": 601.0,
+        "y1": 1682.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1401.0,
+        "y0": 1555.0,
+        "x1": 1601.0,
+        "y1": 1585.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 951.0,
+        "y0": 1555.0,
+        "x1": 1351.0,
+        "y1": 1585.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 651.0,
+        "y0": 1555.0,
+        "x1": 851.0,
+        "y1": 1585.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 201.0,
+        "y0": 1555.0,
+        "x1": 601.0,
+        "y1": 1585.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "( )( )-(",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 487.0,
+        "y0": 479.0,
+        "x1": 569.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "( )(",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 383.0,
+        "y0": 479.0,
+        "x1": 468.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "(",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 261.0,
+        "y0": 479.0,
+        "x1": 342.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 156.0,
+        "y0": 479.0,
+        "x1": 238.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 151.0,
+        "y0": 410.0,
+        "x1": 1601.0,
+        "y1": 440.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "concerning the Property described as",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 619.0,
+        "y0": 366.0,
+        "x1": 1601.0,
+        "y1": 396.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "and",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 205.0,
+        "y0": 321.0,
+        "x1": 1478.0,
+        "y1": 351.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "between",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 264.0,
+        "y0": 277.0,
+        "x1": 1481.0,
+        "y1": 307.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

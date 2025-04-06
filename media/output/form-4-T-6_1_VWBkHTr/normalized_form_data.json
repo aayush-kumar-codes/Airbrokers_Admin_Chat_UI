@@ -1,0 +1,406 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-11T01:36:20.384790",
+    "filename": "form-4-T-6_1_VWBkHTr.pdf",
+    "document_title": "AGREEMENT TO AMEND CONTRACT",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 22,
+    "fields_by_type": {
+      "checkbox": 13,
+      "text": 9
+    },
+    "fields_by_page": {
+      "1": 8,
+      "2": 14
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "OU) Additional Buyer. By signing this amendment, (insert name only) is",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 37.296,
+        "y0": 251.42399999999998,
+        "x1": 42.912,
+        "y1": 256.89599999999996
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "U) Purchase Price. The Purchase Price is hereby changed from: $ to: $",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 37.296,
+        "y0": 331.91999999999996,
+        "x1": 42.912,
+        "y1": 337.392
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "UO (Additional) Earnest Money. The \u201c dditional) Earnest Money Deposit is hereby changed from: $",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 37.296,
+        "y0": 352.65599999999995,
+        "x1": 42.912,
+        "y1": 358.128
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "U) (Additional) Earnest Money Deposit Date: The date by which the (Additional) Earnest Boney Deposit shall be paid to Escrow",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 37.296,
+        "y0": 387.21599999999995,
+        "x1": 42.912,
+        "y1": 392.688
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "UL) Due Diligence Fee. The Due Diligence Fee paid to Seller is hereby changed from: $ to: $",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 37.296,
+        "y0": 419.328,
+        "x1": 42.912,
+        "y1": 424.79999999999995
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "LY Due Diligence Period. The expiration date of the Due Diligence Period is hereby changed to extend through 5:00 p.m. on",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 37.296,
+        "y0": 442.36799999999994,
+        "x1": 42.912,
+        "y1": 447.84
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_6": {
+      "question": "LU Escrow Agent. The Escrow Agent is hereby changed to:",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 37.296,
+        "y0": 476.784,
+        "x1": 42.912,
+        "y1": 482.256
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 216.28799999999998,
+        "y0": 449.712,
+        "x1": 229.968,
+        "y1": 454.032
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_7": {
+      "question": "L) Settlement Date. The Settlement Date is hereby changed to:",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 37.44,
+        "y0": 50.25599999999999,
+        "x1": 42.767999999999994,
+        "y1": 55.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_8": {
+      "question": "UO (check only if the following also will apply) The Delay in Settlement/Closing paragraph in the Contract is hereby amended",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 73.29599999999999,
+        "y0": 61.632,
+        "x1": 78.91199999999999,
+        "y1": 67.104
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_9": {
+      "question": "L) Expenses. The amount Seller shall pay at Settlement toward Buyer\u2019s expenses associated with the purchase of the Property is hereby",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 37.296,
+        "y0": 107.568,
+        "x1": 42.912,
+        "y1": 113.03999999999999
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_10": {
+      "question": "L) Home Warranty. The Home Warranty paragraph of the Contract is hereby changed to provide as follows:",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 37.296,
+        "y0": 165.16799999999998,
+        "x1": 42.912,
+        "y1": 170.64
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_11": {
+      "question": "LY No home warranty is to be provided by Seller.",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 50.831999999999994,
+        "y0": 176.688,
+        "x1": 56.44799999999999,
+        "y1": 182.16
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_12": {
+      "question": "QO) Buyer may obtain a one-year home warranty atacostnottoexceed$ which includes sales tax and Seller agrees to",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 50.831999999999994,
+        "y0": 188.208,
+        "x1": 56.44799999999999,
+        "y1": 193.67999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_1": {
+      "question": "Buyer: Date Seller:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 522.0,
+        "y0": 313.344,
+        "x1": 570.3839999999999,
+        "y1": 317.664
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Buyer: Date Seller:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 369.936,
+        "y0": 313.344,
+        "x1": 489.59999999999997,
+        "y1": 317.664
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "Buyer: Date",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 260.784,
+        "y0": 313.344,
+        "x1": 309.16799999999995,
+        "y1": 317.664
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 71.42399999999999,
+        "y0": 313.344,
+        "x1": 216.28799999999998,
+        "y1": 317.664
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Buyer: Date Seller:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 522.7199999999999,
+        "y0": 286.84799999999996,
+        "x1": 570.9599999999999,
+        "y1": 291.168
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "Buyer: Date Seller:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 370.65599999999995,
+        "y0": 286.84799999999996,
+        "x1": 490.176,
+        "y1": 291.168
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "Buyer: Date",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 265.248,
+        "y0": 286.84799999999996,
+        "x1": 313.63199999999995,
+        "y1": 291.168
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 71.42399999999999,
+        "y0": 286.84799999999996,
+        "x1": 216.28799999999998,
+        "y1": 291.168
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

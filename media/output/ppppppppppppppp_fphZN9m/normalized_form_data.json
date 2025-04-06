@@ -1,0 +1,691 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-11T21:16:19.718738",
+    "filename": "ppppppppppppppp_fphZN9m.pdf",
+    "document_title": "form-2A6-T-2.pdf(converti)",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 51,
+    "fields_by_type": {
+      "text": 51
+    },
+    "fields_by_page": {
+      "1": 30,
+      "2": 21
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 82.42338674561432,
+        "y0": 798.0063007382462,
+        "x1": 113.01722025381179,
+        "y1": 808.8047621826067
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Buyer Initials Seller Initials",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 280.0235584632661,
+        "y0": 786.1279931494495,
+        "x1": 315.29644886095264,
+        "y1": 796.92645459381
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "Buyer Initials",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 183.20307359614714,
+        "y0": 786.1279931494495,
+        "x1": 218.4759639938336,
+        "y1": 796.92645459381
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "Buyer Initials",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 140.3717066846707,
+        "y0": 786.1279931494495,
+        "x1": 175.64459708235717,
+        "y1": 796.92645459381
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "Email:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 56.868537579943506,
+        "y0": 375.7864582637479,
+        "x1": 566.885738534247,
+        "y1": 386.58491970810843
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Telephone No.: Fax:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 342.6509352918115,
+        "y0": 364.62804810457527,
+        "x1": 567.9655208933599,
+        "y1": 375.4265095489358
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "Telephone No.:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 92.5013554306676,
+        "y0": 364.62804810457527,
+        "x1": 317.81594103221596,
+        "y1": 375.4265095489358
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 66.22665135892156,
+        "y0": 353.1096892305907,
+        "x1": 566.5258110812093,
+        "y1": 363.90815067495123
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "Address:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 65.50679645284632,
+        "y0": 341.591330356606,
+        "x1": 566.1658836281717,
+        "y1": 352.38979180096663
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "Loan currently held by:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 124.17497129797792,
+        "y0": 330.0729714826214,
+        "x1": 564.3662463629837,
+        "y1": 340.871432926982
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "Final payment date of loan: Loan Account No.:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 377.2039707834228,
+        "y0": 307.03625373465223,
+        "x1": 567.2456659872846,
+        "y1": 317.8347151790128
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "Final payment date of loan:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 140.01177923163306,
+        "y0": 307.03625373465223,
+        "x1": 295.5004389438837,
+        "y1": 317.8347151790128
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "The loan payments are currently: $ per",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 270.30551723125046,
+        "y0": 283.999535986683,
+        "x1": 330.4134018885325,
+        "y1": 294.7979974310436
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "The loan payments are currently: $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 167.36626566249197,
+        "y0": 283.999535986683,
+        "x1": 252.66907203240723,
+        "y1": 294.7979974310436
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "Approximate unpaid principal balance: $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 192.20125992208756,
+        "y0": 260.9628182387138,
+        "x1": 342.2910078387739,
+        "y1": 271.76127968307435
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "Approximate unpaid principal balance: $ as of",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 366.40614719229427,
+        "y0": 260.9628182387138,
+        "x1": 486.26198905382074,
+        "y1": 271.76127968307435
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "Other",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 126.69446346924123,
+        "y0": 237.92610049074457,
+        "x1": 566.5258110812093,
+        "y1": 248.72456193510513
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 63.707159187658235,
+        "y0": 237.92610049074457,
+        "x1": 98.98004958534472,
+        "y1": 248.72456193510513
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "Adjustable Rate currently at % per annum with adjustments occurring",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 420.75519260097445,
+        "y0": 226.40774161675995,
+        "x1": 565.8059561751342,
+        "y1": 237.20620306112053
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "Adjustable Rate currently at",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 215.95647182257028,
+        "y0": 226.40774161675995,
+        "x1": 251.22936222025677,
+        "y1": 237.20620306112053
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 63.707159187658235,
+        "y0": 226.40774161675995,
+        "x1": 98.98004958534472,
+        "y1": 237.20620306112053
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "Fixed Rate at",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 156.92836952440106,
+        "y0": 214.88938274277535,
+        "x1": 197.2402442646142,
+        "y1": 225.6878441871359
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 63.707159187658235,
+        "y0": 214.88938274277535,
+        "x1": 98.98004958534472,
+        "y1": 225.6878441871359
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "FHA VA Private",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 246.55030533076774,
+        "y0": 203.37102386879073,
+        "x1": 281.4632682754166,
+        "y1": 214.1694853131513
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_24": {
+      "question": "FHA VA",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 178.1640892536205,
+        "y0": 203.37102386879073,
+        "x1": 213.43697965130696,
+        "y1": 214.1694853131513
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_25": {
+      "question": "FHA",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 123.81504384494029,
+        "y0": 203.37102386879073,
+        "x1": 159.08793424262677,
+        "y1": 214.1694853131513
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_26": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 63.707159187658235,
+        "y0": 203.37102386879073,
+        "x1": 98.98004958534472,
+        "y1": 214.1694853131513
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_27": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 57.22846503298113,
+        "y0": 134.62081933969512,
+        "x1": 567.6055934403222,
+        "y1": 145.41928078405567
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_28": {
+      "question": "Seller:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 56.14868267386827,
+        "y0": 111.5841015917259,
+        "x1": 566.5258110812093,
+        "y1": 122.38256303608647
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_29": {
+      "question": "Property:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 69.82592588929772,
+        "y0": 88.54738384375668,
+        "x1": 565.0861012690589,
+        "y1": 99.34584528811725
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_30": {
+      "question": "Date: Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 339.7715156675106,
+        "y0": 556.1207643845694,
+        "x1": 459.9872849820747,
+        "y1": 566.9192258289299
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_31": {
+      "question": "Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 51.82955323741687,
+        "y0": 556.1207643845694,
+        "x1": 172.045322551981,
+        "y1": 566.9192258289299
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_32": {
+      "question": "Title: Title:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 339.7715156675106,
+        "y0": 533.0840466366002,
+        "x1": 564.7261738160213,
+        "y1": 543.8825080809607
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_33": {
+      "question": "Title:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 51.82955323741687,
+        "y0": 533.0840466366002,
+        "x1": 276.78421138592756,
+        "y1": 543.8825080809607
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_34": {
+      "question": "Name: Name:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 344.4505725569996,
+        "y0": 498.52897001464635,
+        "x1": 564.7261738160213,
+        "y1": 509.3274314590069
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_35": {
+      "question": "Name:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 56.868537579943506,
+        "y0": 498.52897001464635,
+        "x1": 276.78421138592756,
+        "y1": 509.3274314590069
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_36": {
+      "question": "By: By:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 332.57296660675826,
+        "y0": 475.4922522666771,
+        "x1": 562.5666090977955,
+        "y1": 486.2907137110377
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_37": {
+      "question": "By:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 44.631004176664526,
+        "y0": 475.4922522666771,
+        "x1": 274.6246466677019,
+        "y1": 486.2907137110377
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_38": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 315.6563763139902,
+        "y0": 440.9371756447233,
+        "x1": 560.7669718326075,
+        "y1": 451.73563708908387
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_39": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 27.71441388389652,
+        "y0": 440.9371756447233,
+        "x1": 272.8250094025138,
+        "y1": 451.73563708908387
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_40": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 315.6563763139902,
+        "y0": 406.74204773758146,
+        "x1": 565.8059561751342,
+        "y1": 417.54050918194207
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_41": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 27.71441388389652,
+        "y0": 406.74204773758146,
+        "x1": 277.86399374504043,
+        "y1": 417.54050918194207
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_42": {
+      "question": "Buyer: Seller:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 344.090645103962,
+        "y0": 383.70532998961227,
+        "x1": 559.327262020457,
+        "y1": 394.5037914339728
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_43": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 57.22846503298113,
+        "y0": 383.70532998961227,
+        "x1": 272.4650819494762,
+        "y1": 394.5037914339728
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_44": {
+      "question": "Date: Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 339.7715156675106,
+        "y0": 360.6686122416431,
+        "x1": 454.94830063954805,
+        "y1": 371.46707368600363
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_45": {
+      "question": "Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 49.31006106615355,
+        "y0": 360.6686122416431,
+        "x1": 169.52583038071768,
+        "y1": 371.46707368600363
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_46": {
+      "question": "Buyer: Seller:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 344.090645103962,
+        "y0": 337.6318944936738,
+        "x1": 559.327262020457,
+        "y1": 348.4303559380344
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_47": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 59.74795720424444,
+        "y0": 337.6318944936738,
+        "x1": 274.98457412073947,
+        "y1": 348.4303559380344
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_48": {
+      "question": "Date: Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 339.7715156675106,
+        "y0": 314.59517674570463,
+        "x1": 454.94830063954805,
+        "y1": 325.3936381900652
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_49": {
+      "question": "Date:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 49.31006106615355,
+        "y0": 314.59517674570463,
+        "x1": 169.52583038071768,
+        "y1": 325.3936381900652
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_50": {
+      "question": "Other Provisions:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 100.41975939749518,
+        "y0": 152.97820379510807,
+        "x1": 565.4460287220966,
+        "y1": 163.77666523946866
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-27T15:24:35.674924",
+    "filename": "form-511-6_1.pdf",
+    "document_title": " ",
+    "number_of_pages": 3,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 25,
+    "fields_by_type": {
+      "checkbox": 3,
+      "text": 22
+    },
+    "fields_by_page": {
+      "1": 4,
+      "2": 7,
+      "3": 14
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "REALTOR",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 298.0,
+        "y0": 209.0,
+        "x1": 310.0,
+        "y1": 222.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "In connection with the proposed O sale Q lease of that certain property known as:",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 650.0,
+        "y0": 471.0,
+        "x1": 667.0,
+        "y1": 487.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "In connection with the proposed O sale Q lease of that certain property known as:",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 569.0,
+        "y0": 471.0,
+        "x1": 585.0,
+        "y1": 487.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 208.0,
+        "y0": 496.0,
+        "x1": 1301.0,
+        "y1": 526.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "Name/Title:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 979.0,
+        "y0": 1605.0,
+        "x1": 1536.0,
+        "y1": 1635.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "By:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 884.0,
+        "y0": 1556.0,
+        "x1": 1525.0,
+        "y1": 1586.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "Individual:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 259.0,
+        "y0": 1529.0,
+        "x1": 816.0,
+        "y1": 1559.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "Name of Entity:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 1023.0,
+        "y0": 1508.0,
+        "x1": 1511.0,
+        "y1": 1538.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Executed this the day of 20",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 958.0,
+        "y0": 1347.0,
+        "x1": 1056.0,
+        "y1": 1377.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "Executed this the day of",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 694.0,
+        "y0": 1347.0,
+        "x1": 917.0,
+        "y1": 1377.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "Executed this the",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 498.0,
+        "y0": 1347.0,
+        "x1": 611.0,
+        "y1": 1377.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "Phone: E-mail",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 911.0,
+        "y0": 773.0,
+        "x1": 1528.0,
+        "y1": 803.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 206.0,
+        "y0": 773.0,
+        "x1": 828.0,
+        "y1": 803.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "City, State Zip:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 306.0,
+        "y0": 725.0,
+        "x1": 1528.0,
+        "y1": 755.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "Address:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 227.0,
+        "y0": 677.0,
+        "x1": 1528.0,
+        "y1": 707.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "Date:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 195.0,
+        "y0": 630.0,
+        "x1": 779.0,
+        "y1": 660.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "Name/Title:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 991.0,
+        "y0": 566.0,
+        "x1": 1548.0,
+        "y1": 596.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "By:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 897.0,
+        "y0": 518.0,
+        "x1": 1537.0,
+        "y1": 548.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "Individual:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 259.0,
+        "y0": 475.0,
+        "x1": 816.0,
+        "y1": 505.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "Individual: Name ofEntity,",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 1036.0,
+        "y0": 469.0,
+        "x1": 1523.0,
+        "y1": 499.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "Phone: E-mail",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 911.0,
+        "y0": 244.0,
+        "x1": 1528.0,
+        "y1": 274.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "Phone:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 206.0,
+        "y0": 244.0,
+        "x1": 828.0,
+        "y1": 274.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "City, State Zip:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 306.0,
+        "y0": 196.0,
+        "x1": 1528.0,
+        "y1": 226.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "Address:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 227.0,
+        "y0": 148.0,
+        "x1": 1528.0,
+        "y1": 178.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "Date:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 195.0,
+        "y0": 101.0,
+        "x1": 779.0,
+        "y1": 131.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

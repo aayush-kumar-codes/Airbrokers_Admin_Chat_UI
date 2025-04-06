@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-17T07:33:33.024611",
+    "filename": "MNAR - Wire Fraud Alert_bGD88Tz.pdf",
+    "document_title": "WireFraudAlert18.pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 2,
+    "fields_by_type": {
+      "text": 2
+    },
+    "fields_by_page": {
+      "1": 2
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 901.0,
+        "y0": 1808.0,
+        "x1": 1601.0,
+        "y1": 1838.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 101.0,
+        "y0": 1808.0,
+        "x1": 801.0,
+        "y1": 1838.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

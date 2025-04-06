@@ -1,0 +1,323 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-21T23:17:47.373067",
+    "filename": "CRSP-16_S_-_Mortgage_Assumption_Addendum.pdf",
+    "document_title": "CRSP16.S.mortgage assumption addendum.pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 20,
+    "fields_by_type": {
+      "checkbox": 5,
+      "text": 15
+    },
+    "fields_by_page": {
+      "1": 20
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "principal, interest, Litaxes and insurance, and having a Lifixed Lother (describe)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 968.0,
+        "y0": 581.0,
+        "x1": 987.0,
+        "y1": 599.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "principal, interest, Litaxes and insurance, and having a Lifixed Lother (describe)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 863.0,
+        "y0": 581.0,
+        "x1": 882.0,
+        "y1": 599.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "principal, interest, Litaxes and insurance, and having a Lifixed Lother (describe)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 386.0,
+        "y0": 581.0,
+        "x1": 405.0,
+        "y1": 599.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "interest rate of % which Clwill Clwill not escalate upon assumption. Any variance in the mortgage will be",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 653.0,
+        "y0": 613.0,
+        "x1": 672.0,
+        "y1": 631.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "interest rate of % which Clwill Clwill not escalate upon assumption. Any variance in the mortgage will be",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 565.0,
+        "y0": 613.0,
+        "x1": 584.0,
+        "y1": 631.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "transfer exceeds %, or the assumption/transfer fee exceeds $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1002.0,
+        "y0": 703.0,
+        "x1": 1251.0,
+        "y1": 733.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "transfer exceeds",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 364.0,
+        "y0": 703.0,
+        "x1": 458.0,
+        "y1": 733.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "interest rate of",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 349.0,
+        "y0": 607.0,
+        "x1": 443.0,
+        "y1": 637.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "principal, interest, Litaxes and insurance, and having a Lifixed Lother (describe)",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1199.0,
+        "y0": 575.0,
+        "x1": 1602.0,
+        "y1": 605.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "in the approximate amount of $. currently payable at $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1091.0,
+        "y0": 543.0,
+        "x1": 1339.0,
+        "y1": 573.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "in the approximate amount of $.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 554.0,
+        "y0": 543.0,
+        "x1": 802.0,
+        "y1": 573.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "existing first mortgage to LN#",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1260.0,
+        "y0": 511.0,
+        "x1": 1601.0,
+        "y1": 541.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "existing first mortgage to",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 473.0,
+        "y0": 511.0,
+        "x1": 1201.0,
+        "y1": 541.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "( ) ( )-( )",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 507.0,
+        "y0": 479.0,
+        "x1": 589.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "( )",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 266.0,
+        "y0": 479.0,
+        "x1": 348.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 156.0,
+        "y0": 479.0,
+        "x1": 239.0,
+        "y1": 509.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 151.0,
+        "y0": 410.0,
+        "x1": 1601.0,
+        "y1": 440.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "concerning the Property described as",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 619.0,
+        "y0": 366.0,
+        "x1": 1601.0,
+        "y1": 396.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "and",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 205.0,
+        "y0": 321.0,
+        "x1": 1478.0,
+        "y1": 351.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "between",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 264.0,
+        "y0": 277.0,
+        "x1": 1481.0,
+        "y1": 307.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-27T19:50:46.355597",
+    "filename": "form-710-8_1_0W8rFAG.pdf",
+    "document_title": "EXCLUSIVE RIGHT TO SELL LISTING AGREEMENT",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 11,
+    "fields_by_type": {
+      "checkbox": 8,
+      "text": 3
+    },
+    "fields_by_page": {
+      "1": 11
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "ou0go0g0uo0dodu NCAR Form #101 (Exclusive Right to Sell Listing Agreement)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 23.04,
+        "y0": 112.65518330981553,
+        "x1": 28.799999999999997,
+        "y1": 118.41391472501375
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "ou0go0g0uo0dodu NCAR Form #103 (Exclusive Right to Sell Listing A greement Vacant Lot/Land)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 23.04,
+        "y0": 124.172646140212,
+        "x1": 28.799999999999997,
+        "y1": 129.93137755541022
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "ou0go0g0uo0dodu NCAR Form #201 (Exclusive Buyer A gency Agreement)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 23.04,
+        "y0": 135.69010897060846,
+        "x1": 28.799999999999997,
+        "y1": 141.4488403858067
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "ou0go0g0uo0dodu NCAR Form #203 (Non-Exclusive Buyer A gency Agreement)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 23.04,
+        "y0": 147.20757180100495,
+        "x1": 28.799999999999997,
+        "y1": 152.9663032162032
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "ou0go0g0uo0dodu NCAR Form #05 (Exclusive Right to A dvertise/Lease A greement)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 23.04,
+        "y0": 158.72503463140143,
+        "x1": 28.799999999999997,
+        "y1": 164.48376604659967
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "ou0go0g0uo0dodu NCAR Form #460 (Exclusive Tenant Representation A greement)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 23.04,
+        "y0": 170.2424974617979,
+        "x1": 28.799999999999997,
+        "y1": 176.00122887699612
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_6": {
+      "question": "ou0go0g0uo0dodu NCAR Form #601 (Exclusive Right to Sell Listing A greement-A uction Sales)",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 23.04,
+        "y0": 181.75996029219436,
+        "x1": 28.799999999999997,
+        "y1": 187.5186917073926
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_7": {
+      "question": "REALTOR\u00ae orvonTonity \u00a9 7/2024",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 47.519999999999996,
+        "y0": 770.2303267827643,
+        "x1": 52.559999999999995,
+        "y1": 774.9092960576129
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 21.96,
+        "y0": 643.5382356484031,
+        "x1": 537.12,
+        "y1": 654.3358570518998
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 21.96,
+        "y0": 539.8810701748348,
+        "x1": 537.12,
+        "y1": 550.6786915783315
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "ou0go0g0uo0dodu",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 29.88,
+        "y0": 189.67821598809195,
+        "x1": 520.56,
+        "y1": 200.47583739158864
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

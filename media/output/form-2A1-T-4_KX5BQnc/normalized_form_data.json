@@ -1,0 +1,829 @@
+{
+  "metadata": {
+    "timestamp": "2025-02-22T20:33:55.235831",
+    "filename": "form-2A1-T-4_KX5BQnc.pdf",
+    "document_title": "Back-Up Contract Addendum",
+    "number_of_pages": 3,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 41,
+    "fields_by_type": {
+      "checkbox": 38,
+      "text": 3
+    },
+    "fields_by_page": {
+      "1": 13,
+      "2": 19,
+      "3": 9
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "OTE: This Addendum should NOT be used in a short sale transac se ONLY the Short Sale Addendum (form 2A 1",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 36.72,
+        "y0": 59.4,
+        "x1": 573.84,
+        "y1": 78.84
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "OTE: This Addendum should NOT be used in a short sale transac se ONLY the Short Sale Addendum (form 2A 1",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 189.0,
+        "y0": 64.8,
+        "x1": 194.76,
+        "y1": 72.36
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "This Addendum is attached to and made a part of the Offer to Purchase and Contract (\u201cBack-Up Contract\u2019) between Seller and Buyer",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 377.28,
+        "y0": 164.88,
+        "x1": 380.15999999999997,
+        "y1": 173.88
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "This Addendum is attached to and made a part of the Offer to Purchase and Contract (\u201cBack-Up Contract\u2019) between Seller and Buyer",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 259.2,
+        "y0": 167.4,
+        "x1": 262.08,
+        "y1": 171.72
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "Contract Vacant Lot/Land (the \u201cPrimary Contract\u201d) with [insert last name only] (the \u201cPrimary",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 252.35999999999999,
+        "y0": 210.95999999999998,
+        "x1": 257.03999999999996,
+        "y1": 219.95999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 36.72,
+        "y0": 388.08,
+        "x1": 574.56,
+        "y1": 418.32
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_6": {
+      "question": "NOTE: For example, NCAR Forms 350-T, 351-T, 352-T, 353-T, 390-T or 391-T may be used to evidence the release or notices",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 239.76,
+        "y0": 393.47999999999996,
+        "x1": 245.51999999999998,
+        "y1": 401.03999999999996
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_7": {
+      "question": "NOTE: For example, NCAR Forms 350-T, 351-T, 352-T, 353-T, 390-T or 391-T may be used to evidence the release or notices",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 210.23999999999998,
+        "y0": 393.47999999999996,
+        "x1": 216.0,
+        "y1": 401.03999999999996
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_8": {
+      "question": "including reasonable attorneys\u2019 fees, incurred by Buyer as a result of Buyer\u2019s reliance upon any wrongful or ineffective termination of",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 506.52,
+        "y0": 443.15999999999997,
+        "x1": 511.56,
+        "y1": 448.2
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_9": {
+      "question": "including reasonable attorneys\u2019 fees, incurred by Buyer as a result of Buyer\u2019s reliance upon any wrongful or ineffective termination of",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 127.8,
+        "y0": 443.52,
+        "x1": 129.96,
+        "y1": 447.47999999999996
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_10": {
+      "question": "North Carolina Bar Association\u2019s Real Property Section Revised 7/2022",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 49.68,
+        "y0": 705.24,
+        "x1": 59.4,
+        "y1": 729.72
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_11": {
+      "question": "REALTOR\u00ae ae",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 60.12,
+        "y0": 735.48,
+        "x1": 63.0,
+        "y1": 740.52
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "Contract - Vacant Lot/Land (the \u201cPrimary Contract\u201d) with",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 282.96,
+        "y0": 208.79999999999998,
+        "x1": 418.32,
+        "y1": 219.6
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_12": {
+      "question": "day period following Seller\u2019s delivery to Buyer of Notice of Primary Status.",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 368.64,
+        "y0": 155.51999999999998,
+        "x1": 373.68,
+        "y1": 160.56
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_13": {
+      "question": "",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 36.72,
+        "y0": 195.12,
+        "x1": 573.84,
+        "y1": 226.07999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_14": {
+      "question": "blanks in the Contract, insert \u201cSee attached Back-Up Contract Addendum\u201d",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 243.0,
+        "y0": 212.76,
+        "x1": 250.2,
+        "y1": 219.95999999999998
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_15": {
+      "question": "blanks in the Contract, insert \u201cSee attached Back-Up Contract Addendum\u201d",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 125.28,
+        "y0": 213.48,
+        "x1": 134.28,
+        "y1": 221.4
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_16": {
+      "question": "blanks in the Contract, insert \u201cSee attached Back-Up Contract Addendum\u201d",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 335.52,
+        "y0": 215.28,
+        "x1": 337.68,
+        "y1": 219.6
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_17": {
+      "question": "10. Automatic Termination. In any event, Buyer must receive Notice of Primary Status from Seller no later than 5 p.m. on",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 218.88,
+        "y0": 268.56,
+        "x1": 223.56,
+        "y1": 276.84
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_18": {
+      "question": "IN THE EVENT OF A CONFLICT BETWEEN THIS ADDENDUM AND THE BACK-UP CONTRACT THIS ADDENDUM SHALL",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 171.0,
+        "y0": 313.92,
+        "x1": 176.76,
+        "y1": 321.47999999999996
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_19": {
+      "question": "CONTROL, EXCEPT THAT IN THE CASE OF SUCH A CONFLICT AS TO THE DESCRIPTION OF THE PROPERTY OR THE",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 171.35999999999999,
+        "y0": 325.08,
+        "x1": 177.12,
+        "y1": 332.64
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_20": {
+      "question": "IDENTITY OF THE BUYER OR SELLER, THE BACK-UP CONTRACT SHALL CONTROL.",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 333.0,
+        "y0": 336.59999999999997,
+        "x1": 338.76,
+        "y1": 344.15999999999997
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_21": {
+      "question": "THE NORTH CAROLINA ASSOCIATION OF REALTORS\u00ae, INC. AND THE NORTH CAROLINA BAR ASSOCIATION MAKE",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 384.84,
+        "y0": 360.36,
+        "x1": 390.59999999999997,
+        "y1": 367.91999999999996
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_22": {
+      "question": "THE NORTH CAROLINA ASSOCIATION OF REALTORS\u00ae, INC. AND THE NORTH CAROLINA BAR ASSOCIATION MAKE",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 259.56,
+        "y0": 360.36,
+        "x1": 265.32,
+        "y1": 367.91999999999996
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_23": {
+      "question": "NO REPRESENTATION AS TO THE LEGAL VALIDITY OR ADEQUACY OF ANY PROVISION OF THIS FORM IN ANY",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 161.64,
+        "y0": 371.88,
+        "x1": 167.4,
+        "y1": 379.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_24": {
+      "question": "SPECIFIC TRANSACTION. IF YOU DO NOT UNDERSTAND THIS FORM OR FEEL THAT IT DOES NOT PROVIDE FOR",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 280.8,
+        "y0": 383.4,
+        "x1": 286.56,
+        "y1": 390.96
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_25": {
+      "question": "SPECIFIC TRANSACTION. IF YOU DO NOT UNDERSTAND THIS FORM OR FEEL THAT IT DOES NOT PROVIDE FOR",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 128.88,
+        "y0": 383.76,
+        "x1": 134.64,
+        "y1": 390.96
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_26": {
+      "question": "YOUR LEGAL NEEDS, YOU SHOULD CONSULT A NORTH CAROLINA REAL ESTATE ATTORNEY BEFORE YOU SIGN",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 289.44,
+        "y0": 395.28,
+        "x1": 295.2,
+        "y1": 402.47999999999996
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_27": {
+      "question": "(Name of LLC/Corporation/Parinership/Trust/etc.) = (Name of LLC/Corporation/Partnership/Trust/etc.)",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 483.12,
+        "y0": 567.72,
+        "x1": 491.4,
+        "y1": 576.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_28": {
+      "question": "(Name of LLC/Corporation/Parinership/Trust/etc.) = (Name of LLC/Corporation/Partnership/Trust/etc.)",
+      "type": "checkbox",
+      "page": 2,
+      "rect": {
+        "x0": 195.12,
+        "y0": 567.72,
+        "x1": 203.4,
+        "y1": 576.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 324.36,
+        "y0": 519.84,
+        "x1": 574.56,
+        "y1": 530.64
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 36.36,
+        "y0": 520.1999999999999,
+        "x1": 291.24,
+        "y1": 531.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "checkbox_29": {
+      "question": "paragraph 7 of the Back-Up Contract Addendum. DO NOT DETACH THE ORIGINAL OF THIS FORM FROM THE BACK-UP",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 36.72,
+        "y0": 37.44,
+        "x1": 582.12,
+        "y1": 79.92
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_30": {
+      "question": "paragraph 7 of the Back-Up Contract Addendum. DO NOT DETACH THE ORIGINAL OF THIS FORM FROM THE BACK-UP",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 415.44,
+        "y0": 54.72,
+        "x1": 421.2,
+        "y1": 61.919999999999995
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_31": {
+      "question": "paragraph 7 of the Back-Up Contract Addendum. DO NOT DETACH THE ORIGINAL OF THIS FORM FROM THE BACK-UP",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 275.76,
+        "y0": 54.72,
+        "x1": 281.52,
+        "y1": 61.919999999999995
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_32": {
+      "question": "CONTRACT.",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 91.8,
+        "y0": 65.88,
+        "x1": 97.56,
+        "y1": 73.44
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_33": {
+      "question": "NOTICE TO BUYER THAT BACK-UP CONTRACT IS NOW IN EFFECT",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 419.4,
+        "y0": 95.75999999999999,
+        "x1": 422.28,
+        "y1": 102.96
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_34": {
+      "question": "Q_ written release signed by all parties thereto; or",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 91.44,
+        "y0": 176.4,
+        "x1": 97.2,
+        "y1": 182.16
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_35": {
+      "question": "Qa written notice of termination from Seller to Primary Buyer that Seller is exercising a right to terminate the Primary",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 91.44,
+        "y0": 187.92,
+        "x1": 97.2,
+        "y1": 193.68
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_36": {
+      "question": "Q_ written notice of termination from Primary Buyer to Seller that Primary Buyer is exercising a right to terminate the",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 91.44,
+        "y0": 210.95999999999998,
+        "x1": 97.2,
+        "y1": 216.72
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_37": {
+      "question": "Qa final judgment of a court of competent jurisdiction that the Primary Contract is invalid, illegal, unenforceable, or is",
+      "type": "checkbox",
+      "page": 3,
+      "rect": {
+        "x0": 91.44,
+        "y0": 234.0,
+        "x1": 97.2,
+        "y1": 239.76
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    }
+  }
+}

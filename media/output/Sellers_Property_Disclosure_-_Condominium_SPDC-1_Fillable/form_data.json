@@ -1,0 +1,419 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-17T16:19:10.203514",
+    "filename": "Sellers_Property_Disclosure_-_Condominium_SPDC-1_Fillable.pdf",
+    "document_title": "Condominium Disclosure Statement",
+    "number_of_pages": 3,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 30,
+    "fields_by_type": {
+      "text": 30
+    },
+    "fields_by_page": {
+      "1": 6,
+      "2": 10,
+      "3": 14
+    }
+  },
+  "fields": {
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 101.0,
+        "y0": 1905.0,
+        "x1": 501.0,
+        "y1": 1935.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "explain:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 356.0,
+        "y0": 1878.0,
+        "x1": 1179.0,
+        "y1": 1908.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "If yes, which ones:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 481.0,
+        "y0": 1779.0,
+        "x1": 1179.0,
+        "y1": 1809.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "unit?",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 174.0,
+        "y0": 1209.0,
+        "x1": 1597.0,
+        "y1": 1239.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 116.0,
+        "y0": 1097.0,
+        "x1": 1467.0,
+        "y1": 1127.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "Seller makes the following disclosure regarding the property described as:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 957.0,
+        "y0": 1032.0,
+        "x1": 1597.0,
+        "y1": 1062.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 263.0,
+        "y0": 1964.0,
+        "x1": 1195.0,
+        "y1": 1994.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "legal document grants the exclusive right to use:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 853.0,
+        "y0": 1915.0,
+        "x1": 1195.0,
+        "y1": 1945.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 263.0,
+        "y0": 1704.0,
+        "x1": 1194.0,
+        "y1": 1734.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "If any answer to questions 5(b)-5(c) is yes, please explain:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 976.0,
+        "y0": 1656.0,
+        "x1": 1195.0,
+        "y1": 1686.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 263.0,
+        "y0": 1317.0,
+        "x1": 1194.0,
+        "y1": 1347.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "(g) If any answer to questions 4(b)-4(f) is yes, please explain:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 961.0,
+        "y0": 1268.0,
+        "x1": 1195.0,
+        "y1": 1298.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 263.0,
+        "y0": 769.0,
+        "x1": 1195.0,
+        "y1": 799.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "(f) If any answer to questions 3(a)-3(d) is yes, please explain:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 976.0,
+        "y0": 721.0,
+        "x1": 1195.0,
+        "y1": 751.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 263.0,
+        "y0": 414.0,
+        "x1": 1195.0,
+        "y1": 444.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "(c) If any answer to questions 2(a)-2(b) is yes, please explain:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 976.0,
+        "y0": 365.0,
+        "x1": 1195.0,
+        "y1": 395.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "Buyer: / Date:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 1379.0,
+        "y0": 1818.0,
+        "x1": 1598.0,
+        "y1": 1848.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "Buyer: /",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 713.0,
+        "y0": 1818.0,
+        "x1": 1241.0,
+        "y1": 1848.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 201.0,
+        "y0": 1818.0,
+        "x1": 683.0,
+        "y1": 1848.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "Buyer: / Date:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 1379.0,
+        "y0": 1754.0,
+        "x1": 1598.0,
+        "y1": 1784.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "Buyer: /",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 713.0,
+        "y0": 1754.0,
+        "x1": 1241.0,
+        "y1": 1784.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "Buyer:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 201.0,
+        "y0": 1754.0,
+        "x1": 683.0,
+        "y1": 1784.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "Seller: / Date:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 1379.0,
+        "y0": 1592.0,
+        "x1": 1598.0,
+        "y1": 1622.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "Seller: /",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 713.0,
+        "y0": 1592.0,
+        "x1": 1242.0,
+        "y1": 1622.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_24": {
+      "question": "Seller:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 201.0,
+        "y0": 1592.0,
+        "x1": 683.0,
+        "y1": 1622.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_25": {
+      "question": "Seller: / Date:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 1379.0,
+        "y0": 1528.0,
+        "x1": 1598.0,
+        "y1": 1558.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_26": {
+      "question": "Seller: /",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 713.0,
+        "y0": 1528.0,
+        "x1": 1242.0,
+        "y1": 1558.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_27": {
+      "question": "Seller:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 202.0,
+        "y0": 1528.0,
+        "x1": 683.0,
+        "y1": 1558.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_28": {
+      "question": "",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 263.0,
+        "y0": 1021.0,
+        "x1": 1195.0,
+        "y1": 1051.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_29": {
+      "question": "(o) If any answer to questions 7(a)-7(n) is yes, please explain:",
+      "type": "text",
+      "page": 3,
+      "rect": {
+        "x0": 976.0,
+        "y0": 972.0,
+        "x1": 1195.0,
+        "y1": 1002.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

@@ -1,0 +1,421 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-17T08:14:55.893449",
+    "filename": "MNAR - Addendum or Amendment to Purchase Agreement_ Buyers Move-In Agreement (MN_BMA) (Rev. 08_2023).pdf",
+    "document_title": "AddnAmndPA_MoveIn23_v1.pdf",
+    "number_of_pages": 2,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 28,
+    "fields_by_type": {
+      "checkbox": 4,
+      "text": 24
+    },
+    "fields_by_page": {
+      "1": 13,
+      "2": 15
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "3. Addendum |_| Amendment to Purchase Agreement between parties, dated",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 366.0,
+        "y0": 411.0,
+        "x1": 397.0,
+        "y1": 441.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "3. Addendum |_| Amendment to Purchase Agreement between parties, dated",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 411.0,
+        "x1": 207.0,
+        "y1": 441.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "9. POSSESSION DATE: Seller agrees to deliver possession of the Property to Buyer at______ |_| A.M. |_| P.M.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1507.0,
+        "y0": 684.0,
+        "x1": 1538.0,
+        "y1": 715.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "9. POSSESSION DATE: Seller agrees to deliver possession of the Property to Buyer at______ |_| A.M. |_| P.M.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1400.0,
+        "y0": 684.0,
+        "x1": 1430.0,
+        "y1": 715.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "24. MOVE-IN FEE: Buyer shall pay Seller $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 699.0,
+        "y0": 1263.0,
+        "x1": 982.0,
+        "y1": 1293.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "17. $",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 198.0,
+        "y0": 1013.0,
+        "x1": 460.0,
+        "y1": 1043.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "16. SECURITY AND DAMAGE DEPOSIT: On",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 777.0,
+        "y0": 969.0,
+        "x1": 1286.0,
+        "y1": 999.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "11. ADDITIONAL EARNEST MONEY DEPOSIT: When Buyer signs this Agreement, Buyer shall deposit$",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1358.0,
+        "y0": 785.0,
+        "x1": 1601.0,
+        "y1": 815.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "10. on",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 215.0,
+        "y0": 735.0,
+        "x1": 676.0,
+        "y1": 765.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "9. POSSESSION DATE: Seller agrees to deliver possession of the Property to Buyer",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1249.0,
+        "y0": 678.0,
+        "x1": 1390.0,
+        "y1": 708.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "5.",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 176.0,
+        "y0": 512.0,
+        "x1": 1583.0,
+        "y1": 542.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "3. Addendum |_| Amendment to Purchase Agreement between parties, dated",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1160.0,
+        "y0": 405.0,
+        "x1": 1601.0,
+        "y1": 435.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "1. Date",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1051.0,
+        "y0": 305.0,
+        "x1": 1599.0,
+        "y1": 335.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "70.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 926.0,
+        "y0": 1643.0,
+        "x1": 1601.0,
+        "y1": 1673.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "70.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1643.0,
+        "x1": 826.0,
+        "y1": 1673.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_11": {
+      "question": "69.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 926.0,
+        "y0": 1520.0,
+        "x1": 1601.0,
+        "y1": 1550.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_12": {
+      "question": "69.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1520.0,
+        "x1": 826.0,
+        "y1": 1550.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_13": {
+      "question": "68.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1420.0,
+        "x1": 1601.0,
+        "y1": 1450.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_14": {
+      "question": "67.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1370.0,
+        "x1": 1601.0,
+        "y1": 1400.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_15": {
+      "question": "66.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1320.0,
+        "x1": 1601.0,
+        "y1": 1350.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_16": {
+      "question": "65.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1270.0,
+        "x1": 1601.0,
+        "y1": 1300.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_17": {
+      "question": "64.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1220.0,
+        "x1": 1601.0,
+        "y1": 1250.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_18": {
+      "question": "63.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1170.0,
+        "x1": 1601.0,
+        "y1": 1200.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_19": {
+      "question": "62.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1120.0,
+        "x1": 1601.0,
+        "y1": 1150.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_20": {
+      "question": "61.",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 176.0,
+        "y0": 1069.0,
+        "x1": 1601.0,
+        "y1": 1099.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_21": {
+      "question": "60. OTHER:",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 288.0,
+        "y0": 1031.0,
+        "x1": 1601.0,
+        "y1": 1061.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_22": {
+      "question": "57. for Seller's loss of use in the amount",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 645.0,
+        "y0": 886.0,
+        "x1": 936.0,
+        "y1": 916.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_23": {
+      "question": "42. Property located at",
+      "type": "text",
+      "page": 2,
+      "rect": {
+        "x0": 421.0,
+        "y0": 308.0,
+        "x1": 1590.0,
+        "y1": 338.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

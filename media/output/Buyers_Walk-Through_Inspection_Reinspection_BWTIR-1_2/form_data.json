@@ -1,0 +1,265 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-22T09:46:05.381225",
+    "filename": "Buyers_Walk-Through_Inspection_Reinspection_BWTIR-1_2.pdf",
+    "document_title": "BWTIR-1.pdf",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 15,
+    "fields_by_type": {
+      "checkbox": 6,
+      "text": 9
+    },
+    "fields_by_page": {
+      "1": 15
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "The purpose of this walk-through (check one) [_Jinspection [_]|reinspection is solely to satisfy Buyer",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 959.0,
+        "y0": 327.0,
+        "x1": 986.0,
+        "y1": 354.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "The purpose of this walk-through (check one) [_Jinspection [_]|reinspection is solely to satisfy Buyer",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 788.0,
+        "y0": 327.0,
+        "x1": 815.0,
+        "y1": 354.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "Access to the Property was was not provided. Utilities __]|were were not provided.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 1065.0,
+        "y0": 438.0,
+        "x1": 1092.0,
+        "y1": 465.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "Access to the Property was was not provided. Utilities __]|were were not provided.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 957.0,
+        "y0": 438.0,
+        "x1": 984.0,
+        "y1": 465.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "Access to the Property was was not provided. Utilities __]|were were not provided.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 588.0,
+        "y0": 438.0,
+        "x1": 615.0,
+        "y1": 465.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "Access to the Property was was not provided. Utilities __]|were were not provided.",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 491.0,
+        "y0": 438.0,
+        "x1": 518.0,
+        "y1": 465.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1099.0,
+        "y0": 1853.0,
+        "x1": 1502.0,
+        "y1": 1883.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 200.0,
+        "y0": 1853.0,
+        "x1": 943.0,
+        "y1": 1883.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1099.0,
+        "y0": 1725.0,
+        "x1": 1502.0,
+        "y1": 1755.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 200.0,
+        "y0": 1725.0,
+        "x1": 943.0,
+        "y1": 1755.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1099.0,
+        "y0": 1501.0,
+        "x1": 1502.0,
+        "y1": 1531.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 200.0,
+        "y0": 1501.0,
+        "x1": 943.0,
+        "y1": 1531.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1099.0,
+        "y0": 1374.0,
+        "x1": 1502.0,
+        "y1": 1404.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 200.0,
+        "y0": 1374.0,
+        "x1": 943.0,
+        "y1": 1404.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "Property Address:",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 430.0,
+        "y0": 247.0,
+        "x1": 1497.0,
+        "y1": 277.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}

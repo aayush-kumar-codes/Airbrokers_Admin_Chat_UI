@@ -1,0 +1,531 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-22T07:54:35.717838",
+    "filename": "Auction_Addendum_to_Purchase_and_Sale_Contract_AA-1.pdf",
+    "document_title": "Microsoft Word - auction addendum.docx",
+    "number_of_pages": 1,
+    "versions": {
+      "pymupdf": [
+        "1.25.1",
+        "1.25.2",
+        "20241211000001"
+      ]
+    },
+    "summary": "This is a document used in real estate transactions to provide potential buyers with essential information about a property."
+  },
+  "summary": {
+    "total_fields": 29,
+    "fields_by_type": {
+      "checkbox": 18,
+      "text": 11
+    },
+    "fields_by_page": {
+      "1": 29
+    }
+  },
+  "fields": {
+    "checkbox_0": {
+      "question": "Recording fees for the deed Buyer Seller N/A",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 956.0,
+        "y0": 768.0,
+        "x1": 978.0,
+        "y1": 790.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_1": {
+      "question": "Recording fees for the deed Buyer Seller N/A",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 831.0,
+        "y0": 768.0,
+        "x1": 854.0,
+        "y1": 790.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_2": {
+      "question": "Recording fees for the deed Buyer Seller N/A",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 704.0,
+        "y0": 768.0,
+        "x1": 727.0,
+        "y1": 790.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_3": {
+      "question": "Satisfaction of mortgage and recording fees Buyer Seller N/A",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 956.0,
+        "y0": 797.0,
+        "x1": 978.0,
+        "y1": 819.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_4": {
+      "question": "Satisfaction of mortgage and recording fees Buyer Seller N/A",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 831.0,
+        "y0": 797.0,
+        "x1": 854.0,
+        "y1": 819.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_5": {
+      "question": "Satisfaction of mortgage and recording fees Buyer Seller N/A",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 704.0,
+        "y0": 797.0,
+        "x1": 727.0,
+        "y1": 819.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_6": {
+      "question": "Documentary stamp taxes on the deed Buyer Seller N/A",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 956.0,
+        "y0": 825.0,
+        "x1": 978.0,
+        "y1": 848.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_7": {
+      "question": "Documentary stamp taxes on the deed Buyer Seller N/A",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 831.0,
+        "y0": 825.0,
+        "x1": 854.0,
+        "y1": 848.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_8": {
+      "question": "Documentary stamp taxes on the deed Buyer Seller N/A",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 704.0,
+        "y0": 825.0,
+        "x1": 727.0,
+        "y1": 848.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_9": {
+      "question": "Owner's title policy Buyer Seller N/A",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 956.0,
+        "y0": 854.0,
+        "x1": 978.0,
+        "y1": 877.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_10": {
+      "question": "Owner's title policy Buyer Seller N/A",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 831.0,
+        "y0": 854.0,
+        "x1": 854.0,
+        "y1": 877.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_11": {
+      "question": "Owner's title policy Buyer Seller N/A",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 704.0,
+        "y0": 854.0,
+        "x1": 727.0,
+        "y1": 877.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_12": {
+      "question": "Title search Buyer Seller N/A",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 956.0,
+        "y0": 883.0,
+        "x1": 978.0,
+        "y1": 905.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_13": {
+      "question": "Title search Buyer Seller N/A",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 831.0,
+        "y0": 883.0,
+        "x1": 854.0,
+        "y1": 905.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_14": {
+      "question": "Title search Buyer Seller N/A",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 704.0,
+        "y0": 883.0,
+        "x1": 727.0,
+        "y1": 905.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_15": {
+      "question": "Tax search fee Buyer Seller N/A",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 956.0,
+        "y0": 912.0,
+        "x1": 978.0,
+        "y1": 934.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_16": {
+      "question": "Tax search fee Buyer Seller N/A",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 831.0,
+        "y0": 912.0,
+        "x1": 854.0,
+        "y1": 934.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "checkbox_17": {
+      "question": "Tax search fee Buyer Seller N/A",
+      "type": "checkbox",
+      "page": 1,
+      "rect": {
+        "x0": 704.0,
+        "y0": 912.0,
+        "x1": 727.0,
+        "y1": 934.0
+      },
+      "value": null,
+      "possible_answers": [
+        {
+          "answer": "Yes"
+        },
+        {
+          "answer": "No"
+        }
+      ]
+    },
+    "text_0": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1351.0,
+        "y0": 1624.0,
+        "x1": 1520.0,
+        "y1": 1654.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_1": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 830.0,
+        "y0": 1624.0,
+        "x1": 1332.0,
+        "y1": 1654.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_2": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 594.0,
+        "y0": 1624.0,
+        "x1": 762.0,
+        "y1": 1654.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_3": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 100.0,
+        "y0": 1624.0,
+        "x1": 574.0,
+        "y1": 1654.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_4": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 1351.0,
+        "y0": 1452.0,
+        "x1": 1520.0,
+        "y1": 1482.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_5": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 830.0,
+        "y0": 1452.0,
+        "x1": 1332.0,
+        "y1": 1482.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_6": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 594.0,
+        "y0": 1452.0,
+        "x1": 762.0,
+        "y1": 1482.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_7": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 100.0,
+        "y0": 1452.0,
+        "x1": 574.0,
+        "y1": 1482.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_8": {
+      "question": "1.Buyer Premium: Buyer shall pay",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 543.0,
+        "y0": 487.0,
+        "x1": 656.0,
+        "y1": 517.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_9": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 100.0,
+        "y0": 343.0,
+        "x1": 1130.0,
+        "y1": 373.0
+      },
+      "value": null,
+      "possible_answers": null
+    },
+    "text_10": {
+      "question": "",
+      "type": "text",
+      "page": 1,
+      "rect": {
+        "x0": 100.0,
+        "y0": 286.0,
+        "x1": 1408.0,
+        "y1": 316.0
+      },
+      "value": null,
+      "possible_answers": null
+    }
+  }
+}
